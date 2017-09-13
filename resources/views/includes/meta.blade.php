@@ -3,6 +3,10 @@
     <meta http-equiv='X-UA-Compatible' content='IE=edge'/>
     <meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1.0'/>
 
+    <meta name="keywords" content="Web developments, Web design, Web application, IT training">
+    <meta name="Author" content="MicrotechNA">
+    <meta name="description" content="MicrotechNA">
+
     <link rel="icon" type="image/x-icon" href="favicon.ico"/>
     <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
     <link rel="apple-touch-icon" href="apple-touch-icon.png"/>    
@@ -16,18 +20,18 @@
         <meta name="msvalidate.01" content="{{ getenv('BING-WEBMASTER') }}" />
     @endif
 
-<!--     {% if page.excerpt %}
-    <meta name="description" content="{{ page.excerpt| strip_html }}" />
-    <meta property="og:description" content="{{ page.excerpt| strip_html }}" />
-    {% else %}
-    <meta name="description" content="{{ site.description }}">
-    <meta property="og:description" content="{{ site.description }}" />
+{{--<!--     {% if page.excerpt %}--}}
+    {{--<meta name="description" content="{{ page.excerpt| strip_html }}" />--}}
+    {{--<meta property="og:description" content="{{ page.excerpt| strip_html }}" />--}}
+    {{--{% else %}--}}
+    {{--<meta name="description" content="{{ site.description }}">--}}
+    {{--<meta property="og:description" content="{{ site.description }}" />--}}
 
-    <meta name="author" content="{{ site.name }}" />
+    {{--<meta name="author" content="{{ site.name }}" />--}}
 
-    {% if page.title %}
-    <meta property="og:title" content="{{ page.title }}" />
-    <meta property="twitter:title" content="{{ page.title }}" /> -->
+    {{--{% if page.title %}--}}
+    {{--<meta property="og:title" content="{{ page.title }}" />--}}
+    {{--<meta property="twitter:title" content="{{ page.title }}" /> -->--}}
 
 
     <!-- Facebook and Twitter integration -->

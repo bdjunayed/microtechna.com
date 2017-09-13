@@ -1,0 +1,211 @@
+@import url(https://fonts.googleapis.com/css?family=Lato:100,100i,300,300i,400,400i,700,700i,900,900i);@import url(https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i);@import url(https://fonts.googleapis.com/css?family=Kaushan+Script&subset=latin-ext);@import url(https://fonts.googleapis.com/css?family=Raleway:100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i);/*  ------------------------------------------
+    It makes your life easy!
+    ------------------------------------------  */
+*, *:before, *:after {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+img {
+  width: 100%;
+  height: auto;
+}
+
+ul, li {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+/*  ------------------------------------------
+    Colour codes! Indigo - Pinks
+    ------------------------------------------  */
+/*  ------------------------------------------
+    Breakpoints
+    ------------------------------------------  */
+/* 
+  @include susy-media($tablet-a $tablet-b) {
+  @include susy-media(min-width $desktop-a) { 
+*/
+/*  ------------------------------------------
+    Makes life easy code cont.
+    ------------------------------------------  */
+.debug {
+  border: 1px dashed red;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.font-family {
+  font-family: 'Lato', sans-serif;
+  font-family: 'Kaushan Script', cursive;
+  font-family: 'Open Sans', sans-serif;
+  font-family: 'Raleway', sans-serif;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Open Sans', sans-serif;
+}
+
+a {
+  text-decoration: none !important;
+  outline-style: none;
+}
+
+a:hover, a:active, a:visited {
+  text-decoration: none !important;
+  outline-style: none;
+}
+
+nav, ul, li, a, h1, h2, h3, h4, h5, h6, table, tr, td, p, span, label {
+  margin: 0;
+  list-style: none;
+  padding: 0;
+}
+
+.displayNone {
+  display: none;
+}
+
+.commonTitle h2 {
+  font-size: 22px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+  color: #333333;
+  position: relative;
+  margin-bottom: 20px;
+}
+
+.commonTitle h2:after {
+  position: absolute;
+  left: 0;
+  top: 35px;
+  width: 60px;
+  height: 2px;
+  color: #32CCE2;
+  content: '';
+  right: 0;
+  bottom: 0;
+  margin: 0 auto;
+  background: #32CCE2;
+}
+
+/*========================
+/Margin & Padding Setting Start here
+==========================*/
+.noPadding {
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+}
+
+.noPaddingLeft {
+  padding-left: 0 !important;
+}
+
+.noPaddingRight {
+  padding-right: 0 !important;
+}
+
+.noMargin {
+  margin-left: 0 !important;
+  margin-right: 0 !important;
+}
+
+.noMarginLeft {
+  margin-left: 0 !important;
+}
+
+.noMarginRight {
+  margin-right: 0 !important;
+}
+
+/*========================
+/Margin & Padding Setting End here 
+==========================*/
+/*==========================
+/Fixed all Element Start here
+=============================*/
+.BackTo {
+  background: #333333 none repeat scroll 0 0;
+  bottom: 50px;
+  color: #979797;
+  font-size: 20px;
+  height: 50px;
+  right: 30px;
+  position: fixed;
+  text-align: center;
+  width: 50px;
+  z-index: 9;
+}
+
+.BackTo i {
+  font-weight: 700;
+  font-size: 40px;
+  color: #fff;
+}
+
+.Searchfixed {
+  position: fixed;
+  right: -150px;
+  top: 39px;
+  z-index: 1;
+  -webkit-transition: .8s;
+  transition: .8s;
+}
+
+.FixedSearch {
+  background: #b5967f none repeat scroll 0 0;
+  border: 1px solid #fff;
+  height: 30px;
+  width: 148px;
+  font-size: 14px;
+  color: #fff;
+  padding: 5px 0 5px 6px;
+}
+
+.Mfix {
+  height: 100px;
+}
+
+.fixedHeader {
+  position: fixed;
+  left: 0;
+  top: 0;
+  z-index: 9999;
+  width: 100%;
+  height: auto;
+  background: #000;
+  -webkit-transition: 1s;
+  transition: 1s;
+  opacity: .9;
+}
+
+.fixedHeader .logo a {
+  font-size: 32px;
+}
+
+.fixedHeader .logo p {
+  display: none;
+}
+
+.fixedHeader .socail {
+  padding: 14px 0 !important;
+}
+
+.fixedHeader .Menu ul li {
+  padding: 20px 0;
+}
+
+.fixedHeader .Menu ul li:hover .Submenu {
+  top: 60px;
+}
+
+/*==========================
+/Fixed all Element end here
+=============================*/
