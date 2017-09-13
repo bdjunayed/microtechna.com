@@ -1,0 +1,129 @@
+/*Training page css start here*/
+
+.spacer-60 {
+    height: 60px;
+}
+
+.spacer-30 {
+    height: 30px;
+}
+
+.training-section {
+    background: #eef2f5;
+}
+
+.single-course {
+    background: #fff;
+    border-radius: 6px;
+    border: 1px solid#f6f6f6;
+}
+
+.single-course:hover {
+    background: #fff;
+    border-radius: 6px;
+    box-shadow: 0px 10px 20px 5px rgba(209, 207, 207, 0.64);
+    transition: 0.5s;
+}
+
+.single-course {
+    img {
+        width: 330px;
+        margin: 10px;
+        border-radius: 6px;
+        box-shadow: 0px 2px 10px 5px rgba(209, 207, 207, 0.64);
+    }
+}
+
+.course-details {
+    margin: 10px;
+    padding-bottom: 10px
+}
+
+.course-details {
+    h4 {
+        font-size: 16px;
+        text-transform: capitalize;
+        font-weight: 500;
+    }
+    p {
+        font-size: 15px;
+        text-transform: capitalize;
+        font-weight: 500;
+        padding-top: 5px;
+    }
+}
+
+.course-details .space {
+    float: right;
+}
+
+.heading {
+    height: 322px;
+    background: #a1bed4;
+    padding: 20px;
+    border: 1px solid#000;
+    h3 {
+        height: 322px;
+        background: #e3f0fa;
+        padding: 30px;
+        box-shadow: 0px 2px 10px 5px rgba(209, 207, 207, 0.64);
+        line-height: 45px;
+    }
+}
+
+.example {
+    position: relative;
+    border: 1px solid#000;
+    margin-left: 40px;
+    img {
+        height: 322px;
+         width: 500px;
+    }
+}
+
+h4 {
+    font-size: 21px;
+}
+.example-text {
+    position: absolute;
+    background: #e3f0fa;
+    width: 380px;
+    height: 332px;
+    top: 0px;
+    right: 0px;
+    left: 55%;
+    padding: 20px;
+    p {
+        font-size: 20px;
+        font-weight: normal;
+        line-height: 36px;
+    }
+    
+    i.fa {
+        color: #3e9301;
+        padding: 0px 8px;
+    }
+}
+.example-text:after,
+.arrow_box:before {
+    right: 100%;
+    top: 20%;
+    border: solid transparent;
+    content: " ";
+    height: 0;
+    width: 0;
+    position: absolute;
+    pointer-events: none;
+}
+.example-text:after {
+    border-color: rgba(136, 183, 213, 0);
+    border-right-color: #e3f0fa;
+    border-width: 30px;
+    margin-top: -30px;
+}
+.example-text:before {
+    border-color: rgba(194, 225, 245, 0);
+    border-right-color: #c2e1f5;
+    border-width: 36px;
+    margin-top: -36px;
+}

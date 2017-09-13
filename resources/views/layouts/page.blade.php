@@ -33,6 +33,7 @@
                         <div class="Menu text-right">
                             <ul>
                                 <li class="scrolls"><a href="{{ url('/about_us') }}">About us</a></li>
+                                 <li class="scrolls"><a href="{{ url('/training') }}">Trainings</a></li>
                                 <li class="scrolls"><a href="{{ url('/services') }}" class="SubSer">Services</a>
                                     <ul class="Submenu">
                                         <li class="scrolls"><a href="{{ url('/web_design') }}">Website design</a></li>
@@ -41,6 +42,7 @@
                                         <!-- <li class="scrolls"><a href="service_four.html">service_four</a></li> -->
                                     </ul>
                                 </li>
+
                                 <li class="scrolls"><a href="{{ url('/work') }}">Work</a></li>
                                 <li class="scrolls workwith"><a href="{{ url('/work_with_us') }}">Work with us</a></li>
                             </ul>
