@@ -17,6 +17,28 @@ window.Vue = require('vue');
 
 Vue.component('example', require('./components/Example.vue'));
 
-const app = new Vue({
-    el: '#app'
+// const app = new Vue({
+//     el: '#app'
+// });
+
+import Form from './core/Form';
+window.Form = Form;
+new Vue({
+    el: '#contactForm',
+
+    data: {
+        form: new Form({
+            name: '',
+            email: '',
+            company: '',
+            message: ''
+        })
+    },
+
+    methods: {
+        onSubmit() {
+            this.form.post('/work_with_us')
+                .then(response => alert('Wahoo!'));
+        }
+    }
 });

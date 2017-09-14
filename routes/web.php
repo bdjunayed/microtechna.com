@@ -36,9 +36,6 @@ Route::get('/performance_testing', function () {
 Route::get('/work', function () {
     return view('work');
 });
-Route::get('/work_with_us', function (){
-    return view('work_with_us');
-});
 
 Route::get('/bhasha_shoinik_bangla_software', function () {
     return view('work_bhasha_shoinik');
@@ -47,3 +44,9 @@ Route::get('/bhasha_shoinik_bangla_software', function () {
 Route::get('/system_netware_work', function () {
     return view('work_system_netware');
 });
+
+
+Route::get('/work_with_us', function (){
+    return view('work_with_us');
+});
+Route::post('/work_with_us', 'ContactFormController@store');
