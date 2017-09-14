@@ -52,8 +52,9 @@
          <div class="row">
             <div class="col-lg-3 col-sm-3">
                 <div class="contactInfo text-center">
-                    <h3>Location:</h3>
-                    <h4>MicroTech Corporation</h4>
+                    <h3>MicroTech USA Corporate Office</h3>
+                    <p>168 St, Hillside Ave <br>Jamaica, NY 11432</p>
+                    <p>168 St, Hillside Ave <br>Jamaica, NY 11432</p>
                     <p>Level 2 Tower Tulip, Nikunja 2<br>Dhaka 1229 Bangladesh</p><br>                    
                 </div>
             </div>

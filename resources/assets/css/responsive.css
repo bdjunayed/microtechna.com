@@ -659,19 +659,6 @@
     .industrySec{
         height: 100%;
     }
-    .logo a {
-        color: #fff;
-        display: block;
-        font-family: Kaushan Script,cursive;
-        font-size: 27px;
-        padding-top: 7px;
-        transition: all 600ms ease 0s;
-    }
-    .logo P {
-        color: #fff;
-        font-size: 14px;
-        font-weight: 400;
-    }
     .inName {
         width: 47%;
     }
