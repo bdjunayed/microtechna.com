@@ -46,7 +46,7 @@ Route::get('/system_netware_work', function () {
 });
 
 
-Route::get('/work_with_us', function (){
+Route::get('work_with_us', function (){
     return view('work_with_us');
 });
-Route::post('/work_with_us', 'ContactFormController@store');
+Route::post('work_with_us', 'ContactFormController@store');

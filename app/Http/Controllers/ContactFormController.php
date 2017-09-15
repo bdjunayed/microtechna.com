@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use App\ContactForm;
 use Illuminate\Http\Request;
 
 class ContactFormController extends Controller
@@ -29,7 +30,7 @@ class ContactFormController extends Controller
             'company' => 'nullable',
             "message" => 'required|max:300'
         ]);
-        Project::forceCreate([
+        ContactForm::forceCreate([
             'name' => request('name'),
             'email' => request('email'),
             'company' => request('company'),

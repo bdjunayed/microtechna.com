@@ -20,11 +20,11 @@
         <div class="row">
             <div class="col-lg-6">
 
-                <form method="POST" action="/work_with_us" @submit="onSubmit" @keydown="form.errors.clear($event.target.name)">
+                <form method="POST" action="/work_with_us" @submit.prevent="onSubmit" @keydown="form.errors.clear($event.target.name)">
 
                     <div class="input-group">
                         <label for="name">Full Name*</label>
-                        <input name="name" v-model="form.name" type="text" class="inNamework" placeholder="Your Full Name">
+                        <input name="name" v-model="form.name" type="text" class="inNamework" placeholder="Your full name">
                         <span class="help is-danger" v-if="form.errors.has('name')" v-text="form.errors.get('name')"></span>
                     </div>
                     <div class="input-group">
@@ -35,7 +35,7 @@
 
                     <div class="input-group">
                         <label for="company">Company Name</label>
-                        <input name="company" v-model="form.company" type="text" class="inNamework" placeholder="Company Name">
+                        <input name="company" v-model="form.company" type="text" class="inNamework" placeholder="Company name">
                         <span class="help is-danger" v-if="form.errors.has('company')" v-text="form.errors.get('company')"></span>
                     </div>
                     <div class="input-group">
