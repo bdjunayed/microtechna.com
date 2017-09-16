@@ -790,9 +790,25 @@ try {
 
 window.axios = __WEBPACK_IMPORTED_MODULE_1_axios___default.a;
 window.Form = __WEBPACK_IMPORTED_MODULE_2__core_Form__["a" /* default */];
+
+new __WEBPACK_IMPORTED_MODULE_0_vue___default.a({
+    el: '#newsletters',
+    data: {
+        nl: new __WEBPACK_IMPORTED_MODULE_2__core_Form__["a" /* default */]({
+            email: ''
+        })
+    },
+    methods: {
+        onSubmit: function onSubmit() {
+            this.nl.post('/newsletter').then(function (response) {
+                return alert('Subscribed!');
+            });
+        }
+    }
+});
+
 new __WEBPACK_IMPORTED_MODULE_0_vue___default.a({
     el: '#contactForm',
-
     data: {
         form: new __WEBPACK_IMPORTED_MODULE_2__core_Form__["a" /* default */]({
             name: '',
@@ -24782,7 +24798,7 @@ var Form = function () {
     }, {
         key: 'onSuccess',
         value: function onSuccess(data) {
-            alert(data.message); // temporary
+            //alert(data.message); // temporary
 
             this.reset();
         }

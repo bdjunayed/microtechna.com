@@ -5,7 +5,7 @@ namespace App\Http\Controllers;
 use App\ContactForm;
 use Illuminate\Http\Request;
 
-class ContactFormController extends Controller
+class ContactsFormController extends Controller
 {
     /**
      * Show the page to create a new project.
@@ -28,7 +28,7 @@ class ContactFormController extends Controller
             'name' => 'required',
             'email' => 'required',
             'company' => 'nullable',
-            "message" => 'required|max:300'
+            'message' => 'required | max:300'
         ]);
         ContactForm::forceCreate([
             'name' => request('name'),

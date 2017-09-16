@@ -1,4 +1,4 @@
-import Errors from './Errors'
+import Errors from './Errors';
 class Form {
     /**
      * Create a new Form instance.
@@ -110,7 +110,7 @@ class Form {
      * @param {object} data
      */
     onSuccess(data) {
-        alert(data.message); // temporary
+        //alert(data.message); // temporary
 
         this.reset();
     }

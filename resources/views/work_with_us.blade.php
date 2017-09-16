@@ -26,7 +26,7 @@
                         <label for="name">Full Name*</label>
                         <input name="name" v-model="form.name" type="text" class="inNamework" placeholder="Your full name">
                         <span class="help is-danger" v-if="form.errors.has('name')" v-text="form.errors.get('name')"></span>
-                        <span v-text="form.errors.get('email')"></span>
+
                     </div>
                     <div class="input-group">
                         <label for="email">Email*</label>
