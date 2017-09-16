@@ -27,9 +27,24 @@ import axios from 'axios';
 import Form from './core/Form';
 window.axios = axios;
 window.Form = Form;
+
+new Vue({
+    el: '#newsletters',
+    data: {
+        nl: new Form({
+            email: ''
+        })
+    },
+    methods: {
+        onSubmit() {
+            this.nl.post('/newsletter')
+                .then(response => alert('Subscribed!'));
+        }
+    }
+});
+
 new Vue({
     el: '#contactForm',
-
     data: {
         form: new Form({
             name: '',

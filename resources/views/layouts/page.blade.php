@@ -117,19 +117,19 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-3 col-sm-3">
+                <div class="col-lg-3 col-sm-3" id="newsletters">
                     <div class="SingleCmFooter">
                         <h2>Newsletter</h2>
-                        {{--<form method="POST" action="">--}}
-                            {{--{{csrf_token()}}--}}
+                        <form method="POST" action="/newsletter" @submit.prevent="onSubmit" @keydown="nl.errors.clear($event.target.name)">
                             <div class="FSerMenu">
                                 <p>Don’t miss to subscribe to our news feeds, kindly fill the form below. </p>
                                 <div class="FserGroup">
-                                    <input type="email" name="newsletter" required="required" placeholder="Your Email" class="FSerMail">
-                                    <button class="NewsLBtn" name="submit">Join</button>
+                                    <input v-model="nl.email" name="email" type="email" placeholder="Your Email" class="FSerMail">
+                                    <span v-if="nl.errors.has('email')" v-text="nl.errors.get('email')"></span>
+                                    <button class="NewsLBtn">Join!</button>
                                 </div>
                             </div>
-                        {{--</form>--}}
+                        </form>
                     </div>
                 </div>
             </div>

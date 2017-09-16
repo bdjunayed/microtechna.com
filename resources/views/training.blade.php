@@ -4,9 +4,9 @@
         <div class="row">
             <div class="col-lg-12 text-center">
                 <div class="SpBanerSingle">
-                    <h2>Training </h2>
-                    <p>Jasva, Software testing .</p>
-                    <div class="slideBtn"> <a href="{{ url('/work_with_us') }}">Work with us</a> </div>
+                    <h2>Software Testing, DBA CCNA</h2>
+                    <p>Training</p>
+                    <div class="slideBtn"> <a href="{{ url('/work_with_us') }}">Contact us</a></div>
                 </div>
             </div>
         </div>
@@ -52,7 +52,6 @@
                 <div class="experienceMic">
                     <h2>অভিজ্ঞ আমেরিকান আইটি প্রফেশনাল দ্বারা পরিচালিত বাংলাদেশে এই প্রথম ও একমাত্র ব্যতিক্রমধর্মী ট্রেনিং সেন্টার মাইক্রোটেক এ আপনি পাবেন:</h2>
                     <hr>
-                    <p>আপনার পরিচিত কেও কি Familly Migration(1-40) এ আমিরিকাতে আসবে ? আমিরিকাতে আসার আগে বাংলাদেশ থেকে উপযুক্ত ট্রেনিং নিয়ে সরাসরি আইটি জব শুরু করতে আমরা সাহায্য করে থাকি ।</p>
                     <p>আপনার পরিচিত কেও কি Familly Migration(1-40) এ আমিরিকাতে আসবে ? আমিরিকাতে আসার আগে বাংলাদেশ থেকে উপযুক্ত ট্রেনিং নিয়ে সরাসরি আইটি জব শুরু করতে আমরা সাহায্য করে থাকি । </p>
                     <div class="bollet">
                         <li><b>প্রতিদিন ১২(বার) ঘন্টা করে ক্লাস  ও প্রাকটিস সেশন</b>

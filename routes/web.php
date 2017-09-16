@@ -12,7 +12,7 @@
 */
 
 Route::get('/', function () {
-    return view('home');
+    return view('training');
 });
 
 Route::get('/about_us', function () {
@@ -45,10 +45,13 @@ Route::get('/system_netware_work', function () {
     return view('work_system_netware');
 });
 
-Route::get('work_with_us', function (){
+Route::get('/work_with_us', function (){
     return view('work_with_us');
 });
-Route::post('work_with_us', 'ContactFormController@store');
+
+Route::post('/work_with_us', 'ContactsFormController@store');
+
+Route::post('/newsletter', 'NewslettersController@store');
 
 Route::get('training', function () {
     return view('training');
