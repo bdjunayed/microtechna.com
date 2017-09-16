@@ -98,7 +98,6 @@ class Form {
                 })
                 .catch(error => {
                     this.onFail(error.response.data);
-                    console.log('error!');
                     reject(error.response.data);
                 });
         });

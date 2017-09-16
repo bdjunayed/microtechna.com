@@ -42,8 +42,7 @@ new Vue({
     methods: {
         onSubmit() {
             this.form.post('/work_with_us')
-                .then(response => alert('Wahoo!'));
-            console.log('clicked!');
+                .then(response => alert('Thank you! Your request has been sent!'));
         }
     }
 });

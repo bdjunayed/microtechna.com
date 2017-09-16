@@ -805,9 +805,8 @@ new __WEBPACK_IMPORTED_MODULE_0_vue___default.a({
     methods: {
         onSubmit: function onSubmit() {
             this.form.post('/work_with_us').then(function (response) {
-                return alert('Wahoo!');
+                return alert('Thank you! Your request has been sent!');
             });
-            console.log('clicked!');
         }
     }
 });
@@ -24769,7 +24768,6 @@ var Form = function () {
                     resolve(response.data);
                 }).catch(function (error) {
                     _this.onFail(error.response.data);
-                    console.log('error!');
                     reject(error.response.data);
                 });
             });
@@ -24834,7 +24832,7 @@ var Errors = function () {
 
 
     _createClass(Errors, [{
-        key: "has",
+        key: 'has',
         value: function has(field) {
             return this.errors.hasOwnProperty(field);
         }
@@ -24844,7 +24842,7 @@ var Errors = function () {
          */
 
     }, {
-        key: "any",
+        key: 'any',
         value: function any() {
             return Object.keys(this.errors).length > 0;
         }
@@ -24856,7 +24854,7 @@ var Errors = function () {
          */
 
     }, {
-        key: "get",
+        key: 'get',
         value: function get(field) {
             if (this.errors[field]) {
                 return this.errors[field][0];
@@ -24870,9 +24868,13 @@ var Errors = function () {
          */
 
     }, {
-        key: "record",
+        key: 'record',
         value: function record(errors) {
             this.errors = errors;
+            console.log('recorded: ');
+            console.log(this.errors);
+            console.log(this.errors['message']);
+            console.log(this.errors['message']);
         }
 
         /**
@@ -24882,7 +24884,7 @@ var Errors = function () {
          */
 
     }, {
-        key: "clear",
+        key: 'clear',
         value: function clear(field) {
             if (field) {
                 delete this.errors[field];

@@ -44,6 +44,8 @@ class Errors {
      */
     record(errors) {
         this.errors = errors;
+        //console.log('recorded: ');
+        //console.log(this.errors);
     }
 
 
