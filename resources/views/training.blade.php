@@ -118,8 +118,8 @@
                     </div>
                 </div>
             </div>
-            <div class="col-md-4">
-              <div class="single-course"> <img src="./images/testing.jpg" class="img-responsive" alt="Software Testing" />
+             <div class="col-md-4">
+                <div class="single-course"> <img src="./images/testing.jpg" class="img-responsive" alt="Software Testing" />
                     <div class="course-details">
                         <h4><b>Software Testing Course</b></h4>
                         <p>Software Testing is most popular it course. If you become a great software developer then you shoud be learn software testing.</p>
@@ -128,8 +128,22 @@
                     </div>
                 </div>
             </div>
+              <div class="col-md-4">
+                <div class="single-course"> <img src="./images/testing.jpg" class="img-responsive" alt="Software Testing" />
+                    <div class="course-details">
+                        <h4><b>Software Testing Course</b></h4>
+                        <p>Software Testing is most popular it course. If you become a great software developer then you shoud be learn software testing.</p>
+                        <hr>
+                        <p><b>Trainer: Belal  <span class="space">Du: 40 hours</span></b></p>
+                    </div>
+                </div>
+            </div>
+            </div>
+            <div class="spacer-30"></div>
+                    <div class="row">
             <div class="col-md-4">
                 <div class="single-course"> <img src="./images/testing.jpg" class="img-responsive" alt="Software Testing" />
+                    <div class="course-details">
                         <h4><b>Software Testing Course</b></h4>
                         <p>Software Testing is most popular it course. If you become a great software developer then you shoud be learn software testing.</p>
                         <hr>
@@ -137,40 +151,29 @@
                     </div>
                 </div>
             </div>
+             <div class="col-md-4">
+                <div class="single-course"> <img src="./images/testing.jpg" class="img-responsive" alt="Software Testing" />
+                    <div class="course-details">
+                        <h4><b>Software Testing Course</b></h4>
+                        <p>Software Testing is most popular it course. If you become a great software developer then you shoud be learn software testing.</p>
+                        <hr>
+                        <p><b>Trainer: Belal  <span class="space">Du: 40 hours</span></b></p>
+                    </div>
+                </div>
+            </div>
+              <div class="col-md-4">
+                <div class="single-course"> <img src="./images/testing.jpg" class="img-responsive" alt="Software Testing" />
+                    <div class="course-details">
+                        <h4><b>Software Testing Course</b></h4>
+                        <p>Software Testing is most popular it course. If you become a great software developer then you shoud be learn software testing.</p>
+                        <hr>
+                        <p><b>Trainer: Belal  <span class="space">Du: 40 hours</span></b></p>
+                    </div>
+                </div>
+            </div>
+            </div>
+            <div class="spacer-30"></div>
         </div>
-        <div class="spacer-30"></div>
-        <div class="row">
-            <div class="col-md-4">
-               <div class="single-course"> <img src="./images/testing.jpg" class="img-responsive" alt="Software Testing" />
-                    <div class="course-details">
-                        <h4><b>Software Testing Course</b></h4>
-                        <p>Software Testing is most popular it course. If you become a great software developer then you shoud be learn software testing.</p>
-                        <hr>
-                        <p><b>Trainer: Belal  <span class="space">Du: 40 hours</span></b></p>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-4">
-             <div class="single-course"> <img src="./images/testing.jpg" class="img-responsive" alt="Software Testing" />
-                    <div class="course-details">
-                        <h4><b>Software Testing Course</b></h4>
-                        <p>Software Testing is most popular it course. If you become a great software developer then you shoud be learn software testing.</p>
-                        <hr>
-                        <p><b>Trainer: Belal  <span class="space">Du: 40 hours</span></b></p>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-4">
-             <div class="single-course"> <img src="./images/testing.jpg" class="img-responsive" alt="Software Testing" />
-                    <div class="course-details">
-                        <h4><b>Software Testing Course</b></h4>
-                        <p>Software Testing is most popular it course. If you become a great software developer then you shoud be learn software testing.</p>
-                        <hr>
-                        <p><b>Trainer: Belal  <span class="space">Du: 40 hours</span></b></p>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="spacer-60"></div>
+        
     </div>
  @endsection
