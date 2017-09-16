@@ -7,10 +7,9 @@
 
     <link rel="stylesheet" type="text/css" href="{{asset('css/owl.carousel.css')}}"/>
     <link rel="stylesheet" type="text/css" href="{{asset('css/owl.theme.css')}}"/>
-    <link rel="stylesheet" type="text/css" href="{{asset('css/responsive.css')}}"/>
-
     <link rel="stylesheet" type="text/css" href="{{asset('css/app.css')}}"/>
     <link rel="stylesheet" type="text/css" href="{{asset('css/style.css')}}"/>
+     <link rel="stylesheet" type="text/css" href="{{asset('css/responsive.css')}}"/>
 </head>
 <body>
     <!--Menu Start -->
@@ -18,13 +17,13 @@
         <div class="Mfix">
             <div class="container">
                 <div class="row">
-                    <div class="col-lg-4  col-sm-3">
+                    <div class="col-sm-3">
                         <div class="logo">
                             <a href="{{ url('/') }}">MicroTech NA</a>
                             <p>strengthening business performances</p>
                         </div>
                     </div>
-                    <div class="col-lg-5 col-lg-offset-1  col-sm-6">
+                    <div class="col-sm-7">
                         <div class="MobileMenu hidden-lg hidden-md hidden-sm">
                             <span></span>
                             <span></span>
@@ -33,7 +32,9 @@
                         <div class="Menu text-right">
                             <ul>
                                 <li class="scrolls"><a href="{{ url('/about_us') }}">About us</a></li>
+                                <li class="scrolls"><a href="{{ url('/training') }}">Training</a></li>
                                 <li class="scrolls"><a href="{{ url('/services') }}" class="SubSer">Services</a>
+                                   
                                     <ul class="Submenu">
                                         <li class="scrolls"><a href="{{ url('/web_design') }}">Website design</a></li>
                                         <li class="scrolls"><a href="{{ url('/mobile_app') }}">Mobile App Development</a></li>
@@ -46,7 +47,7 @@
                             </ul>
                         </div>
                     </div>
-                    <div class="col-lg-2 col-sm-3">
+                    <div class="col-sm-2">
                         <div class="socail">
                             <a href="https://www.facebook.com/microtechna/" target="_blank" class="fa fa-facebook face"></a>
                             <a href="https://twitter.com/@MicroTechSky" target="_blank" class="fa fa-twitter twi"></a>
@@ -119,8 +120,8 @@
                 <div class="col-lg-3 col-sm-3">
                     <div class="SingleCmFooter">
                         <h2>Newsletter</h2>
-                        <form method="POST" action="">
-                            {{csrf_field()}}
+                        {{--<form method="POST" action="">--}}
+                            {{--{{csrf_token()}}--}}
                             <div class="FSerMenu">
                                 <p>Don’t miss to subscribe to our news feeds, kindly fill the form below. </p>
                                 <div class="FserGroup">
@@ -128,7 +129,7 @@
                                     <button class="NewsLBtn" name="submit">Join</button>
                                 </div>
                             </div>
-                        </form>
+                        {{--</form>--}}
                     </div>
                 </div>
             </div>
@@ -161,9 +162,14 @@
         <i class="fa fa-angle-up" aria-hidden="true"></i>
     </a>
     <script type="text/javascript" src="{{asset('js/app.js')}}"></script>
-    <script type="text/javascript" src="{{asset('js/owl.carousel.min.js')}}"></script>
     <script type="text/javascript" src="{{asset('js/main.js')}}"></script>
+
+    {{--<script type="text/javascript" src="{{asset('js/manifest.js')}}"></script>--}}
+    {{--<script type="text/javascript" src="{{asset('js/vendor.js')}}"></script>--}}
     <script type="text/javascript" src="{{asset('js/jssor.slider-23.0.0.min.js')}}"></script>
+    <script type="text/javascript" src="{{asset('js/owl.carousel.min.js')}}"></script>
+
+
 
     @include('includes.analytics_google')
 </body>

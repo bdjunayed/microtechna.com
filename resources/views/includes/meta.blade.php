@@ -11,7 +11,9 @@
     <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
     <link rel="apple-touch-icon" href="apple-touch-icon.png"/>    
     <link rel="icon" type="image/png" href="apple-touch-icon.png"/>
-    
+
+    {{--<meta name="csrf-token" content="{{ csrf_token() }}">--}}
+
     <!-- Web masters utilities -->
     @if (getenv('GOOGLE-WEBMASTER'))
         <meta name="google-site-verification" content="{{ getenv('GOOGLE-WEBMASTER') }}">

@@ -4,12 +4,12 @@
             <div class="col-lg-8 col-lg-offset-2 text-center">
                 <div class="DePSingUpBtn">
                     <h2>Sign Up to get the latest on Digital Trends</h2>
-                    <form method="POST" action="newsletter_email.php">                     
+                    {{--<form method="POST" action="newsletter_email.php">                     --}}
                         <div class="DePageInputGroup">
                             <input type="email" name="newsletter" required="required" class="DesignUpInput" placeholder="Enter Your Email">
                             <button type="submit" class="DesignUpBtn" name='submit'>sign up<i class="fa fa-chevron-right"></i> </button>
                         </div>
-                    </form>
+                    {{--</form>--}}
                 </div>
             </div>
         </div>

@@ -245,7 +245,26 @@
         font-size: 30px;
     }
     /*About_us page Responsive css include End here*/
+.abContentSec h3{
+    line-height: 26px;
 }
+.abContentSec .heading {
+    height: 342px;
+    background: #a1bed4;
+    padding: 5px;
+ height: 300px;
+}
+ .abContentSec .heading h3 {
+      padding: 10px;
+    background: #e3f0fa;
+      box-shadow: 0px 2px 10px 5px rgba(209, 207, 207, 0.64);
+        line-height: 40px;
+     font-size: 18px;
+     height: 300px;
+     width: 280px;
+    }
+}
+
 @media (min-width: 360px) and (max-width: 767px) {
     .logo {
         width: 100%;
@@ -658,19 +677,6 @@
 @media (min-width: 800px) and (max-width: 1280px) {
     .industrySec{
         height: 100%;
-    }
-    .logo a {
-        color: #fff;
-        display: block;
-        font-family: Kaushan Script,cursive;
-        font-size: 27px;
-        padding-top: 7px;
-        transition: all 600ms ease 0s;
-    }
-    .logo P {
-        color: #fff;
-        font-size: 14px;
-        font-weight: 400;
     }
     .inName {
         width: 47%;

@@ -1,5 +1,6 @@
 @extends('layouts.page')
 @section('content')
+
 <section class="SPBanerSec SPBanerSecwork">
     <div class="container">
         <div class="row">
@@ -14,39 +15,38 @@
     </div>
 </section>
 <!--start contact form-->
-<section class="contactFormSec">
+<section class="contactFormSec" id="contactForm">
     <div class="container">
         <div class="row">
             <div class="col-lg-6">
 
-
-                <form id="formaction" action="sendmail.php" method="POST" class="conForm">
-
+                <form method="POST" action="/work_with_us" @submit.prevent="onSubmit" @keydown="form.errors.clear($event.target.name)">
 
                     <div class="input-group">
-                        <label for="exampleInputEmail1">Full Name*</label>
-                        <input type="text" name="name" class="inNamework" placeholder="Your Full Name" required="required">
+                        <label for="name">Full Name*</label>
+                        <input name="name" v-model="form.name" type="text" class="inNamework" placeholder="Your full name">
+                        <span class="help is-danger" v-if="form.errors.has('name')" v-text="form.errors.get('name')"></span>
+                        <span v-text="form.errors.get('email')"></span>
                     </div>
                     <div class="input-group">
-                        <label for="exampleInputEmail1">Email*</label>
-                        <input type="email" name="email" class="inNamework" placeholder="Email" required="required">
+                        <label for="email">Email*</label>
+                        <input name="email" v-model="form.email" type="email" class="inNamework" placeholder="Email">
+                        <span class="help is-danger" v-if="form.errors.has('email')" v-text="form.errors.get('email')"></span>
                     </div>
 
                     <div class="input-group">
-                        <label for="exampleInputPassword1">Company Name</label>
-                        <input type="text" name="companyName" class="inNamework" placeholder="Company Name" value=" ">
+                        <label for="company">Company Name</label>
+                        <input name="company" v-model="form.company" type="text" class="inNamework" placeholder="Company name">
+
                     </div>
                     <div class="input-group">
-                        <label for="exampleInputPassword1">Your Message</label>
-                        <textarea name="message" class="inNamework msgboxwork" placeholder="Message"></textarea>
-                        <input type="text" name="_gotcha" style="display:none" />
+                        <label for="message">Your Message</label>
+                        <textarea name="message" v-model="form.message" class="inNamework msgboxwork" placeholder="Message"></textarea>
+                        <span class="help is-danger" v-if="form.errors.has('message')" v-text="form.errors.get('message')"></span>
                     </div>
-                    <button type="submit" name="submit" class="btn btn-default buton">Submit</button>
+                    <button class="btn btn-default buton" :disabled="form.errors.any()">Submit</button>
                 </form>
-               <!-- <script>
-                    var contactform =  document.getElementById('formaction');
-                    contactform.setAttribute('action', '//formspree.io/' + 'junayed' + '@' + 'microtechna' + '.' + 'com');
-                </script>-->
+
             </div>
             <div class="col-lg-6">
                 <div class="contactInfo">
@@ -90,11 +90,10 @@
     </div>
 </section>
 <!--end contact form-->
-<!--Desing page DiscusButton Start here By Shagor-->
 
-<section class="DiscusButtonSec">
-    <!-- {% include sec_discuss.html %} -->
-    <!--     {% include sec_recognized.html %} -->
-    {% include sec_signup.html %}
-    @include('sections.sign-up-to-get-the-latest-on-digital-trends')
-</section>
+
+{{--<section class="DiscusButtonSec">--}}
+    {{--@include('sections.sign-up-to-get-the-latest-on-digital-trends')--}}
+{{--</section>--}}
+
+@endsection
