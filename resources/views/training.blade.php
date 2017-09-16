@@ -4,7 +4,7 @@
         <div class="row">
             <div class="col-lg-12 text-center">
                 <div class="SpBanerSingle">
-                    <h2>Software Testing, DBA CCNA</h2>
+                    <h2>Software Testing, DBA, CCNA</h2>
                     <p>Training</p>
                     <div class="slideBtn"> <a href="{{ url('/work_with_us') }}">Contact us</a></div>
                 </div>
