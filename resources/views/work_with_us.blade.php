@@ -6,7 +6,7 @@
         <div class="row">
             <div class="col-lg-12 text-center">
                 <div class="SpBanerSingle">
-                    <h2>Work With Us </h2>
+                    <h2>Contact us</h2>
                     <p>Test and personalize across your customers' journey with <br>Optimizely, the Experimentation Platform.</p>
 
                 </div>

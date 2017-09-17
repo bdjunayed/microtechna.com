@@ -21,7 +21,6 @@ try {
 
 // Vue.component('example', require('./components/Example.vue'));
 
-
 import Vue from 'vue';
 import axios from 'axios';
 import Form from './core/Form';
