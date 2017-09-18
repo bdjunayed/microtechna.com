@@ -245,26 +245,78 @@
         font-size: 30px;
     }
     /*About_us page Responsive css include End here*/
-.abContentSec h3{
-    line-height: 26px;
-}
-.abContentSec .heading {
-    height: 342px;
-    background: #a1bed4;
-    padding: 5px;
- height: 300px;
-}
- .abContentSec .heading h3 {
-      padding: 10px;
-    background: #e3f0fa;
-      box-shadow: 0px 2px 10px 5px rgba(209, 207, 207, 0.64);
-        line-height: 40px;
-     font-size: 18px;
-     height: 300px;
-     width: 280px;
+    .abContentSec h3{
+        line-height: 26px;
+    }
+    .abContentSec .heading {
+        padding: 5px;
+        height: 270px;
+        margin-bottom: 30px;
+        border-radius: 5px;
+    }
+    .abContentSec .heading h3 {
+        padding: 10px;
+        line-height: 35px;
+        font-size: 18px;
+        height: 280px;
+        border-radius: 5px;
+    }
+    .example {
+        position: relative;
+        margin-left: 0px;
+
+    }
+    .example img {
+        height: 232px;
+        border-radius:5px 5px 0 0;
+    }
+    .example-text {
+        height: 295px;
+        border-radius: 0 0 5px 5px;
+    }
+    .spacer-60{
+        height: 40px;
+    }
+    .example-text p {
+        padding-top: 10px;
+        font-size: 13px;
+        font-weight: normal;
+        line-height: 30px;
+    }
+    .example-text:after,
+    .arrow_box:before {
+        display: none;
+    }
+    .about-course-area .experienceMic h2{
+        font-size: 18px;
+        text-align: center;
+        line-height: 30px;
+        padding: 0px 10px;
+    }
+    .about-course-area .experienceMic p{
+        padding: 0px 15px;
+    }
+    .about-course-area .experienceMic .bollet{
+        padding: 0px 30px;
+    }
+    .border-bottom{
+        padding: 0px 10px;
+        font-size: 18px;
+    }
+    .about-course-area .custom p{
+        padding-top: 10px;
+
+    }.about-course-area .custom h4, h3{
+         padding: 3px 10px;
+
+     }
+    .about-course-area .custom .single-ms{
+        padding-bottom: 20px;
+    }
+    .training-section .single-course{
+        margin-bottom: 20px;
     }
 }
-
 @media (min-width: 360px) and (max-width: 767px) {
     .logo {
         width: 100%;
@@ -335,7 +387,7 @@
         font-size: 21px;
     }
     .serviceContent{
-        padding: 15px 46px 36px; 
+        padding: 15px 46px 36px;
         margin-top: 20px;
     }
     .serviceSec{
@@ -480,22 +532,59 @@
     .DesignSliderThree{
         height: auto;
     }
+    /*start custom css */
+    .abContentSec .heading {
+
+        height: 250px;
+
+    }
+    .about-course-area .experienceMic .bollet{
+        padding: 0px 30px;
+    }
+
+    .abContentSec .heading h3 {
+        height: 250px;
+
+    }
+    .abContentSec h2{
+        text-align: center;
+    }
+    .example img {
+        border-radius: 5px;
+    }
+    .contact-us h2 {
+        font-size: 18px;
+    }
 }
 @media (min-width: 768px) and (max-width: 1024px) {
-    .logo{
-        padding-top: 30px;
+    .custom-logo{
+        text-align: center;
+        width: 100%;
+
     }
-    .logo a{
-        font-size: 22px;
-    }
-    .logo P{
+    .custom-logo p{
         display: none;
+
     }
+    .SpBanerSingle {
+        padding: 147px 0 168px;
+    }
+    .socail {
+        padding: 18px 0; }
+
     .Menu.text-right {
         text-align: left;
+        width: 700px;
+        margin-left: 60px;
+    }
+    .custom-social{
+        width: 270px;
+        padding-right: 50px;
+        text-align: right;
+
     }
     .Menu ul li a{
-        margin-left: 14px;
+        margin-left: 12px;
     }
     .fixedHeader .logo{
         padding-top: 9px;
@@ -504,7 +593,7 @@
         font-size: 24px;
     }
     .Menu ul li{
-        padding: 42px 0;
+        padding:18px 0;
     }
     .serviceContent{
         margin-top: 20px;
@@ -612,14 +701,14 @@
         height: auto;
     }
     .DesignSliderCon h2 {
-          font-size: 26px;
+        font-size: 26px;
     }
     .DesignSliderCon p {
-          color: #5a6063;
-          font-size: 16px;
-          font-weight: 300;
-          line-height: 1.4;
-          padding-top: 24px;
+        color: #5a6063;
+        font-size: 16px;
+        font-weight: 300;
+        line-height: 1.4;
+        padding-top: 24px;
     }
     .HomeSlide {
         padding: 83px 0;
@@ -673,8 +762,74 @@
         top: 166px;
 
     }
+    /*start custom css */
+    .abContentSec h3 {
+        font-size: 22px;
+    }
+    .abContentSec .heading {
+        height: 181px;
+    }
+    .experienceMic h2 {
+        font-size: 22px;
+        text-align: center;
+    }
+    .about-course-area .experienceMic .bollet{
+        padding: 0px 30px;
+    }
+    .single-ms{
+        padding-bottom: 30px;
+    }
+
+    .abContentSec .heading{
+        margin-bottom: 30px;
+    }
+    .abContentSec .heading h3 {
+        height: 160px;
+        font-size: 20px;
+        padding: 18px;
+    }
+    .example-text:after,
+    .arrow_box:before {
+
+    }
+    .spacer-60{
+        height: 30px;
+    }
+    .abContentSec h2{
+        text-align: center;
+        font-size: 24px;
+    }
+    .example img {
+
+    }
+    .example h4 {
+        font-size: 14px;
+        line-height: 0px;
+        background: #e3f0fa;
+        margin-top: 5px;
+        padding: 13px 5px;
+        padding-bottom: 26px;
+        margin-top: 299px;
+    }
+    .example-text p {
+        font-size: 14px;
+        font-weight: normal;
+        line-height: 30px;
+        padding: 30px;
+    }
+    .example-text .custom-right{
+        text-align: center;
+    }
+    .single-course{
+        margin-bottom: 30px;
+    }
+    .custom img {
+        height: 25%;
+        width: 25%;
+
+    }
 }
-@media (min-width: 800px) and (max-width: 1280px) {
+@media (min-width: 1025px) and (max-width: 1280px) {
     .industrySec{
         height: 100%;
     }
@@ -685,9 +840,26 @@
         margin-top: 100px;
         border: none;
     }
+    .logo a {
+        font-size: 30px;
+
+
+    }
+    .logo P {
+        color: #fff;
+        font-weight: 400;
+        font-size: 11px;
+    }
+    .MenuSec .text-right {
+        text-align: left;
+    }
+    .heading h3 {
+        line-height: 35px;
+        font-size: 18px;
+    }
 
 }
-@media (min-width: 1024px) and (max-width: 1280px){
+@media (min-width: 1081px) and (max-width: 1500px){
     .DiscusBtnCon h2 {
         color: #0fa2da;
         display: inline-block;
@@ -714,5 +886,18 @@
     .DesignSliderTwo{
         margin-top: 100px;
 
+    }
+    .logo a {
+        font-size: 30px;
+
+
+    }
+    .logo P {
+        color: #fff;
+        font-weight: 400;
+        font-size: 11px;
+    }
+    .MenuSec .text-right {
+        text-align: left;
     }
 }

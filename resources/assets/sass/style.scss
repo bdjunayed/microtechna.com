@@ -102,16 +102,16 @@ $color-gray-50-lightest: #FAFAFA;
 /*  ------------------------------------------
     Breakpoints
     ------------------------------------------  */
-// iPhone 6s plus 414px=25.9em         
-// .. Tablet Layout Pattern (20em=320px) (old iPhone)26em=414px 48em=768px(iPad)  
+// iPhone 6s plus 414px=25.9em
+// .. Tablet Layout Pattern (20em=320px) (old iPhone)26em=414px 48em=768px(iPad)
 $tablet-a: 27em;
 $tablet-b: 48em;
 // .. Desktop Layout Pattern
 $desktop-a: 48em;
-// .. Tablet Layout Pattern 20em=320px (old iPhone) 48em=768px(iPad)  
-/* 
+// .. Tablet Layout Pattern 20em=320px (old iPhone) 48em=768px(iPad)
+/*
   @include susy-media($tablet-a $tablet-b) {
-  @include susy-media(min-width $desktop-a) { 
+  @include susy-media(min-width $desktop-a) {
 */
 
 /*  ------------------------------------------
@@ -375,7 +375,7 @@ $desktop-a: 48em;
 .Menu {
     width: 100%;
     height: 100%;
-    
+
     ul li {
         display: inline-block;
         padding: 40px 0;
@@ -1904,7 +1904,7 @@ $desktop-a: 48em;
     .folioImg{
         &:hover{
             .fOverText{
-                top: 100px; 
+                top: 100px;
             }
             .OverBtn {
                 /*                top: 50px;*/
@@ -2376,7 +2376,7 @@ $desktop-a: 48em;
     padding: 45px 0;
     width: 100%;
     h2{
-        font-size: 30px; 
+        font-size: 30px;
         padding: 0 0 30px;
     }
     .reqestBtn {

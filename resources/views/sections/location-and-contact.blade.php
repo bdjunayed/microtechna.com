@@ -90,31 +90,31 @@
                 </div>
             </div>
         </div>
-        <div class="row">
-            <div class="col-lg-7">
-                <form action="sendmail.php" method="POST">
-                    <div class="form">
-                        <div class="infoName">
-                            <div class="inName">
-                                <input type="text" name="name" class="inputName" placeholder="Your Name" required="required">
-                            </div>
-                            <div class="emailName">
-                                <input type="email" name="email" class="inputName" placeholder="Email Address" required="required">
-                            </div> 
-                            <div class="clearfix"></div>
-                        </div>
-                        <div class="subName">
-                            <input type="text" name="subject" class="inputName" placeholder="Subject">
-                        </div>
-                        <div class="msgBox">
-                            <textarea placeholder="Message" name="message" class="msg"></textarea>
-                        </div>
-                        <div class="conBtn">
-                            <button type="submit" name="submit" class="btnconta" value="send">send</button>
-                        </div>
-                    </div>
-                </form>
-            </div>
-        </div>
+        {{--<div class="row">--}}
+            {{--<div class="col-lg-7">--}}
+                {{--<form action="sendmail.php" method="POST">--}}
+                    {{--<div class="form">--}}
+                        {{--<div class="infoName">--}}
+                            {{--<div class="inName">--}}
+                                {{--<input type="text" name="name" class="inputName" placeholder="Your Name" required="required">--}}
+                            {{--</div>--}}
+                            {{--<div class="emailName">--}}
+                                {{--<input type="email" name="email" class="inputName" placeholder="Email Address" required="required">--}}
+                            {{--</div> --}}
+                            {{--<div class="clearfix"></div>--}}
+                        {{--</div>--}}
+                        {{--<div class="subName">--}}
+                            {{--<input type="text" name="subject" class="inputName" placeholder="Subject">--}}
+                        {{--</div>--}}
+                        {{--<div class="msgBox">--}}
+                            {{--<textarea placeholder="Message" name="message" class="msg"></textarea>--}}
+                        {{--</div>--}}
+                        {{--<div class="conBtn">--}}
+                            {{--<button type="submit" name="submit" class="btnconta" value="send">send</button>--}}
+                        {{--</div>--}}
+                    {{--</div>--}}
+                {{--</form>--}}
+            {{--</div>--}}
+        {{--</div>--}}
     </div>
 </section>
