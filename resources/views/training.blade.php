@@ -204,6 +204,7 @@
         </div>
         <div class="spacer-60"></div>
         <div class="contact-us">
+     
             <div class="row">
 
                 <h2 class="text-center">বিস্তারিত জানতে কল করুন আমাদের নিউ ইউর্ক অথবা ঢাকা সেন্টার এ </h2>
@@ -236,6 +237,12 @@
                     </div>
                 </div>
             </div>
+            <div class="spacer-30"></div>
+        <div class="row">
+               <div class="col-md-12">
+                   <script type="text/javascript" src="https://form.jotform.me/jsform/72484192474463"></script>
+               </div>
+           </div>
         </div>
         <div class="spacer-60"></div>
     </div>
