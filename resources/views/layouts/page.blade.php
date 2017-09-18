@@ -17,13 +17,13 @@
         <div class="Mfix">
             <div class="container">
                 <div class="row">
-                    <div class="col-sm-3">
+                    <div class="col-sm-3 custom-logo">
                         <div class="logo">
                             <a href="{{ url('/') }}">MicroTech NA</a>
                             <p>strengthening business performances</p>
                         </div>
                     </div>
-                    <div class="col-sm-7">
+                    <div class="col-sm-7 col-md-6">
                         <div class="MobileMenu hidden-lg hidden-md hidden-sm">
                             <span></span>
                             <span></span>
@@ -47,7 +47,7 @@
                             </ul>
                         </div>
                     </div>
-                    <div class="col-sm-2">
+                    <div class="col-sm-2 col-md-3 custom-social">
                         <div class="socail">
                             <a href="https://www.facebook.com/microtechna/" target="_blank" class="fa fa-facebook face"></a>
                             <a href="https://twitter.com/@MicroTechSky" target="_blank" class="fa fa-twitter twi"></a>
@@ -77,7 +77,6 @@
             </div>
         </section>-->
         <!--end slide-->
-
     @yield('content')
 
     <!--Footer Start-->
