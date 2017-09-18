@@ -66,7 +66,9 @@
                     </div>
                     <div class="contactText">
                         <h3>Give us call</h3>
-                        <p>Phone: +‎880 191 002 9832</p>
+                        <p>Call: 017.2513.9901</p>
+                        <p>018.1751.2688</p>
+                        <p>017.1056.3784</p>
                     </div>
                     <div class="clearfix"></div>
                 </div>

@@ -550,7 +550,8 @@ h3, h2 {
   line-height: 30px;
   background: #e3f0fa;
   margin-top: 5px;
-  padding: 12px 14px;
+  padding: 12px 149px;
+  text-align: center;
 }
 
 .example-text {
@@ -567,7 +568,8 @@ h3, h2 {
 
 .example-text i.fa {
   color: #3e9301;
-  padding: 0px 8px;
+  padding: 0px 14px;
+  font-size: 28px;
 }
 
 .example-text:after,
@@ -622,16 +624,16 @@ h3, h2 {
   text-align: center !important;
 }
 
-.custom .custom h4 {
+.custom h4 {
   line-height: 12px;
-  font-size: 14px !important;
+  font-size: 15px !important;
   color: #999;
-  line-height: 1px;
+  line-height: 21px;
 }
 
 .custom img {
-  height: 50%;
-  width: 50%;
+  height: 33%;
+  width: 33%;
   border-radius: 100%;
 }
 
@@ -663,7 +665,23 @@ h3, h2 {
   color: #3f84a4;
   padding-bottom: 10px;
   font-size: 28px;
-  text-align: left;
+  text-align: center;
+}
+
+.contact-us .custom-center {
+  text-align: center !important;
+}
+
+.contact-us .custom-center p {
+  text-align: center !important;
+}
+
+.contact-us .custom-right {
+  text-align: right !important;
+}
+
+.contact-us .custom-right p {
+  text-align: right;
 }
 
 /*  ------------------------------------------
