@@ -746,8 +746,8 @@ module.exports = Cancel;
 /***/ (function(module, exports, __webpack_require__) {
 
 __webpack_require__(8);
-__webpack_require__(35);
-module.exports = __webpack_require__(36);
+__webpack_require__(33);
+module.exports = __webpack_require__(34);
 
 
 /***/ }),
@@ -760,7 +760,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_vue___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_vue__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_axios__ = __webpack_require__(13);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_axios___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1_axios__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__core_Form__ = __webpack_require__(33);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__core_Form__ = __webpack_require__(42);
 
 /**
  * First we will load all of this project's JavaScript dependencies which
@@ -801,6 +801,8 @@ new __WEBPACK_IMPORTED_MODULE_0_vue___default.a({
         onSubmit: function onSubmit() {
             this.nl.post('/newsletter').then(function (response) {
                 return alert('Subscribed!');
+            }).catch(function (err) {
+                return console.log('err');
             });
         }
     }
@@ -820,7 +822,9 @@ new __WEBPACK_IMPORTED_MODULE_0_vue___default.a({
     methods: {
         onSubmit: function onSubmit() {
             this.form.post('/work_with_us').then(function (response) {
-                return alert('Thank you! Your request has been sent!');
+                return alert('Thank you! Your message has been sent!');
+            }).catch(function (err) {
+                return console.log('err');
             });
         }
     }
@@ -24657,10 +24661,29 @@ module.exports = function spread(callback) {
 
 /***/ }),
 /* 33 */
+/***/ (function(module, exports) {
+
+// removed by extract-text-webpack-plugin
+
+/***/ }),
+/* 34 */
+/***/ (function(module, exports) {
+
+// removed by extract-text-webpack-plugin
+
+/***/ }),
+/* 35 */,
+/* 36 */,
+/* 37 */,
+/* 38 */,
+/* 39 */,
+/* 40 */,
+/* 41 */,
+/* 42 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__Errors__ = __webpack_require__(34);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__Errors__ = __webpack_require__(43);
 var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
 
 function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
@@ -24782,7 +24805,7 @@ var Form = function () {
 
                     resolve(response.data);
                 }).catch(function (error) {
-                    _this.onFail(error.response.data);
+                    _this.onFail(error.response.data.errors);
                     reject(error.response.data);
                 });
             });
@@ -24797,7 +24820,7 @@ var Form = function () {
     }, {
         key: 'onSuccess',
         value: function onSuccess(data) {
-            //alert(data.message); // temporary
+            //alert(data.message); // temporary First. Project created
 
             this.reset();
         }
@@ -24810,8 +24833,8 @@ var Form = function () {
 
     }, {
         key: 'onFail',
-        value: function onFail(errors) {
-            this.errors.record(errors);
+        value: function onFail(error) {
+            this.errors.record(error);
         }
     }]);
 
@@ -24821,7 +24844,7 @@ var Form = function () {
 /* harmony default export */ __webpack_exports__["a"] = (Form);
 
 /***/ }),
-/* 34 */
+/* 43 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -24887,7 +24910,7 @@ var Errors = function () {
         value: function record(errors) {
             this.errors = errors;
             //console.log('recorded: ');
-            //console.log(this.errors);
+            console.log(this.errors);
         }
 
         /**
@@ -24913,18 +24936,6 @@ var Errors = function () {
 }();
 
 /* harmony default export */ __webpack_exports__["a"] = (Errors);
-
-/***/ }),
-/* 35 */
-/***/ (function(module, exports) {
-
-// removed by extract-text-webpack-plugin
-
-/***/ }),
-/* 36 */
-/***/ (function(module, exports) {
-
-// removed by extract-text-webpack-plugin
 
 /***/ })
 /******/ ]);
