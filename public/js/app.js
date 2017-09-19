@@ -801,6 +801,8 @@ new __WEBPACK_IMPORTED_MODULE_0_vue___default.a({
         onSubmit: function onSubmit() {
             this.nl.post('/newsletter').then(function (response) {
                 return alert('Subscribed!');
+            }).catch(function (err) {
+                return console.log('err');
             });
         }
     }
@@ -820,7 +822,9 @@ new __WEBPACK_IMPORTED_MODULE_0_vue___default.a({
     methods: {
         onSubmit: function onSubmit() {
             this.form.post('/work_with_us').then(function (response) {
-                return alert('Thank you! Your request has been sent!');
+                return alert('Thank you! Your message has been sent!');
+            }).catch(function (err) {
+                return console.log('err');
             });
         }
     }
@@ -24887,7 +24891,7 @@ var Form = function () {
 
                     resolve(response.data);
                 }).catch(function (error) {
-                    _this.onFail(error.response.data);
+                    _this.onFail(error.response.data.errors);
                     reject(error.response.data);
                 });
             });
@@ -24902,7 +24906,7 @@ var Form = function () {
     }, {
         key: 'onSuccess',
         value: function onSuccess(data) {
-            //alert(data.message); // temporary
+            //alert(data.message); // temporary First. Project created
 
             this.reset();
         }
@@ -24915,8 +24919,8 @@ var Form = function () {
 
     }, {
         key: 'onFail',
-        value: function onFail(errors) {
-            this.errors.record(errors);
+        value: function onFail(error) {
+            this.errors.record(error);
         }
     }]);
 
@@ -24992,7 +24996,7 @@ var Errors = function () {
         value: function record(errors) {
             this.errors = errors;
             //console.log('recorded: ');
-            //console.log(this.errors);
+            console.log(this.errors);
         }
 
         /**

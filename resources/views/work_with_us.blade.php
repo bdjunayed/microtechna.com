@@ -24,27 +24,27 @@
 
                     <div class="input-group">
                         <label for="name">Full Name*</label>
-                        <input name="name" v-model="form.name" type="text" class="inNamework" placeholder="Your full name">
-                        <span class="help is-danger" v-if="form.errors.has('name')" v-text="form.errors.get('name')"></span>
+                        <input name="name" v-model="form.name" type="text" class="inNamework" id="name" placeholder="Your full name">
+                        <span class="text-warning" v-if="form.errors.has('name')" v-text="form.errors.get('name')"></span>
 
                     </div>
                     <div class="input-group">
                         <label for="email">Email*</label>
-                        <input name="email" v-model="form.email" type="email" class="inNamework" placeholder="Email">
-                        <span class="help is-danger" v-if="form.errors.has('email')" v-text="form.errors.get('email')"></span>
+                        <input name="email" v-model="form.email" type="email" class="inNamework" id="email" placeholder="Email">
+                        <span class="text-warning" v-if="form.errors.has('email')" v-text="form.errors.get('email')"></span>
                     </div>
 
                     <div class="input-group">
                         <label for="company">Company Name</label>
-                        <input name="company" v-model="form.company" type="text" class="inNamework" placeholder="Company name">
+                        <input name="company" v-model="form.company" type="text" class="inNamework" id="company" placeholder="Company name">
 
                     </div>
                     <div class="input-group">
                         <label for="message">Your Message</label>
-                        <textarea name="message" v-model="form.message" class="inNamework msgboxwork" placeholder="Message"></textarea>
-                        <span class="help is-danger" v-if="form.errors.has('message')" v-text="form.errors.get('message')"></span>
+                        <textarea name="message" v-model="form.message" class="inNamework msgboxwork" id="message" placeholder="Message"></textarea>
+                        <span class="text-warning" v-if="form.errors.has('message')" v-text="form.errors.get('message')"></span>
                     </div>
-                    <button class="btn btn-default buton" :disabled="form.errors.any()">Submit</button>
+                    <button class="btn btn-primary" :disabled="form.errors.any()">Submit</button>
                 </form>
 
             </div>

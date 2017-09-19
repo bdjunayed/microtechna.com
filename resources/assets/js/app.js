@@ -37,7 +37,8 @@ new Vue({
     methods: {
         onSubmit() {
             this.nl.post('/newsletter')
-                .then(response => alert('Subscribed!'));
+                .then(response => alert('Subscribed!'))
+                .catch((err) => console.log('err') );
         }
     }
 });
@@ -56,7 +57,8 @@ new Vue({
     methods: {
         onSubmit() {
             this.form.post('/work_with_us')
-                .then(response => alert('Thank you! Your request has been sent!'));
+                .then(response => alert('Thank you! Your message has been sent!'))
+                .catch((err) => console.log('err'));
         }
     }
 });

@@ -1,4 +1,5 @@
 import Errors from './Errors';
+
 class Form {
     /**
      * Create a new Form instance.
@@ -97,7 +98,7 @@ class Form {
                     resolve(response.data);
                 })
                 .catch(error => {
-                    this.onFail(error.response.data);
+                    this.onFail(error.response.data.errors);
                     reject(error.response.data);
                 });
         });
@@ -110,7 +111,7 @@ class Form {
      * @param {object} data
      */
     onSuccess(data) {
-        //alert(data.message); // temporary
+        //alert(data.message); // temporary First. Project created
 
         this.reset();
     }
@@ -121,8 +122,8 @@ class Form {
      *
      * @param {object} errors
      */
-    onFail(errors) {
-        this.errors.record(errors);
+    onFail(error) {
+        this.errors.record(error);
     }
 }
 export default Form;
