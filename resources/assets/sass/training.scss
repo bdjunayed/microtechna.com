@@ -3,7 +3,9 @@
 .spacer-60 {
     height: 60px;
 }
-
+.clearfix {
+        clear: both;
+    }
 .spacer-30 {
     height: 30px;
 }
@@ -16,6 +18,7 @@
     background: #fff;
     border-radius: 6px;
     border: 1px solid#f6f6f6;
+margin-bottom: 30px;
 }
 
 .single-course:hover {
@@ -161,6 +164,9 @@ h4 {
 
     margin-bottom: 12px;
 }
+.experienceMic .padding-top{
+    margin-top: 60px;
+}
 .single-ms {
     text-align: center;
 }
@@ -189,7 +195,7 @@ h4 {
     padding: 30px;
     box-shadow: 0px 5px 10px 0px rgba(209, 207, 207, 0.64);
    p {
-	line-height: 10px;
+	line-height:11px;
 	
 }
     h3 {

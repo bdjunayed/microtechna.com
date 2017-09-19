@@ -439,6 +439,10 @@ fieldset {
   height: 60px;
 }
 
+.clearfix {
+  clear: both;
+}
+
 .spacer-30 {
   height: 30px;
 }
@@ -451,6 +455,7 @@ fieldset {
   background: #fff;
   border-radius: 6px;
   border: 1px solid #f6f6f6;
+  margin-bottom: 30px;
 }
 
 .single-course:hover {
@@ -613,6 +618,10 @@ h3, h2 {
   margin-bottom: 12px;
 }
 
+.experienceMic .padding-top {
+  margin-top: 60px;
+}
+
 .single-ms {
   text-align: center;
 }
@@ -645,7 +654,7 @@ h3, h2 {
 }
 
 .contact-us p {
-  line-height: 10px;
+  line-height: 11px;
 }
 
 .contact-us h3 {

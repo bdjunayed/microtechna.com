@@ -283,6 +283,11 @@
         font-weight: normal;
         line-height: 30px;
     }
+    .example h4 {
+	font-size: 15px;
+	padding: 12px 17px;
+	text-align: center;
+}
     .example-text:after,
     .arrow_box:before {
         display: none;
@@ -316,6 +321,24 @@
     .training-section .single-course{
         margin-bottom: 20px;
     }
+    .contact-us .text-right {
+	text-align: left !important;
+}
+    .custom-right p{
+        text-align: left!important;
+    }
+    .contact-us .logo a {
+        text-align: left;}
+    .contact-us.experienceMic h2 {
+	font-size: 16px;
+}
+.contact-us .custom-center p, h3 {
+	text-align: left !important;
+}
+    .contact-us{
+
+    padding: 5px;
+}
 }
 @media (min-width: 360px) and (max-width: 767px) {
     .logo {
@@ -828,6 +851,10 @@
         width: 25%;
 
     }
+ .contact-us {
+	padding: 4px;
+}
+    
 }
 @media (min-width: 1025px) and (max-width: 1280px) {
     .industrySec{
