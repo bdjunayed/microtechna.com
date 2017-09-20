@@ -17,7 +17,7 @@ mix.js('resources/assets/js/app.js', 'public/js')
 mix.sass('resources/assets/sass/app.scss', 'public/css')
     // .sass('resources/assets/sass/main.scss', 'public/css')
     // .sass('resources/assets/sass/preset.scss', 'public/css')
-    // .sass('resources/assets/sass/feature_team.scss', 'public/css')
+     .sass('resources/assets/sass/responsive.scss', 'public/css')
     .sass('resources/assets/sass/style.scss', 'public/css')
     .options({
         processCssUrls: false
@@ -33,7 +33,7 @@ mix.copy('resources/assets/js/owl.carousel.min.js', 'public/js/owl.carousel.min.
 
 mix.copy('resources/assets/css/owl.carousel.css', 'public/css/owl.carousel.css');
 mix.copy('resources/assets/css/owl.theme.css', 'public/css/owl.theme.css');
-mix.copy('resources/assets/css/responsive.css', 'public/css/responsive.css');
+/*mix.copy('resources/assets/css/responsive.css', 'public/css/responsive.css');*/
 
 
 //mix.copy('resources/assets/sass/slicknav.min.css', 'public/css/slicknav.min.css');

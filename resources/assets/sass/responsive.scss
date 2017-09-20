@@ -2,12 +2,12 @@
   .logo {
     width: 100%;
     text-align: center;
-  }
-  .logo a {
-    font-size: 14px;
-  }
-  .logo P {
-    display: none;
+    a {
+      font-size: 14px;
+    }
+    P {
+      display: none;
+    }
   }
   .MenuSec {
     height: auto;
@@ -25,42 +25,42 @@
     top: 13px;
     right: 17px;
     z-index: 9999;
-  }
-  .MobileMenu span {
-    background: #fff;
-    display: inline-block;
-    height: 2px;
-    width: 100%;
+    span {
+      background: #fff;
+      display: inline-block;
+      height: 2px;
+      width: 100%;
+    }
   }
   .Menu {
     width: 100%;
-  }
-  .Menu ul {
-    background: #000;
-    display: none;
-    position: absolute;
-    right: 0;
-    text-align: center;
-    top: 51px;
-    width: 100%;
-    z-index: 999;
-    opacity: .7;
-  }
-  .Menu ul li {
-    cursor: pointer;
-    display: block;
-    padding: 14px 0;
-  }
-  .Menu ul li a {
-    display: block;
-  }
-  .Menu ul li:hover .Submenu {
-    position: absolute;
-    left: 0;
-    top: 0;
-    width: 150px;
-    visibility: visible;
-    opacity: 1;
+    ul {
+      background: #000;
+      display: none;
+      position: absolute;
+      right: 0;
+      text-align: center;
+      top: 51px;
+      width: 100%;
+      z-index: 999;
+      opacity: .7;
+      li {
+        cursor: pointer;
+        display: block;
+        padding: 14px 0;
+        a {
+          display: block;
+        }
+        &:hover .Submenu {
+          position: absolute;
+          left: 0;
+          top: 0;
+          width: 150px;
+          visibility: visible;
+          opacity: 1;
+        }
+      }
+    }
   }
   .mainSliderSec {
     margin-top: 78px;
@@ -70,15 +70,17 @@
   }
   .HomeSlide {
     padding: 100px 0;
-  }
-  .HomeSlide .slideContent h1 {
-    font-size: 22px;
-    line-height: 28px;
-    font-weight: 700;
-  }
-  .HomeSlide .slideContent p {
-    font-size: 14px;
-    line-height: 28px;
+    .slideContent {
+      h1 {
+        font-size: 22px;
+        line-height: 28px;
+        font-weight: 700;
+      }
+      p {
+        font-size: 14px;
+        line-height: 28px;
+      }
+    }
   }
   .serviceSec {
     padding: 60px 0;
@@ -86,12 +88,14 @@
   .serviceContent {
     margin-top: 20px;
   }
-  .industryTitle h2 {
-    font-size: 23px;
-    margin-bottom: 0;
-  }
-  .industryTitle p {
-    font-size: 14px;
+  .industryTitle {
+    h2 {
+      font-size: 23px;
+      margin-bottom: 0;
+    }
+    p {
+      font-size: 14px;
+    }
   }
   .indItem {
     width: 100%;
@@ -113,20 +117,20 @@
     padding-bottom: 10px;
   }
   .DiscusBtnCon {
+    h2 {
+      font-size: 16px;
+      margin-bottom: 16px;
+    }
     border-radius: 4px;
     padding: 30px 12px 64px;
-  }
-  .DiscusBtnCon h2 {
-    font-size: 16px;
-    margin-bottom: 16px;
-  }
-  .DiscusBtnCon .DiscusBTn {
-    display: block;
-    float: left;
-    font-size: 13px;
-    height: 47px;
-    padding: 11px 16px;
-    width: 178px;
+    .DiscusBTn {
+      display: block;
+      float: left;
+      font-size: 13px;
+      height: 47px;
+      padding: 11px 16px;
+      width: 178px;
+    }
   }
   .contactSec {
     padding-top: 10px;
@@ -166,29 +170,33 @@
     font-size: 29px;
   }
   .aboutHead {
+    h3 {
+      font-size: 16px;
+    }
     padding: 36px 0;
   }
-  .aboutHead h3 {
-    font-size: 16px;
-  }
-  .experienceMic h2 {
-    font-size: 20px;
-  }
-  .experienceMic p {
-    font-size: 13px;
+  .experienceMic {
+    h2 {
+      font-size: 20px;
+    }
+    p {
+      font-size: 13px;
+    }
   }
   .Apadding35 {
     padding: 15px 0;
   }
-  .absingleBlog h2 {
-    font-size: 28px;
-  }
-  .absingleBlog h2 span {
-    font-size: 33px;
-  }
-  .absingleBlog p {
-    padding: 0;
-    font-size: 13px;
+  .absingleBlog {
+    h2 {
+      font-size: 28px;
+      span {
+        font-size: 33px;
+      }
+    }
+    p {
+      padding: 0;
+      font-size: 13px;
+    }
   }
   .abBlogSec {
     padding-bottom: 40px;
@@ -206,10 +214,10 @@
     padding-bottom: 15px;
   }
   .DePSingUpBtn {
+    h2 {
+      font-size: 17px;
+    }
     padding-top: 10px;
-  }
-  .DePSingUpBtn h2 {
-    font-size: 17px;
   }
   .DesignTab {
     display: none;
@@ -237,34 +245,38 @@
   .DesignSliderThree {
     margin-top: 84px;
   }
-  .DSliderThree .owl-next i, .DSliderThree .owl-prev i {
-    color: #60c1f0;
-    font-size: 30px;
+  .DSliderThree {
+    .owl-next i, .owl-prev i {
+      color: #60c1f0;
+      font-size: 30px;
+    }
   }
   /*About_us page Responsive css include End here*/
-  .abContentSec h3 {
-    line-height: 26px;
-  }
-  .abContentSec .heading {
-    padding: 5px;
-    height: 270px;
-    margin-bottom: 30px;
-    border-radius: 5px;
-  }
-  .abContentSec .heading h3 {
-    padding: 10px;
-    line-height: 35px;
-    font-size: 18px;
-    height: 280px;
-    border-radius: 5px;
+  .abContentSec {
+    h3 {
+      line-height: 26px;
+    }
+    .heading {
+      padding: 5px;
+      height: 270px;
+      margin-bottom: 30px;
+      border-radius: 5px;
+      h3 {
+        padding: 10px;
+        line-height: 35px;
+        font-size: 18px;
+        height: 280px;
+        border-radius: 5px;
+      }
+    }
   }
   .example {
     position: relative;
     margin-left: 0px;
-  }
-  .example img {
-    height: 232px;
-    border-radius: 5px 5px 0 0;
+    img {
+      height: 232px;
+      border-radius: 5px 5px 0 0;
+    }
   }
   .example-text {
     height: 295px;
@@ -287,27 +299,31 @@
   .example-text:after, .arrow_box:before {
     display: none;
   }
-  .about-course-area .experienceMic h2 {
-    font-size: 18px;
-    text-align: center;
-    line-height: 30px;
-    padding: 0px 10px;
-  }
-  .about-course-area .experienceMic p {
-    padding: 0px 15px;
-  }
-  .about-course-area .experienceMic .bollet {
-    padding: 0px 30px;
+  .about-course-area .experienceMic {
+    h2 {
+      font-size: 18px;
+      text-align: center;
+      line-height: 30px;
+      padding: 0px 10px;
+    }
+    p {
+      padding: 0px 15px;
+    }
+    .bollet {
+      padding: 0px 30px;
+    }
   }
   .border-bottom {
     padding: 0px 10px;
     font-size: 18px;
   }
-  .about-course-area .custom p {
-    padding-top: 10px;
-  }
-  .about-course-area .custom h4 {
-    padding: 3px 10px;
+  .about-course-area .custom {
+    p {
+      padding-top: 10px;
+    }
+    h4 {
+      padding: 3px 10px;
+    }
   }
   h3 {
     padding: 3px 10px;
@@ -321,14 +337,16 @@
   .contact-us .text-right, .custom-right p {
     text-align: left !important;
   }
-  .contact-us .logo a {
-    text-align: left;
-  }
-  .contact-us.experienceMic h2 {
-    font-size: 16px;
-  }
-  .contact-us .custom-center p {
-    text-align: left !important;
+  .contact-us {
+    .logo a {
+      text-align: left;
+    }
+    &.experienceMic h2 {
+      font-size: 16px;
+    }
+    .custom-center p {
+      text-align: left !important;
+    }
   }
   h3 {
     text-align: left !important;
@@ -337,17 +355,16 @@
     padding: 5px;
   }
 }
-
 @media (min-width: 360px) and (max-width: 767px) {
   .logo {
     width: 100%;
     text-align: center;
-  }
-  .logo a {
-    font-size: 14px;
-  }
-  .logo P {
-    display: none;
+    a {
+      font-size: 14px;
+    }
+    P {
+      display: none;
+    }
   }
   .MenuSec {
     height: auto;
@@ -365,60 +382,64 @@
     top: 13px;
     right: 17px;
     z-index: 9999;
-  }
-  .MobileMenu span {
-    background: #fff;
-    display: inline-block;
-    height: 2px;
-    width: 100%;
+    span {
+      background: #fff;
+      display: inline-block;
+      height: 2px;
+      width: 100%;
+    }
   }
   .Menu {
     width: 100%;
-  }
-  .Menu ul {
-    background: #000;
-    display: none;
-    position: absolute;
-    right: 0;
-    text-align: center;
-    top: 51px;
-    width: 100%;
-    z-index: 999;
-    opacity: .7;
-  }
-  .Menu ul li {
-    cursor: pointer;
-    display: block;
-    padding: 14px 0;
-  }
-  .Menu ul li a {
-    display: block;
-  }
-  .Menu ul li:hover .Submenu {
-    position: absolute;
-    left: 0;
-    top: 0;
-    width: 150px;
-    visibility: visible;
-    opacity: 1;
+    ul {
+      background: #000;
+      display: none;
+      position: absolute;
+      right: 0;
+      text-align: center;
+      top: 51px;
+      width: 100%;
+      z-index: 999;
+      opacity: .7;
+      li {
+        cursor: pointer;
+        display: block;
+        padding: 14px 0;
+        a {
+          display: block;
+        }
+        &:hover .Submenu {
+          position: absolute;
+          left: 0;
+          top: 0;
+          width: 150px;
+          visibility: visible;
+          opacity: 1;
+        }
+      }
+    }
   }
   .mainSliderSec {
     margin-top: 78px;
   }
-  .fixedHeader .logo a {
-    font-size: 22px;
-  }
-  .fixedHeader .socail {
-    padding: 0 0 10px;
+  .fixedHeader {
+    .logo a {
+      font-size: 22px;
+    }
+    .socail {
+      padding: 0 0 10px;
+    }
   }
   .HomeSlide {
     padding: 100px 0;
-  }
-  .HomeSlide .slideContent h1 {
-    font-size: 36px;
-  }
-  .HomeSlide .slideContent p {
-    font-size: 21px;
+    .slideContent {
+      h1 {
+        font-size: 36px;
+      }
+      p {
+        font-size: 21px;
+      }
+    }
   }
   .serviceContent {
     padding: 15px 46px 36px;
@@ -430,12 +451,14 @@
   .industrySec {
     height: 100%;
   }
-  .industryTitle h2 {
-    font-size: 27px;
-  }
-  .industryTitle p {
-    font-size: 16px;
-    margin-bottom: 30px;
+  .industryTitle {
+    h2 {
+      font-size: 27px;
+    }
+    p {
+      font-size: 16px;
+      margin-bottom: 30px;
+    }
   }
   .ourWork .mainWork {
     padding-bottom: 10px;
@@ -446,27 +469,27 @@
     padding-left: 0;
   }
   .ourWork {
+    .mainWork::before {
+      display: none;
+    }
     padding-bottom: 10px;
   }
-  .ourWork .mainWork::before {
-    display: none;
-  }
   .DiscusBtnCon {
+    h2 {
+      font-size: 27px;
+    }
+    .DiscusBTn {
+      display: block;
+      float: left;
+      font-size: 17px;
+      font-weight: 600;
+      height: 52px;
+      margin-left: 16%;
+      margin-top: 8px;
+      padding: 13px 20px;
+      width: 197px;
+    }
     padding: 50px 20px 90px;
-  }
-  .DiscusBtnCon h2 {
-    font-size: 27px;
-  }
-  .DiscusBtnCon .DiscusBTn {
-    display: block;
-    float: left;
-    font-size: 17px;
-    font-weight: 600;
-    height: 52px;
-    margin-left: 16%;
-    margin-top: 8px;
-    padding: 13px 20px;
-    width: 197px;
   }
   .DiscusButton {
     padding: 20px 0;
@@ -515,15 +538,15 @@
     margin: 5px;
   }
   .DesignHead {
+    h2 {
+      font-size: 30px;
+      text-align: left;
+    }
     padding: 14px 0;
-  }
-  .DesignHead h2 {
-    font-size: 30px;
-    text-align: left;
-  }
-  .DesignHead p {
-    font-size: 18px;
-    text-align: left;
+    p {
+      font-size: 18px;
+      text-align: left;
+    }
   }
   .DesignSliderCon h2 {
     color: #0fa2da;
@@ -563,11 +586,13 @@
   .about-course-area .experienceMic .bollet {
     padding: 0px 30px;
   }
-  .abContentSec .heading h3 {
-    height: 250px;
-  }
-  .abContentSec h2 {
-    text-align: center;
+  .abContentSec {
+    .heading h3 {
+      height: 250px;
+    }
+    h2 {
+      text-align: center;
+    }
   }
   .example img {
     border-radius: 5px;
@@ -576,14 +601,13 @@
     font-size: 18px;
   }
 }
-
 @media (min-width: 768px) and (max-width: 1024px) {
   .custom-logo {
     text-align: center;
     width: 100%;
-  }
-  .custom-logo p {
-    display: none;
+    p {
+      display: none;
+    }
   }
   .SpBanerSingle {
     padding: 147px 0 168px;
@@ -606,9 +630,9 @@
   }
   .fixedHeader .logo {
     padding-top: 9px;
-  }
-  .fixedHeader .logo a {
-    font-size: 24px;
+    a {
+      font-size: 24px;
+    }
   }
   .Menu ul li {
     padding: 18px 0;
@@ -625,10 +649,10 @@
     height: 100%;
   }
   .ourWork .mainWork {
+    &::before {
+      bottom: 60px;
+    }
     padding: 30px 0;
-  }
-  .ourWork .mainWork::before {
-    bottom: 60px;
   }
   .col-lg-9.paddingLeft20 {
     padding-left: 35px;
@@ -637,14 +661,14 @@
     padding-bottom: 0;
   }
   .DiscusBtnCon {
+    h2 {
+      font-size: 35px;
+      margin-bottom: 15px;
+    }
+    .DiscusBTn {
+      float: left;
+    }
     padding-bottom: 100px;
-  }
-  .DiscusBtnCon h2 {
-    font-size: 35px;
-    margin-bottom: 15px;
-  }
-  .DiscusBtnCon .DiscusBTn {
-    float: left;
   }
   .contactSec {
     padding: 20px 0;
@@ -658,9 +682,9 @@
   }
   .FLogo {
     padding: 0;
-  }
-  .FLogo p {
-    display: block;
+    p {
+      display: block;
+    }
   }
   .SingleCountry h2 {
     font-size: 13px;
@@ -677,21 +701,25 @@
     width: 31%;
     z-index: 2;
   }
-  .DspanFirst strong {
-    height: 135px;
-    width: 136px;
+  .DspanFirst {
+    strong {
+      height: 135px;
+      width: 136px;
+    }
+    em {
+      height: 100px;
+      width: 100px;
+    }
   }
-  .DspanFirst em {
-    height: 100px;
-    width: 100px;
-  }
-  .TabMenu ul li.active .DspanFirst em {
-    height: 125px;
-    width: 125px;
-  }
-  .TabMenu ul li.active .DspanFirst strong {
-    height: 160px;
-    width: 160px;
+  .TabMenu ul li.active .DspanFirst {
+    em {
+      height: 125px;
+      width: 125px;
+    }
+    strong {
+      height: 160px;
+      width: 160px;
+    }
   }
   .PanelLeft > h2 {
     font-weight: 400;
@@ -703,29 +731,33 @@
   .DesignSlider {
     height: 500px;
   }
-  .DesignHead h2 {
-    font-size: 35px;
-    letter-spacing: 8px;
-    text-align: left;
-  }
-  .DesignHead p {
-    text-align: left;
-    line-height: 21px;
-    font-size: 16px;
+  .DesignHead {
+    h2 {
+      font-size: 35px;
+      letter-spacing: 8px;
+      text-align: left;
+    }
+    p {
+      text-align: left;
+      line-height: 21px;
+      font-size: 16px;
+    }
   }
   .DesignTab {
     padding: 15px 0;
     height: auto;
   }
-  .DesignSliderCon h2 {
-    font-size: 26px;
-  }
-  .DesignSliderCon p {
-    color: #5a6063;
-    font-size: 16px;
-    font-weight: 300;
-    line-height: 1.4;
-    padding-top: 24px;
+  .DesignSliderCon {
+    h2 {
+      font-size: 26px;
+    }
+    p {
+      color: #5a6063;
+      font-size: 16px;
+      font-weight: 300;
+      line-height: 1.4;
+      padding-top: 24px;
+    }
   }
   .HomeSlide {
     padding: 83px 0;
@@ -746,10 +778,10 @@
   .DeSliderConImage {
     width: 100%;
     height: auto;
-  }
-  .DeSliderConImage img {
-    height: 100%;
-    width: 100%;
+    img {
+      height: 100%;
+      width: 100%;
+    }
   }
   .keyTechnologySec .keytechBtn ul li a {
     background: #558b2f none repeat scroll 0 0;
@@ -759,33 +791,33 @@
     font-weight: 400;
     padding: 12px 7px;
     text-decoration: none;
-    -webkit-transition: all 0.3s ease 0s;
     transition: all 0.3s ease 0s;
   }
   .folioImg:hover .OverBtn {
     opacity: 1;
-    -webkit-transform: translate(0px, 93px);
-            transform: translate(0px, 93px);
+    transform: translate(0px, 93px);
     visibility: visible;
   }
   .fOverText {
     top: 181px;
-  }
-  .fOverText.fOverText22 {
-    top: 166px;
-  }
-  .fOverText.fOverText22 h2 {
-    font-size: 34px;
-  }
-  .fOverText > h2 {
-    font-size: 20px;
+    &.fOverText22 {
+      h2 {
+        font-size: 34px;
+      }
+      top: 166px;
+    }
+    > h2 {
+      font-size: 20px;
+    }
   }
   /*start custom css */
-  .abContentSec h3 {
-    font-size: 22px;
-  }
-  .abContentSec .heading {
-    height: 181px;
+  .abContentSec {
+    h3 {
+      font-size: 22px;
+    }
+    .heading {
+      height: 181px;
+    }
   }
   .experienceMic h2 {
     font-size: 22px;
@@ -799,12 +831,13 @@
   }
   .abContentSec .heading {
     margin-bottom: 30px;
+    h3 {
+      height: 160px;
+      font-size: 20px;
+      padding: 18px;
+    }
   }
-  .abContentSec .heading h3 {
-    height: 160px;
-    font-size: 20px;
-    padding: 18px;
-  }
+  .example-text:after, .arrow_box:before {}
   .spacer-60 {
     height: 30px;
   }
@@ -812,23 +845,28 @@
     text-align: center;
     font-size: 24px;
   }
-  .example h4 {
-    font-size: 14px;
-    line-height: 0px;
-    background: #e3f0fa;
-    margin-top: 5px;
-    padding: 13px 5px;
-    padding-bottom: 26px;
-    margin-top: 299px;
+  .example {
+    img {}
+    h4 {
+      font-size: 14px;
+      line-height: 0px;
+      background: #e3f0fa;
+      margin-top: 5px;
+      padding: 13px 5px;
+      padding-bottom: 26px;
+      margin-top: 299px;
+    }
   }
-  .example-text p {
-    font-size: 14px;
-    font-weight: normal;
-    line-height: 30px;
-    padding: 30px;
-  }
-  .example-text .custom-right {
-    text-align: center;
+  .example-text {
+    p {
+      font-size: 14px;
+      font-weight: normal;
+      line-height: 30px;
+      padding: 30px;
+    }
+    .custom-right {
+      text-align: center;
+    }
   }
   .single-course {
     margin-bottom: 30px;
@@ -841,7 +879,6 @@
     padding: 4px;
   }
 }
-
 @media (min-width: 1025px) and (max-width: 1280px) {
   .industrySec {
     height: 100%;
@@ -853,13 +890,15 @@
     margin-top: 100px;
     border: none;
   }
-  .logo a {
-    font-size: 30px;
-  }
-  .logo P {
-    color: #fff;
-    font-weight: 400;
-    font-size: 11px;
+  .logo {
+    a {
+      font-size: 30px;
+    }
+    P {
+      color: #fff;
+      font-weight: 400;
+      font-size: 11px;
+    }
   }
   .MenuSec .text-right {
     text-align: left;
@@ -869,41 +908,44 @@
     font-size: 18px;
   }
 }
-
 @media (min-width: 1081px) and (max-width: 1500px) {
-  .DiscusBtnCon h2 {
-    color: #0fa2da;
-    display: inline-block;
-    font-size: 33px;
-    font-weight: 700;
-  }
-  .DiscusBtnCon .DiscusBTn {
-    background: #88ba00 none repeat scroll 0 0;
-    border-radius: 9px;
-    color: #fff;
-    display: block;
-    float: right;
-    font-size: 17px;
-    font-weight: 700;
-    height: auto;
-    margin-left: 7px;
-    overflow: hidden;
-    padding: 15px 43px;
-    position: relative;
-    text-transform: uppercase;
-    width: 246px;
-    z-index: 999;
+  .DiscusBtnCon {
+    h2 {
+      color: #0fa2da;
+      display: inline-block;
+      font-size: 33px;
+      font-weight: 700;
+    }
+    .DiscusBTn {
+      background: #88ba00 none repeat scroll 0 0;
+      border-radius: 9px;
+      color: #fff;
+      display: block;
+      float: right;
+      font-size: 17px;
+      font-weight: 700;
+      height: auto;
+      margin-left: 7px;
+      overflow: hidden;
+      padding: 15px 43px;
+      position: relative;
+      text-transform: uppercase;
+      width: 246px;
+      z-index: 999;
+    }
   }
   .DesignSliderTwo {
     margin-top: 100px;
   }
-  .logo a {
-    font-size: 30px;
-  }
-  .logo P {
-    color: #fff;
-    font-weight: 400;
-    font-size: 11px;
+  .logo {
+    a {
+      font-size: 30px;
+    }
+    P {
+      color: #fff;
+      font-weight: 400;
+      font-size: 11px;
+    }
   }
   .MenuSec .text-right {
     text-align: right;
