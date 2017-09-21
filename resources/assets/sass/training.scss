@@ -30,24 +30,30 @@ margin-bottom: 30px;
     box-shadow: 0px 10px 20px 5px rgba(209, 207, 207, 0.64);
     transition: 0.5s;
 }
-.custom-enroll a {
-	
+.single-course .custom-enroll a {
 	border-radius: 4px;
 	color: #0078ae;
-	font-size: 14px;
-	font-weight: 700;
-	margin-right: 20px;
-	padding: 8px 20px;
+	font-size: 13px;
+	font-weight: 600;
+	padding: 6px 14px;
 	text-transform: capitalize;
 	-webkit-transition: all 500ms ease 0s;
 	transition: all 500ms ease 0s;
     display:inline;
     border: 1px solid#0078ae;
 }
- .custom-enroll p {
+.single-course .custom-enroll p {
+	/* border-radius: 4px; */
+	color: #0078ae;
+	font-size: 12px;
+	/* font-weight: 600; */
+	/* padding: 5px 10px; */
+	/* text-transform: capitalize; */
+	/* -webkit-transition: all 500ms ease 0s; */
+	/* transition: all 500ms ease 0s; */
 	display: inline;
-	padding-left: 43px;
-     font-weight: 500!important;
+	/* border: 1px solid #0078ae; */
+	float: right;
 }
 .border-bottom{
     border-bottom: 1px solid#ddd;
@@ -195,12 +201,13 @@ h4 {
 .single-ms {
     text-align: center;
 }
-.db{
+.custom{
     border: 1px solid #ddd;
    background: #e3f0fa;
     padding: 30px 0px;
    box-shadow: 0px 10px 11px 5px rgba(217, 215, 215, 0.3);
     border-radius: 6px;
+    margin-bottom: 20px;
 }
 .custom{
 

@@ -107,7 +107,6 @@
                     <div class="SingleCmFooter">
                         <h2>Usefull links</h2>
                         <div class="FSerMenu">
-                            <h4><a href="http://www.toptenoftheworld.com/" target="_blank">Top Ten of the World</a></h4>
                             <h4><a href="http://life110volts.com" target="_blank">Life 110Volts</a></h4>
                             <h4><a href="http://matesglobal.com/" target="_blank">Mates Global</a></h4>
                             <h4><a href="https://developers.google.com/speed/pagespeed/insights/" target="_blank"> Google Page Insights</a></h4>
