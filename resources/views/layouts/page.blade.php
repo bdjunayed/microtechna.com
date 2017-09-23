@@ -97,8 +97,10 @@
                         <h2>Our services</h2>
                         <div class="FSerMenu">
                             <h4><a href="{{ url('/web_design') }}">Website Design</a></h4>
+<!--
                             <h4><a href="{{ url('/mobile_app') }}">Mobile App Development</a></h4>
                             <h4><a href="{{ url('/performance_testing') }}">Performance Testing</a></h4>
+-->
                             <h4><a href="{{ url('/web_design') }}">Web App Developments</a></h4>
                         </div>
                     </div>
