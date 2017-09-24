@@ -26,12 +26,12 @@ Route::get('/services', function () {
 Route::get('/web_design', function () {
     return view('web_design');
 });
-Route::get('/mobile_app', function () {
-    return view('mobile_app');
-});
-Route::get('/performance_testing', function () {
-    return view('performance_testing');
-});
+//Route::get('/mobile_app', function () {
+//    return view('mobile_app');
+//});
+//Route::get('/performance_testing', function () {
+//    return view('performance_testing');
+//});
 
 Route::get('/work', function () {
     return view('work');
