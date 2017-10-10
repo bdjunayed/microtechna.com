@@ -3,5 +3,9 @@
     "/css/app.css": "/css/app.css",
     "/css/responsive.css": "/css/responsive.css",
     "/css/style.css": "/css/style.css",
-    "/js/main.js": "/js/main.js"
+    "/js/main.js": "/js/main.js",
+    "/js/jssor.slider-23.0.0.min.js": "/js/jssor.slider-23.0.0.min.js",
+    "/js/owl.carousel.min.js": "/js/owl.carousel.min.js",
+    "/css/owl.carousel.css": "/css/owl.carousel.css",
+    "/css/owl.theme.css": "/css/owl.theme.css"
 }

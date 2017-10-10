@@ -1,18 +1,10 @@
-
-
-
 //@import 'meyer_reset';
 //@import 'boilerplate_main';
 @import 'my_variables';
 @import 'typo';
 @import 'button';
-@import 'susy_custom';
- //@import 'svg-icons';
-
-
-
-
- // Initial
+@import 'susy_custom'; //@import 'svg-icons';
+// Initial
 // -------
 body {
     margin: 0 auto;
@@ -71,57 +63,131 @@ Start your code here
     }
 
 }
-.container-header{
+
+.container-header {
     @include container($width: 100%, $debug: false);
-    padding: 0em 2em;
-    background:gray;
+    padding: 0.5em 1em;
+    background-color: $color-gray-900-darker;
     @media only screen and (min-width: $md) {
         background: #000;
     }
 }
 
+.logo {
+    @include span(last 6);
+    text-align: right;
+    font-size: 18px;
+    padding-top: 7px;
+    a {
+        color: $color-secondary-200;
+    }
+    span {
+        display: none;
+    }
+}
+
 /*============= Bergar Menu ==============*/
-.sidenav {
-    height: 100%;
-    width: 0;
-    position: fixed;
-    z-index: 1;
-    top: 0;
-    left: 0;
-    background-color: $color-primary-700;
-    overflow-x: hidden;
-    transition: 0.5s;
-    padding-top: 60px;
-    ul {
-        li {
-            a {
-                padding: 8px 8px 8px 32px;
-                text-decoration: none;
-                font-size: 16px;
-                color: $color-gray-50-lightest;
-                display: block;
-                transition: 0.3s;
 
-            }
-            a:hover {
-                color: $color-secondary-200;
-                transition: 0.4s;
-                border-left: 4px solid #fff;
+.burger {
+    @include span(6);
+    span {
+        font-size: 28px;
+        font-weight: bolder;
+        color: #EC407A;
+        cursor: pointer;
+    }
+    .sidenav {
+
+        height: 100%;
+        width: 0;
+        position: fixed;
+        z-index: 1;
+        top: 0;
+        left: 0;
+        background-color: $color-gray-900-darker;
+        overflow-x: hidden;
+        transition: 0.5s;
+        padding-top: 60px;
+        ul {
+            li {
+                a {
+                    padding: 8px 8px 8px 32px;
+                    text-decoration: none;
+                    font-size: 16px;
+                    color: $color-gray-50-lightest;
+                    display: block;
+                    transition: 0.3s;
+                    font-weight: 400;
+
+                }
+                a:hover {
+                    color: $color-secondary-400;
+                    transition: 0.4s;
+                    border-left: 4px solid #fff;
 
 
 
-            }
-            a.active {
-               color: $color-secondary-200;
+                }
+                a.active {
+                    color: $color-secondary-400;
 
+                }
             }
         }
+        .closebtn {
+            position: absolute;
+            top: 0;
+            right: 25px;
+            font-size: 28px;
+            margin-left: 50px;
+        }
     }
-    .closebtn {
-        position: absolute;
-        top: 0;
-        right: 25px;
-        font-size: 36px;
-        margin-left: 50px;
+}
+
+/*============  Desktop Menu ==========*/
+
+.Menu {
+    display: none;
+}
+
+/*========== Footer Section ============*/
+
+.container-footer {
+    @include container($width: 100%, $debug: false);
+    background-color: $color-gray-900-darker;
+    padding: 1.6em 1em;
+    @media only screen and (min-width: $md) {
+        background: #000;
     }
+}
+
+.single-footer {
+    p {
+        padding-top: 10px;
+        font-size: 14px;
+        color: darkblue;
+        color: $color-gray-200-light;
+    }
+    a {
+        font-size: 18px;
+        color: $color-secondary-200;
+    }
+    h3 {
+        letter-spacing: 1px;
+        color: $color-gray-200-light;
+        font-weight: 400;
+    }
+    .blank {
+        a {
+            font-size: 14px;
+            color: $color-gray-200-light;
+            display: block;
+            line-height: 27px;
+        }
+    }
+}
+.FserGroup #email {
+	padding: 7px;
+	border-radius: 4px;
+	border: none;
 }

@@ -16,15 +16,15 @@
     <div class="container-header">
         <div class="logo">
             <a href="{{ url('/') }}">MicroTech NA</a>
-            <p>strengthening business performances</p>
+            <span>strengthening business performances</span>
         </div>
         <!-- Bergar menu-->
-        <div class="barger-menu"><span onclick="openNav()"> ☰ 
-             </span>
+        <div class="burger"><span onclick="openNav()"> ☰ 
+            </span>
             <div id="mySidenav" class="sidenav">
                 <span href="javascript:void(0)" class="closebtn" onclick="closeNav()"> ✕         
                 </span>
-                <ul>                    
+                <ul>
                     <li><a href="{{ route('home') }}" class="active">Home</a> </li>
                     <li><a href="http://microtechna.com">About</a></li>
                     <li><a href="http://microtechna.com">Feedback</a></li>
@@ -33,7 +33,7 @@
                     <li><a href="{{ route('register') }}">Register</a></li>
                     @else
 
-                        <a href="{{ route('logout') }}" onclick="event.preventDefault();
+                    <li><a href="{{ route('logout') }}" onclick="event.preventDefault();
                         document.getElementById('logout-form').submit();">Logout</a>
                         <form id="logout-form" action="{{ route('logout') }}" method="POST" style="display: none;"> {{ csrf_field() }} </form>
                     </li>
@@ -91,65 +91,53 @@
     @yield('content')
 
     <!--Footer Start-->
-    <section class="CmFooterSec">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-3 col-sm-3">
-                    <div class="SingleCmFooter">
-                        <div class="logo FLogo">
-                            <a href="{{ url('/home') }}">MicroTech NA</a>
-                            <p>One goal above all others: Highest level of client satisfaction. Our in-house team of web designers and developers are dedicated to building the perfect website for your company on-time and on budget.
-                            </p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-sm-3">
-                    <div class="SingleCmFooter">
-                        <h2>Our services</h2>
-                        <div class="FSerMenu">
-                            <h4><a href="{{ url('/web_design') }}">Website Design</a></h4>
-                            <!--
+    <div class="container-footer">
+        <div class="single-footer">
+            <a href="{{ url('/home') }}">MicroTech NA</a>
+            <p>One goal above all others: Highest level of client satisfaction. Our in-house team of web designers and developers are dedicated to building the perfect website for your company on-time and on budget.
+            </p>
+        </div>
+
+        <div class="single-footer">
+            <h3>Our services</h3>
+            <div class="blank">
+                <a href="{{ url('/web_design') }}">Website Design</a>
+                <!--
                             <h4><a href="{{ url('/mobile_app') }}">Mobile App Development</a></h4>
                             <h4><a href="{{ url('/performance_testing') }}">Performance Testing</a></h4>
 -->
-                            <h4><a href="{{ url('/web_design') }}">Web App Developments</a></h4>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-sm-3">
-                    <div class="SingleCmFooter">
-                        <h2>Usefull links</h2>
-                        <div class="FSerMenu">
-                            <h4><a href="http://life110volts.com" target="_blank">Life 110Volts</a></h4>
-                            <h4><a href="http://matesglobal.com/" target="_blank">Mates Global</a></h4>
-                            <h4><a href="https://developers.google.com/speed/pagespeed/insights/" target="_blank"> Google Page Insights</a></h4>
-                            <h4><a href="http://banglatyping.com" target="_blank">Bangla Software</a></h4>
-                            <h4><a href="https://gsuite.google.com/" target="_blank">Webmail</a></h4>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-sm-3" id="newsletters">
-                    <div class="SingleCmFooter">
-                        <h2>Newsletter</h2>
-
-                        <form method="POST" action="/newsletter" @submit.prevent="onSubmit" @keydown="nl.errors.clear($event.target.name)">
-                            <div class="FSerMenu">
-                                <p>Don’t miss to subscribe to our news feeds, kindly fill the form below. </p>
-                                <div class="FserGroup">
-                                    <input v-model="nl.email" name="email" id="email" type="email">
-                                    <span class="text-warning" v-if="nl.errors.has('email')" v-text="nl.errors.get('email')"></span>
-                                    <button class="btn btn-danger" :disabled="nl.errors.any()">Join!</button>
-                                </div>
-                            </div>
-                        </form>
-
-                    </div>
-                </div>
+                <a href="{{ url('/web_design') }}">Web App Developments</a>
             </div>
         </div>
-    </section>
 
 
+        <div class="single-footer">
+            <h3>Usefull links</h3>
+            <div class="blank">
+                <a href="http://life110volts.com" target="_blank">Life 110Volts</a>
+             <a href="http://matesglobal.com/" target="_blank">Mates Global</a>
+                    <a href="https://developers.google.com/speed/pagespeed/insights/" target="_blank"> Google Page Insights</a>
+                <a href="http://banglatyping.com" target="_blank">Bangla Software</a>
+                <a href="https://gsuite.google.com/" target="_blank">Webmail</a>
+            </div>
+        </div>
+
+        <div class="single-footer">
+            <h3>Newsletter</h3>
+            <form method="POST" action="/newsletter" @submit.prevent="onSubmit" @keydown="nl.errors.clear($event.target.name)">
+                <div class="FSerMenu">
+                    <p>Don’t miss to subscribe to our news feeds, kindly fill the form below. </p>
+                    <div class="FserGroup">
+                        <input v-model="nl.email" name="email" id="email" type="email">
+                        <span class="text-warning" v-if="nl.errors.has('email')" v-text="nl.errors.get('email')"></span>
+                        <button class="btn-custom btn-primary-custom" :disabled="nl.errors.any()">Join!</button>
+                    </div>
+                </div>
+            </form>
+
+        </div>
+
+    </div>
     <footer class="footer">
         <div class="container">
             <div class="row">
@@ -182,7 +170,7 @@
     <script type="text/javascript" src="{{asset('js/vendor.js')}}"></script>--}}
     <script type="text/javascript" src="{{asset('js/jssor.slider-23.0.0.min.js')}}"></script>
     <script type="text/javascript" src="{{asset('js/owl.carousel.min.js')}}"></script>
-        <script>
+    <script>
         function openNav() {
             document.getElementById("mySidenav").style.width = "250px";
         }

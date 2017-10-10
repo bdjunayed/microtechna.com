@@ -1,4 +1,4 @@
-@import url(https://fonts.googleapis.com/css?family=Raleway:300,400,600);/*@import "bootstrap_custom";*/
+@import url(https://fonts.googleapis.com/css?family=Raleway:300,400,600);@import url(https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i);/*@import "bootstrap_custom";*/
 /*  ------------------------------------------
     Colour codes! Indigo - Pinks
     ------------------------------------------  */
@@ -25,7 +25,7 @@ Please follow few examples before the codes.
 /****   Initialize the HTML                        ****/
 html {
   /* Change default typefaces here */
-  font-family: 'Source Sans Pro', 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif;
+  font-family: 'Open+Sans', 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif;
   line-height: 1.4;
   font-size: calc(14px + 0.5vw);
   -webkit-font-smoothing: antialiased;
@@ -35,7 +35,7 @@ html {
 p {
   margin: 0;
   font-size: 1em;
-  line-height: 1.5em;
+  line-height: 1.8em;
   margin-bottom: 1.5em;
 }
 
@@ -60,9 +60,9 @@ a {
 }
 
 h1 {
-  font-size: 1.5em;
-  /* line-height: 4.5rem; */
-  /* margin-top: 3rem; */
+  font-size: 4rem;
+  line-height: 4.5rem;
+  margin-top: 3rem;
   letter-spacing: 1px;
   font-weight: normal;
 }
@@ -74,7 +74,8 @@ h2 {
 }
 
 h3 {
-  font-size: 1rem;
+  font-size: 1.4rem;
+  margin-bottom: 8px;
 }
 
 h4 {
@@ -114,6 +115,30 @@ table td, table th {
 
 @media only screen and (min-width: 62em) {
   /*lg*/
+}
+
+.btn-custom {
+  display: inline-block;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  border: 1px solid transparent;
+  padding: .4rem .6rem;
+  font-size: 0.8rem;
+  line-height: 1.25;
+  border-radius: .25rem;
+  -webkit-transition: all .15s ease-in-out;
+  transition: all .15s ease-in-out;
+  color: #fff;
+  background-color: #007bff;
+  border-color: #007bff;
+  cursor: pointer;
+}
+
+.btn-primary-custom {
+  color: #fff;
+  background-color: #EC407A;
+  border-color: #F48FB1;
 }
 
 * {
@@ -180,8 +205,8 @@ Start your code here
 .container-header {
   margin: 0 auto;
   max-width: 100%;
-  padding: 0em 2em;
-  background: gray;
+  padding: 0.5em 1em;
+  background-color: #212121;
 }
 
 .container-header::after {
@@ -196,22 +221,51 @@ Start your code here
   }
 }
 
+.logo {
+  width: 49.15254237%;
+  float: right;
+  text-align: right;
+  font-size: 18px;
+  padding-top: 7px;
+}
+
+.logo a {
+  color: #F48FB1;
+}
+
+.logo span {
+  display: none;
+}
+
 /*============= Bergar Menu ==============*/
-.sidenav {
+.burger {
+  width: 49.15254237%;
+  float: left;
+  margin-right: 1.69491525%;
+}
+
+.burger span {
+  font-size: 28px;
+  font-weight: bolder;
+  color: #EC407A;
+  cursor: pointer;
+}
+
+.burger .sidenav {
   height: 100%;
   width: 0;
   position: fixed;
   z-index: 1;
   top: 0;
   left: 0;
-  background-color: #303F9F;
+  background-color: #212121;
   overflow-x: hidden;
   -webkit-transition: 0.5s;
   transition: 0.5s;
   padding-top: 60px;
 }
 
-.sidenav ul li a {
+.burger .sidenav ul li a {
   padding: 8px 8px 8px 32px;
   text-decoration: none;
   font-size: 16px;
@@ -219,23 +273,80 @@ Start your code here
   display: block;
   -webkit-transition: 0.3s;
   transition: 0.3s;
+  font-weight: 400;
 }
 
-.sidenav ul li a:hover {
-  color: #F48FB1;
+.burger .sidenav ul li a:hover {
+  color: #EC407A;
   -webkit-transition: 0.4s;
   transition: 0.4s;
   border-left: 4px solid #fff;
 }
 
-.sidenav ul li a.active {
-  color: #F48FB1;
+.burger .sidenav ul li a.active {
+  color: #EC407A;
 }
 
-.sidenav .closebtn {
+.burger .sidenav .closebtn {
   position: absolute;
   top: 0;
   right: 25px;
-  font-size: 36px;
+  font-size: 28px;
   margin-left: 50px;
+}
+
+/*============  Desktop Menu ==========*/
+.Menu {
+  display: none;
+}
+
+/*========== Footer Section ============*/
+.container-footer {
+  margin: 0 auto;
+  max-width: 100%;
+  background-color: #212121;
+  padding: 1.6em 1em;
+}
+
+.container-footer::after {
+  clear: both;
+  content: ' ';
+  display: table;
+}
+
+@media only screen and (min-width: 918px) {
+  .container-footer {
+    background: #000;
+  }
+}
+
+.single-footer p {
+  padding-top: 10px;
+  font-size: 14px;
+  color: darkblue;
+  color: #b2b2b2;
+}
+
+.single-footer a {
+  font-size: 18px;
+  color: #F48FB1;
+}
+
+.single-footer h3 {
+  letter-spacing: 1px;
+  color: #b2b2b2;
+  font-weight: 400;
+}
+
+.single-footer .blank a {
+  font-size: 14px;
+  color: #b2b2b2;
+  display: block;
+  line-height: 27px;
+}
+
+.FserGroup #email {
+  padding: 7px;
+  border-radius: 4px;
+  border: none;
 }

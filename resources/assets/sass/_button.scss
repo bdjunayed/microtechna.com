@@ -1,0 +1,22 @@
+.btn-custom {
+    display: inline-block;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    border: 1px solid transparent;
+    padding: .4rem .6rem;
+   font-size: 0.8rem;
+    line-height: 1.25;
+    border-radius: .25rem;
+    transition: all .15s ease-in-out;
+    color: #fff;
+    background-color: #007bff;
+    border-color: #007bff;
+    cursor: pointer;
+}
+
+.btn-primary-custom {
+    color: #fff;
+    background-color: $color-secondary-400;
+    border-color: $color-secondary-200;
+}
