@@ -1,0 +1,56 @@
+@import '~susy/sass/susy'; // unprefixed for on debug
+@import '~susy/sass/plugins/svg-grid'; 
+
+// Susy settings, Span mixins, Initials, Utilities
+// -------
+//scss default values
+// 4 symmetrical, fluid columns
+// gutters are 1/4 the size of a column
+// elements span 1 less gutter than columns
+// containers span 1 less gutter as well
+$susy: ( 'columns': susy-repeat(12), 'gutters': 0.25, 'spread': 'narrow', //default value
+'container-spread': 'narrow', //default
+); //scss inside-static gutters
+// 6 symmetrical, fluid columns…
+// gutters are static, triggering calc()…
+// elements span equal columns & gutters…
+// containers span equal columns & gutters…
+//$susy: (
+//        'columns': susy-repeat(6),
+//        'gutters': 0.5em,
+//        'spread': 'wide',
+//        'container-spread': 'wide',
+//);
+// box-sizing
+* {
+    box-sizing: border-box;
+} // clearfix
+@mixin clearfix {
+    &::after {
+        clear: both;
+        content: ' ';
+        display: table;
+    }
+} // overall container mixin
+@mixin container( $width: all, $config: $susy, $debug: false) {
+    $config: susy-settings($config);
+    $container-spread: map-get($config, 'container-spread');
+    $width: span($width $container-spread of $container-spread, $config);
+    @include clearfix;
+    margin: 0 auto;
+    max-width: $width or 100%;
+    @if $debug {
+        background: susy-svg-grid($grid: $config) no-repeat scroll;
+    }
+} // Span Mixin
+// ----------
+@mixin span( $span, $config: $susy) {
+    width: span($span, $config);
+    @if index($span, 'last') {
+        float: right; // margin-right: 0; if you want an explicit reset
+    }
+    @else {
+        float: left;
+        margin-right: gutter();
+    }
+}

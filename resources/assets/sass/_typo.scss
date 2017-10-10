@@ -1,0 +1,166 @@
+/* Typography Basic codes in SCSS
+Instruction: Paste the code in you typo.scss file, and ready to work
+Additional code from the web:
+http://topfunky.com/baseline-rhythm-calculator/
+http://pxtoem.com/
+
+Please follow few examples before the codes.
+*/
+//
+///*Example 1: Import url to your fonts(optional). */
+//@font-face{
+//  font-family: 'Source Sans Pro';
+//  scr:url('SourceSansPro.eot');
+//}
+//
+//p {font-family: Arial, sans-serif;}
+//
+///*font will downloaded if media call it*/
+//@media only screen and (min-width: 30em) {
+//  p {font-family: 'Source Sans Pro', Arial, sans-serif;}
+//}
+//
+///*Example 2: Line-Height*/
+//p{line-height: 1.3;}
+//@media only screen and (min-width: 30em) {
+//  p{line-height: 1.4;}}
+//@media only screen and (min-width: 60em) {
+//  p{line-height: 1.5;}}
+///**/
+//
+///*Example 3: Vertical margine*/
+//p {
+//  line-height: 1.5;
+//  margin-top: 1.5em;
+//  margin-bottom: 1.5em;
+//}
+//
+///* Line length 45-75 characters is good for reading.
+//
+///* Example 4: Increased the sizes*/
+//
+//article {
+//  width: 95%;
+//  margin: auto;
+//}
+//article p {
+//  line-height: 1.3;
+//  margin: 1.3em 0;
+//}
+///* size increased*/
+//@media only srcren and (min-width: 48em) {
+//  article { font-size: 1.1em;}
+//  article p {line-height: 1.4;
+//    margin: 1.4em auto;}
+//}
+//@media only srcren and (min-width: 60em) {
+//  article { font-size: 1.2em;}
+//  article p {line-height: 1.5;
+//    margin: 1.5em auto;}
+//}
+//
+///* Example 5:  changed font with size */
+//#intro {
+//  font-size: 1em;
+//  font-family: Helvetica, sans-serif;
+//}
+//@media only srcren and (min-width: 30em) {
+//  #intro {
+//    font-size: 1.2em;
+//    font-family: Populaire, sans-serif;
+//    text-transform: uppercase;
+//  }
+//}
+
+/******************************************************/
+/*         Typo code starts from here                 */
+/*                                                    */
+/*  web:   https://codepen.io/bdjunayed/pen/veZLEy    */
+/*                                                    */
+/*  Generate for diffrents font-size with line-height */
+/*  http://topfunky.com/baseline-rhythm-calculator/   */
+/*  css to scss: http://css2sass.herokuapp.com/       */
+/******************************************************/
+
+/****   Initialize the HTML                        ****/
+html {
+  /* Change default typefaces here */
+  font-family: 'Source Sans Pro', 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif;
+  line-height: 1.4;
+  font-size: calc(14px + 0.5vw);
+  //font-size: 100%;
+  -webkit-font-smoothing: antialiased;
+}
+
+/****font-size:16, line-height: 1.4rem ****************/
+p {
+  margin: 0;
+  font-size: 1em;
+  line-height: 1.5em;
+  margin-bottom: 1.5em;
+}
+
+ul, ol {
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+
+ul li, ol li {
+  line-height: 1.5rem;
+}
+
+ul ul, ol ul, ul ol, ol ol {
+  margin: 0;
+  font-size: 1em;
+  line-height: 1.5em;
+  margin-bottom: 1.5em;
+}
+a{
+    text-decoration: none;
+}
+h1 {
+	font-size: 1.5em;
+	/* line-height: 4.5rem; */
+	/* margin-top: 3rem; */
+	letter-spacing: 1px;
+	font-weight: normal;
+}
+
+h2 {
+  font-size: 2.828rem;
+  line-height: 3rem;
+  margin-top: 3rem;
+}
+
+h3 {
+  font-size: 1rem;
+}
+
+h4 {
+  font-size: 0.8rem;
+  line-height:30px;
+}
+
+h5 {
+  font-size: 0.4713333333333333rem;
+}
+
+h6 {
+  font-size: 0.3535rem;
+}
+
+/* Tables */
+table {
+  margin-top: 1.5rem;
+  margin-bottom: 1.5em;
+  border-spacing: 0px;
+  border-collapse: collapse;
+  td, th {
+    padding: 0;
+    line-height: 33px;
+  }
+}
+/****font-size:16, line-height: 1.4rem ****************/
+@media only screen and (min-width: 30em) {/*sm*/}
+@media only screen and (min-width: 48em) {/*md*/}
+@media only screen and (min-width: 62em) {/*lg*/}

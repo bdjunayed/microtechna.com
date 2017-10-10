@@ -26,13 +26,13 @@ mix.sass('resources/assets/sass/app.scss', 'public/css')
 
 
 mix.copyDirectory('resources/assets/images', 'public/images');
-mix.copyDirectory('node_modules/font-awesome-sass/assets/fonts/font-awesome', 'public/fonts/font-awesome');
+//mix.copyDirectory('node_modules/font-awesome-sass/assets/fonts/font-awesome', 'public/fonts/font-awesome');
 
-mix.copy('resources/assets/js/jssor.slider-23.0.0.min.js', 'public/js/jssor.slider-23.0.0.min.js');
-mix.copy('resources/assets/js/owl.carousel.min.js', 'public/js/owl.carousel.min.js');
+//mix.copy('resources/assets/js/jssor.slider-23.0.0.min.js', 'public/js/jssor.slider-23.0.0.min.js');
+//mix.copy('resources/assets/js/owl.carousel.min.js', 'public/js/owl.carousel.min.js');
 
-mix.copy('resources/assets/css/owl.carousel.css', 'public/css/owl.carousel.css');
-mix.copy('resources/assets/css/owl.theme.css', 'public/css/owl.theme.css');
+//mix.copy('resources/assets/css/owl.carousel.css', 'public/css/owl.carousel.css');
+//mix.copy('resources/assets/css/owl.theme.css', 'public/css/owl.theme.css');
 /*mix.copy('resources/assets/css/responsive.css', 'public/css/responsive.css');*/
 
 

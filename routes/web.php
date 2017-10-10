@@ -56,3 +56,8 @@ Route::post('/newsletter', 'NewslettersController@store');
 Route::get('training', function () {
     return view('training');
 });
+
+////
+Auth::routes();
+
+Route::get('/home', 'HomeController@index')->name('home');
