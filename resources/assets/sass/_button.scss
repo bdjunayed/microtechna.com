@@ -5,18 +5,126 @@
     vertical-align: middle;
     border: 1px solid transparent;
     padding: .4rem .6rem;
-   font-size: 0.8rem;
+    font-size: 0.8rem;
     line-height: 1.25;
     border-radius: .25rem;
     transition: all .15s ease-in-out;
-    color: #fff;
-    background-color: #007bff;
-    border-color: #007bff;
+    color: $primary-color-text;
+    background-color: $accent-color;
     cursor: pointer;
+    &,
+    &:active,
+    &.active {
+        &:focus,
+        &.focus {
+            outline: 5px auto -webkit-focus-ring-color;
+            outline-offset: -2px;
+        }
+    }
+
+    &:hover,
+    &:focus,
+    &.focus {
+        color: $primary-color-text;
+        text-decoration: none;
+    }
+
+    &:active,
+    &.active {
+        outline: 0;
+        background-image: none;
+        box-shadow: 0 3px 5px rgba(0, 0, 0, .125);
+    }
+
+    &.disabled,
+    &[disabled],
+    fieldset[disabled] & {
+        cursor: not-allowed;
+        opacity: .65;
+        box-shadow: none;
+    }
 }
 
+
 .btn-primary-custom {
-    color: #fff;
-    background-color: $color-secondary-400;
-    border-color: $color-secondary-200;
+    color: $primary-color-text;
+    background-color: $accent-color;
+    ;
+
+}
+
+// Alternate buttons
+// --------------------------------------------------
+
+.btn-default {
+}
+.btn-primary {
+}
+// Success appears as green
+.btn-success {
+}
+// Info appears as blue-green
+.btn-info {
+}
+// Warning appears as orange
+.btn-warning {
+}
+// Danger and error appear as red
+.btn-danger {
+}
+
+
+/*
+
+// Button sizes
+@mixin button-size($padding-vertical, $padding-horizontal, $font-size, $line-height, $border-radius) {
+  padding: $padding-vertical $padding-horizontal;
+  font-size: $font-size;
+  line-height: $line-height;
+  border-radius: $border-radius;
+}
+*/
+/*============ Code for Input Form ============*/
+
+.input-group {
+    margin-top: 4px;
+    .label-custom {
+        display: inline-block;
+        margin-bottom: .5rem;
+        width: 86px;
+        font-size: 15px;
+        text-align: right;
+    }
+    .input-custom {
+        width: 50%;
+        font-size: 0.8em;
+        line-height: 1.25;
+        color: #495057;
+        background: #fff;
+        background-image:#fff;
+        background-clip: padding-box;
+        border: 1px solid rgba(0, 0, 0, .15);
+        transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+        border-bottom: 0px solid gray;
+        border-top: 0px;
+        border-left: 0px;
+        border-right: 0px;
+        font-weight: normal;
+        padding: .6em .6em;
+        margin: 8px 0px;
+        border-radius: 4px;
+
+    }
+    .error-text {
+        font-size: .6em;
+        display: inline-block;
+        color: mediumvioletred;
+    }
+
+
+}
+
+.input-group a {
+    font-size: 14px;
+    color: gray;
 }

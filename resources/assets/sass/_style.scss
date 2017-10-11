@@ -10,6 +10,7 @@ body {
     margin: 0 auto;
     color: $color-gray-700-dark;
     background: $color-gray-50-lightest;
+
 }
 
 nav,
@@ -67,10 +68,10 @@ Start your code here
 .container-header {
     @include container($width: 100%, $debug: false);
     padding: 0.5em 1em;
-    background-color: $color-gray-900-darker;
-    @media only screen and (min-width: $md) {
-        background: #000;
-    }
+    border-top: 5px solid$primary-color-dark;
+    background: $primary-color;
+    width: 100%;
+
 }
 
 .logo {
@@ -79,7 +80,11 @@ Start your code here
     font-size: 18px;
     padding-top: 7px;
     a {
-        color: $color-secondary-200;
+        color: $primary-color-text;
+    }
+    a:hover {
+        color: $accent-color;
+        transition: 0.4s;
     }
     span {
         display: none;
@@ -93,8 +98,12 @@ Start your code here
     span {
         font-size: 28px;
         font-weight: bolder;
-        color: #EC407A;
+        color: $primary-color-text;
         cursor: pointer;
+    }
+    span:hover {
+        color: $accent-color;
+        transition: 0.4s;
     }
     .sidenav {
 
@@ -104,7 +113,7 @@ Start your code here
         z-index: 1;
         top: 0;
         left: 0;
-        background-color: $color-gray-900-darker;
+        background-color: $primary-color-dark;
         overflow-x: hidden;
         transition: 0.5s;
         padding-top: 60px;
@@ -114,22 +123,22 @@ Start your code here
                     padding: 8px 8px 8px 32px;
                     text-decoration: none;
                     font-size: 16px;
-                    color: $color-gray-50-lightest;
+                    color: $primary-color-text;
                     display: block;
                     transition: 0.3s;
                     font-weight: 400;
 
                 }
                 a:hover {
-                    color: $color-secondary-400;
+                    color: $accent-color;
                     transition: 0.4s;
-                    border-left: 4px solid #fff;
+                    border-left: 4px solid $accent-color;
 
 
 
                 }
                 a.active {
-                    color: $color-secondary-400;
+                    color: $accent-color;
 
                 }
             }
@@ -141,6 +150,10 @@ Start your code here
             font-size: 28px;
             margin-left: 50px;
         }
+        .closebtn:hover {
+            color: $accent-color;
+            transition: 0.4s;
+        }
     }
 }
 
@@ -150,44 +163,110 @@ Start your code here
     display: none;
 }
 
+/*========== Training ==================*/
+
+.banner-training {
+    text-align: center;
+    position: relative;
+    padding: 30px 0px;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-image: url('../images/training.jpg');
+    .title {
+        font-size: 18px;
+        font-weight: 400;
+        color: $primary-color-text;
+    }
+    .subtitle {
+        font-size: 16px;
+        color: $primary-color-text;
+        line-height: 40px;
+    }
+    .overlay {
+        width: 100%;
+        height: 100%;
+        background: rgba(0, 0, 0, 0.35);
+        position: absolute;
+        left: 0;
+        top: 0;
+        z-index: 1;
+    }
+}
+
 /*========== Footer Section ============*/
 
 .container-footer {
     @include container($width: 100%, $debug: false);
-    background-color: $color-gray-900-darker;
+    background-color: $primary-color;
     padding: 1.6em 1em;
-    @media only screen and (min-width: $md) {
-        background: #000;
-    }
 }
 
+
 .single-footer {
+    margin-top: 30px;
+    margin-bottom: 30px;
+
     p {
-        padding-top: 10px;
+        padding-top: 7px;
         font-size: 14px;
         color: darkblue;
-        color: $color-gray-200-light;
+        color: $primary-color-text;
     }
     a {
         font-size: 18px;
-        color: $color-secondary-200;
+        color: $primary-color-text;
     }
     h3 {
+        margin-top: 0px;
         letter-spacing: 1px;
-        color: $color-gray-200-light;
+        color: $primary-color-text;
         font-weight: 400;
     }
     .blank {
         a {
             font-size: 14px;
-            color: $color-gray-200-light;
+            color: $primary-color-text;
             display: block;
             line-height: 27px;
         }
     }
+
 }
-.FserGroup #email {
-	padding: 7px;
-	border-radius: 4px;
-	border: none;
+
+.newslatter-custom {
+    background: $primary-color-light;
+    padding: 16px;
+    border-radius: 4px;
+    color: $primary-text-color;
+    .blank #email {
+        padding: 7px;
+        border-radius: 4px;
+        border: none;
+        margin: 20px 5px 0px 0px;
+    }
+    h3 {
+        color: $primary-text-color;
+    }
+    p {
+        color: $primary-text-color;
+    }
+}
+
+.container-bootom-footer {
+    @include container($width: 100%, $debug: false);
+    text-align: center;
+    background-color: $primary-color-dark;
+    padding: 1.6em 1em;
+}
+
+.copyright {
+    font-size: 13px;
+    p {
+        color: $primary-color-text;
+        a {
+            color: $accent-color;
+        }
+    }
+
 }

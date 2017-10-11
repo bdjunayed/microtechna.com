@@ -115,61 +115,47 @@
             <h3>Usefull links</h3>
             <div class="blank">
                 <a href="http://life110volts.com" target="_blank">Life 110Volts</a>
-             <a href="http://matesglobal.com/" target="_blank">Mates Global</a>
-                    <a href="https://developers.google.com/speed/pagespeed/insights/" target="_blank"> Google Page Insights</a>
+                <a href="http://matesglobal.com/" target="_blank">Mates Global</a>
+                <a href="https://developers.google.com/speed/pagespeed/insights/" target="_blank"> Google Page Insights</a>
                 <a href="http://banglatyping.com" target="_blank">Bangla Software</a>
                 <a href="https://gsuite.google.com/" target="_blank">Webmail</a>
             </div>
         </div>
 
-        <div class="single-footer">
+        <div class="single-footer newslatter-custom">
             <h3>Newsletter</h3>
             <form method="POST" action="/newsletter" @submit.prevent="onSubmit" @keydown="nl.errors.clear($event.target.name)">
-                <div class="FSerMenu">
+                <div class="blank">
                     <p>Don’t miss to subscribe to our news feeds, kindly fill the form below. </p>
-                    <div class="FserGroup">
-                        <input v-model="nl.email" name="email" id="email" type="email">
-                        <span class="text-warning" v-if="nl.errors.has('email')" v-text="nl.errors.get('email')"></span>
+                    <div class="input-group">
+                        <input v-model="nl.email" class="input-custom" name="email" id="email" type="email">
+                   
                         <button class="btn-custom btn-primary-custom" :disabled="nl.errors.any()">Join!</button>
+                             <span class="error-text" v-if="nl.errors.has('email')" v-text="nl.errors.get('email')">This is error message </span>
                     </div>
                 </div>
             </form>
 
         </div>
-
     </div>
-    <footer class="footer">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-7">
-                    <div class="footerwedget">
-                        <p>Made With <i class="fa fa-heart" style="color:#E91E63;"></i> by <a href="http://Microtechna.com" target="_blank">APMS</a></p>
-                        <p>&copy; 2017 <a href="{{ url('/') }}">MicroTech NA Inc.</a> All Rights Reserved.</p>
-                    </div>
-                </div>
-                <div class="col-lg-5">
-                    <div class="footerIcon text-right">
-                        <a href="https://www.facebook.com/microtechna/" class="face" target="_blank"><i class="fa fa-facebook"></i></a>
-                        <a href="https://twitter.com/@MicroTechSky" class="twi" target="_blank"><i class="fa fa-twitter"></i></a>
-                        <a href="https://plus.google.com/b/103441871439982130127/103441871439982130127?hl=en" class="goo" target="_blank"><i class="fa fa-google"></i></a>
-                        <a href="https://www.youtube.com/channel/UCSkG14BOJK3j0tYOFWK8O8w" class="lin" target="_blank"><i class="fa fa-youtube"></i></a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </footer>
-    <!--Footer End-->
-    <a href="#" class="BackTo">
-        <i class="fa fa-angle-up" aria-hidden="true"></i>
-    </a>
-    <script type="text/javascript" src="{{asset('js/app.js')}}"></script>
-    <script type="text/javascript" src="{{asset('js/main.js')}}"></script>
 
-    {{--
-    <script type="text/javascript" src="{{asset('js/manifest.js')}}"></script>--}} {{--
-    <script type="text/javascript" src="{{asset('js/vendor.js')}}"></script>--}}
-    <script type="text/javascript" src="{{asset('js/jssor.slider-23.0.0.min.js')}}"></script>
-    <script type="text/javascript" src="{{asset('js/owl.carousel.min.js')}}"></script>
+    <!--Footer End-->
+    <div class="container-bootom-footer">
+        <div class="copyright">
+            <p>Made With ❤️ by <a href="http://Microtechna.com" target="_blank">APMS</a></p>
+            <p>&copy; 2017 <a href="{{ url('/') }}">MicroTech NA Inc.</a> All Rights Reserved.</p>
+        </div>
+        <div class="socials">
+            <a href="https://www.facebook.com/microtechna/" class="face" target="_blank">🌏</a>
+            <a href="https://twitter.com/@MicroTechSky" class="twi" target="_blank">🌏</a>
+            <a href="https://plus.google.com/b/103441871439982130127/103441871439982130127?hl=en" class="goo" target="_blank">🌏</a>
+            <a href="https://www.youtube.com/channel/UCSkG14BOJK3j0tYOFWK8O8w" class="lin" target="_blank">🌏</a>
+        </div>
+    </div>
+
+    <a href="#" class="BackTo">🌏</a>
+    <script type="text/javascript" src="{{asset('js/app.js')}}"></script>
+
     <script>
         function openNav() {
             document.getElementById("mySidenav").style.width = "250px";
