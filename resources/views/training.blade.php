@@ -1,15 +1,15 @@
 @extends('layouts.page') @section('content')
 <section class="banner-training">
     <div class="image-overlay"></div>
-    <div class="title">Software Testing, DBA, CCNA</div>
+<!--    <div class="title">Software Testing, DBA, CCNA</div>
     <div class="subtitle">Training</div>
-    <a href="{{ url('/work_with_us') }}" class="btn-custom btn-primary-custom ">Contact us</a>
+    <a href="{{ url('/work_with_us') }}" class="btn-custom btn-primary-custom ">Contact us</a>-->
 
 </section>
 <div class="container-training">
     <div class="tr-heading ">
         <h1>অভিজ্ঞ আমেরিকান আইটি প্রফেশনাল দ্বারা পরিচালিত বাংলাদেশে এই প্রথম ও একমাত্র ব্যতিক্রমধর্মী ট্রেনিং সেন্টার</h1>
-        <p><span>MicroTech</span></p>
+        <p><span>MicroTech NA</span></p>
     </div>
 
     <div class="tr-content">
@@ -31,7 +31,7 @@
             </div>
         </div>
     </div>
-
+  <div class="cfx"></div>
     <!-- About course start here-->
 
     <div class="about-course-area">
@@ -159,21 +159,14 @@
 <div class="contact-us">
     <h2 class="text-center">বিস্তারিত জানতে কল করুন আমাদের নিউ ইউর্ক অথবা ঢাকা সেন্টার এ </h2>
     <div class="single-content">
-        <h3>USA Corporate Office </h3>
+        <h3>USA Corporate Office</h3>
         <p>167-17, Hillside Ave, 2FL</p>
         <p>Jamaica, NY 11432</p>
         <p><b>Call, Text, Voice message:</b></p>
-        <p> 929.200.0604</p>
+        <p>929.200.0604</p>
         <p>917.257.4204</p>
         <p>917.826.6741</p>
     </div>
-
-    <div class="single-content">
-       <a href="#">MicroTech NA</a>
-        <p>Call for clarifiaction</p>
-        <h3>1.888.612.7778</h3>
-    </div>
-
 
     <div class="single-content">
         <h3>Dhaka Branch Office </h3>
@@ -186,10 +179,16 @@
             <p>017.1056.3784</p>
         </div>
     </div>
-    <div class="training-form">
-        <script type="text/javascript" src="https://form.jotform.me/jsform/72484192474463"></script>
+    
+    <div class="single-content last-column">
+        <a href="#">MicroTech NA</a>
+        <p>Call for clarifiaction</p>
+        <h3>1.888.612.7778</h3>
     </div>
 
 </div>
-
+    
+    <div class="training-form">
+        <script type="text/javascript" src="https://form.jotform.me/jsform/72484192474463"></script>
+    </div>
 <!--.Contact-us-area-->@endsection

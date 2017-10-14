@@ -8,8 +8,10 @@
 // gutters are 1/4 the size of a column
 // elements span 1 less gutter than columns
 // containers span 1 less gutter as well
-$susy: ( 'columns': susy-repeat(12), 'gutters': 0.25, 'spread': 'narrow', //default value
-'container-spread': 'narrow', //default
+$susy: ( 'columns': susy-repeat(12), 
+    'gutters': .25, 
+    'spread': 'narrow', //default value narrow
+    'container-spread': 'narrow', //default
 ); //scss inside-static gutters
 // 6 symmetrical, fluid columns…
 // gutters are static, triggering calc()…
