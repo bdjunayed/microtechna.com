@@ -65,18 +65,19 @@ Start your code here
 
 }
 
-.container-header{
+.container-header {
     @include container($width: 100%, $debug: false);
-    padding: 0.5em 1em;
+    @media only screen and (min-width: $md) {
+      padding: .6em 4em;   
+    }
+    padding: .6em 1em;
+    height: 60px;
     position: absolute;
     top: 0px;
     left: 0px;
     right: 0px;
-    z-index: 2;
-    background: $accent-color;
-    opacity: 0.8;
+    z-index: 999;
 
-    /*background: $primary-color;*/
 }
 
 .logo {
@@ -90,8 +91,21 @@ Start your code here
     @media only screen and (min-width: $lg) {
         @include span(3);
         text-align: left;
+        padding-top: 2px;
+        a {
+            text-align: left;
+            font-size: 20px;
+            font-family: sans-serif;
+            font-weight: 500;
+            font-style: italic;
+            border: 1px solid$accent-color;
+            padding: 8px 12px;
+            box-shadow: 0px 2px 10px 0px gray;
+            border-radius: 4px;
+            background-color: transparent;
+        }
     }
-    
+
     @include span(last 6);
     text-align: right;
     font-family: cursive;
@@ -101,7 +115,7 @@ Start your code here
         color: $primary-color-text;
     }
     a:hover {
-        color: $accent-color;
+        /*color: $accent-color;*/
         transition: 0.4s;
     }
     span {
@@ -138,6 +152,7 @@ Start your code here
         overflow-x: hidden;
         transition: 0.5s;
         padding-top: 60px;
+        opacity: .95;
         ul {
             li {
                 a {
@@ -185,78 +200,115 @@ Start your code here
         display: block;
         @include span(12)
     }
-        @media only screen and (min-width: $lg) {
-        @include span(6);
-        text-align: left;
+    @media only screen and (min-width: $lg) {
+        @include span(7);
     }
-    
     margin-top: 10px;
     display: none;
-    ul {
-        padding: 0;
-        margin: 0;
-        overflow: hidden;
-        text-align: center;
-        li {
-            position: relative;
-            display: inline-block;
-            .Submenu {
-                position: absolute;
-                top: 0px;
-                text-align: left;
-                left: 30px;
-                right: 0;
-                background: #ddd;
-                opacity: 0;
-                visibility: hidden;
-                transition: .4s;
-                width: 200px;
-                height: 300px;
-                li {
-                    display: block;
-                    a {
-                        color: aquamarine;
-                        font-size: 13px;
-                    }
-                }
-            }
-            a {
-                display: block;
-                color: #fff;
-                padding: 5px 10px;
-                font-size: 18px;
-                font-weight: 400;
-            }
-            a:hover {
-                color: $accent-color;
-                transition: 0.4s;
-            }
-            a.active {
-                color: $accent-color;
-            }
+}
+.Menu ul {
+    text-align: center;
+    li {
+        position: relative;
+        display: inline-block;
 
+        margin: 0px;
+        a {
+            display: block;
+            color: #eef5f2;
+            font-size: 14px;
+            font-weight: 500;
+            text-shadow: 2px;
+            margin: 0px;
+            padding: 4px 8px;
+            text-transform: uppercase;
 
         }
-        li:hover .Submenu {
+        a:hover {
+            padding-bottom: -10px;
+            color: #05766b;
+            transition: 0.5s;
+            border-bottom: 1px solid#05766b;
+
+        }
+        a.active {
+            color: #05766b;
+
+        }
+
+        ul {
+            left: 0;
+            text-align: left;
+            position: absolute;
+            top: 80px;
+            width: 200px;
+            background: #eef5f2;
+            z-index: 999;
+            opacity: 0;
+            visibility: hidden;
+            z-index: -1;
+            transition: .4s;
+            padding-top: 10px;
+            padding-bottom: 10px;
+            li {
+                display: block;
+                a {
+                    color: #605d5d;
+                    font-size: 14px;
+                    font-weight: 500;
+                    padding: 4px 10px;
+                    padding-left: 10px;
+                    text-transform: capitalize;
+                }
+                a:hover {
+                    margin-left: 6px;
+                    color: #05766b;
+                    border-bottom: 0px solid#05766b;
+                }
+            }
+        }
+        &:hover ul {
             opacity: 1;
             visibility: visible;
             z-index: 999;
-            top: 0px;
+            top: 50px;
         }
     }
+
 }
+
 /*========== Social Icons ==============*/
-.socail{
-    @media only screen and (min-width:$lg){
+
+.socail {
+    @media only screen and (min-width: $lg) {
+        @include span(last 2)
         display: block;
+        text-align: right;
+        padding-top: 14px;
+         
+
     }
     display: none;
 }
+
 /*========== Training ==================*/
 
 .container-training {
     @include container($width: 100%, $debug: false);
     padding: 0.5em 1em;
+    @media only screen and (min-width: $lg) {
+      padding: 0.5em 4em;  
+    }
+
+}
+
+.training-details-section {
+    @include container($width: 100%, $debug: false);
+    padding: 0.5em 1em;
+        @media only screen and (min-width: $lg) {
+      padding: 0.5em 4em;  
+    }
+
 }
 
 .banner-training {
@@ -286,6 +338,7 @@ Start your code here
         background: rgba(0, 0, 0, 0.7);
         position: absolute;
         left: 0;
+        padding: 138px 0px;
 
     }
 }
@@ -294,8 +347,9 @@ Start your code here
 
 .tr-heading {
     @media only screen and (min-width: $md) {
+        
         h1 {
-            font-size: 20px!important;
+            font-size: 22px!important;
 
         }
     }
@@ -303,7 +357,7 @@ Start your code here
 
     h1 {
         font-size: 20px;
-        margin-top: 2em;
+      margin-top: 2em;
         line-height: 2em;
     }
     span {
@@ -315,74 +369,93 @@ Start your code here
     }
 }
 
-.heading {
-    /*    @media only screen and (min-width: $md){
-        @include span(6);
-    }*/
-    h2 {
-        height: auto;
-        background: #e3f0fa;
-        box-shadow: 0px 6px 10px 0px rgba(209, 207, 207, 0.64);
-        line-height: 36px;
-        width: 100%;
-        font-size: 17px;
-        padding: 15px;
-        border: 8px solid $primary-color-light;
-        margin: 25px 0px;
-        border-radius: 4px;
+.tr-content {
+    @media only screen and (min-width: $lg) {
+        margin-top: 30px;
     }
-}
+    @include span(12);
 
-.example {
-    position: relative;
-    border-radius: 5px;
-
-    .md-ali {
-        @media only screen and (min-width: $md) {
-            @include span(6 narrow);
-
-        }
-        img {
-            @media only screen and (min-width: $md) {
-                width: 104%;
-                border-radius: 0px;
+    .heading {
+        @media only screen and (min-width: $lg) {
+            @include span(4);
+            h2 {
+                margin: 0px;
+                height: 455px !important;
+                line-height: 50px !important;
+                padding: 40px!important;
+                font-size: 20px!important;
+                border-radius: 0px!important;
             }
+        }
+        h2 {
             height: auto;
+            background: #e3f0fa;
+            box-shadow: 0px 6px 10px 0px rgba(209, 207, 207, 0.64);
+            line-height: 36px;
             width: 100%;
-            border-radius: 5px 5px 0px 0px;
+            font-size: 17px;
+            padding: 15px;
+            border: 8px solid $primary-color-light;
+            border-radius: 4px;
+
         }
     }
-    h4 {
-        font-size: 17px;
-        line-height: 30px;
-        margin-top: 5px;
-        padding: 12px 14px;
+    .main-example {
+        @media only screen and (min-width: $lg) {
+            @include span(last 8 narrow);
+
+        }
     }
-    .example-text {
-        background: #c2e1f5;
-        @media only screen and (min-width: $md) {
-            @include span(last 6 narrow);
-            padding: 107px 9px;
-            margin: 0px;
-            p {
-                line-height: 46px;
+    .example {
+        position: relative;
+        border-radius: 5px;
+
+        .md-ali {
+            @media only screen and (min-width: $md) {
+                @include span(6 narrow);
+
+            }
+            img {
+                @media only screen and (min-width: $md) {
+                    width: 106%;
+                    height: 352px;
+                    border-radius: 0px;
+                }
+
+                height: auto;
+                width: 100%;
+                border-radius: 5px 5px 0px 0px;
             }
         }
-
-        p {
-            font-size: 13px;
-            font-style: italic;
+        h4 {
+            font-size: 17px;
             line-height: 30px;
-            padding: 20px 13px;
+            margin-top: 5px;
+            padding: 12px 14px;
+        }
+        .example-text {
+            position: relative;
+            width: 100%;
+            background: #c2e1f5;
+            @media only screen and (min-width: $md) {
+                @include span(last 6 narrow);
+                height: 352px;
+                margin: 0px;
+
+                line-height: 51px;
+                padding: 56px;
+
+            }
+            p {
+                font-size: 13px;
+                font-style: italic;
+                line-height: 30px;
+                padding: 20px 13px;
+            }
+
         }
 
     }
-
-}
-
-.example-text {
-    position: relative;
-    background: #88b7d5;
 }
 
 .example-text:after,
@@ -391,7 +464,7 @@ Start your code here
         display: block;
     }
     right: 100%;
-    top: 50%;
+    top: 30%;
     border: solid transparent;
     content: " ";
     height: 0;
@@ -419,6 +492,7 @@ Start your code here
     @media only screen and (min-width: $md) {
         @include span(all);
     }
+
     background: #e3f0fa;
     padding: 5px 14px;
     margin-top: 15px;
@@ -438,6 +512,7 @@ Start your code here
     padding-bottom: 30px;
     h2 {
         text-align: center;
+        
         font-size: 16px;
         font-weight: 600;
         color: $accent-color;
@@ -514,6 +589,7 @@ Start your code here
     border-radius: 100%;
     height: 36%;
 }
+
 //Need to fix with the nth child
 @media only screen and (min-width: $md) {
     .custom:nth-child(2n + 1) {
@@ -526,9 +602,12 @@ Start your code here
 
 .training-section {
     @include container($width: 100%, $debug: true);
+        @media only screen and (min-width: $lg) {
+      padding: 0.5em 4em;  
+    }
     padding: 0.5em 1em;
     padding-bottom: 30px;
-    padding-top: 30px;
+    margin-top:30px;
     background: #eef2f5;
     .border-bottom {
         border-bottom: 1px solid #ddd;
@@ -540,6 +619,10 @@ Start your code here
     .single-course {
         @media only screen and (min-width: $md) {
             @include span(6);
+
+        }
+        @media only screen and (min-width: $lg) {
+            @include span(4);
 
         }
         text-align: justify;
@@ -584,11 +667,19 @@ Start your code here
     }
 
 }
+
 //Need to fix with the nth child
 @media only screen and (min-width: $md) {
     .single-course:nth-child(2n + 1) {
         @include span(last 6);
         margin-right: 0px;
+    }
+}
+@media only screen and (min-width: $lg) {
+    .single-course:nth-child(2n+1) {
+        @include span(last 4);
+        margin-right: 0px;
+    
     }
 }
 
@@ -625,6 +716,7 @@ Start your code here
 
     }
 }
+
 //Need to fix with the nth child
 @media only screen and (min-width: $md) {
     .single-content:nth-child(3) {
@@ -705,13 +797,15 @@ Start your code here
     }
 
 }
+
 //Need to fix with the nth child
- @media only screen and (min-width: $md) {
-     .single-footer:nth-child(2n + 1) {
-    @include span(6);
-    margin: 0px;
+@media only screen and (min-width: $md) {
+    .single-footer:nth-child(2n + 1) {
+        @include span(6);
+        margin: 0px;
+    }
 }
-}
+
 .newslatter-custom {
     background: $primary-color-light;
     padding: 16px;

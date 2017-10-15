@@ -1,17 +1,17 @@
 @extends('layouts.page') @section('content')
 <section class="banner-training">
-    <div class="image-overlay"></div>
-<!--    <div class="title">Software Testing, DBA, CCNA</div>
+    <div class="image-overlay">
+    <div class="title">Software Testing, DBA, CCNA</div>
     <div class="subtitle">Training</div>
-    <a href="{{ url('/work_with_us') }}" class="btn-custom btn-primary-custom ">Contact us</a>-->
-
+    <a href="{{ url('/work_with_us') }}" class="btn-custom btn-primary-custom ">Contact us</a>
+    </div>
 </section>
+<div class="cfx"></div>
 <div class="container-training">
     <div class="tr-heading ">
         <h1>অভিজ্ঞ আমেরিকান আইটি প্রফেশনাল দ্বারা পরিচালিত বাংলাদেশে এই প্রথম ও একমাত্র ব্যতিক্রমধর্মী ট্রেনিং সেন্টার</h1>
         <p><span>MicroTech NA</span></p>
     </div>
-
     <div class="tr-content">
         <div class="heading">
             <h2>প্রতিদিনের ক্লাসের সিলেবাস প্রফেশনাল আইটি টিচারদের দ্বারা হাতে-কলমে প্রতিদিন বার ঘন্টা করে ছয় মাস বার বার রিয়েল লাইফ অনুশীলনের মাধ্যমে বুঝিয়ে মুখস্ত করানোর সাথে আইটি জবের ১০০% নিশ্চয়তা </h2>
@@ -31,10 +31,9 @@
             </div>
         </div>
     </div>
-  <div class="cfx"></div>
-    <!-- About course start here-->
-
-    <div class="about-course-area">
+ </div>   <!-- About course start here-->
+<div class="training-details-section">
+        <div class="about-course-area">
         <div class="what-are-you-get">
             <h2>অভিজ্ঞ আমেরিকান আইটি প্রফেশনাল দ্বারা পরিচালিত বাংলাদেশে এই প্রথম ও একমাত্র ব্যতিক্রমধর্মী ট্রেনিং সেন্টার মাইক্রোটেক এ আপনি পাবেন:</h2>
             <div class="bollet">
@@ -59,16 +58,12 @@
             </div>
         </div>
     </div>
-
-
     <div class="messanger-text">
         <p>আপনি কিংবা আপনার আত্নীয় বা পরিচিত কেও কি Familly Migration(I-130) এ আমেরিকাতে আসার পরপরই আইটি জব করতে আগ্রহী ? আপনি কি আইটি জবের ১০০% নিশ্চয়তাসহ ট্রেনিং করতে চাচ্ছেন ? আমেরিকাতে আসার আগে বাংলাদেশ থেকে উপযুক্ত ট্রেনিং নিয়ে সরাসরি আইটি জব শুরু করতে আমরা সাহায্য করে থাকি । আমেরিকাতে যারা বসবাস করছেন তারাও কয়েক মাসের জন্য বাংলাদেশে ভিজিট করে আমাদের এই সেবা গ্রহন করতে পারেন ।
             <br> বাংলাদেশ থেকে আমেরিকায় Familly migration or Other Visa নিয়ে আসার আগে তিন/ছয় মাসের কোর্স করে আসুন কারন এই কোর্স আমেরিকাতে করতে কয়েকগুন খরচ করেও এই ধরনের সুবিধা পাবেন না । মোটকথা আপনার সময় বের করাটা অসম্ভব হবে এবং আমেরিকার কোন ট্রেনিং সেন্টার আপনাকে এভাবে সার্ভিস দিবে না । আমাদের ২০ বছরের অভিজ্ঞতার আলোকে সাজানো এই প্রথম ও একমাত্র ব্যতিক্রমধর্মী ট্রেনিং সেন্টার আপনাদের সেবায় সদা প্রস্তুত ।
             <br>
             <br> যদি তাও সম্ভব না হয়, তবে আমাদের One-to-One কোর্সে অল্প খরচে ক্লাস করতে পারেন । One-to-One কোর্সে আপনাকে একজন দক্ষ আইটি প্রফেশনাল দ্বারা হাতে কলমে বুঝানো হবে, বিস্তারিত জানতে কল করুন </p>
     </div>
-
-
     <div class="messangers">
         <div class="custom">
             <img src="./images/Barakt.jpg" alt="Software Testing" />
@@ -91,9 +86,7 @@
     </div>
 
 </div>
-<!-- About course end here-->
-
-
+<div class="cfx"></div>
 <!--Header-area end here-->
 <div class="training-section">
     <h2 class="border-bottom">Our Courses</h2>
@@ -153,7 +146,6 @@
         </div>
     </div>
 </div>
-
 <!--.Contact-us-area-->
 <a href="#jot"></a>
 <div class="contact-us">
@@ -187,7 +179,6 @@
     </div>
 
 </div>
-    
     <div class="training-form">
         <script type="text/javascript" src="https://form.jotform.me/jsform/72484192474463"></script>
     </div>

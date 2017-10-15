@@ -46,11 +46,14 @@
         <div class="Menu">
             <ul>
                 <li class="scrolls"><a href="{{ url('home') }}" class="active">Home</a></li>
-                <li class="scrolls"><a href="{{ url('/about_us') }}">About us</a></li>
+                <li class="scrolls"><a href="{{ url('/about_us') }}">About 
+                us
+
+                </a></li>
                 <li class="scrolls"><a href="{{ url('/training') }}">Training</a></li>
                 <li class="scrolls"><a href="{{ url('/services') }}" class="SubSer">Services</a>
 
-                    <ul class="Submenu debug">
+                    <ul>
                         <li class="scrolls"><a href="{{ url('/web_design') }}">Website design</a></li>
                         <li class="scrolls"><a href="{{ url('/mobile_app') }}">Mobile App Development</a></li>
                         <li class="scrolls"><a href="{{ url('/performance_testing') }}">Performance testing</a></li>
@@ -62,12 +65,12 @@
             </ul>
         </div>
         <div class="socail">
-            <a href="https://www.facebook.com/microtechna/" target="_blank" class="fa fa-facebook face">Fb</a>
-            <a href="https://twitter.com/@MicroTechSky" target="_blank" class="fa fa-twitter twi">Twitter</a>
-            <a href="https://plus.google.com/b/103441871439982130127/103441871439982130127?hl=en" target="_blank" class="fa fa-google goo">Google-plus</a>
+            <a href="https://www.facebook.com/microtechna/" target="_blank" class="fa fa-facebook face">🌏</a>
+            <a href="https://twitter.com/@MicroTechSky" target="_blank" class="fa fa-twitter twi">🌏</a>
+            <a href="https://plus.google.com/b/103441871439982130127/103441871439982130127?hl=en" target="_blank" class="fa fa-google goo">🌏</a>
         </div>
     </div>
-
+<div class="cfx"></div>
 
 
     <!--End Header-->

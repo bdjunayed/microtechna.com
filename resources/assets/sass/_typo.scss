@@ -6,6 +6,7 @@ http://pxtoem.com/
 
 Please follow few examples before the codes.
 */
+
 //
 ///*Example 1: Import url to your fonts(optional). */
 //@font-face{
@@ -71,101 +72,131 @@ Please follow few examples before the codes.
 //    text-transform: uppercase;
 //  }
 //}
-
 /******************************************************/
+
 /*         Typo code starts from here                 */
+
 /*                                                    */
+
 /*  web:   https://codepen.io/bdjunayed/pen/veZLEy    */
+
 /*                                                    */
+
 /*  Generate for diffrents font-size with line-height */
+
 /*  http://topfunky.com/baseline-rhythm-calculator/   */
+
 /*  css to scss: http://css2sass.herokuapp.com/       */
+
 /******************************************************/
 
 /****   Initialize the HTML                        ****/
-@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i');
+
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,500,700');
 
 
 html {
-  /* Change default typefaces here */
-  font-family: 'Open+Sans', 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif;
-  line-height: 1.4;
-  font-size: calc(14px + 0.5vw);
-  //font-size: 100%;
-  -webkit-font-smoothing: antialiased;
-    
+    /* Change default typefaces here */
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.4;
+    font-size: calc(14px + 0.5vw); //font-size: 100%;
+    -webkit-font-smoothing: antialiased;
+
 }
 
 /****font-size:16, line-height: 1.4rem ****************/
+
 p {
-  margin: 0;
-  font-size: 1em;
-  line-height: 1.8em;
-  font-weight: 400;
+    margin: 0;
+    font-size: 1em;
+    line-height: 1.8em;
+    font-weight: 400;
 }
 
-ul, ol {
-  margin-top: 1.5rem;
-  margin-bottom: 1.5rem;
+ul,
+ol {
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
 }
 
-ul li, ol li {
-  line-height: 1.5rem;
+ul li,
+ol li {
+    line-height: 1.5rem;
 }
 
-ul ul, ol ul, ul ol, ol ol {
-  margin: 0;
-  font-size: 1em;
-  line-height: 1.5em;
-  margin-bottom: 1.5em;
+ul ul,
+ol ul,
+ul ol,
+ol ol {
+    margin: 0;
+    font-size: 1em;
+    line-height: 1.5em;
+    margin-bottom: 1.5em;
 }
-a{
+
+a {
     text-decoration: none;
 }
+
 h1 {
-	font-size: 1.5rem;
-	line-height: 2.2rem;
-	margin-top: 3rem;
-	letter-spacing: 1px;
-	font-weight: normal;
+    font-size: 1.5rem;
+    line-height: 2.2rem;
+    margin-top: 3rem;
+    letter-spacing: 1px;
+    font-weight: normal;
 }
 
 h2 {
-	font-size: 1.8rem;
-	line-height: 2rem;
-	font-weight: 400;
+        @media only screen and (min-width: $lg) {
+        font-size: 21px!important;
+    }
+    font-size: 1.8rem;
+    line-height: 2rem;
+    font-weight: 400;
 }
 
 h3 {
-  font-size: 1.4rem;
-  margin-bottom: 8px;
+    font-size: 1.4rem;
+    margin-bottom: 8px;
 }
 
 h4 {
-  font-size: 0.8rem;
-  line-height:30px;
+    font-size: 0.8rem;
+    line-height:30px;
 }
 
 h5 {
-  font-size: 0.4713333333333333rem;
+    font-size: 0.4713333333333333rem;
 }
 
 h6 {
-  font-size: 0.3535rem;
+    font-size: 0.3535rem;
 }
 
 /* Tables */
+
 table {
-  margin-top: 1.5rem;
-  margin-bottom: 1.5em;
-  border-spacing: 0px;
-  border-collapse: collapse;
-  td, th {
-    padding: 0;
-    line-height: 33px;
-  }
+    margin-top: 1.5rem;
+    margin-bottom: 1.5em;
+    border-spacing: 0px;
+    border-collapse: collapse;
+    td,
+    th {
+        padding: 0;
+        line-height: 33px;
+    }
 }
+
 /****font-size:16, line-height: 1.4rem ****************/
-@media only screen and (min-width: 30em) {/*sm*/}
-@media only screen and (min-width: 48em) {/*md*/}
-@media only screen and (min-width: 62em) {/*lg*/}
+
+@media only screen and (min-width: 30em) {
+    /*sm*/
+}
+
+@media only screen and (min-width: 48em) {
+    /*md*/
+}
+
+@media only screen and (min-width: 62em) {
+    /*lg*/
+}
