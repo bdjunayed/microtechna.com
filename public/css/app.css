@@ -35,8 +35,8 @@ html {
 /****font-size:16, line-height: 1.4rem ****************/
 p {
   margin: 0;
-  font-size: 1em;
-  line-height: 1.8em;
+  font-size: 13px;
+  line-height: 1.9em;
   font-weight: 400;
 }
 
@@ -75,14 +75,8 @@ h1 {
 
 h2 {
   font-size: 1.8rem;
-  line-height: 2rem;
+  line-height: 1em;
   font-weight: 400;
-}
-
-@media only screen and (min-width: 992px) {
-  h2 {
-    font-size: 21px !important;
-  }
 }
 
 h3 {
@@ -118,16 +112,23 @@ table th {
 }
 
 /****font-size:16, line-height: 1.4rem ****************/
-@media only screen and (min-width: 30em) {
-  /*sm*/
+@media only screen and (min-width: 768px) {
+  h2 {
+    font-size: 21px;
+  }
 }
 
-@media only screen and (min-width: 48em) {
-  /*md*/
+@media only screen and (min-width: 992px) {
+  h2 {
+    font-size: 24px !important;
+    line-height: 45px !important;
+  }
 }
 
-@media only screen and (min-width: 62em) {
-  /*lg*/
+@media only screen and (min-width: 320px) {
+  h1 {
+    font-size: 27px !important;
+  }
 }
 
 .btn-custom {
@@ -239,335 +240,6 @@ fieldset[disabled] .btn-custom {
           box-sizing: border-box;
 }
 
-body {
-  margin: 0 auto;
-  color: #757575;
-  background: #FAFAFA;
-}
-
-nav,
-footer {
-  padding: 1em;
-  text-align: center;
-  font-size: 0.875em;
-}
-
-ul,
-li {
-  list-style: none;
-  margin: 0;
-  padding: 0;
-}
-
-.cfx::after {
-  clear: both;
-  content: ' ';
-  display: table;
-}
-
-.debug {
-  outline: 1px solid red;
-}
-
-.debug-div {
-  background: -webkit-gradient(linear, right top, left top, from(rgba(255, 0, 0, 0.125)), to(rgba(255, 0, 0, 0.125))), rgba(255, 255, 255, 0.5);
-  background: linear-gradient(to left, rgba(255, 0, 0, 0.125), rgba(255, 0, 0, 0.125)), rgba(255, 255, 255, 0.5);
-  background-clip: content-box, padding-box;
-  float: left;
-  padding-bottom: 1rem;
-  padding-top: 1rem;
-  outline: 1px solid red;
-  text-align: center;
-}
-
-/*  ------------------------------------------
-Start your code here
-------------------------------------------  */
-@media only screen and (min-width: 768px) {
-  .y {
-    width: 49.15254237%;
-  }
-}
-
-@media only screen and (min-width: 768px) {
-  .x {
-    margin-left: 23.72881356%;
-  }
-}
-
-.container-header {
-  margin: 0 auto;
-  max-width: 100%;
-  padding: .6em 1em;
-  height: 60px;
-  position: absolute;
-  top: 0px;
-  left: 0px;
-  right: 0px;
-  z-index: 999;
-}
-
-.container-header::after {
-  clear: both;
-  content: ' ';
-  display: table;
-}
-
-@media only screen and (min-width: 768px) {
-  .container-header {
-    padding: .6em 4em;
-  }
-}
-
-.logo {
-  width: 49.15254237%;
-  float: right;
-  text-align: right;
-  font-family: cursive;
-  font-size: 18px;
-  padding-top: 7px;
-}
-
-@media only screen and (min-width: 768px) {
-  .logo {
-    width: 100%;
-    float: left;
-    margin-right: 1.69491525%;
-    text-align: center;
-    font-size: 30px;
-    font-weight: bold;
-    color: darkcyan;
-  }
-}
-
-@media only screen and (min-width: 992px) {
-  .logo {
-    width: 23.72881356%;
-    float: left;
-    margin-right: 1.69491525%;
-    text-align: left;
-    padding-top: 2px;
-  }
-  .logo a {
-    text-align: left;
-    font-size: 20px;
-    font-family: sans-serif;
-    font-weight: 500;
-    font-style: italic;
-    border: 1px solid #009688;
-    padding: 8px 12px;
-    -webkit-box-shadow: 0px 2px 10px 0px gray;
-            box-shadow: 0px 2px 10px 0px gray;
-    border-radius: 4px;
-    background-color: transparent;
-  }
-}
-
-.logo a {
-  color: #FFFFFF;
-}
-
-.logo a:hover {
-  /*color: $accent-color;*/
-  -webkit-transition: 0.4s;
-  transition: 0.4s;
-}
-
-.logo span {
-  display: none;
-}
-
-/*============= Bergar Menu ==============*/
-.burger {
-  width: 49.15254237%;
-  float: left;
-  margin-right: 1.69491525%;
-}
-
-@media only screen and (min-width: 768px) {
-  .burger {
-    display: none;
-  }
-}
-
-.burger span {
-  font-size: 28px;
-  font-weight: bolder;
-  color: #FFFFFF;
-  cursor: pointer;
-}
-
-.burger span:hover {
-  color: #009688;
-  -webkit-transition: 0.4s;
-  transition: 0.4s;
-}
-
-.burger .sidenav {
-  height: 100%;
-  width: 0;
-  position: fixed;
-  z-index: 1;
-  top: 0;
-  left: 0;
-  background-color: #455A64;
-  overflow-x: hidden;
-  -webkit-transition: 0.5s;
-  transition: 0.5s;
-  padding-top: 60px;
-  opacity: .95;
-}
-
-.burger .sidenav ul li a {
-  padding: 8px 8px 8px 32px;
-  text-decoration: none;
-  font-size: 16px;
-  color: #FFFFFF;
-  display: block;
-  -webkit-transition: 0.3s;
-  transition: 0.3s;
-  font-weight: 400;
-}
-
-.burger .sidenav ul li a:hover {
-  color: #009688;
-  -webkit-transition: 0.4s;
-  transition: 0.4s;
-  border-left: 4px solid #009688;
-}
-
-.burger .sidenav ul li a.active {
-  color: #009688;
-}
-
-.burger .sidenav .closebtn {
-  position: absolute;
-  top: 0;
-  right: 25px;
-  font-size: 28px;
-  margin-left: 50px;
-}
-
-.burger .sidenav .closebtn:hover {
-  color: #009688;
-  -webkit-transition: 0.4s;
-  transition: 0.4s;
-}
-
-/*============  Desktop Menu ==========*/
-.Menu {
-  margin-top: 10px;
-  display: none;
-}
-
-@media only screen and (min-width: 768px) {
-  .Menu {
-    display: block;
-    width: 100%;
-    float: left;
-    margin-right: 1.69491525%;
-  }
-}
-
-@media only screen and (min-width: 992px) {
-  .Menu {
-    width: 57.62711864%;
-    float: left;
-    margin-right: 1.69491525%;
-  }
-}
-
-.Menu ul {
-  text-align: center;
-}
-
-.Menu ul li {
-  position: relative;
-  display: inline-block;
-  margin: 0px;
-}
-
-.Menu ul li a {
-  display: block;
-  color: #eef5f2;
-  font-size: 14px;
-  font-weight: 500;
-  text-shadow: 2px;
-  margin: 0px;
-  padding: 4px 8px;
-  text-transform: uppercase;
-}
-
-.Menu ul li a:hover {
-  padding-bottom: -10px;
-  color: #05766b;
-  -webkit-transition: 0.5s;
-  transition: 0.5s;
-  border-bottom: 1px solid #05766b;
-}
-
-.Menu ul li a.active {
-  color: #05766b;
-}
-
-.Menu ul li ul {
-  left: 0;
-  text-align: left;
-  position: absolute;
-  top: 80px;
-  width: 200px;
-  background: #eef5f2;
-  z-index: 999;
-  opacity: 0;
-  visibility: hidden;
-  z-index: -1;
-  -webkit-transition: .4s;
-  transition: .4s;
-  padding-top: 10px;
-  padding-bottom: 10px;
-}
-
-.Menu ul li ul li {
-  display: block;
-}
-
-.Menu ul li ul li a {
-  color: #605d5d;
-  font-size: 14px;
-  font-weight: 500;
-  padding: 4px 10px;
-  padding-left: 10px;
-  text-transform: capitalize;
-}
-
-.Menu ul li ul li a:hover {
-  margin-left: 6px;
-  color: #05766b;
-  border-bottom: 0px solid #05766b;
-}
-
-.Menu ul li:hover ul {
-  opacity: 1;
-  visibility: visible;
-  z-index: 999;
-  top: 50px;
-}
-
-/*========== Social Icons ==============*/
-.socail {
-  display: none;
-}
-
-@media only screen and (min-width: 992px) {
-  .socail {
-    width: 15.25423729%;
-    float: right;
-    display: block;
-    text-align: right;
-    padding-top: 14px;
-  }
-}
-
 /*========== Training ==================*/
 .container-training {
   margin: 0 auto;
@@ -609,7 +281,7 @@ Start your code here
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  height: 350px;
+  height: 400px;
   text-align: center;
   background-attachment: fixed;
   color: #fff;
@@ -617,16 +289,37 @@ Start your code here
   background-image: url("../images/training.jpg");
 }
 
-.banner-training .title {
-  font-size: 18px;
-  font-weight: 400;
-  color: #FFFFFF;
+@media only screen and (min-width: 992px) {
+  .banner-training h2 {
+    font-size: 40px !important;
+    line-height: 0.6em !important;
+  }
+  .banner-training p {
+    line-height: 1em !important;
+    font-size: 18px !important;
+    padding-bottom: 22px;
+  }
 }
 
-.banner-training .subtitle {
-  font-size: 16px;
+.banner-training h2 {
+  font-size: 20px;
+  font-weight: 400;
+  color: #FFFFFF;
+  line-height: 6px;
+}
+
+@media only screen and (min-width: 768px) {
+  .banner-training h2 {
+    font-size: 24px;
+  }
+}
+
+.banner-training p {
+  font-size: 14px;
   color: #FFFFFF;
   line-height: 40px;
+  font-weight: 300;
+  padding-bottom: 7px;
 }
 
 .banner-training .image-overlay {
@@ -832,6 +525,7 @@ Start your code here
 
 .what-are-you-get h2 {
   text-align: center;
+  line-height: 30px;
   font-size: 16px;
   font-weight: 600;
   color: #009688;
@@ -1013,18 +707,26 @@ Start your code here
   .single-course:nth-child(2n + 1) {
     width: 49.15254237%;
     float: right;
-    margin-right: 0px;
+    margin: 0px;
   }
 }
 
 @media only screen and (min-width: 992px) {
-  .single-course:nth-child(2n+1) {
+  .single-course:nth-child(2n + 1) {
     width: 32.20338983%;
     float: right;
-    margin-right: 0px;
+    margin: 0px;
   }
 }
 
+/*@media only screen and (min-width: $lg) {
+    .single-course:nth-child(3n) {
+        @include span(last 4);
+        margin-right: 0px;
+        background: #000;
+    
+    }
+}*/
 /*=========== contact-us ===========*/
 .contact-us {
   margin: 0 auto;
@@ -1104,6 +806,489 @@ Start your code here
 
 .training-form {
   background: #EEF5F2;
+}
+
+.about-us-container {
+  padding: .6em 1em;
+  margin: 0 auto;
+  max-width: 100%;
+  /*-- Start ready to discus section --*/
+  /*--- Start Blog area Start here ---*/
+  /*--- We are spack ---*/
+}
+
+.about-us-container::after {
+  clear: both;
+  content: ' ';
+  display: table;
+}
+
+@media only screen and (min-width: 768px) {
+  .about-us-container {
+    padding: .6em 4em;
+  }
+}
+
+.about-us-container .about-heading {
+  text-align: center;
+}
+
+.about-us-container .about-heading h1 {
+  font-size: 27px !important;
+  color: #009688;
+  font-weight: 300;
+}
+
+.about-us-container .about-heading h1 span {
+  font-weight: bold;
+}
+
+.about-us-container .about-heading h4 {
+  font-size: 14px;
+  line-height: 0px;
+  font-weight: 400;
+}
+
+@media only screen and (min-width: 768px) {
+  .about-us-container .about-heading h1 {
+    font-size: 50px !important;
+    color: #009688;
+    font-weight: 300;
+  }
+  .about-us-container .about-heading h1 span {
+    font-weight: bold;
+  }
+}
+
+.about-us-container .main-about {
+  margin-bottom: 50px;
+  margin-top: 50px;
+}
+
+.about-us-container .main-about .single-about {
+  padding-bottom: 10px;
+  padding-top: 10px;
+}
+
+.about-us-container .main-about .single-about h2 {
+  text-transform: uppercase;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 37px;
+  color: cadetblue;
+  padding: 0px;
+  margin: 0;
+}
+
+.about-us-container .main-about .single-about p {
+  padding-top: 5px;
+}
+
+.about-us-container .main-about .single-about img {
+  width: 100%;
+  height: auto;
+}
+
+.about-us-container .ready-to-discus {
+  text-align: center;
+}
+
+.about-us-container .ready-to-discus h2 {
+  font-size: 21px;
+  font-weight: 600;
+  color: #009688;
+}
+
+.about-us-container .blog-area {
+  margin-bottom: 30px;
+  margin-top: 30px;
+  text-align: center;
+}
+
+.about-us-container .blog-area .single-blog {
+  margin: 30px 0px;
+}
+
+.about-us-container .blog-area .single-blog img {
+  width: 100%;
+  height: auto;
+}
+
+.about-us-container .blog-area .single-blog h2 {
+  font-size: 28px;
+  color: #009688;
+}
+
+.about-us-container .blog-area .single-blog h2 span {
+  font-weight: bold;
+  font-size: 33px;
+}
+
+.about-us-container .blog-area .single-blog a {
+  margin-top: 20px;
+  padding: 8px 20px;
+  border-radius: 30px;
+  font-size: 16px;
+}
+
+.about-us-container .we-speak {
+  margin-bottom: 30px;
+  margin-top: 30px;
+  border: 1px solid #000;
+}
+
+.about-us-container .we-speak .speak-heading {
+  text-align: center;
+}
+
+.about-us-container .we-speak .speak-heading h2 {
+  font-size: 23px;
+  color: #009688;
+  line-height: 35px;
+}
+
+.about-us-container .we-speak .speak-heading h2 span {
+  font-weight: 600;
+  font-size: 30px;
+}
+
+.about-us-container .we-speak .single-speak {
+  width: 23.72881356%;
+  float: left;
+  margin-right: 1.69491525%;
+  border: 1px solid #000;
+}
+
+body {
+  margin: 0 auto;
+  color: #757575;
+  background: #FAFAFA;
+}
+
+nav,
+footer {
+  padding: 1em;
+  text-align: center;
+  font-size: 0.875em;
+}
+
+ul,
+li {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.cfx::after {
+  clear: both;
+  content: ' ';
+  display: table;
+}
+
+.debug {
+  outline: 1px solid red;
+}
+
+.debug-div {
+  background: -webkit-gradient(linear, right top, left top, from(rgba(255, 0, 0, 0.125)), to(rgba(255, 0, 0, 0.125))), rgba(255, 255, 255, 0.5);
+  background: linear-gradient(to left, rgba(255, 0, 0, 0.125), rgba(255, 0, 0, 0.125)), rgba(255, 255, 255, 0.5);
+  background-clip: content-box, padding-box;
+  float: left;
+  padding-bottom: 1rem;
+  padding-top: 1rem;
+  outline: 1px solid red;
+  text-align: center;
+}
+
+/*  ------------------------------------------
+Start your code here
+------------------------------------------  */
+@media only screen and (min-width: 768px) {
+  .y {
+    width: 49.15254237%;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .x {
+    margin-left: 23.72881356%;
+  }
+}
+
+.container-header {
+  margin: 0 auto;
+  max-width: 100%;
+  padding: .6em 1em;
+  height: 60px;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  z-index: 999;
+}
+
+.container-header::after {
+  clear: both;
+  content: ' ';
+  display: table;
+}
+
+@media only screen and (min-width: 768px) {
+  .container-header {
+    padding: .6em 4em;
+  }
+}
+
+.logo {
+  width: 49.15254237%;
+  float: right;
+  text-align: right;
+  padding: 11px 6px;
+}
+
+@media only screen and (min-width: 768px) {
+  .logo {
+    width: 100%;
+    float: left;
+    margin-right: 1.69491525%;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+  }
+}
+
+@media only screen and (min-width: 992px) {
+  .logo {
+    width: 23.72881356%;
+    float: left;
+    margin-right: 1.69491525%;
+    text-align: left;
+  }
+}
+
+.logo a {
+  font-size: 17px;
+  font-family: sans-serif;
+  font-weight: 300;
+  font-style: italic;
+  border: 1px solid #009688;
+  padding: 4px 10px;
+  -webkit-box-shadow: 0px 2px 10px 0px gray;
+          box-shadow: 0px 2px 10px 0px gray;
+  border-radius: 4px;
+  background-color: transparent;
+  color: #fff;
+  text-shadow: 0 0 5px gray;
+}
+
+.logo a:hover {
+  /*color: $accent-color;*/
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
+.logo span {
+  display: none;
+}
+
+/*============= Bergar Menu ==============*/
+.burger {
+  width: 49.15254237%;
+  float: left;
+  margin-right: 1.69491525%;
+}
+
+@media only screen and (min-width: 768px) {
+  .burger {
+    display: none;
+  }
+}
+
+.burger span {
+  font-size: 28px;
+  font-weight: bolder;
+  color: #FFFFFF;
+  cursor: pointer;
+}
+
+.burger span:hover {
+  color: #009688;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
+.burger .sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #455A64;
+  overflow-x: hidden;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  padding-top: 60px;
+  opacity: .95;
+}
+
+.burger .sidenav ul li a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 16px;
+  color: #FFFFFF;
+  display: block;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  font-weight: 400;
+}
+
+.burger .sidenav ul li a:hover {
+  color: #009688;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+  border-left: 4px solid #009688;
+}
+
+.burger .sidenav ul li a.active {
+  color: #009688;
+}
+
+.burger .sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 28px;
+  margin-left: 50px;
+}
+
+.burger .sidenav .closebtn:hover {
+  color: #009688;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
+/*============  Desktop Menu ==========*/
+.Menu {
+  margin-top: 10px;
+  display: none;
+}
+
+@media only screen and (min-width: 768px) {
+  .Menu {
+    display: block;
+    width: 100%;
+    float: left;
+    margin-right: 1.69491525%;
+  }
+}
+
+@media only screen and (min-width: 992px) {
+  .Menu {
+    width: 57.62711864%;
+    float: left;
+    margin-right: 1.69491525%;
+  }
+}
+
+.Menu ul {
+  text-align: center;
+}
+
+.Menu ul .hilight-menu {
+  border: 1px solid #017166;
+}
+
+.Menu ul .hilight-menu a {
+  padding: 0px 6px !important;
+  color: #017166 !important;
+}
+
+.Menu ul li {
+  position: relative;
+  display: inline-block;
+  margin: 0px;
+}
+
+.Menu ul li a {
+  display: block;
+  color: #eef5f2;
+  font-size: 14px;
+  font-weight: 500;
+  text-shadow: 2px;
+  margin: 0px;
+  padding: 4px 8px;
+  text-transform: uppercase;
+}
+
+.Menu ul li a:hover {
+  padding-bottom: -10px;
+  color: #05766b;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  border-bottom: 1px solid #05766b;
+}
+
+.Menu ul li a.active {
+  color: #05766b;
+}
+
+.Menu ul li ul {
+  left: 0;
+  text-align: left;
+  position: absolute;
+  top: 80px;
+  width: 200px;
+  background: #eef5f2;
+  z-index: 999;
+  opacity: 0;
+  visibility: hidden;
+  z-index: -1;
+  -webkit-transition: .4s;
+  transition: .4s;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.Menu ul li ul li {
+  display: block;
+}
+
+.Menu ul li ul li a {
+  color: #605d5d;
+  font-size: 14px;
+  font-weight: 500;
+  padding: 4px 10px;
+  padding-left: 10px;
+  text-transform: capitalize;
+}
+
+.Menu ul li ul li a:hover {
+  margin-left: 6px;
+  color: #05766b;
+  border-bottom: 0px solid #05766b;
+}
+
+.Menu ul li:hover ul {
+  opacity: 1;
+  visibility: visible;
+  z-index: 999;
+  top: 50px;
+}
+
+/*========== Social Icons ==============*/
+.socail {
+  display: none;
+}
+
+@media only screen and (min-width: 992px) {
+  .socail {
+    width: 15.25423729%;
+    float: right;
+    display: block;
+    text-align: right;
+    padding-top: 14px;
+  }
 }
 
 /*========== Footer Section ============*/

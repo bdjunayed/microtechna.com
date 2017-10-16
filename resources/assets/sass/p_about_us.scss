@@ -1,0 +1,117 @@
+.about-us-container {
+    padding: .6em 1em;
+    @include container($width: 100%, $debug: false);
+    @media only screen and (min-width: $md) {
+        padding: .6em 4em;
+
+    }
+    .about-heading {
+        text-align: center;
+        h1 {
+            font-size: 27px!important;
+            color: $accent-color;
+            font-weight: 300;
+            span {
+                font-weight: bold;
+            }
+        }
+        h4 {
+            font-size: 14px;
+            line-height: 0px;
+            font-weight: 400;
+        }
+        @media only screen and (min-width: $md) {
+            h1 {
+                font-size: 50px!important;
+                color: $accent-color;
+                font-weight: 300;
+                span {
+                    font-weight: bold;
+                }
+            }
+        }
+    }
+    .main-about {
+        margin-bottom: 50px;
+        margin-top: 50px;
+        .single-about {
+            padding-bottom: 10px;
+            padding-top: 10px;
+            h2 {
+                text-transform: uppercase;
+                font-size: 20px;
+                font-weight: 400;
+                line-height: 37px;
+                color: cadetblue;
+                padding: 0px;
+                margin: 0;
+            }
+            p {
+                padding-top: 5px;
+            }
+            img {
+                width: 100%;
+                height: auto;
+            }
+        }
+    }
+    /*-- Start ready to discus section --*/
+    .ready-to-discus {
+        text-align: center;
+        h2 {
+            font-size: 21px;
+            font-weight: 600;
+            color: $accent-color;
+        }
+    }
+    /*--- Start Blog area Start here ---*/
+    .blog-area {
+        margin-bottom: 30px;
+        margin-top: 30px;
+        text-align: center;
+        .single-blog {
+            margin: 30px 0px;
+            img {
+                width: 100%;
+                height: auto;
+            }
+            h2 {
+                font-size: 28px;
+                color: $accent-color;
+                span {
+                    font-weight: bold;
+                    font-size: 33px;
+                }
+            }
+            a {
+                margin-top: 20px;
+                padding: 8px 20px;
+                border-radius: 30px;
+                font-size: 16px;
+            }
+        }
+
+    }
+    /*--- We are spack ---*/
+    .we-speak {
+        margin-bottom: 30px;
+        margin-top: 30px;
+        border: 1px solid#000;
+        .speak-heading {
+            text-align: center;
+            h2 {
+                font-size: 23px;
+                color: $accent-color;
+                line-height: 35px;
+                span {
+                    font-weight: 600;
+                    font-size: 30px;
+                }
+            }
+        }
+        .single-speak {
+            @include span(3);
+            border: 1px solid#000;
+        }
+    }
+}

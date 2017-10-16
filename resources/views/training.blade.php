@@ -1,8 +1,8 @@
 @extends('layouts.page') @section('content')
 <section class="banner-training">
     <div class="image-overlay">
-    <div class="title">Software Testing, DBA, CCNA</div>
-    <div class="subtitle">Training</div>
+<h2>Software Testing, DBA, CCNA</h2>
+   <p> Training</p>
     <a href="{{ url('/work_with_us') }}" class="btn-custom btn-primary-custom ">Contact us</a>
     </div>
 </section>

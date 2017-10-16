@@ -61,7 +61,7 @@
                     </ul>
                 </li>
                 <li class="scrolls"><a href="{{ url('/work') }}">Work</a></li>
-                <li class="scrolls workwith"><a href="{{ url('/work_with_us') }}">Work with us</a></li>
+                <li class="scrolls workwith hilight-menu"><a href="{{ url('/work_with_us') }}">Work with us</a></li>
             </ul>
         </div>
         <div class="socail">

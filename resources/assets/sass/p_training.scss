@@ -1,0 +1,489 @@
+/*========== Training ==================*/
+
+.container-training {
+    @include container($width: 100%, $debug: false);
+    padding: 0.5em 1em;
+    @media only screen and (min-width: $lg) {
+        padding: 0.5em 4em;
+    }
+
+}
+
+.training-details-section {
+    @include container($width: 100%, $debug: false);
+    padding: 0.5em 1em;
+    @media only screen and (min-width: $lg) {
+        padding: 0.5em 4em;
+    }
+
+}
+
+.banner-training {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 400px;
+    text-align: center;
+    background-attachment: fixed;
+    color: #fff;
+    position: relative;
+    background-image: url('../images/training.jpg');
+    @media only screen and (min-width: $lg) {
+        h2 {
+            font-size: 40px!important;
+            line-height: 0.6em!important;
+
+        }
+        p {
+            line-height: 1em!important;
+            font-size: 18px!important;
+            padding-bottom: 22px;
+        }
+
+    }
+    h2 {
+        @media only screen and (min-width: $md) {
+            font-size: 24px;
+        }
+        font-size: 20px;
+        font-weight: 400;
+        color: #FFFFFF;
+        line-height: 6px;
+    }
+    p {
+        font-size: 14px;
+        color: $primary-color-text;
+        line-height: 40px;
+        font-weight: 300;
+        padding-bottom: 7px;
+    }
+
+    .image-overlay {
+        width: 100%;
+        height: 100%;
+        background: rgba(0, 0, 0, 0.7);
+        position: absolute;
+        left: 0;
+        padding: 138px 0px;
+
+    }
+}
+
+/*========= Trainer body =============*/
+
+.tr-heading {
+    @media only screen and (min-width: $md) {
+
+        h1 {
+            font-size: 22px!important;
+
+        }
+    }
+    text-align: center;
+
+    h1 {
+        font-size: 20px;
+        margin-top: 2em;
+        line-height: 2em;
+    }
+    span {
+        font-size: 27px;
+        font-weight: 600;
+        letter-spacing: 1px;
+        color: $secondary-text-color;
+        line-height: 2em;
+    }
+}
+
+.tr-content {
+    @media only screen and (min-width: $lg) {
+        margin-top: 30px;
+    }
+    @include span(12);
+
+    .heading {
+        @media only screen and (min-width: $lg) {
+            @include span(4);
+            h2 {
+                margin: 0px;
+                height: 455px !important;
+                line-height: 50px !important;
+                padding: 40px!important;
+                font-size: 20px!important;
+                border-radius: 0px!important;
+            }
+        }
+        h2 {
+            height: auto;
+            background: #e3f0fa;
+            box-shadow: 0px 6px 10px 0px rgba(209, 207, 207, 0.64);
+            line-height: 36px;
+            width: 100%;
+            font-size: 17px;
+            padding: 15px;
+            border: 8px solid $primary-color-light;
+            border-radius: 4px;
+
+        }
+    }
+    .main-example {
+        @media only screen and (min-width: $lg) {
+            @include span(last 8 narrow);
+
+        }
+    }
+    .example {
+        position: relative;
+        border-radius: 5px;
+
+        .md-ali {
+            @media only screen and (min-width: $md) {
+                @include span(6 narrow);
+
+            }
+            img {
+                @media only screen and (min-width: $md) {
+                    width: 106%;
+                    height: 352px;
+                    border-radius: 0px;
+                }
+
+                height: auto;
+                width: 100%;
+                border-radius: 5px 5px 0px 0px;
+            }
+        }
+        h4 {
+            font-size: 17px;
+            line-height: 30px;
+            margin-top: 5px;
+            padding: 12px 14px;
+        }
+        .example-text {
+            position: relative;
+            width: 100%;
+            background: #c2e1f5;
+            @media only screen and (min-width: $md) {
+                @include span(last 6 narrow);
+                height: 352px;
+                margin: 0px;
+
+                line-height: 51px;
+                padding: 56px;
+
+            }
+            p {
+                font-size: 13px;
+                font-style: italic;
+                line-height: 30px;
+                padding: 20px 13px;
+            }
+
+        }
+
+    }
+}
+
+.example-text:after,
+.example-text:before {
+    @media only screen and (min-width: $md) {
+        display: block;
+    }
+    right: 100%;
+    top: 30%;
+    border: solid transparent;
+    content: " ";
+    height: 0;
+    width: 0;
+    position: absolute;
+    pointer-events: none;
+    display: none;
+}
+
+.example-text:after {
+    border-color: rgba(136, 183, 213, 0);
+    border-width: 30px;
+    margin-top: -30px;
+}
+
+.example-text:before {
+    border-color: rgba(194, 225, 245, 0);
+    border-right-color: #c2e1f5;
+    border-width: 35px;
+    margin-top: -35px;
+}
+
+.sussget-text {
+    width: 100%;
+    @media only screen and (min-width: $md) {
+        @include span(all);
+    }
+
+    background: #e3f0fa;
+    padding: 5px 14px;
+    margin-top: 15px;
+    border-radius: 4px;
+
+    h4 {
+        line-height: 30px;
+        font-size: 15px;
+        font-weight: 400;
+    }
+}
+
+/*==========  CODE FOR ABOUT AREA ==========*/
+
+.what-are-you-get {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    h2 {
+        text-align: center;
+        line-height: 30px;
+        font-size: 16px;
+        font-weight: 600;
+        color: $accent-color;
+        border-bottom: 1px solid #ddd;
+        padding-bottom: 20px;
+    }
+    .bollet {
+        li {
+            list-style: disc;
+            line-height: 30px;
+            margin: 0px 14px;
+            b {
+                font-size: 13px;
+            }
+            p {
+                font-size: 12px;
+                padding: 3px 0px;
+                padding-left: 15px;
+            }
+        }
+    }
+}
+
+.messanger-text {
+    padding-bottom: 30px;
+    p {
+        padding-top: 21px;
+        line-height: 27px;
+        text-align: justify;
+        font-size: 13px;
+    }
+}
+
+/*============  Massengers area section ============*/
+
+.messangers {
+    padding-bottom: 30px;
+    padding-top: 30px;
+}
+
+.custom {
+    @media only screen and (min-width: $md) {
+        @include span(6);
+
+    }
+
+    text-align: center;
+    width: 100%;
+    background: #e3f0fa;
+    box-shadow: 0 4px 10px 0px rgba(210,
+    208,
+    208,
+    0.64);
+    border-radius: 5px;
+    padding: 22px 0px;
+    margin-bottom: 20px;
+    p {
+        padding: 8px 12px;
+        font-size: 13px;
+        font-weight: 400;
+        text-align: center;
+    }
+    h4 {
+
+        font-size: 14px!important;
+        color: #999;
+        line-height: 1px;
+    }
+
+}
+
+.custom img {
+    width: 36%;
+    border-radius: 100%;
+    height: 36%;
+}
+
+//Need to fix with the nth child
+@media only screen and (min-width: $md) {
+    .custom:nth-child(2n + 1) {
+        @include span(last 6);
+        margin-right: 0px;
+    }
+}
+
+/*T========= Trining area start here =========*/
+
+.training-section {
+    @include container($width: 100%, $debug: true);
+    @media only screen and (min-width: $lg) {
+        padding: 0.5em 4em;
+    }
+    padding: 0.5em 1em;
+    padding-bottom: 30px;
+    margin-top:30px;
+    background: #eef2f5;
+    .border-bottom {
+        border-bottom: 1px solid #ddd;
+        padding-bottom: 10px;
+        font-weight: 400;
+        font-size: 22px;
+        color: $accent-color;
+    }
+
+    .single-course {
+        @media only screen and (min-width: $md) {
+            @include span(6);
+        }
+        @media only screen and (min-width: $lg) {
+            @include span(4);
+        }
+        text-align: justify;
+        background: #fff;
+        border-radius: 5px;
+        box-shadow: 0 4px 10px 0px rgba(210,
+        208,
+        208,
+        0.64);
+        padding: 20px 13px;
+        font-size: 13px;
+        margin: 20px 0px;
+        h2 {
+            font-size: 17px;
+            font-weight: 400;
+            line-height: 20px;
+        }
+        img {
+            width: 100%;
+            height: auto;
+            padding: 0px;
+        }
+        p {
+            padding-bottom: 15px;
+
+        }
+        .custom-enroll {
+            border-top: 1px solid#ddd;
+            padding-top: 10px;
+
+            a {
+                display: inline;
+                text-align: left;
+                color: $accent-color;
+            }
+            p {
+                display: inline;
+                float: right;
+                color: $accent-color;
+            }
+        }
+
+    }
+
+}
+
+@media only screen and (min-width: $md) {
+    .single-course:nth-child(2n + 1) {
+        @include span(last 6);
+        margin: 0px;
+    }
+}
+
+@media only screen and (min-width: $lg) {
+    .single-course:nth-child(2n + 1) {
+        @include span(last 4);
+        margin: 0px;
+    }
+}
+
+
+/*@media only screen and (min-width: $lg) {
+    .single-course:nth-child(3n) {
+        @include span(last 4);
+        margin-right: 0px;
+        background: #000;
+    
+    }
+}*/
+
+/*=========== contact-us ===========*/
+
+.contact-us {
+    @include container($width: 100%, $debug: false);
+    padding: 0.5em 1em;
+    padding-bottom: 30px;
+    padding-top: 30px;
+    .text-center {
+        text-align: center;
+        font-size: 22px;
+        color: $accent-color;
+    }
+    h3 {
+        font-size: 1.2rem;
+        font-weight: 400;
+    }
+    p {
+        font-size: 14px;
+
+    }
+    .single-content {
+        @media only screen and (min-width: $md) {
+            @include span(6);
+        }
+    }
+
+    .single-content:nth-child(4) {
+        @include span(12 wide);
+        padding-top: 30px;
+
+
+    }
+}
+
+//Need to fix with the nth child
+@media only screen and (min-width: $md) {
+    .single-content:nth-child(3) {
+        @include span(last 6);
+        margin-right: 0px;
+    }
+}
+
+.single-content.last-column {
+    background: #eef5f2;
+    text-align: center;
+    padding-bottom: 17px;
+    margin-top: 24px;
+    h3 {
+        line-height: 2px;
+        font-weight: 400;
+    }
+
+    a {
+        color: $accent-color;
+        font-size: 22px;
+        font-weight: bold;
+        font-family: cursive;
+    }
+}
+
+/*=============  CODE FOR TRAINING FORM  ==============*/
+
+.header-text.httal.htvam h2 {
+    font-size: 20px!important;
+}
+
+.training-form {
+    background: #EEF5F2;
+}

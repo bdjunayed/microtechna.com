@@ -108,8 +108,8 @@ html {
 
 p {
     margin: 0;
-    font-size: 1em;
-    line-height: 1.8em;
+    font-size: 13px;
+    line-height: 1.9em;
     font-weight: 400;
 }
 
@@ -147,11 +147,9 @@ h1 {
 }
 
 h2 {
-        @media only screen and (min-width: $lg) {
-        font-size: 21px!important;
-    }
+
     font-size: 1.8rem;
-    line-height: 2rem;
+    line-height: 1em;
     font-weight: 400;
 }
 
@@ -162,7 +160,7 @@ h3 {
 
 h4 {
     font-size: 0.8rem;
-    line-height:30px;
+    line-height: 30px;
 }
 
 h5 {
@@ -189,14 +187,23 @@ table {
 
 /****font-size:16, line-height: 1.4rem ****************/
 
-@media only screen and (min-width: 30em) {
-    /*sm*/
+@media only screen and (min-width: $md) {
+    h2 {
+        font-size: 21px;
+
+    }
 }
 
-@media only screen and (min-width: 48em) {
-    /*md*/
+@media only screen and (min-width: $lg) {
+
+    h2 {
+        font-size: 24px!important;
+        line-height: 45px!important;
+    }
 }
 
-@media only screen and (min-width: 62em) {
-    /*lg*/
+@media only screen and (min-width: $xs) {
+    h1 {
+        font-size: 27px!important;
+    }
 }
