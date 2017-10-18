@@ -57,7 +57,7 @@
         </div>
     </div>
     <!--- Main About us End Here --->
-
+<div class="cfx"></div>
     <!--- Discuss With Your Project Start Here --->
     <div class="ready-to-discus">
         <h2>Ready to discuss your project?</h2>
@@ -77,94 +77,93 @@
         <div class="single-blog">
             <img src="./images/jobs-careers.png" alt="">
             <h2>Jobs & <span>Careers</span></h2>
-            <p>Join us, send us your resume to fit with the job listings to find out what might be right for you.
+               <p>Our blog provides regular insight into the latest industry trends in web design and digital marketing.
             </p>
             <a href="" class="btn-custom btn-primary-custom">view more</a>
         </div>
         <!--- Our Blog Section End Here --->
 
     </section>
-    <section class="we-speak">  
-    <div class="speak-heading">
-        <h2>The Languages <span>We Speak</span></h2>
-    </div>
-    
-    <div class="single-speak">
-        <img src="./images/english.png" alt="">
-        <h2>English</h2>
-    </div>
-          
-           
-    <div class="single-speak">
-        <img src="./images/spanish.png" alt="">
-        <h2>Spanish</h2>
-    </div>
-
-         
-    <div class="single-speak">
-        <img src="./images/japanese.png" alt="">
-        <h2>Japanese</h2>
-    </div>
-   
-
-    <div class="single-speak">
-        <img src="./images/french.png" alt="">
-        <h2>French</h2>
-    </div>
-
-    
-<!--        <div class="row">
-            <div class="col-lg-8 col-lg-offset-2 text-center">
-                <div class="DesignHead countryHead countryHead2">
-                    <h2>Some of <span>Our Hobbies</span></h2>
-                </div>
-            </div>
+    <div class="cfx"></div>
+    <section class="we-speak x y">
+        <div class="speak-heading">
+            <h2>The Languages <span>We Speak</span></h2>
         </div>
-        <div class="row">
-            <div class="col-lg-2 col-xs-3 col-sm-2 noPadding">
-                <div class="SingleCountry hoby text-center">
-                    <i class="fa fa-bicycle" aria-hidden="true"></i>
-                    <h2>World Travel</h2>
-                </div>
-            </div>
-            <div class="col-lg-2 col-xs-3 col-sm-2 ">
-                <div class="SingleCountry hoby text-center">
-                    <i class="fa fa-globe" aria-hidden="true"></i>
-                    <h2>Competitive Cycling</h2>
-                </div>
-            </div>
 
-            <div class="col-lg-2 col-xs-3 col-sm-2">
-                <div class="SingleCountry hoby text-center">
-                    <i class="fa fa-globe" aria-hidden="true"></i>
-                    <h2>Martial Arts</h2>
-                </div>
-            </div>
-            <div class="col-lg-1 col-xs-3 col-sm-2">
-                <div class="SingleCountry hoby text-center">
-                    <i class="fa fa-futbol-o" aria-hidden="true"></i>
-                    <h2>Bowling</h2>
-                </div>
-            </div>
-            <div class="col-lg-2 col-xs-4 col-sm-2 disNone767">
-                <div class="SingleCountry hoby text-center">
-                    <i class="fa fa-commenting" aria-hidden="true"></i>
-                    <h2>Hiking and climbing </h2>
-                </div>
-            </div>
-            <div class="col-lg-2 col-xs-3 col-sm-2 disNone767">
-                <div class="SingleCountry hoby text-center">
-                    <i class="fa fa-globe" aria-hidden="true"></i>
-                    <h2>Cooking, fine dining </h2>
-                </div>
-            </div>
-            <div class="clearfix"></div>
-        </div>-->
-</section> 
-</section>
-    <!-- About us Container End Here-->
-    <section class="signupSec">
-        @include('sections.sign-up-to-get-the-latest-on-digital-trends')
+        <div class="single-speak">
+            <img src="./images/english.png" alt="">
+            <h4>English</h4>
+        </div>
+
+
+        <div class="single-speak">
+            <img src="./images/spanish.png" alt="">
+            <h4>Spanish</h4>
+        </div>
+
+
+        <div class="single-speak">
+            <img src="./images/japanese.png" alt="">
+            <h4>Japanese</h4>
+        </div>
+
+
+        <div class="single-speak">
+            <img src="./images/french.png" alt="">
+            <h4>French</h4>
+        </div>
+        <div class="single-speak">
+            <img src="./images/french.png" alt="">
+            <h4>French</h4>
+        </div>
+        <div class="single-speak">
+            <img src="./images/french.png" alt="">
+            <h4>French</h4>
+        </div>
     </section>
+    <div class="cfx"></div>
+    <div class="our-main-hobbies x y">
+        <div class="hobbies-heading">
+            <h2>Some of <span>Our Hobbies</span></h2>
+        </div>
+        <div class="total-hobbies">
+                    <div class="single-hobbies">
+            <i class="fa fa-bicycle" aria-hidden="true"></i>
+            <li>World Travel</li>
+        </div>
+        <div class="single-hobbies">
+            <i class="fa fa-globe" aria-hidden="true"></i>
+            <li>Competitive Cycling</li>
+        </div>
+        <div class="single-hobbies">
+            <i class="fa fa-globe" aria-hidden="true"></i>
+            <li>Martial Arts</li>
+        </div>
+        <div class="single-hobbies">
+            <i class="fa fa-futbol-o" aria-hidden="true"></i>
+            <li>Bowling</li>
+        </div>
+        <div class="single-hobbies">
+            <i class="fa fa-commenting" aria-hidden="true"></i>
+            <li>Hiking and climbing</li>
+        </div>
+        <div class="single-hobbies">
+            <i class="fa fa-globe" aria-hidden="true"></i>
+            <li>Cooking, fine dining </li>
+        </div>
+        </div>
+    </div>
+    <div class="cfx"></div>
+    <div class="Newsleeter-section">
+        <h2>Sign Up to get the latest on Digital Trends</h2>
+        <form method="POST" action="newsletter_email.php">
+            <div class="input-group">
+                <input type="email" name="newsletter" required="required" class="input-custom" placeholder="Enter Your Email">
+                <button type="submit" class="btn-custom btn-primary-custom" name='submit'>sign up<i class="fa fa-chevron-right"></i> </button>
+            </div>
+        </form>
+    </div>
 
-    @endsection
+</section>
+<!-- About us Container End Here-->
+@endsection

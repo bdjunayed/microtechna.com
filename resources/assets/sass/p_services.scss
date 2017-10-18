@@ -1,0 +1,57 @@
+//Our Services Area
+.service-img {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 400px;
+    text-align: center;
+    background-attachment: fixed;
+    color: #fff;
+    position: relative;
+    background-image: url('../images/mobile-app-responsive.jpg');
+}
+
+// Our Main Servies area 
+.main-services {
+    padding: .6em 1em;
+    @include container($width: 100%, $debug: false);
+    @media only screen and (min-width: $lg) {
+        padding: .6em 4em;
+    }
+    margin-bottom: 30px;
+    margin-top: 30px;
+    .singleSpItem{
+        @media (min-width: $md) {
+            @include span(6);
+            &:nth-child(2n){
+                 @include span(last 6);
+                margin-right: 0px;
+            }
+        }
+        height: 374px;
+        text-align: left;
+        background: #eef5f2;
+        margin-bottom: 20px;
+        margin-top: 20px;
+        border: 1px solid#eef5f4;
+        box-shadow: 0px 4px 6px 0px #d1d9d6;
+        padding-bottom: 15px;
+        border-radius: 5px;
+        padding: 10px;
+        img {
+            width: 100%;
+            height: 50%;
+
+        }
+        a {
+
+            font-size: 20px;
+            font-weight: 500;
+            line-height: 3em;
+            color: $accent-color;
+
+        }
+     
+    }
+    
+}

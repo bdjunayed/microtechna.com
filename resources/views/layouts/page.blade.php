@@ -25,19 +25,27 @@
                 <span href="javascript:void(0)" class="closebtn" onclick="closeNav()"> ✕         
                 </span>
                 <ul>
-                    <li><a href="{{ route('home') }}" class="active">Home</a></li>
-                    <li><a href="http://microtechna.com" >About</a></li>
-                    <li><a href="http://microtechna.com">Feedback</a></li>
-                    @guest
-                    <li><a href="{{ route('login') }}">Login</a></li>
-                    <li><a href="{{ route('register') }}">Register</a></li>
-                    @else
-
-                    <li><a href="{{ route('logout') }}" onclick="event.preventDefault();
-                        document.getElementById('logout-form').submit();">Logout</a>
-                        <form id="logout-form" action="{{ route('logout') }}" method="POST" style="display: none;"> {{ csrf_field() }} </form>
+                   <li class="scrolls"><a href="{{ url('/about_us') }}">About us </a></li>
+                    <li class="scrolls"><a href="{{ url('/training') }}">Training</a></li>
+                    <li class="scrolls"><a href="{{ url('/services') }}" class="SubSer">Services</a>
+                        <ul>
+                            <li class="scrolls"><a href="{{ url('/web_design') }}">Website design</a></li>
+                            <li class="scrolls"><a href="{{ url('/mobile_app') }}">Mobile App Development</a></li>
+                            <li class="scrolls"><a href="{{ url('/performance_testing') }}">Performance testing</a></li>
+                            <!-- <li class="scrolls"><a href="service_four.html">service_four</a></li> -->
+                        </ul>
                     </li>
-                    @endguest
+                    <li class="scrolls"><a href="{{ url('/work') }}">Work</a></li>
+                    <li class="scrolls workwith hilight-menu"><a href="{{ url('/work_with_us') }}">Work with us</a> @guest
+                        <li><a href="{{ route('login') }}">Login</a></li>
+                        <li><a href="{{ route('register') }}">Register</a></li>
+                        @else
+
+                        <li><a href="{{ route('logout') }}" onclick="event.preventDefault();
+                        document.getElementById('logout-form').submit();">Logout</a>
+                            <form id="logout-form" action="{{ route('logout') }}" method="POST" style="display: none;"> {{ csrf_field() }} </form>
+                        </li>
+                        @endguest
 
                 </ul>
             </div>
@@ -45,11 +53,7 @@
         <!-- Desktop Menu-->
         <div class="Menu">
             <ul>
-                <li class="scrolls"><a href="{{ url('home') }}" class="active">Home</a></li>
-                <li class="scrolls"><a href="{{ url('/about_us') }}">About 
-                us
-
-                </a></li>
+                <li class="scrolls"><a href="{{ url('/about_us') }}">About us </a></li>
                 <li class="scrolls"><a href="{{ url('/training') }}">Training</a></li>
                 <li class="scrolls"><a href="{{ url('/services') }}" class="SubSer">Services</a>
 
@@ -70,7 +74,7 @@
             <a href="https://plus.google.com/b/103441871439982130127/103441871439982130127?hl=en" target="_blank" class="fa fa-google goo">🌏</a>
         </div>
     </div>
-<div class="cfx"></div>
+    <div class="cfx"></div>
 
 
     <!--End Header-->
@@ -133,9 +137,9 @@
                     <p>Don’t miss to subscribe to our news feeds, kindly fill the form below. </p>
                     <div class="input-group">
                         <input v-model="nl.email" class="input-custom" name="email" id="email" type="email">
-                   
+
                         <button class="btn-custom btn-primary-custom" :disabled="nl.errors.any()">Join!</button>
-                             <span class="error-text" v-if="nl.errors.has('email')" v-text="nl.errors.get('email')">This is error message </span>
+                        <span class="error-text" v-if="nl.errors.has('email')" v-text="nl.errors.get('email')">This is error message </span>
                     </div>
                 </div>
             </form>

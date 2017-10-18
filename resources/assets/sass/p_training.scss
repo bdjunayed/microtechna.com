@@ -32,7 +32,6 @@
         h2 {
             font-size: 40px!important;
             line-height: 0.6em!important;
-
         }
         p {
             line-height: 1em!important;
@@ -55,13 +54,26 @@
         color: $primary-color-text;
         line-height: 40px;
         font-weight: 300;
-        padding-bottom: 7px;
+        padding-bottom: 12px;
     }
 
     .image-overlay {
+        @media only screen and (min-width: $md) {
+            padding: 168px 0px!important;
+        }
+        @media only screen and (min-width: $lg) {
+            padding: 120px 0px!important;
+            p {
+                padding-bottom: 30px!important;
+            }
+        }
+
         width: 100%;
         height: 100%;
-        background: rgba(0, 0, 0, 0.7);
+        background: rgba(0,
+        0,
+        0,
+        0.7);
         position: absolute;
         left: 0;
         padding: 138px 0px;
@@ -73,10 +85,14 @@
 
 .tr-heading {
     @media only screen and (min-width: $md) {
-
         h1 {
-            font-size: 22px!important;
-
+            font-size: 23px!important;
+        }
+    }
+    @media only screen and (min-width: $lg) {
+        h1 {
+            font-size: 23px!important;
+            padding: 0px 100px;
         }
     }
     text-align: center;
@@ -84,14 +100,14 @@
     h1 {
         font-size: 20px;
         margin-top: 2em;
-        line-height: 2em;
+        line-height: 2.2em;
     }
     span {
-        font-size: 27px;
+        font-size: 36px;
         font-weight: 600;
         letter-spacing: 1px;
-        color: $secondary-text-color;
-        line-height: 2em;
+        color: $accent-color;
+        line-height: 1.6em;
     }
 }
 
@@ -282,9 +298,11 @@
 .custom {
     @media only screen and (min-width: $md) {
         @include span(6);
-
+        &:nth-child(2n) {
+            @include span(last 6);
+            margin-right: 0px;
+        }
     }
-
     text-align: center;
     width: 100%;
     background: #e3f0fa;
@@ -296,10 +314,13 @@
     padding: 22px 0px;
     margin-bottom: 20px;
     p {
-        padding: 8px 12px;
+        padding: 8px 30px;
         font-size: 13px;
         font-weight: 400;
         text-align: center;
+
+
+
     }
     h4 {
 
@@ -314,14 +335,6 @@
     width: 36%;
     border-radius: 100%;
     height: 36%;
-}
-
-//Need to fix with the nth child
-@media only screen and (min-width: $md) {
-    .custom:nth-child(2n + 1) {
-        @include span(last 6);
-        margin-right: 0px;
-    }
 }
 
 /*T========= Trining area start here =========*/
@@ -342,13 +355,23 @@
         font-size: 22px;
         color: $accent-color;
     }
-
     .single-course {
-        @media only screen and (min-width: $md) {
-            @include span(6);
-        }
+    
         @media only screen and (min-width: $lg) {
             @include span(4);
+            &:nth-child(3n + 1) {
+                @include span(last 4);
+                margin-right: 0px;
+                background: red;
+            }
+        }
+     
+    @media screen and (min-width: $md) {
+            @include span(6);
+            &:nth-child(2n+1) {
+                @include span(last 6);
+                margin-right: 0px;
+            }
         }
         text-align: justify;
         background: #fff;
@@ -372,7 +395,6 @@
         }
         p {
             padding-bottom: 15px;
-
         }
         .custom-enroll {
             border-top: 1px solid#ddd;
@@ -389,34 +411,8 @@
                 color: $accent-color;
             }
         }
-
-    }
-
-}
-
-@media only screen and (min-width: $md) {
-    .single-course:nth-child(2n + 1) {
-        @include span(last 6);
-        margin: 0px;
     }
 }
-
-@media only screen and (min-width: $lg) {
-    .single-course:nth-child(2n + 1) {
-        @include span(last 4);
-        margin: 0px;
-    }
-}
-
-
-/*@media only screen and (min-width: $lg) {
-    .single-course:nth-child(3n) {
-        @include span(last 4);
-        margin-right: 0px;
-        background: #000;
-    
-    }
-}*/
 
 /*=========== contact-us ===========*/
 
@@ -440,28 +436,20 @@
     }
     .single-content {
         @media only screen and (min-width: $md) {
-            @include span(6);
+            @include span(4);
+            &:nth-child(2n + 1) {
+                @include span(last 4);
+                margin-right: 0px;
+                text-align: right;
+            }
         }
-    }
-
-    .single-content:nth-child(4) {
-        @include span(12 wide);
-        padding-top: 30px;
-
-
-    }
-}
-
-//Need to fix with the nth child
-@media only screen and (min-width: $md) {
-    .single-content:nth-child(3) {
-        @include span(last 6);
-        margin-right: 0px;
+        @media only screen and (min-width: $lg) {
+            @include span(4);
+        }
     }
 }
 
 .single-content.last-column {
-    background: #eef5f2;
     text-align: center;
     padding-bottom: 17px;
     margin-top: 24px;

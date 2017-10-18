@@ -8,7 +8,7 @@
 </section>
 <div class="cfx"></div>
 <div class="container-training">
-    <div class="tr-heading ">
+    <div class="tr-heading">
         <h1>অভিজ্ঞ আমেরিকান আইটি প্রফেশনাল দ্বারা পরিচালিত বাংলাদেশে এই প্রথম ও একমাত্র ব্যতিক্রমধর্মী ট্রেনিং সেন্টার</h1>
         <p><span>MicroTech NA</span></p>
     </div>
@@ -91,6 +91,7 @@
 <div class="training-section">
     <h2 class="border-bottom">Our Courses</h2>
     <div class="single-course">
+       1
         <img src="./images/testing-01.jpg" alt="Software Testing" />
         <h2><b>Software Testing</b></h2>
         <p>This course will prepare you to get the position of an exceptional Software Test Engineer (Selenium/Java or QTP/UFT VBScript) platform to work with any cross-functional team, and join in the world-class community of talented experts.</p>
@@ -99,6 +100,7 @@
         </div>
     </div>
     <div class="single-course">
+       2
         <img src="./images/sqlserverDBA.jpg" alt="Software Testing" />
         <h2><b>SQL Server DBA</b></h2>
         <p>This will make you ready to take responsible for the evaluation, installation, database backup and recovery, data integrity procedures, space management strategies, backup strategy and the testing of disaster recovery processes, database security, maintenance, and support for enterprise class database management systems.</p>
@@ -107,6 +109,7 @@
         </div>
     </div>
     <div class="single-course">
+       3
         <img src="./images/ccna.png" alt="Software Testing" />
         <h2><b>Cisco Certified Network Associate - CCNA</b></h2>
         <p>This course will furnish you as a Network Operations Engineer with the Cisco Certified Network Associate (CCNA) certificate having proper knowledge on network implementations, routing and switching (10/100/1000 Ethernet, Frame Relay, Bridging, TCP/IP, IPX, EIGRP, and trunking protocols) in operations and implementations, firewall, VPN, security skills.</p>
@@ -117,6 +120,7 @@
     </div>
 
     <div class="single-course">
+       4
         <img src="./images/linux.jpg" alt="Software Testing" />
 
         <h2><b>Red Hat Certified Engineer - RHCE</b></h2>
@@ -127,6 +131,7 @@
         </div>
     </div>
     <div class="single-course">
+       5
         <img src="./images/web-01.jpg" alt="Software Testing" />
 
         <h2><b>Web App Developer</b></h2>
@@ -136,7 +141,9 @@
             <p><span>Duration: 3 or 6 months</span></p>
         </div>
     </div>
-    <div class="single-course"> <img src="./images/mobile.jpg" alt="Software Testing" />
+    <div class="single-course"> 
+       6
+       <img src="./images/mobile.jpg" alt="Software Testing" />
         <h2><b>Mobile App Developer</b></h2>
         <p>We will furnish you with proven ability of working experience building apps in Java and Aroid SDK using JSON and REST services in an agile team following scrum methodology, proficiency of using Gradle/ Jenkins/ Git/ Jira/ Confluence, JSON and XML, multi-site/ multi-lingual environments, building, packaging and deploying code for continuous integration, supporting and troubleshooting code issues in test and live environments.</p>
         <div class="custom-enroll">

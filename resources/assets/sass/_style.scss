@@ -6,6 +6,7 @@
 @import 'susy_custom';
 @import './p_training.scss'; //@import 'svg-icons';
 @import './p_about_us.scss';
+@import './p_services.scss';
 
 //@import 'svg-icons';
 // Initial
@@ -56,17 +57,11 @@ Start your code here
 ------------------------------------------  */
 
 .y {
-
-    @media only screen and (min-width: $md) {
-        width: span(6);
-    }
+    width: span(6);
 }
 
 .x {
-    @media only screen and (min-width: $md) {
-        margin-left: span(3);
-    }
-
+    margin-left: span(3);
 }
 
 .container-header {
@@ -216,6 +211,7 @@ Start your code here
         a {
             padding: 0px 6px!important;
             color: #017166!important;
+            border-bottom: 0px!important;
         }
     }
     li {
@@ -229,8 +225,8 @@ Start your code here
             font-size: 14px;
             font-weight: 500;
             text-shadow: 2px;
-            margin: 0px;
-            padding: 4px 8px;
+            margin-right: 2px;
+            padding: 4px 10px;
             text-transform: uppercase;
 
         }
@@ -305,7 +301,7 @@ Start your code here
 
 .container-footer {
     @include container($width: 100%, $debug: false);
-    background-color: $primary-color;
+    background-color: $primary-color-dark;
     padding: 1.6em 1em;
 }
 
@@ -313,7 +309,11 @@ Start your code here
 .single-footer {
     @media only screen and (min-width: $md) {
         @include span(6);
-        margin-right: 0px;
+        &:nth-child(2n) {
+            @include span(last 6);
+            margin-right: 0px;
+        }
+
     }
     margin-top: 30px;
     margin-bottom: 30px;
@@ -345,14 +345,6 @@ Start your code here
 
 }
 
-//Need to fix with the nth child
-@media only screen and (min-width: $md) {
-    .single-footer:nth-child(2n + 1) {
-        @include span(6);
-        margin: 0px;
-    }
-}
-
 .newslatter-custom {
     background: $primary-color-light;
     padding: 16px;
@@ -375,8 +367,8 @@ Start your code here
 .container-bootom-footer {
     @include container($width: 100%, $debug: false);
     text-align: center;
-    background-color: $primary-color-dark;
-    padding: 1.6em 1em;
+    background-color: $primary-color;
+    padding: 1em 1em;
 }
 
 .copyright {

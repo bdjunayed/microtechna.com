@@ -1,8 +1,8 @@
 .about-us-container {
     padding: .6em 1em;
     @include container($width: 100%, $debug: false);
-    @media only screen and (min-width: $md) {
-        padding: .6em 4em;
+    @media only screen and (min-width: $lg) {
+    padding: .6em 4em;
 
     }
     .about-heading {
@@ -34,43 +34,96 @@
     .main-about {
         margin-bottom: 50px;
         margin-top: 50px;
-        .single-about {
-            padding-bottom: 10px;
-            padding-top: 10px;
-            h2 {
-                text-transform: uppercase;
-                font-size: 20px;
-                font-weight: 400;
-                line-height: 37px;
-                color: cadetblue;
-                padding: 0px;
-                margin: 0;
-            }
-            p {
-                padding-top: 5px;
-            }
-            img {
-                width: 100%;
-                height: auto;
+        .single-section {
+            @include span(12);
+            .single-about {
+                @media only screen and (min-width: $md) {
+                    @include span(6);
+                    margin-bottom: 20px;
+                    margin-top: 20px;
+                    &:nth-child(2n){
+                        @include span(last 6);
+                        margin-right: 0px;
+                    }
+                }
+                margin-bottom: 10px;
+                margin-top: 10px;
+                padding: 10px;
+                h2 {
+                    text-transform: uppercase;
+                    font-size: 20px;
+                    font-weight: 400;
+                    line-height: 37px;
+                    color: cadetblue;
+                    padding: 0px;
+                    margin: 0;
+                }
+                margin-bottom: 0px;
+                p {
+                    padding-top: 5px;
+                }
+                img {
+                    width: 100%;
+                    height: auto;
+                }
             }
         }
     }
     /*-- Start ready to discus section --*/
     .ready-to-discus {
+        @media only screen and (min-width: $lg) {
+            border: 1px solid#eef5f2;
+            padding: 30px;
+            border-radius: 4px;
+            height: 140px;
+            box-shadow: 0px 4px 6px 0px #d1d9d6;
+            border-left: 5px solid$accent-color;
+            h2 {
+                @include span(10);
+                font-size: 41px!important;
+                text-align: left!important;
+                line-height: 8px !important;
+            }
+            a {
+                @include span(last 2);
+                text-align: right;
+                padding: 20px 0px;
+                text-align: center;
+                margin-top: 9px;
+                font-size: 18px;
+                font-weight: 500;
+                text-transform: uppercase;
+            }
+        }
+        margin-bottom: 30px;
+        margin-top: 30px;
         text-align: center;
         h2 {
             font-size: 21px;
-            font-weight: 600;
+            font-weight: 500;
             color: $accent-color;
         }
     }
+
     /*--- Start Blog area Start here ---*/
     .blog-area {
         margin-bottom: 30px;
         margin-top: 30px;
         text-align: center;
+
         .single-blog {
+            @media only screen and (min-width: $md) {
+                @include span(6);
+                &:nth-child(2n){
+                  @include span(last 6); 
+                  margin-right: 0px; 
+                }
+            }
             margin: 30px 0px;
+            box-shadow: 0px 4px 6px 0px #d1d9d6;
+            border: 1px solid#eef5f2;
+            border-radius: 4px;
+            padding: 20px;
             img {
                 width: 100%;
                 height: auto;
@@ -94,11 +147,12 @@
     }
     /*--- We are spack ---*/
     .we-speak {
+        text-align: center;
         margin-bottom: 30px;
         margin-top: 30px;
-        border: 1px solid#000;
         .speak-heading {
             text-align: center;
+            color: $accent-color;
             h2 {
                 font-size: 23px;
                 color: $accent-color;
@@ -110,8 +164,85 @@
             }
         }
         .single-speak {
-            @include span(3);
-            border: 1px solid#000;
+            @include span(2);
+            margin: 2px;
+            h2 {
+                font-size: 23px;
+                color: $accent-color;
+                line-height: 35px;
+                span {
+                    font-weight: 600;
+                    font-size: 30px;
+                }
+            }
+        }
+
+    }
+
+    /*---- Some Of Our Hobbies ----*/
+    .our-main-hobbies {
+        text-align: center;
+        margin-top: 30px;
+        margin-bottom: 30px;
+        h2 {
+            font-size: 23px;
+            color: $accent-color;
+            line-height: 35px;
+            span {
+                font-weight: 600;
+                font-size: 30px;
+            }
+
+        }
+        .total-hobbies {
+            text-align: center;
+            .single-hobbies {
+                text-align: center;
+                li {
+                    float: left;
+                    padding: 11px 6px;
+                    line-height: 0px;
+                    font-weight: 300;
+                    list-style: inside;
+                    font-size: 14px;
+
+                }
+            }
+
         }
     }
+    .Newsleeter-section {
+        text-align: center;
+        margin-bottom: 30px;
+        margin-top: 30px;
+        border-top: 1px solid#ddd;
+        h2 {
+            font-size: 23px;
+            color: $accent-color;
+            line-height: 35px;
+        }
+        .input-custom {
+            padding: 14px 10px !important;
+            font-size: 14px !important;
+            background: #ddd !important;
+        }
+        .btn-custom {
+            @media only screen and (min-width: $sm) {
+                padding: 11px 30px!important;
+            }
+            @media only screen and (min-width: $lg) {
+                padding: 12px 30px!important;
+                margin-top: -1px!important;
+            }
+            padding: 11px 30px;
+            font-size: 16px;
+            font-weight: 600;
+            text-transform: uppercase;
+            margin-left: -10px;
+            border-radius: 0px 4px 4px 0px;
+            margin-top: -3px;
+            outline-style: none;
+        }
+    }
+
 }
