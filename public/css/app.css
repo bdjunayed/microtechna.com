@@ -302,8 +302,9 @@ fieldset[disabled] .btn-custom {
 }
 
 .banner-training h2 {
-  font-size: 20px;
-  font-weight: 400;
+  letter-spacing: 1px;
+  font-size: 24px;
+  font-weight: 300;
   color: #FFFFFF;
   line-height: 6px;
 }
@@ -613,7 +614,7 @@ fieldset[disabled] .btn-custom {
 }
 
 .custom p {
-  padding: 8px 30px;
+  padding: 8px 14px;
   font-size: 13px;
   font-weight: 400;
   text-align: center;
@@ -650,6 +651,7 @@ fieldset[disabled] .btn-custom {
 
 @media only screen and (min-width: 992px) {
   .training-section {
+    padding-bottom: 60px !important;
     padding: 0.5em 4em;
   }
 }
@@ -673,28 +675,32 @@ fieldset[disabled] .btn-custom {
   margin: 20px 0px;
 }
 
-@media only screen and (min-width: 992px) {
-  .training-section .single-course {
-    width: 32.20338983%;
-    float: left;
-    margin-right: 1.69491525%;
-  }
-  .training-section .single-course:nth-child(3n + 1) {
-    width: 32.20338983%;
-    float: right;
-    margin-right: 0px;
-    background: red;
-  }
-}
-
 @media screen and (min-width: 768px) {
   .training-section .single-course {
     width: 49.15254237%;
     float: left;
     margin-right: 1.69491525%;
   }
-  .training-section .single-course:nth-child(2n+1) {
+  .training-section .single-course:nth-child(2n + 1) {
     width: 49.15254237%;
+    float: right;
+    margin-right: 0px;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .training-section .single-course {
+    width: 32.20338983%;
+    float: left;
+    margin-right: 1.69491525%;
+  }
+  .training-section .single-course:nth-child(2n + 1) {
+    width: 32.20338983%;
+    float: left;
+    margin-right: 1.69491525%;
+  }
+  .training-section .single-course:nth-child(3n + 1) {
+    width: 32.20338983%;
     float: right;
     margin-right: 0px;
   }
@@ -1159,6 +1165,14 @@ fieldset[disabled] .btn-custom {
   }
 }
 
+.main-services .border-bottom {
+  border-bottom: 1px solid #ddd;
+  padding-bottom: 10px;
+  font-weight: 400;
+  font-size: 22px;
+  color: #009688;
+}
+
 .main-services .singleSpItem {
   height: 374px;
   text-align: left;
@@ -1173,7 +1187,7 @@ fieldset[disabled] .btn-custom {
   padding: 10px;
 }
 
-@media (min-width: 768px) {
+@media screen and (min-width: 768px) {
   .main-services .singleSpItem {
     width: 49.15254237%;
     float: left;
@@ -1181,6 +1195,24 @@ fieldset[disabled] .btn-custom {
   }
   .main-services .singleSpItem:nth-child(2n) {
     width: 49.15254237%;
+    float: right;
+    margin-right: 0px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .main-services .singleSpItem {
+    width: 32.20338983%;
+    float: left;
+    margin-right: 1.69491525%;
+  }
+  .main-services .singleSpItem:nth-child(2n) {
+    width: 32.20338983%;
+    float: left;
+    margin-right: 1.69491525%;
+  }
+  .main-services .singleSpItem:last-child {
+    width: 32.20338983%;
     float: right;
     margin-right: 0px;
   }
@@ -1196,6 +1228,137 @@ fieldset[disabled] .btn-custom {
   font-weight: 500;
   line-height: 3em;
   color: #009688;
+}
+
+.main-services .singleSpItem:hover {
+  -webkit-box-shadow: 0px 6px 20px 0px #d1d9d6;
+  -mos-box-shadow: 0px 6px 20px 0px #d1d9d6;
+  box-shadow: 0px 6px 20px 0px #d1d9d6;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.web-design-bg {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 400px;
+  text-align: center;
+  background-attachment: fixed;
+  color: #fff;
+  position: relative;
+  background-image: url("../images/web-mobile-app-developer.jpg");
+}
+
+.tab-area-section {
+  padding: .6em 1em;
+  margin: 0 auto;
+  max-width: 100%;
+  margin-bottom: 30px;
+  margin-top: 30px;
+  position: relative;
+}
+
+.tab-area-section::after {
+  clear: both;
+  content: ' ';
+  display: table;
+}
+
+@media only screen and (min-width: 992px) {
+  .tab-area-section {
+    padding: .6em 4em;
+  }
+}
+
+.tab-area-section .under-border {
+  position: absolute;
+  top: 25%;
+  left: 26%;
+  width: 48%;
+  height: 10px;
+  background: #f6f6f6;
+  z-index: -1;
+  margin-top: -17px;
+  -webkit-box-shadow: inset 0 5px 6px #4a4a4a;
+          box-shadow: inset 0 5px 6px #4a4a4a;
+}
+
+.tab-area-section #tabs {
+  text-align: center;
+  height: 100px;
+  width: 100%;
+}
+
+.tab-area-section #tabs li {
+  list-style: none;
+  outline: none;
+  display: inline-block;
+}
+
+.tab-area-section #tabs li a {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: small;
+  font-weight: bold;
+  color: #5685bc;
+  height: 120px;
+  width: 120px;
+  border-radius: 100%;
+  display: block;
+  background: #455A64;
+  text-decoration: none;
+  cursor: pointer;
+  margin: 0px 80px;
+  padding: 33px;
+  font-size: 34px;
+  color: #CCC;
+  border: solid 10px #eef5f3;
+  -webkit-box-shadow: 0 5px 6px #4a4a4a;
+          box-shadow: 0 5px 6px #4a4a4a;
+  -webkit-transition: 0.3s ease all;
+  transition: 0.3s ease all;
+}
+
+.tab-area-section #tabs li a.inactive {
+  color: #fff;
+  background: #009688;
+  border: solid 10px #eef5f3;
+  -webkit-box-shadow: 0 4px 5px #4a4a4a;
+          box-shadow: 0 4px 5px #4a4a4a;
+  height: 110px;
+  width: 110px;
+  border-radius: 100%;
+  padding: 30px;
+}
+
+.tab-content {
+  margin-bottom: 30px;
+  margin-top: 30px;
+}
+
+.tab-content .container {
+  clear: both;
+  width: 100%;
+  text-align: center;
+}
+
+.tab-content .container h2 {
+  color: #009688;
+  font-size: 28px !important;
+  line-height: 50px !important;
+  font-weight: 400;
+}
+
+.tab-content .container ul {
+  margin-left: 25px;
+  font-size: small;
+  line-height: 1.4;
+  list-style-type: disc;
+}
+
+.tab-content .container ul li {
+  padding-bottom: 5px;
+  margin-left: 5px;
 }
 
 body {
@@ -1243,11 +1406,11 @@ li {
 Start your code here
 ------------------------------------------  */
 .y {
-  width: 49.15254237%;
+  width: 66.10169492%;
 }
 
 .x {
-  margin-left: 23.72881356%;
+  margin-left: 15.25423729%;
 }
 
 .container-header {
@@ -1541,6 +1704,12 @@ Start your code here
   display: table;
 }
 
+@media only screen and (min-width: 992px) {
+  .container-footer {
+    padding: .6em 4em;
+  }
+}
+
 .single-footer {
   margin-top: 30px;
   margin-bottom: 30px;
@@ -1554,6 +1723,24 @@ Start your code here
   }
   .single-footer:nth-child(2n) {
     width: 49.15254237%;
+    float: right;
+    margin-right: 0px;
+  }
+}
+
+@media only screen and (min-width: 992px) {
+  .single-footer {
+    width: 23.72881356%;
+    float: left;
+    margin-right: 1.69491525%;
+  }
+  .single-footer:nth-child(2n) {
+    width: 23.72881356%;
+    float: left;
+    margin-right: 1.69491525%;
+  }
+  .single-footer:last-child {
+    width: 23.72881356%;
     float: right;
     margin-right: 0px;
   }

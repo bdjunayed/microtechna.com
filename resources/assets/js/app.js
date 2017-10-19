@@ -24,8 +24,14 @@ try {
 import Vue from 'vue';
 import axios from 'axios';
 import Form from './core/Form';
+/*import Tab from './tab.js';*/
 window.axios = axios;
 window.Form = Form;
+/*window.Tab = Tab;*/
+
+new Vue({
+  el:"#app"
+});
 
 new Vue({
     el: '#newsletters',
@@ -62,3 +68,4 @@ new Vue({
         }
     }
 });
+

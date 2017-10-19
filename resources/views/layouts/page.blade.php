@@ -25,7 +25,7 @@
                 <span href="javascript:void(0)" class="closebtn" onclick="closeNav()"> ✕         
                 </span>
                 <ul>
-                   <li class="scrolls"><a href="{{ url('/about_us') }}">About us </a></li>
+                    <li class="scrolls"><a href="{{ url('/about_us') }}">About us </a></li>
                     <li class="scrolls"><a href="{{ url('/training') }}">Training</a></li>
                     <li class="scrolls"><a href="{{ url('/services') }}" class="SubSer">Services</a>
                         <ul>
@@ -163,7 +163,7 @@
 
     <a href="#" class="BackTo">🌏</a>
     <script type="text/javascript" src="{{asset('js/app.js')}}"></script>
-
+    
     <script>
         function openNav() {
             document.getElementById("mySidenav").style.width = "250px";
@@ -172,10 +172,28 @@
         function closeNav() {
             document.getElementById("mySidenav").style.width = "0";
         }
+    </script>
+        <script>
+        $(document).ready(function() {
+
+            $('#tabs li a:not(:first)').addClass('inactive');
+            $('.container').hide();
+            $('.container:first').show();
+
+            $('#tabs li a').click(function() {
+                var t = $(this).attr('id');
+                if ($(this).hasClass('inactive')) { //this is the start of our condition 
+                    $('#tabs li a').addClass('inactive');
+                    $(this).removeClass('inactive');
+
+                    $('.container').hide();
+                    $('#' + t + 'C').fadeIn('slow');
+                }
+            });
+
+        });
 
     </script>
-
-
     @include('includes.analytics_google')
 </body>
 

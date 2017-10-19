@@ -7,6 +7,7 @@
 @import './p_training.scss'; //@import 'svg-icons';
 @import './p_about_us.scss';
 @import './p_services.scss';
+@import './p_webdesign.scss';
 
 //@import 'svg-icons';
 // Initial
@@ -57,11 +58,12 @@ Start your code here
 ------------------------------------------  */
 
 .y {
-    width: span(6);
+    width: span(8);
+
 }
 
 .x {
-    margin-left: span(3);
+    margin-left: span(2);
 }
 
 .container-header {
@@ -303,6 +305,9 @@ Start your code here
     @include container($width: 100%, $debug: false);
     background-color: $primary-color-dark;
     padding: 1.6em 1em;
+    @media only screen and (min-width: $lg) {
+        padding: .6em 4em;
+    }
 }
 
 
@@ -311,6 +316,17 @@ Start your code here
         @include span(6);
         &:nth-child(2n) {
             @include span(last 6);
+            margin-right: 0px;
+        }
+
+    }
+    @media only screen and (min-width: $lg) {
+        @include span(3);
+        &:nth-child(2n) {
+            @include span(3);
+        }
+        &:last-child {
+            @include span(last 3);
             margin-right: 0px;
         }
 

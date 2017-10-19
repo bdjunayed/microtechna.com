@@ -786,8 +786,14 @@ try {
 
 
 
+/*import Tab from './tab.js';*/
 window.axios = __WEBPACK_IMPORTED_MODULE_1_axios___default.a;
 window.Form = __WEBPACK_IMPORTED_MODULE_2__core_Form__["a" /* default */];
+/*window.Tab = Tab;*/
+
+new __WEBPACK_IMPORTED_MODULE_0_vue___default.a({
+    el: "#app"
+});
 
 new __WEBPACK_IMPORTED_MODULE_0_vue___default.a({
     el: '#newsletters',

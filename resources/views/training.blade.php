@@ -1,9 +1,9 @@
 @extends('layouts.page') @section('content')
 <section class="banner-training">
     <div class="image-overlay">
-<h2>Software Testing, DBA, CCNA</h2>
-   <p> Training</p>
-    <a href="{{ url('/work_with_us') }}" class="btn-custom btn-primary-custom ">Contact us</a>
+        <h2>Software Testing, DBA, CCNA</h2>
+        <p> Training</p>
+        <a href="{{ url('/work_with_us') }}" class="btn-custom btn-primary-custom ">Contact us</a>
     </div>
 </section>
 <div class="cfx"></div>
@@ -31,9 +31,10 @@
             </div>
         </div>
     </div>
- </div>   <!-- About course start here-->
+</div>
+<!-- About course start here-->
 <div class="training-details-section">
-        <div class="about-course-area">
+    <div class="about-course-area">
         <div class="what-are-you-get">
             <h2>অভিজ্ঞ আমেরিকান আইটি প্রফেশনাল দ্বারা পরিচালিত বাংলাদেশে এই প্রথম ও একমাত্র ব্যতিক্রমধর্মী ট্রেনিং সেন্টার মাইক্রোটেক এ আপনি পাবেন:</h2>
             <div class="bollet">
@@ -91,7 +92,7 @@
 <div class="training-section">
     <h2 class="border-bottom">Our Courses</h2>
     <div class="single-course">
-       1
+
         <img src="./images/testing-01.jpg" alt="Software Testing" />
         <h2><b>Software Testing</b></h2>
         <p>This course will prepare you to get the position of an exceptional Software Test Engineer (Selenium/Java or QTP/UFT VBScript) platform to work with any cross-functional team, and join in the world-class community of talented experts.</p>
@@ -100,7 +101,7 @@
         </div>
     </div>
     <div class="single-course">
-       2
+
         <img src="./images/sqlserverDBA.jpg" alt="Software Testing" />
         <h2><b>SQL Server DBA</b></h2>
         <p>This will make you ready to take responsible for the evaluation, installation, database backup and recovery, data integrity procedures, space management strategies, backup strategy and the testing of disaster recovery processes, database security, maintenance, and support for enterprise class database management systems.</p>
@@ -109,7 +110,7 @@
         </div>
     </div>
     <div class="single-course">
-       3
+
         <img src="./images/ccna.png" alt="Software Testing" />
         <h2><b>Cisco Certified Network Associate - CCNA</b></h2>
         <p>This course will furnish you as a Network Operations Engineer with the Cisco Certified Network Associate (CCNA) certificate having proper knowledge on network implementations, routing and switching (10/100/1000 Ethernet, Frame Relay, Bridging, TCP/IP, IPX, EIGRP, and trunking protocols) in operations and implementations, firewall, VPN, security skills.</p>
@@ -120,7 +121,7 @@
     </div>
 
     <div class="single-course">
-       4
+
         <img src="./images/linux.jpg" alt="Software Testing" />
 
         <h2><b>Red Hat Certified Engineer - RHCE</b></h2>
@@ -131,7 +132,7 @@
         </div>
     </div>
     <div class="single-course">
-       5
+
         <img src="./images/web-01.jpg" alt="Software Testing" />
 
         <h2><b>Web App Developer</b></h2>
@@ -141,9 +142,9 @@
             <p><span>Duration: 3 or 6 months</span></p>
         </div>
     </div>
-    <div class="single-course"> 
-       6
-       <img src="./images/mobile.jpg" alt="Software Testing" />
+    <div class="single-course">
+
+        <img src="./images/mobile.jpg" alt="Software Testing" />
         <h2><b>Mobile App Developer</b></h2>
         <p>We will furnish you with proven ability of working experience building apps in Java and Aroid SDK using JSON and REST services in an agile team following scrum methodology, proficiency of using Gradle/ Jenkins/ Git/ Jira/ Confluence, JSON and XML, multi-site/ multi-lingual environments, building, packaging and deploying code for continuous integration, supporting and troubleshooting code issues in test and live environments.</p>
         <div class="custom-enroll">
@@ -178,7 +179,7 @@
             <p>017.1056.3784</p>
         </div>
     </div>
-    
+
     <div class="single-content last-column">
         <a href="#">MicroTech NA</a>
         <p>Call for clarifiaction</p>
@@ -186,7 +187,7 @@
     </div>
 
 </div>
-    <div class="training-form">
-        <script type="text/javascript" src="https://form.jotform.me/jsform/72484192474463"></script>
-    </div>
+<div class="training-form">
+    <script type="text/javascript" src="https://form.jotform.me/jsform/72484192474463"></script>
+</div>
 <!--.Contact-us-area-->@endsection

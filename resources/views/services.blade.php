@@ -8,6 +8,7 @@
 </section>
 
 <section class="main-services">
+     <h2 class="border-bottom">What Services We are Offers</h2>
     <div class="singleSpItem">
         <img src="https://opusonline.co/wp-content/uploads/2016/03/social-media.svg" alt="social media">
         <a href="./design.html" class="fa fa-link SpFaLink"></a>
