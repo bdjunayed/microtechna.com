@@ -37,4 +37,37 @@
 
     </div>
 </div>
+<!-- Vue js componant -->
+<div class="main-slider-area">
+    <!-- template for the slider component -->
+<script type="text/x-template" id="img-slider-template">
+
+</script>
+<!-- demo root element -->
+<div id="demo">
+    <div id="slider">
+    <input checked="" type="radio" name="slider" id="slide1" selected="false">
+    <input type="radio" name="slider" id="slide2" selected="false">
+    <input type="radio" name="slider" id="slide3" selected="false">
+    <input type="radio" name="slider" id="slide4" selected="false">
+    <div id="slides">
+      <div id="overflow">
+        <div class="inner">
+          <article v-for="item in items" class="slide">
+            <div class="image-container">
+              <img :src="item.img" alt="item.title" />
+            </div>
+            <div class="title">@{{item.title}}</div>
+            <div class="teaser">@{{item.content}}</div>
+          </article>
+        </div> <!-- .inner -->
+      </div> <!-- #overflow -->
+    </div>
+    <label for="slide1"></label>
+    <label for="slide2"></label>
+    <label for="slide3"></label>
+    <label for="slide4"></label>
+  </div>
+</div>
+</div>
 @endsection

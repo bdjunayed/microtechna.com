@@ -792,10 +792,6 @@ window.Form = __WEBPACK_IMPORTED_MODULE_2__core_Form__["a" /* default */];
 /*window.Tab = Tab;*/
 
 new __WEBPACK_IMPORTED_MODULE_0_vue___default.a({
-    el: "#app"
-});
-
-new __WEBPACK_IMPORTED_MODULE_0_vue___default.a({
     el: '#newsletters',
     data: {
         nl: new __WEBPACK_IMPORTED_MODULE_2__core_Form__["a" /* default */]({
@@ -832,6 +828,32 @@ new __WEBPACK_IMPORTED_MODULE_0_vue___default.a({
                 return console.log('err');
             });
         }
+    }
+});
+// define slider component
+var items = [{
+    title: 'Article 1',
+    img: "https://s3-us-west-2.amazonaws.com/s.cdpn.io/5689/rock.jpg",
+    content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque ex arcu, fringilla in urna quis, ultrices efficitur neque. Morbi lacinia arcu tellus, a imperdiet'
+}, {
+    title: 'Article 2',
+    img: "https://s3-us-west-2.amazonaws.com/s.cdpn.io/5689/grooves.jpg",
+    content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque ex arcu, fringilla in urna quis, ultrices efficitur neque. Morbi lacinia arcu tellus, a imperdiet'
+}, {
+    title: 'Article 3',
+    img: "https://s3-us-west-2.amazonaws.com/s.cdpn.io/5689/arch.jpg",
+    content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque ex arcu, fringilla in urna quis, ultrices efficitur neque. Morbi lacinia arcu tellus, a imperdiet'
+}, {
+    title: 'Article 4',
+    img: "https://s3-us-west-2.amazonaws.com/s.cdpn.io/5689/sunset.jpg",
+    content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque ex arcu, fringilla in urna quis, ultrices efficitur neque. Morbi lacinia arcu tellus, a imperdiet'
+}];
+
+// boot up demo
+new __WEBPACK_IMPORTED_MODULE_0_vue___default.a({
+    el: '#demo',
+    data: {
+        items: items
     }
 });
 
