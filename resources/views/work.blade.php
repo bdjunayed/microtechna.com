@@ -1,71 +1,28 @@
-@extends('layouts.page')
-@section('content')
-<section class="SPBanerSec">
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-12 text-center">
-                <div class="SpBanerSingle SpBanerSingle1">
-                    <h1>Work</h1>
-                    <p>Portfolio</p>
-                </div>
-            </div>
-        </div>
+@extends('layouts.page') @section('content')
+<!-- Web design Banner area section Start Here-->
+<section class="banner-training work-bg">
+    <div class="image-overlay">
+        <h2>Our Latest Work</h2>
+        <a href="{{ url('/work_with_us') }}" class="btn-custom btn-primary-custom ">Work With us</a>
     </div>
 </section>
-<!--<section class="workTitleSec">
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-12">
-                <div class="workTitle text-center">
-                    <h1>Work</h1>
-                    <p>Check out our latest work in UI/UX design, mobile app development, wearable technology, website design and development, Web app development, and brand strategy.</p>
-                </div>
-            </div>
+<div class="cfx"></div>
+<div class="work-main-area-section">
+    <div class="single-work-01">
+    <img src="./images/bang-typing-software-bs1.png" alt="">
+        <div class="hover-content">
+            <p>Apps • UX/UI</p>
+            <a href="#">Button</a>
+            <h3>Bhasha shoinik</h3>
         </div>
     </div>
-</section>-->
-<!--start folio section-->
-<section class="folioSec">
-    <div class="container-fluid">
-        <div class="row">
-            <div class="col-lg-8 col-sm-8 col-xs-12 noPadding">
-                <div class="folioImg">
-                    <img src="./images/bang-typing-software-bs1.png" alt="">
-                    <div class="imgoverLay"></div>
-                    <div class="fOverText fOverText22">
-                        <h2>Bhasha shoinik</h2>
-                    </div>
-                    <div class="OverBtn text-center">
-                        <p>Apps • UX/UI</p>
-                        <a href="{{ url('/bhasha_shoinik_bangla_software') }}">View case study</a>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-4 col-sm-4 col-xs-12 noPadding">
-                <div class="folioImg">
-                    <img src="./images/website-development-webapp-dev2.png" alt="">
-                    <div class="imgoverLay"></div>
-                    <div class="fOverText">
-                        <h2>System Netware</h2>
-                    </div>
-                    <div class="OverBtn text-center">
-                        <p>Apps • UX/UI</p>
-                        <a href="{{ url('/system_netware_work') }}">View case study</a>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-lg-12">
-                <div class="folioimgContent folioimgContentSagor">
-                    <p>
-                        At Lounge Lizard, our success is measured by your success. For us it’s not just creating
-                        something that looks great; it needs to deliver results!
-                    </p>
-                </div>
-            </div>
-        </div>
-        <!--
+    <div class="single-work-01">
+     <img src="./images/website-development-webapp-dev2.png" alt="">
+     </div>
+</div>
+<div class="cfx"></div>
+
+<!--
         <div class="row">
             <div class="col-lg-4 noPadding">
                 <div class="folioImg">
@@ -85,6 +42,7 @@
                         <a href="">view case study</a>
                     </div>
                 </div>
+               
                 <div class="folioImg folioImg2">
                     <img src="./images/w5.jpg" alt="">
                     <div class="imgoverLay"></div>
@@ -220,7 +178,5 @@
                 </div>
             </div>
         </div>-->
-    </div>    
-</section>
 
-        @endsection
+@endsection

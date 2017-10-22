@@ -1,0 +1,30 @@
+.work-bg {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 400px;
+    text-align: center;
+    background-attachment: fixed;
+    color: #fff;
+    position: relative;
+    background-image: url('../images/servicebaner.jpg');
+    .image-overlay {
+        width: 100%;
+        height: 100%;
+        background: rgba(0,
+        0,
+        0,
+        0.2);
+        position: absolute;
+        left: 0;
+        padding: 138px 0px;
+
+    }
+}
+.work-main-area-section{
+    @include span(12); 
+    .single-work-01{
+     @include span(6);
+     border: 2px solid red;
+    }
+}

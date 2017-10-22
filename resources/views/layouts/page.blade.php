@@ -163,7 +163,6 @@
 
     <a href="#" class="BackTo">🌏</a>
     <script type="text/javascript" src="{{asset('js/app.js')}}"></script>
-    
     <script>
         function openNav() {
             document.getElementById("mySidenav").style.width = "250px";
@@ -172,8 +171,9 @@
         function closeNav() {
             document.getElementById("mySidenav").style.width = "0";
         }
+
     </script>
-        <script>
+    <script>
         $(document).ready(function() {
 
             $('#tabs li a:not(:first)').addClass('inactive');
@@ -192,7 +192,6 @@
             });
 
         });
-
     </script>
     @include('includes.analytics_google')
 </body>

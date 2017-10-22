@@ -65,27 +65,26 @@ new Vue({
         }
     }
 });
+
 // define slider component
+
 var items = [{
-  title: 'Article 1',
+  title: 'Mobile Responsive Design',
   img: "https://s3-us-west-2.amazonaws.com/s.cdpn.io/5689/rock.jpg",
-  content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque ex arcu, fringilla in urna quis, ultrices efficitur neque. Morbi lacinia arcu tellus, a imperdiet'
+  content: 'Mobile is becoming more and more prevalent and becoming a focal point of business processes. Responsive Web Design makes your web page look good on all devices (desktops, tablets, and phones). It helps to make your website visitors happy.'
 }, {
-  title: 'Article 2',
+  title: 'Blazing-Fast page loading',
   img: "https://s3-us-west-2.amazonaws.com/s.cdpn.io/5689/grooves.jpg",
-  content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque ex arcu, fringilla in urna quis, ultrices efficitur neque. Morbi lacinia arcu tellus, a imperdiet'
+  content: 'Our hand crafted customize websites through the optimization rules for the online resources properly, theyve been tested and proven and they underpin the work we do every day, thus the website load in faster manner. We may host the website in our blazing fast USA server for monthly $2. *You will get first month for free. '
 }, {
-  title: 'Article 3',
+  title: 'Hand crafted & Secure',
   img: "https://s3-us-west-2.amazonaws.com/s.cdpn.io/5689/arch.jpg",
-  content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque ex arcu, fringilla in urna quis, ultrices efficitur neque. Morbi lacinia arcu tellus, a imperdiet'
+  content: 'We use hand crafted fast technology architecture. Faster than any WordPress site. If you dont believe me then just compare our site with any other CMS site on Google Page Insights. Im pretty sure our hand crafted websites wins the race.Our static websites will not have any database to manipulate. So 100 times safer than WordPress. But nothing is un-hackable. '
 }, {
-  title: 'Article 4',
+  title: 'Web Compatibility',
   img: "https://s3-us-west-2.amazonaws.com/s.cdpn.io/5689/sunset.jpg",
-  content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque ex arcu, fringilla in urna quis, ultrices efficitur neque. Morbi lacinia arcu tellus, a imperdiet'
+  content: 'A site should easily render on various resolutions, screen sizes, and browsers; and with the increasing popularity of mobile devices, websites should function properly on the plethora of these types of devices'
 }]
-
-
-
 // boot up demo
 new Vue({
   el: '#demo',

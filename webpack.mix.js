@@ -12,12 +12,12 @@ let mix = require('laravel-mix');
  */
 
 mix.js('resources/assets/js/app.js', 'public/js')
-    //.js('resources/assets/js/main.js', 'public/js');
+    /*.js('resources/assets/js/custom.js', 'public/js');*/
 
 mix.sass('resources/assets/sass/app.scss', 'public/css')
     // .sass('resources/assets/sass/main.scss', 'public/css')
     // .sass('resources/assets/sass/preset.scss', 'public/css')
-     //.sass('resources/assets/sass/responsive.scss', 'public/css')
+    //.sass('resources/assets/sass/responsive.scss', 'public/css')
     //.sass('resources/assets/sass/style.scss', 'public/css')
     .options({
         processCssUrls: false

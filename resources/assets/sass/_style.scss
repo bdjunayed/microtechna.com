@@ -8,6 +8,8 @@
 @import './p_about_us.scss';
 @import './p_services.scss';
 @import './p_webdesign.scss';
+@import './p_work.scss';
+
 
 //@import 'svg-icons';
 // Initial
@@ -58,12 +60,16 @@ Start your code here
 ------------------------------------------  */
 
 .y {
-    width: span(8);
-
+    @media screen and (min-width: $lg) {
+        width: span(8);
+    }
 }
 
 .x {
-    margin-left: span(2);
+    @media screen and (min-width: $lg) {
+        margin-left: span(2);
+    }
+
 }
 
 .container-header {
