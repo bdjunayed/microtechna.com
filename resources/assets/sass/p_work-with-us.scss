@@ -1,0 +1,78 @@
+.contact-bg {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 400px;
+    text-align: center;
+    background-attachment: fixed;
+    color: #fff;
+    position: relative;
+    background-image: url('../images/web-app-designing.jpg');
+}
+
+.contactForm {
+    background: $primary-color-light;
+    margin: 0px;
+    .container-contact-us {
+        padding: 2em 1em;
+        @include container($width: 100%, $debug: false);
+        
+        @media only screen and (min-width: $lg) {
+            padding: 2em 4em;
+        }
+
+        form {
+            @media only screen and (min-width: $md) {
+                @include span(6);
+                margin: 0px;
+            }
+            .input-custom {
+                width: 100%;
+            }
+        }
+        .form-social-icons {
+            @media only screen and (min-width: $md) {
+                @include span(last 6);
+                margin: 0px;
+            }
+            margin-bottom: 30px;
+            margin-top: 60px;
+            .single-con {
+                overflow: hidden;
+                padding-bottom: 20px;
+
+                i.fa {
+                    display: block;
+                    float: left;
+                    font-size: 22px;
+                    height: 50px;
+                    width: 50px;
+                    border-radius: 50%;
+                    text-align: center;
+                    border: 2px solid $accent-color;
+                    padding-top: 7px;
+                }
+                .address-tails {
+                    padding-left: 12px;
+                    display: inline-block;
+                    h3 {
+                        line-height: 0px;
+                        font-size: 22px;
+                        font-weight: 400;
+                        padding-bottom: 5px;
+                    }
+                    h4 {
+                        line-height: 20px;
+                        font-size: 18px;
+                        font-weight: 400;
+                    }
+                    p {
+                        line-height: 30px;
+                        font-size: 14px;
+                        font-weight: 400;
+                    }
+                }
+            }
+        }
+    }
+}

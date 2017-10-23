@@ -8,17 +8,79 @@
 </section>
 <div class="cfx"></div>
 <div class="work-main-area-section">
-    <div class="single-work-01">
-    <img src="./images/bang-typing-software-bs1.png" alt="">
-        <div class="hover-content">
-            <p>Apps • UX/UI</p>
-            <a href="#">Button</a>
-            <h3>Bhasha shoinik</h3>
+    <div class="section-one">
+        <div class="single-work-01">
+            <div class="content-overlay"></div>
+            <img src="./images/bang-typing-software-bs1.png" alt="">
+            <div class="fadein-bootm">
+                <h3>Bhasha shoinik</h3>
+            </div>
+            <div class="content-details">
+                <p>Apps • UX/UI</p>
+                <a href="#">Button</a>
+            </div>
+
+        </div>
+        <div class="single-work-01">
+            <div class="content-overlay"></div>
+            <img src="./images/website-development-webapp-dev2.png" alt="">
+            <div class="fadein-bootm">
+                <h3>Bhasha shoinik</h3>
+            </div>
+            <div class="content-details">
+                <p>Apps • UX/UI</p>
+                <a href="#">Button</a>
+            </div>
+
+        </div>
+                <div class="single-work-01">
+            <div class="content-overlay"></div>
+            <img src="./images/website-development-webapp-dev2.png" alt="">
+            <div class="fadein-bootm">
+                <h3>Bhasha shoinik</h3>
+            </div>
+            <div class="content-details">
+                <p>Apps • UX/UI</p>
+                <a href="#">Button</a>
+            </div>
+
+        </div>
+            <div class="single-work-01">
+                <div class="content-overlay"></div>
+                <img src="./images/bang-typing-software-bs1.png" alt="">
+                <div class="fadein-bootm">
+                    <h3>Bhasha shoinik</h3>
+                </div>
+                <div class="content-details">
+                    <p>Apps • UX/UI</p>
+                    <a href="#">Button</a>
+                </div>
+            </div>
+
+            <div class="single-work-01">
+                <div class="content-overlay"></div>
+                <img src="./images/bang-typing-software-bs1.png" alt="">
+                <div class="fadein-bootm">
+                    <h3>Bhasha shoinik</h3>
+                </div>
+                <div class="content-details">
+                    <p>Apps • UX/UI</p>
+                    <a href="#">Button</a>
+                </div>
+            </div>
+   
+        <div class="single-work-01">
+            <div class="content-overlay"></div>
+            <img src="./images/website-development-webapp-dev2.png" alt="">
+            <div class="fadein-bootm">
+                <h3>Bhasha shoinik</h3>
+            </div>
+            <div class="content-details">
+                <p>Apps • UX/UI</p>
+                <a href="#">Button</a>
+            </div>
         </div>
     </div>
-    <div class="single-work-01">
-     <img src="./images/website-development-webapp-dev2.png" alt="">
-     </div>
 </div>
 <div class="cfx"></div>
 

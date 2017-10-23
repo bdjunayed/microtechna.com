@@ -38,6 +38,7 @@
     </div>
 </div>
 <!-- Vue js componant -->
+<div class="cfx"></div>
 <div class="main-slider-area">
     <div class="section-heading x y">
         <h2>Benefits / Our Solution</h2>

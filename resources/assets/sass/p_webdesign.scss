@@ -19,6 +19,15 @@
     margin-top: 60px;
     position: relative;
     .under-border {
+        @media screen and (min-width: $sm) {
+            top: 19%!important;
+        }
+        @media screen and (min-width: $lg) {
+            top: 22% !important;
+            left: 30%;
+            width: 38%;
+            height: 10px!important;
+        }
         position: absolute;
         top: 12%;
         left: 26%;
@@ -33,58 +42,38 @@
     }
 
     #tabs {
+
         text-align: center;
         height: 100px;
         width: 100%;
-        @media screen and (min-width: $lg) {
-            li {
-                list-style: none;
-                outline: none;
-                float: left;
-                a {
-                    font-family: Arial, Helvetica, sans-serif;
-                    font-size: small;
-                    font-weight: bold;
-                    color: #5685bc;
-                    height: 120px;
-                    width: 120px;
-                    border-radius: 100%;
-                    display: block;
-                    background: $primary-color-dark;
-                    text-decoration: none;
-                    cursor: pointer;
-                    margin: 0px 80px;
-                    padding: 33px;
-                    font-size: 34px;
-                    color: #CCC;
-                    border: solid 10px#eef5f3;
-                    box-shadow: 0 5px 6px #4a4a4a;
-                    transition: 0.2s ease all;
-                }
-                a.inactive {
-                    color: #fff;
-                    background: $accent-color;
-                    border: solid 10px#eef5f3;
-                    box-shadow: 0 4px 5px #4a4a4a;
-                    height: 110px;
-                    width: 110px;
-                    border-radius: 100%;
-                    padding: 30px;
-                }
-
+        @media screen and (min-width: $sm) {
+            a {
+                height: 86px!important;
+                width: 86px!important;
+                margin: 0px 35px!important;
+                padding-top: 24px!important;
             }
-            .under-border {
-                position: absolute;
-                top: 25%;
-                left: 26%;
-                width: 48%;
-                height: 10px;
-                background: #f6f6f6;
-                z-index: -1;
-                margin-top: -17px;
-                box-shadow: inset 0 5px 6px #4a4a4a;
-                display: block;
+            a.inactive {
+                height: 80px!important;
+                width: 80px!important;
+                margin: 0px 35px!important;
+                padding-top: 24px!important;
+            }
+        }
 
+        @media screen and (min-width: $lg) {
+            a {
+                height: 106px!important;
+                width: 106px!important;
+                margin: 0px 60px!important;
+                padding-top: 29px !important;
+                border: solid 10px#eef5f3!important;
+            }
+            a.inactive {
+                height: 100px!important;
+                width: 100px!important;
+                margin: 0px 60px!important;
+                padding-top: 29px !important;
             }
         }
 
@@ -94,17 +83,17 @@
             a {
                 font-weight: bold;
                 color: #5685bc;
-                height: 60px;
-                width: 60px;
+                height: 66px;
+                width: 66px;
                 border-radius: 100%;
                 display: block;
                 background: $primary-color-dark;
                 text-decoration: none;
                 cursor: pointer;
-                padding: 15px;
                 margin: 0px 15px;
                 font-size: 24px;
                 color: #CCC;
+                padding-top: 16px;
                 border: solid 4px#eef5f3;
                 box-shadow: 0 5px 6px #4a4a4a;
                 transition: 0.2s ease all;
@@ -117,7 +106,7 @@
                 height: 60px;
                 width: 60px;
                 border-radius: 100%;
-                padding: 15px;
+                padding-top: 13px;
             }
 
         }
@@ -127,6 +116,22 @@
 
 // Vue js Slider 
 .tab-content {
+    @media screen and (min-width: $sm) {
+        .container {
+            height: 200px!important;
+            margin-top: 40px;
+        }
+    }
+    @media screen and (min-width: $lg) {
+        .container {
+            height: 220px!important;
+        }
+    }
+    @media screen and (min-width: $md) {
+        p {
+            text-align: center!important;
+        }
+    }
     .container {
         clear: both;
         width: 100%;
@@ -137,6 +142,9 @@
             font-size: 22px !important;
             line-height: 32px !important;
             font-weight: 400;
+        }
+        p {
+            text-align: justify;
         }
         ul {
             margin-left: 25px;
@@ -164,6 +172,7 @@
 }
 
 .section-heading {
+
     @media screen and (min-width: $lg) {
         h2 {
             font-size: 32px !important;
@@ -181,7 +190,12 @@
 }
 
 .slide {
+    margin-top: 10px;
     .image-container {
+        @media screen and (min-width: $md) {
+            @include span(first 6);
+            text-align: left;
+        }
         img {
             width: 100%;
             height: auto;
@@ -190,13 +204,19 @@
         width: 100%;
         margin-right: 15px;
     }
+
     .title {
         font-size: 20px;
-        font-weight: 700;
+        font-weight: 500;
         text-align: left;
+        line-height: 51px;
+        /* margin: 20px 0px; */
     }
     .teaser {
-        text-align: left;
+        text-align: justify;
+        line-height: 27px;
+        font-weight: 400;
+        font-size: 15px;
     }
 
 }
@@ -327,6 +347,9 @@ Main components
 #cd-timeline::before {
     left: 1%;
     margin-left: 7px;
+    @media screen and (min-width: $lg){
+         margin-left: 0px;
+    }
 
 }
 
@@ -364,13 +387,28 @@ Main components
     background: $accent-color;
     top: 0;
     left: 0;
-    width: 40px;
-    height: 40px;
+    width: 20px; //desktop 40px
+    height: 20px;
     border-radius: 50%;
     box-shadow: 0 0 0 4px white, inset 0 2px 0 rgba(0, 0, 0, 0.08), 0 3px 0 4px rgba(0, 0, 0, 0.05);
+    @media screen and (min-width: $sm) {
+        width: 30px!important;
+        height: 30px!important;
+    }
 }
 
 .cd-timeline-img img {
+    display: block;
+    width: 14px; //desktop 24px
+    height: 14px;
+    position: relative;
+    left: 50%;
+    top: 50%;
+    margin-left: -12px;
+    margin-top: -12px;
+}
+
+/*.cd-timeline-img img {
     display: block;
     width: 24px;
     height: 24px;
@@ -379,7 +417,7 @@ Main components
     top: 50%;
     margin-left: -12px;
     margin-top: -12px;
-}
+}*/
 
 .cd-timeline-img.cd-picture {
     background: #75ce66;
@@ -415,19 +453,31 @@ Main components
 }*/
 
 .cd-timeline-content {
+    @media screen and (min-width: $sm) {
+        margin-left: 45px!important;
+    }
     position: relative;
-    margin-left: 60px;
+    margin-left: 35px; // desktio 60 px
     background: white;
     border-radius: 0.25em;
     padding: 1em;
     box-shadow: 0 3px 0 #d7e4ed;
     img {
-        @include span(last 6);
+        display: none;
+        @media screen and (min-width: $sm) {
+            display: block;
+            padding: 20px 0px;
+        }
+        @media screen and (min-width: $md) {
+            display: block;
+            margin-left: 10px!important;
+            @include span(last 6);
+        }
     }
-
     .details-stage {
-        @include span(6);
-        margin-block-start: -30px !important;
+        @media screen and (min-width: $md) {
+            margin-block-start: -30px !important;
+        }
     }
 }
 
@@ -455,7 +505,6 @@ Main components
         padding-left: 15px;
 
         li {
-
             list-style: disc;
             font-size: 16px!important;
             font-weight: 500;
