@@ -28,24 +28,35 @@
     color: #fff;
     position: relative;
     background-image: url('../images/training.jpg');
-    @media only screen and (min-width: $lg) {
-        h2 {
-            font-size: 40px!important;
-            line-height: 0.6em!important;
+    @media only screen and (min-width: $md) {
+        .image-overlay {
+            padding: 158px 0px!important;
         }
-        p {
-            line-height: 1em!important;
-            font-size: 18px!important;
-            padding-bottom: 22px;
+        @media only screen and (min-width: $lg) {
+            .image-overlay {
+                padding: 130px 0px!important;
+            }
+            h2 {
+                font-size: 40px!important;
+                line-height: 0.6em!important;
+            }
+            p {
+                line-height: 1em!important;
+                font-size: 18px!important;
+                padding-bottom: 22px;
+            }
+
         }
 
+        h2 {
+            font-size: 30px!important;
+            line-height: 0.6em!important;
+        }
     }
     h2 {
-        @media only screen and (min-width: $md) {
-            font-size: 24px;
-        }
+
         letter-spacing: 1px;
-        font-size: 24px;
+        font-size: 22px;
         font-weight: 300;
         color: #FFFFFF;
         line-height: 6px;
@@ -55,7 +66,7 @@
         color: $primary-color-text;
         line-height: 40px;
         font-weight: 300;
-        padding-bottom: 12px;
+        padding-bottom: 18px;
     }
 
     .image-overlay {
@@ -89,12 +100,12 @@
     text-align: center;
 
     h1 {
-        font-size: 20px;
+        font-size: 20px !important;
         margin-top: 2em;
         line-height: 2.2em;
     }
     span {
-        font-size: 36px;
+        font-size: 30px;
         font-weight: 600;
         letter-spacing: 1px;
         color: $accent-color;
@@ -122,7 +133,7 @@
         }
         h2 {
             height: auto;
-            background: #e3f0fa;
+            background: #eef5f2;
             box-shadow: 0px 6px 10px 0px rgba(209, 207, 207, 0.64);
             line-height: 36px;
             width: 100%;
@@ -154,7 +165,6 @@
                     height: 352px;
                     border-radius: 0px;
                 }
-
                 height: auto;
                 width: 100%;
                 border-radius: 5px 5px 0px 0px;
@@ -163,13 +173,12 @@
         h4 {
             font-size: 17px;
             line-height: 30px;
-            margin-top: 5px;
             padding: 12px 14px;
         }
         .example-text {
             position: relative;
             width: 100%;
-            background: #c2e1f5;
+            background: #eef5f2;
             @media only screen and (min-width: $md) {
                 @include span(last 6 narrow);
                 height: 352px;
@@ -215,7 +224,7 @@
 
 .example-text:before {
     border-color: rgba(194, 225, 245, 0);
-    border-right-color: #c2e1f5;
+    border-right-color: #eef5f2;
     border-width: 35px;
     margin-top: -35px;
 }
@@ -226,7 +235,7 @@
         @include span(all);
     }
 
-    background: #e3f0fa;
+    background: #eef5f2;
     padding: 5px 14px;
     margin-top: 15px;
     border-radius: 4px;
@@ -245,9 +254,9 @@
     padding-bottom: 30px;
     h2 {
         text-align: center;
-        line-height: 30px;
-        font-size: 16px;
-        font-weight: 600;
+        line-height: 35px;
+        font-size: 18px;
+        font-weight: 500;
         color: $accent-color;
         border-bottom: 1px solid #ddd;
         padding-bottom: 20px;
@@ -296,7 +305,7 @@
     }
     text-align: center;
     width: 100%;
-    background: #e3f0fa;
+    background: #eef5f2;
     box-shadow: 0 4px 10px 0px rgba(210,
     208,
     208,
@@ -305,7 +314,7 @@
     padding: 22px 0px;
     margin-bottom: 20px;
     p {
-       padding: 8px 14px;
+        padding: 8px 14px;
         font-size: 13px;
         font-weight: 400;
         text-align: center;
@@ -333,9 +342,9 @@
 .training-section {
     @include container($width: 100%, $debug: true);
     @media only screen and (min-width: $lg) {
-       padding-bottom: 60px !important;
+        padding-bottom: 60px !important;
         padding: 0.5em 4em;
- 
+
     }
     padding: 0.5em 1em;
     padding-bottom: 30px;
@@ -418,6 +427,7 @@
         text-align: center;
         font-size: 22px;
         color: $accent-color;
+        line-height: 37px;
     }
     h3 {
         font-size: 1.2rem;
@@ -443,7 +453,9 @@
 }
 
 .single-content.last-column {
-    text-align: center;
+    @media screen and (min-width: $md) {
+        text-align: center;
+    }
     padding-bottom: 17px;
     margin-top: 24px;
     h3 {

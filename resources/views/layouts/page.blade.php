@@ -27,8 +27,8 @@
                 <ul>
                     <li class="scrolls"><a href="{{ url('/about_us') }}">About us </a></li>
                     <li class="scrolls"><a href="{{ url('/training') }}">Training</a></li>
-                    <li class="scrolls"><a href="{{ url('/services') }}" class="SubSer">Services</a>
-                        <ul>
+                    <li id="Drop"><a href="#" class="SubSer">Services &#8667;</a>
+                        <ul id="drop-dwoun">
                             <li class="scrolls"><a href="{{ url('/web_design') }}">Website design</a></li>
                             <li class="scrolls"><a href="{{ url('/mobile_app') }}">Mobile App Development</a></li>
                             <li class="scrolls"><a href="{{ url('/performance_testing') }}">Performance testing</a></li>
@@ -150,7 +150,7 @@
     <!--Footer End-->
     <div class="container-bootom-footer">
         <div class="copyright">
-            <p>Made With ❤️ by <a href="http://Microtechna.com" target="_blank">APMS</a></p>
+            <p>Made With &hearts; by <a href="http://Microtechna.com" target="_blank">APMS</a></p>
             <p>&copy; 2017 <a href="{{ url('/') }}">MicroTech NA Inc.</a> All Rights Reserved.</p>
         </div>
         <div class="socials">
@@ -171,6 +171,7 @@
         function closeNav() {
             document.getElementById("mySidenav").style.width = "0";
         }
+        
 
     </script>
     <script>
@@ -193,6 +194,15 @@
 
         });
     </script>
+<script> 
+$(document).ready(function(){
+    $("#Drop").click(function(){
+        $("#drop-dwoun").toggle("slow");
+    });
+});
+</script>
+   
+   
     @include('includes.analytics_google')
 </body>
 

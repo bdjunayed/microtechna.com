@@ -37,6 +37,10 @@ Route::get('/work', function () {
     return view('work');
 });
 
+Route::get('/bhasha-shoinik', function () {
+    return view('bhasha-shoinik');
+});
+
 Route::get('/bhasha_shoinik_bangla_software', function () {
     return view('work_bhasha_shoinik');
 });

@@ -1,8 +1,21 @@
+.about-bg {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 400px;
+    text-align: center;
+    background-attachment: fixed;
+    color: #fff;
+    position: relative;
+    background-image: url('../images/mobile-app-developer.jpg');
+    
+}
+
 .about-us-container {
     padding: .6em 1em;
     @include container($width: 100%, $debug: false);
     @media only screen and (min-width: $lg) {
-    padding: .6em 4em;
+        padding: .6em 4em;
 
     }
     .about-heading {
@@ -41,7 +54,7 @@
                     @include span(6);
                     margin-bottom: 20px;
                     margin-top: 20px;
-                    &:nth-child(2n){
+                    &:nth-child(2n) {
                         @include span(last 6);
                         margin-right: 0px;
                     }
@@ -102,6 +115,7 @@
             font-size: 21px;
             font-weight: 500;
             color: $accent-color;
+            line-height: 28px;
         }
     }
 
@@ -114,9 +128,9 @@
         .single-blog {
             @media only screen and (min-width: $md) {
                 @include span(6);
-                &:nth-child(2n){
-                  @include span(last 6); 
-                  margin-right: 0px; 
+                &:nth-child(2n) {
+                    @include span(last 6);
+                    margin-right: 0px;
                 }
             }
             margin: 30px 0px;
@@ -228,13 +242,13 @@
         }
         .btn-custom {
             @media only screen and (min-width: $sm) {
-                padding: 11px 30px!important;
+                padding: 12px 30px!important;
             }
             @media only screen and (min-width: $lg) {
                 padding: 12px 30px!important;
                 margin-top: -1px!important;
             }
-            padding: 11px 30px;
+            padding: 12px 30px;
             font-size: 16px;
             font-weight: 600;
             text-transform: uppercase;

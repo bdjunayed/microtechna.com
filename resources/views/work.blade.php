@@ -17,7 +17,7 @@
             </div>
             <div class="content-details">
                 <p>Apps • UX/UI</p>
-                <a href="#">Button</a>
+                <a href=" {{ url('/bhasha-shoinik') }}">Button</a>
             </div>
 
         </div>
@@ -33,51 +33,57 @@
             </div>
 
         </div>
-                <div class="single-work-01">
-            <div class="content-overlay"></div>
-            <img src="./images/website-development-webapp-dev2.png" alt="">
-            <div class="fadein-bootm">
-                <h3>Bhasha shoinik</h3>
-            </div>
-            <div class="content-details">
-                <p>Apps • UX/UI</p>
-                <a href="#">Button</a>
-            </div>
-
-        </div>
-            <div class="single-work-01">
-                <div class="content-overlay"></div>
-                <img src="./images/bang-typing-software-bs1.png" alt="">
-                <div class="fadein-bootm">
-                    <h3>Bhasha shoinik</h3>
-                </div>
-                <div class="content-details">
-                    <p>Apps • UX/UI</p>
-                    <a href="#">Button</a>
-                </div>
-            </div>
-
-            <div class="single-work-01">
-                <div class="content-overlay"></div>
-                <img src="./images/bang-typing-software-bs1.png" alt="">
-                <div class="fadein-bootm">
-                    <h3>Bhasha shoinik</h3>
-                </div>
-                <div class="content-details">
-                    <p>Apps • UX/UI</p>
-                    <a href="#">Button</a>
-                </div>
-            </div>
-   
+    </div>
+    <div class="a">
         <div class="single-work-01">
             <div class="content-overlay"></div>
-            <img src="./images/website-development-webapp-dev2.png" alt="">
+            <img src="./images/Redesign4.jpg" alt="">
             <div class="fadein-bootm">
                 <h3>Bhasha shoinik</h3>
             </div>
             <div class="content-details">
                 <p>Apps • UX/UI</p>
                 <a href="#">Button</a>
+            </div>
+        </div>
+    </div>
+    <div class="b">
+        <div class="single-work-01">
+            <div class="content-overlay"></div>
+            <img src="./images/Redesign3.jpg" alt="">
+            <div class="fadein-bootm">
+                <h3>Bhasha shoinik</h3>
+            </div>
+            <div class="content-details">
+                <p>Apps • UX/UI</p>
+                <a href="#">Button</a>
+            </div>
+        </div>
+        <div class="last-full-cumns">
+            <div class="single-work-01">
+                <div class="content-overlay"></div>
+                <img src="./images/Redesign2.jpg" alt="">
+                <div class="fadein-bootm">
+                    <h3>Bhasha shoinik</h3>
+                </div>
+                <div class="content-details">
+                    <p>Apps • UX/UI</p>
+                    <a href="#">Button</a>
+                </div>
+            </div>
+        </div>
+        <div class="c">
+            <div class="single-work-01">
+                <div class="content-overlay"></div>
+                <img src="./images/Redesign.jpg" alt="">
+                <div class="fadein-bootm">
+                    <h3>Bhasha shoinik</h3>
+                </div>
+                <div class="content-details">
+                    <p>Apps • UX/UI</p>
+                    <a href="#">Button</a>
+                </div>
+
             </div>
         </div>
     </div>

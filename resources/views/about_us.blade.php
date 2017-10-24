@@ -1,5 +1,5 @@
 @extends('layouts.page') @section('content')
-<section class="banner-training">
+<section class="banner-training about-bg">
     <div class="image-overlay">
         <h2>About Us And What We Do !</h2>
         <p> Creative. Responsive. On Mission.</p>
