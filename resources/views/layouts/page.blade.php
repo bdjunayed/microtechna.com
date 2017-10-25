@@ -15,8 +15,8 @@
     <!--Header Start -->
     <div class="container-header">
         <div class="logo">
-            <a href="{{ url('/') }}">MicroTech NA</a>
-            <span>strengthening business performances</span>
+            <a href="{{ url('/') }}"><!-- <span> &#8499;</span> -->MicroTech NA</a>
+     <!--       <span>strengthening business performances</span> -->
         </div>
         <!-- Bergar menu-->
         <div class="burger"><span onclick="openNav()"> ☰ 
@@ -27,7 +27,7 @@
                 <ul>
                     <li class="scrolls"><a href="{{ url('/about_us') }}">About us </a></li>
                     <li class="scrolls"><a href="{{ url('/training') }}">Training</a></li>
-                    <li id="Drop"><a href="#" class="SubSer">Services &#8667;</a>
+                    <li id="Drop"><a href="#" class="SubSer">Services <span>&#10095;</span></a>
                         <ul id="drop-dwoun">
                             <li class="scrolls"><a href="{{ url('/web_design') }}">Website design</a></li>
                             <li class="scrolls"><a href="{{ url('/mobile_app') }}">Mobile App Development</a></li>
@@ -69,9 +69,16 @@
             </ul>
         </div>
         <div class="socail">
-            <a href="https://www.facebook.com/microtechna/" target="_blank" class="fa fa-facebook face">🌏</a>
-            <a href="https://twitter.com/@MicroTechSky" target="_blank" class="fa fa-twitter twi">🌏</a>
-            <a href="https://plus.google.com/b/103441871439982130127/103441871439982130127?hl=en" target="_blank" class="fa fa-google goo">🌏</a>
+            <a href="https://www.facebook.com/microtechna/" target="_blank">
+             <img src="./images/facebook.svg" alt="ali" /></a>
+            <a href="https://twitter.com/@MicroTechSky" target="_blank">
+                <img src="./images/twitter.svg" alt="ali" /></a>
+            </a>
+            <a href="https://plus.google.com/b/103441871439982130127/103441871439982130127?hl=en" target="_blank"> 
+                <img src="./images/youtube.svg" alt="ali" />
+            </a>
+         <a href="https://plus.google.com/b/103441871439982130127/103441871439982130127?hl=en" target="_blank"> <img src="./images/google.svg" alt="ali" /></a>
+        </div>
         </div>
     </div>
     <div class="cfx"></div>
@@ -150,19 +157,48 @@
     <!--Footer End-->
     <div class="container-bootom-footer">
         <div class="copyright">
-            <p>Made With &hearts; by <a href="http://Microtechna.com" target="_blank">APMS</a></p>
+            <p>Made With <span>&hearts;</span> by <a href="http://Microtechna.com" target="_blank">APMS</a></p>
             <p>&copy; 2017 <a href="{{ url('/') }}">MicroTech NA Inc.</a> All Rights Reserved.</p>
         </div>
-        <div class="socials">
-            <a href="https://www.facebook.com/microtechna/" class="face" target="_blank">🌏</a>
-            <a href="https://twitter.com/@MicroTechSky" class="twi" target="_blank">🌏</a>
-            <a href="https://plus.google.com/b/103441871439982130127/103441871439982130127?hl=en" class="goo" target="_blank">🌏</a>
-            <a href="https://www.youtube.com/channel/UCSkG14BOJK3j0tYOFWK8O8w" class="lin" target="_blank">🌏</a>
+                <div class="socail footer-so">
+            <a href="https://www.facebook.com/microtechna/" target="_blank">
+             <img src="./images/facebook.svg" alt="ali" /></a>
+            <a href="https://twitter.com/@MicroTechSky" target="_blank">
+                <img src="./images/twitter.svg" alt="ali" /></a>
+            </a>
+            <a href="https://plus.google.com/b/103441871439982130127/103441871439982130127?hl=en" target="_blank"> 
+                <img src="./images/youtube.svg" alt="ali" />
+            </a>
+         <a href="https://plus.google.com/b/103441871439982130127/103441871439982130127?hl=en" target="_blank"> <img src="./images/google.svg" alt="ali" /></a>
         </div>
     </div>
 
-    <a href="#" class="BackTo">🌏</a>
+  <button onclick="topFunction()" id="back-top" title="Go to top"> 
+   <!--  <img src="./images/top-arow.svg" alt="Top" /></a> -->
+    <span> &#8673;</span>
+</button>
     <script type="text/javascript" src="{{asset('js/app.js')}}"></script>
+
+    <!---- Script for Back Top Button ---->
+<script>
+// When the user scrolls down 20px from the top of the document, show the button
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+    if (document.body.scrollTop > 900 || document.documentElement.scrollTop > 900) {
+        document.getElementById("back-top").style.display = "block";
+    } else {
+        document.getElementById("back-top").style.display = "none";
+    }
+}
+
+// When the user clicks on the button, scroll to the top of the document
+function topFunction() {
+    document.body.scrollTop = 0;
+    document.documentElement.scrollTop = 0;
+}
+</script>
+<!---- Script for berger Menu ---->
     <script>
         function openNav() {
             document.getElementById("mySidenav").style.width = "250px";
@@ -171,9 +207,8 @@
         function closeNav() {
             document.getElementById("mySidenav").style.width = "0";
         }
-        
-
     </script>
+<!---- Script for Tab ---->
     <script>
         $(document).ready(function() {
 
@@ -201,8 +236,19 @@ $(document).ready(function(){
     });
 });
 </script>
-   
-   
+  <script>
+    $(window).scroll(function() {
+    if ($(this).scrollTop() > 300){  
+        $('.container-header').addClass("sticky");
+    }
+    else{
+        $('.container-header').removeClass("sticky");
+    }
+    
+});
+    </script>
+<!-- Script for Sticky Nav -->
+
     @include('includes.analytics_google')
 </body>
 

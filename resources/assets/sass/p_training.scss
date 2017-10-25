@@ -125,8 +125,8 @@
             h2 {
                 margin: 0px;
                 height: 455px !important;
-                line-height: 50px !important;
-                padding: 40px!important;
+                line-height: 42px !important;
+                padding: 34px !important;
                 font-size: 20px!important;
                 border-radius: 0px!important;
             }
@@ -194,6 +194,18 @@
                 line-height: 30px;
                 padding: 20px 13px;
             }
+           i{
+                font-size: 30px;
+                font-weight: 500;
+               color: $accent-color;
+               padding: 0px 3px;
+
+            }
+             i.left-qoute{
+                  padding-top:40px;
+                  margin-left: 6px;
+               }
+
 
         }
 
