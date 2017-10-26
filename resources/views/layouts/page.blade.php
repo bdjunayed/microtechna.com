@@ -80,7 +80,7 @@
          <a href="https://plus.google.com/b/103441871439982130127/103441871439982130127?hl=en" target="_blank"> <img src="./images/google.svg" alt="ali" /></a>
         </div>
         </div>
-    </div>
+
     <div class="cfx"></div>
 
 

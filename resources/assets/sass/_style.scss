@@ -1,4 +1,5 @@
 //@import 'meyer_reset';
+@import url('https://fonts.maateen.me/solaiman-lipi/font.css');
 //@import 'boilerplate_main';
 @import 'my_variables';
 @import 'typo';
@@ -20,7 +21,7 @@ body {
     margin: 0 auto;
     color: $secondary-text-color;
     background: $color-gray-50-lightest;
-
+    font-family: 'SolaimanLipi', sans-serif;
 }
 
 nav,
@@ -75,8 +76,8 @@ Start your code here
 }
 
 .container-header {
-      width: 100%;
-      transition: all 0.5s ease-in-out 0s;
+    width: 100%;
+    transition: all 0.5s ease-in-out 0s;
     @include container($width: 100%, $debug: false);
     @media only screen and (min-width: $md) {
         padding: .6em 4em;
@@ -91,31 +92,44 @@ Start your code here
     left: 0px;
     right: 0px;
     z-index: 999;
-    line-height:40px;
 
 }
-.sticky{
+
+.sticky {
     width: 100%;
     top: 0px;
     position: fixed;
     z-index: 999;
     height: 60px;
-background: #455A64;
-    line-height:25px;
-   padding-top: .6em;
- opacity: 0.9;
-
+    background: #17252c;
+    /*  background: #455A64;*/
+    padding-top: .6em;
+    opacity: 0.9;
+    transition: all 0.4s ease-in-out 0s;
+    .logo {
+        a {
+            font-size: 18px!important;
+            font-weight: 600;
+        }
+    }
+    @media screen and (min-width: $md) {
+        height: 110px;
+    }
+    @media screen and (min-width: $lg) {
+        height: 60px;
+    }
 }
+
 .logo {
     @include span(last 8);
     text-align: right;
-        margin-top: 7px;
-        @media only screen and (min-width: $md) {
+    margin-top: 7px;
+    @media only screen and (min-width: $md) {
         @include span(12);
         text-align: center;
         font-size: 30px!important;
         font-weight: bold;
-        a{
+        a {
             font-size: 24px !important;
         }
     }
@@ -128,9 +142,9 @@ background: #455A64;
             font-size: 24px !important;
             display: block;
             text-align: left;
-            margin-top: 6px!important;
+            margin-top: 4px!important;
         }
-        span{
+        span {
             font-size: 13px;
             font-weight: 300;
         }
@@ -144,7 +158,7 @@ background: #455A64;
         background-color: transparent;
         color: #fff;
         text-shadow: 0 0 5px gray;
-        letter-spacing:1px;
+        letter-spacing: 1px;
     }
 
     a:hover {
@@ -153,15 +167,16 @@ background: #455A64;
     }
     span {
         font-size: 35px;
-          color: $accent-color;
-          font-weight: 400;
+        color: $accent-color;
+        font-weight: 400;
     }
 }
 
-.dribbbl{
+.dribbbl {
     font-size: 30px;
     color: blueviolet;
 }
+
 /*============= Bergar Menu ==============*/
 
 .burger {
@@ -194,7 +209,7 @@ background: #455A64;
         opacity: .95;
         ul {
             li {
-                #drop-dwoun{
+                #drop-dwoun {
                     display: none;
                 }
                 a {
@@ -221,7 +236,7 @@ background: #455A64;
 
                 }
             }
-             #Drop span {
+            #Drop span {
                 font-size: 13px;
                 padding-left: 4px;
                 font-weight: 300;
@@ -248,7 +263,7 @@ background: #455A64;
         display: block;
         @include span(9);
         text-align: center;
-        margin-top: 22px;
+        margin-top: 5px;
     }
     @media only screen and (min-width: $lg) {
         @include span(7);
@@ -264,11 +279,14 @@ background: #455A64;
 .Menu ul {
     text-align: center;
     .hilight-menu {
-        border: 1px solid#017166;
+        border: 1px solid$accent-bright;
         a {
             padding: 0px 6px!important;
-            color: #017166!important;
+            color: $accent-bright;
             border-bottom: 0px!important;
+        }
+        a:hover {
+            color: $accent-bright-2;
         }
     }
     li {
@@ -283,7 +301,7 @@ background: #455A64;
             font-weight: 500;
             text-shadow: 2px;
             margin-right: 2px;
-            padding: 4px 10px;
+            padding: 4px 9px;
             text-transform: uppercase;
 
         }
@@ -348,42 +366,42 @@ background: #455A64;
         @include span(last 3);
         display: block;
         text-align: left;
-        margin-top: 26px;
+        margin-top: 7px;
     }
     @media screen and (min-width: $lg) {
         @include span(last 2 set-gutters 0);
         display: block;
         margin-right: 0px;
-        margin-top: 3px;
-
+        margin-top: 5px;
 
     }
     display: none;
 
-    a{
-        display:inline-block;
-    img{
-    height: 28px;
-    width:28px;
-    background: #fff;
-    border-radius: 50%;
-    margin-right: 3px;
-}
-    img:hover{
-    box-shadow: 0px 3px 5px 0px #eef5f2;
-    transition: all 0.4s ease-in-out 0s;
-      color: $accent-color;
+    a {
+        display: inline-block;
+        img {
+            height: 28px;
+            width: 28px;
+            background: #fff;
+            border-radius: 50%;
+            margin-right: 3px;
+        }
+        img:hover {
+            box-shadow: 0px 3px 5px 0px #eef5f2;
+            transition: all 0.4s ease-in-out 0s;
+            color: $accent-color;
+
+        }
 
     }
-
-    }
 }
-.footer-so{
-    @media screen and (min-width: $md){
+
+.footer-so {
+    @media screen and (min-width: $md) {
         @include span(12);
-           text-align: center!important;
-            display: block;
-            padding: 0px;
+        text-align: center!important;
+        display: block;
+        padding: 0px;
     }
     text-align: center;
     display: block;
@@ -474,7 +492,7 @@ background: #455A64;
 .container-bootom-footer {
     @include container($width: 100%, $debug: false);
     text-align: center;
-   background-color:#3f535d;
+    background-color: #3f535d;
     padding: 1em 1em;
 }
 
@@ -483,45 +501,46 @@ background: #455A64;
     padding-bottom: 5px;
     p {
         color: $primary-color-text;
-        font-size:14px;
+        font-size: 14px;
         a {
             color: $accent-color;
         }
-        span{
+        span {
             color: red;
             font-size: 16px;
         }
     }
 
 }
-#back-top {
-  display: none;
-  position: fixed;
-  bottom: 40px;
-  right: 20px;
-  z-index: 99;
-  border: none;
-  outline: none;
-  background-color: $accent-color;
-  color: white;
-  cursor: pointer;
-  height: 50px;
-  width:50px;
-  border-radius: 100%;
-  font-size: 16px;
-  font-weight:600;
-  span{
-    display: block;
-    color:#fff;
-    font-size: 24px;
-    font-weight: 700;
 
-  }
+#back-top {
+    display: none;
+    position: fixed;
+    bottom: 40px;
+    right: 20px;
+    z-index: 99;
+    border: none;
+    outline: none;
+    background-color: $accent-color;
+    color: white;
+    cursor: pointer;
+    height: 50px;
+    width: 50px;
+    border-radius: 100%;
+    font-size: 16px;
+    font-weight: 600;
+    span {
+        display: block;
+        color: #fff;
+        font-size: 24px;
+        font-weight: 700;
+
+    }
 
 }
 
 #back-top:hover {
-         background: #06776d;
-  transition: all 0.5s ease-in-out 0s;
-   border-radius: 5px;
+    background: #06776d;
+    transition: all 0.5s ease-in-out 0s;
+    border-radius: 5px;
 }

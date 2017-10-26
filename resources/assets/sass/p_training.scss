@@ -56,7 +56,7 @@
     h2 {
 
         letter-spacing: 1px;
-        font-size: 22px;
+        font-size: 21px;
         font-weight: 300;
         color: #FFFFFF;
         line-height: 6px;
@@ -86,24 +86,12 @@
 /*========= Trainer body =============*/
 
 .tr-heading {
-    @media only screen and (min-width: $md) {
-        h1 {
-            font-size: 23px!important;
-        }
-    }
-    @media only screen and (min-width: $lg) {
-        h1 {
-            font-size: 23px!important;
-            padding: 0px 100px;
-        }
+    h1 {
+        font-size: 20px;
+        margin-top: 2em;
+        line-height: 1.5em;
     }
     text-align: center;
-
-    h1 {
-        font-size: 20px !important;
-        margin-top: 2em;
-        line-height: 2.2em;
-    }
     span {
         font-size: 30px;
         font-weight: 600;
@@ -189,24 +177,24 @@
 
             }
             p {
-                font-size: 13px;
+                font-size: 14px;
                 font-style: italic;
                 line-height: 30px;
-                padding: 20px 13px;
+                /* padding: 20px 13px;*/
             }
-           i{
+            i {
                 font-size: 30px;
                 font-weight: 500;
-               color: $accent-color;
-               padding: 0px 3px;
+                color: $accent-color;
+                padding: 0px 3px;
+                display: block;
+                text-align: left;
 
             }
-             i.left-qoute{
-                  padding-top:40px;
-                  margin-left: 6px;
-               }
+            i:last-child {
+                text-align: right;
 
-
+            }
         }
 
     }
@@ -263,10 +251,9 @@
 
 .what-are-you-get {
     padding-top: 30px;
-    padding-bottom: 30px;
     h2 {
         text-align: center;
-        line-height: 35px;
+        line-height: 1.6em;
         font-size: 18px;
         font-weight: 500;
         color: $accent-color;
@@ -278,13 +265,9 @@
             list-style: disc;
             line-height: 30px;
             margin: 0px 14px;
-            b {
-                font-size: 13px;
-            }
             p {
-                font-size: 12px;
-                padding: 3px 0px;
                 padding-left: 15px;
+                padding-bottom: 12px;
             }
         }
     }
@@ -294,9 +277,8 @@
     padding-bottom: 30px;
     p {
         padding-top: 21px;
-        line-height: 27px;
         text-align: justify;
-        font-size: 13px;
+        font-size: 14px;
     }
 }
 
@@ -326,12 +308,10 @@
     padding: 22px 0px;
     margin-bottom: 20px;
     p {
-        padding: 8px 14px;
-        font-size: 13px;
+        padding: 8px 13px;
         font-weight: 400;
         text-align: center;
-
-
+        font-size: 13px;
 
     }
     h4 {
@@ -344,9 +324,9 @@
 }
 
 .custom img {
-    width: 36%;
+    width: 33%;
     border-radius: 100%;
-    height: 36%;
+    height: 33%;
 }
 
 /*T========= Trining area start here =========*/
@@ -359,7 +339,6 @@
 
     }
     padding: 0.5em 1em;
-    padding-bottom: 30px;
     margin-top:30px;
     background: #eef2f5;
     .border-bottom {
@@ -387,7 +366,6 @@
                 margin-right: 0px;
             }
         }
-        text-align: justify;
         background: #fff;
         border-radius: 5px;
         box-shadow: 0 4px 10px 0px rgba(210,
@@ -398,8 +376,11 @@
         font-size: 13px;
         margin: 20px 0px;
         h2 {
-            font-size: 17px;
+            font-size: 17px!important;
+            text-align: left!important;
             font-weight: 400;
+            padding: 0px;
+            margin: 0px;
             line-height: 20px;
         }
         img {
@@ -431,13 +412,18 @@
 /*=========== contact-us ===========*/
 
 .contact-us {
+
     @include container($width: 100%, $debug: false);
-    padding: 0.5em 1em;
-    padding-bottom: 30px;
-    padding-top: 30px;
+    padding: 0.6em 1em;
+    @media only screen and (min-width: $lg) {
+        padding-bottom: 30px !important;
+        padding: 0.6em 4em;
+
+
+    }
     .text-center {
         text-align: center;
-        font-size: 22px;
+        font-size: 20px;
         color: $accent-color;
         line-height: 37px;
     }
@@ -484,11 +470,3 @@
 }
 
 /*=============  CODE FOR TRAINING FORM  ==============*/
-
-.header-text.httal.htvam h2 {
-    font-size: 20px!important;
-}
-
-.training-form {
-    background: #EEF5F2;
-}

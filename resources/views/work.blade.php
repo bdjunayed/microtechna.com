@@ -17,7 +17,7 @@
             </div>
             <div class="content-details">
                 <p>Apps • UX/UI</p>
-                <a href=" {{ url('/bhasha-shoinik') }}">Button</a>
+                <a href=" {{ url('/') }}">Home</a>
             </div>
 
         </div>
@@ -25,11 +25,11 @@
             <div class="content-overlay"></div>
             <img src="./images/website-development-webapp-dev2.png" alt="">
             <div class="fadein-bootm">
-                <h3>Bhasha shoinik</h3>
+                <h3>System Netware Ltd.</h3>
             </div>
             <div class="content-details">
                 <p>Apps • UX/UI</p>
-                <a href="#">Button</a>
+             <a href=" {{ url('/') }}">Home</a>
             </div>
 
         </div>
@@ -39,11 +39,11 @@
             <div class="content-overlay"></div>
             <img src="./images/Redesign4.jpg" alt="">
             <div class="fadein-bootm">
-                <h3>Bhasha shoinik</h3>
+                <h3>Sports HTML5 Theme</h3>
             </div>
             <div class="content-details">
-                <p>Apps • UX/UI</p>
-                <a href="#">Button</a>
+                <p>This is wonderful html theme</p>
+               <a href=" {{ url('/') }}">Home</a>
             </div>
         </div>
     </div>
@@ -52,11 +52,11 @@
             <div class="content-overlay"></div>
             <img src="./images/Redesign3.jpg" alt="">
             <div class="fadein-bootm">
-                <h3>Bhasha shoinik</h3>
+                <h3>Fruits HTML5 Theme</h3>
             </div>
             <div class="content-details">
-                <p>Apps • UX/UI</p>
-                <a href="#">Button</a>
+                <p>This is Minimal fruits Theme</p>
+                <a href=" {{ url('/') }}">Home</a>
             </div>
         </div>
         <div class="last-full-cumns">
@@ -64,11 +64,11 @@
                 <div class="content-overlay"></div>
                 <img src="./images/Redesign2.jpg" alt="">
                 <div class="fadein-bootm">
-                    <h3>Bhasha shoinik</h3>
+                    <h3>Repairs Shop HTML5 Theme</h3>
                 </div>
                 <div class="content-details">
                     <p>Apps • UX/UI</p>
-                    <a href="#">Button</a>
+                    <a href=" {{ url('/') }}">Home</a>
                 </div>
             </div>
         </div>
@@ -77,11 +77,11 @@
                 <div class="content-overlay"></div>
                 <img src="./images/Redesign.jpg" alt="">
                 <div class="fadein-bootm">
-                    <h3>Bhasha shoinik</h3>
+                    <h3>Garments Exports HTML theme</h3>
                 </div>
                 <div class="content-details">
                     <p>Apps • UX/UI</p>
-                    <a href="#">Button</a>
+                  <a href=" {{ url('/') }}">Home</a>
                 </div>
 
             </div>

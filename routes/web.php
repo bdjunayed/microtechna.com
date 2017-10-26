@@ -15,6 +15,10 @@ Route::get('/', function () {
     return view('training');
 });
 
+Route::get('/aplicants-form', function () {
+    return view('aplicants-form');
+});
+
 Route::get('/about_us', function () {
     return view('about_us');
 });

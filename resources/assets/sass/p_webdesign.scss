@@ -14,9 +14,9 @@
     padding: .6em 1em;
     @include container($width: 100%, $debug: false);
     @media only screen and (min-width: $lg) {
-        padding: .6em 4em;
+ padding: .6em 4em;
     }
-    margin-top: 60px;
+    margin-top: 30px;
     position: relative;
     .under-border {
         @media screen and (min-width: $sm) {
@@ -347,8 +347,8 @@ Main components
 #cd-timeline::before {
     left: 1%;
     margin-left: 7px;
-    @media screen and (min-width: $lg){
-         margin-left: 0px;
+    @media screen and (min-width: $lg) {
+        margin-left: 0px;
     }
 
 }
@@ -592,38 +592,54 @@ Main components
 /*-- Start ready to discus section --*/
 
 .ready-to-discus {
-    background: #fff;
-    padding: 30px;
-    @media only screen and (min-width: $lg) {
-        border: 1px solid#eef5f2;
-        padding: 30px;
-        border-radius: 4px;
-        height: 140px;
-        box-shadow: 0px 4px 6px 0px #d1d9d6;
-        border-left: 5px solid$accent-color;
-        h2 {
-            @include span(10);
-            font-size: 41px!important;
-            text-align: left!important;
-            line-height: 8px !important;
-        }
-        a {
-            @include span(last 2);
-            text-align: right;
-            padding: 20px 0px;
-            text-align: center;
-            margin-top: 9px;
-            font-size: 18px;
-            font-weight: 500;
-            text-transform: uppercase;
-        }
-    }
-    margin-bottom: 60px;
+    margin-bottom: 30px;
     margin-top: 30px;
     text-align: center;
+    background: #fff;
+    padding-bottom: 20px;
+    border: 1px solid#eef5f2;
+    border-radius: 4px;
+    box-shadow: 0px 4px 6px 0px #d1d9d6;
+    border-left: 5px solid$accent-color;
+
+    a {
+        text-align: center;
+        padding: 10px 12px;
+        font-size: 18px;
+        font-weight: 500;
+        text-transform: uppercase;
+        display: inline-block;
+    }
+
     h2 {
         font-size: 21px;
         font-weight: 500;
         color: $accent-color;
     }
+    @media screen and (min-width: $sm) {
+        height: 100px;
+        a {
+            float: right;
+            display: inline;
+            margin: 18px 20px;
+            padding: 20px 20px;
+        }
+        h2 {
+
+            float: left;
+            display: inline;
+            padding-top: 11px;
+            padding-left: 18px;
+            font-size: 27px !important;
+        }
+    }
+    @media screen and (min-width: $md) {
+        h2 {
+            padding-top: 0px !important;
+            font-size: 37px !important;
+            font-weight: bold;
+
+        }
+    }
+
 }

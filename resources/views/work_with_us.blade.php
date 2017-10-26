@@ -34,7 +34,7 @@
 
         <div class="form-social-icons">
             <div class="single-con">
-                <i class="fa fa-map-marker">🌏</i>
+                <i class="fa fa-map-marker">&#9954;</i>
                 <div class="address-tails">
                     <h3>Our location:</h3>
                     <p><b>MicroTech Corporation</b></p>
@@ -42,16 +42,14 @@
                 </div>
             </div>
             <div class="single-con">
-                <i class="fa fa-phone">🌏</i>
+                <i class="fa fa-phone">&#9990;</i>
                 <div class="address-tails">
                 <h3>Give us call</h3>
-                <p>Call: 017.2513.9901</p>
-                <p>018.1751.2688</p>
-                <p>017.1056.3784</p>
+                <p>Call: 0177 592 1666</p>
                 </div>
             </div>
             <div class="single-con">
-                <i class="fa fa-envelope-o">🌏</i>
+                <i class="fa fa-envelope-o"> &#9993;</i>
                 <div class="address-tails">
                 <h3>Send us message</h3>
                 <p>Email: junayed@microtechna.com</p>

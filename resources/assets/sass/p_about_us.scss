@@ -81,43 +81,6 @@
             }
         }
     }
-    /*-- Start ready to discus section --*/
-    .ready-to-discus {
-        @media only screen and (min-width: $lg) {
-            border: 1px solid#eef5f2;
-            padding: 30px;
-            border-radius: 4px;
-            height: 140px;
-            box-shadow: 0px 4px 6px 0px #d1d9d6;
-            border-left: 5px solid$accent-color;
-            h2 {
-                @include span(10);
-                font-size: 41px!important;
-                text-align: left!important;
-                line-height: 8px !important;
-            }
-            a {
-                @include span(last 2);
-                text-align: right;
-                padding: 20px 0px;
-                text-align: center;
-                margin-top: 9px;
-                font-size: 18px;
-                font-weight: 500;
-                text-transform: uppercase;
-            }
-        }
-        margin-bottom: 30px;
-        margin-top: 30px;
-        text-align: center;
-        h2 {
-            font-size: 21px;
-            font-weight: 500;
-            color: $accent-color;
-            line-height: 28px;
-        }
-    }
-
     /*--- Start Blog area Start here ---*/
     .blog-area {
         margin-bottom: 30px;
