@@ -35,7 +35,7 @@ class NewslettersController extends Controller
      */
     public function store(Request $request)
     {
-        $this->validate($request, ['email' => 'required']);
+        $this->validate($request, ['email' => 'required|email']);
 
         Newsletter::forceCreate(['email' => request('email')]);
 

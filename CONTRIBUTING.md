@@ -1,14 +1,14 @@
-# Contribution Guidelines
+# Contribution Guidelines (copied)
 ## Git workflows
-### First time setup
+### First time setup after forked
 1. Clone it
 ``` bash
 $ git clone git@github.com:{yourusername}/Laravel-Gulp-Boilarplate.git
 ```
 2. git remote add upstream:
 ``` bash
-$ cd Laravel-Gulp-Boilarplate
-$ git remote add upstream git@github.com:{yourusername}/Laravel-Gulp-Boilarplate.git
+$ cd Laravel-Boilarplate
+$ git remote add upstream git@github.com:{sourced-fork}/Laravel-Boilarplate.git
 ```
 3. Setup application
 ``` bash
@@ -36,6 +36,7 @@ $ git push origin issue[number]
 ```
 
 6. Repeat steps 2-5 till development is complete.
+
 7. Fetch upstream changes that were done by other contributors:
 ``` bash
 $ git fetch origin

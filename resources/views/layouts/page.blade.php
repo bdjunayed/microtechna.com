@@ -6,9 +6,7 @@
     <!--all meta and links tag-->
     @include('includes.meta')
     <link rel="stylesheet" type="text/css" href="{{asset('css/app.css')}}" />
-    <!--
-    <link rel="stylesheet" type="text/css" href="{{asset('css/style.css')}}"/>
--->
+
 </head>
 
 <body>
@@ -29,8 +27,8 @@
                     <li class="scrolls"><a href="{{ url('/training') }}">Training</a></li>
                     <li id="Drop"><a href="#" class="SubSer">Services <span>&#10095;</span></a>
                         <ul id="drop-dwoun">
-                            <li class="scrolls"><a href="{{ url('/web_design') }}">Website design</a></li>
-                            <li class="scrolls"><a href="{{ url('/mobile_app') }}">Mobile App Development</a></li>
+                            {{--<li class="scrolls"><a href="{{ url('/web_design') }}">Website design</a></li>--}}
+                            {{--<li class="scrolls"><a href="{{ url('/mobile_app') }}">Mobile App Development</a></li>--}}
                             <li class="scrolls"><a href="{{ url('/performance_testing') }}">Performance testing</a></li>
                             <!-- <li class="scrolls"><a href="service_four.html">service_four</a></li> -->
                         </ul>
@@ -137,16 +135,16 @@
             </div>
         </div>
 
-        <div class="single-footer newslatter-custom">
+        <div class="single-footer newslatter-custom" id="newsletters">
             <h3>Newsletter</h3>
             <form method="POST" action="/newsletter" @submit.prevent="onSubmit" @keydown="nl.errors.clear($event.target.name)">
                 <div class="blank">
                     <p>Don’t miss to subscribe to our news feeds, kindly fill the form below. </p>
                     <div class="input-group">
-                        <input v-model="nl.email" class="input-custom" name="email" id="email" type="email">
+                        <input v-model="nl.email" class="input-custom" name="email" type="email">
 
                         <button class="btn-custom btn-primary-custom" :disabled="nl.errors.any()">Join!</button>
-                        <span class="error-text" v-if="nl.errors.has('email')" v-text="nl.errors.get('email')">This is error message </span>
+                        <span v-if="nl.errors.has('email')" v-text="nl.errors.get('email')" class="error-text">This is error message </span>
                     </div>
                 </div>
             </form>
@@ -157,7 +155,7 @@
     <!--Footer End-->
     <div class="container-bootom-footer">
         <div class="copyright">
-            <p>Made With <span>&hearts;</span> by <a href="http://Microtechna.com" target="_blank">APMS</a></p>
+            <p>Made With <span>💖</span> by <a href="http://Microtechna.com" target="_blank">APMS</a></p>
             <p>&copy; 2017 <a href="{{ url('/') }}">MicroTech NA Inc.</a> All Rights Reserved.</p>
         </div>
                 <div class="socail footer-so">

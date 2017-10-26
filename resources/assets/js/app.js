@@ -11,7 +11,7 @@
 try {
     window.$ = window.jQuery = require('jquery');
 
-    require('bootstrap-sass');
+    //require('bootstrap-sass');
 } catch (e) {}
 /**
  * Next, we will create a fresh Vue application instance and attach it to
@@ -40,7 +40,7 @@ new Vue({
     methods: {
         onSubmit() {
             this.nl.post('/newsletter')
-                .then(response => alert('Subscribed!'))
+                .then(response => alert('You are subscribed to Newsletters!'))
                 .catch((err) => console.log('err') );
         }
     }

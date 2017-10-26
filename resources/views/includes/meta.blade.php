@@ -11,9 +11,7 @@
     <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
     <link rel="apple-touch-icon" href="apple-touch-icon.png"/>    
     <link rel="icon" type="image/png" href="apple-touch-icon.png"/>
-
-    {{--<meta name="csrf-token" content="{{ csrf_token() }}">--}}
-
+    
     <!-- Web masters utilities -->
     @if (getenv('GOOGLE-WEBMASTER'))
         <meta name="google-site-verification" content="{{ getenv('GOOGLE-WEBMASTER') }}">
@@ -22,18 +20,18 @@
         <meta name="msvalidate.01" content="{{ getenv('BING-WEBMASTER') }}" />
     @endif
 
-{{--<!--     {% if page.excerpt %}--}}
-    {{--<meta name="description" content="{{ page.excerpt| strip_html }}" />--}}
-    {{--<meta property="og:description" content="{{ page.excerpt| strip_html }}" />--}}
-    {{--{% else %}--}}
-    {{--<meta name="description" content="{{ site.description }}">--}}
-    {{--<meta property="og:description" content="{{ site.description }}" />--}}
+<!--     {% if page.excerpt %}
+    <meta name="description" content="{{ page.excerpt| strip_html }}" />
+    <meta property="og:description" content="{{ page.excerpt| strip_html }}" />
+    {% else %}
+    <meta name="description" content="{{ site.description }}">
+    <meta property="og:description" content="{{ site.description }}" />
 
-    {{--<meta name="author" content="{{ site.name }}" />--}}
+    <meta name="author" content="{{ site.name }}" />
 
-    {{--{% if page.title %}--}}
-    {{--<meta property="og:title" content="{{ page.title }}" />--}}
-    {{--<meta property="twitter:title" content="{{ page.title }}" /> -->--}}
+    {% if page.title %}
+    <meta property="og:title" content="{{ page.title }}" />
+    <meta property="twitter:title" content="{{ page.title }}" /> -->
 
 
     <!-- Facebook and Twitter integration -->

@@ -26,7 +26,7 @@ class ContactsFormController extends Controller
     {
         $this->validate(request(), [
             'name' => 'required',
-            'email' => 'required',
+            'email' => 'required|email',
             'company' => 'nullable',
             'message' => 'required | max:300'
         ]);
@@ -36,6 +36,6 @@ class ContactsFormController extends Controller
             'company' => request('company'),
             'message' => request('message')
         ]);
-        return ['message' => 'Project Created!'];
+        return ['message' => 'Message submitted!'];
     }
 }
