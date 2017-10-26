@@ -13,8 +13,7 @@
     <!--Header Start -->
     <div class="container-header">
         <div class="logo">
-            <a href="{{ url('/') }}"><!-- <span> &#8499;</span> -->MicroTech NA</a>
-     <!--       <span>strengthening business performances</span> -->
+            <a href="{{ url('/') }}">MicroTech NA</a>
         </div>
         <!-- Bergar menu-->
         <div class="burger"><span onclick="openNav()"> ☰ 
@@ -27,10 +26,7 @@
                     <li class="scrolls"><a href="{{ url('/training') }}">Training</a></li>
                     <li id="Drop"><a href="#" class="SubSer">Services <span>&#10095;</span></a>
                         <ul id="drop-dwoun">
-                            {{--<li class="scrolls"><a href="{{ url('/web_design') }}">Website design</a></li>--}}
-                            {{--<li class="scrolls"><a href="{{ url('/mobile_app') }}">Mobile App Development</a></li>--}}
                             <li class="scrolls"><a href="{{ url('/performance_testing') }}">Performance testing</a></li>
-                            <!-- <li class="scrolls"><a href="service_four.html">service_four</a></li> -->
                         </ul>
                     </li>
                     <li class="scrolls"><a href="{{ url('/work') }}">Work</a></li>
@@ -57,9 +53,8 @@
 
                     <ul>
                         <li class="scrolls"><a href="{{ url('/web_design') }}">Website design</a></li>
-                        <li class="scrolls"><a href="{{ url('/mobile_app') }}">Mobile App Development</a></li>
-                        <li class="scrolls"><a href="{{ url('/performance_testing') }}">Performance testing</a></li>
-                        <!-- <li class="scrolls"><a href="service_four.html">service_four</a></li> -->
+                        {{--<li class="scrolls"><a href="{{ url('/mobile_app') }}">Mobile App Development</a></li>--}}
+                        {{--<li class="scrolls"><a href="{{ url('/performance_testing') }}">Performance testing</a></li>--}}
                     </ul>
                 </li>
                 <li class="scrolls"><a href="{{ url('/work') }}">Work</a></li>
