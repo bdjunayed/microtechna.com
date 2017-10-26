@@ -189,7 +189,7 @@
         <div class="cfx"></div>
          <div class="ready-to-discus">
         <h2>Click here to Contact</h2>
-        <a href="{{ url('/aplicants-form') }}" class="btn-custom btn-primary-custom ">Contact Us</a>
+        <a href="https://form.jotform.me/72975839174473" class="btn-custom btn-primary-custom ">Contact Us</a>
     </div>
 </div>
    
