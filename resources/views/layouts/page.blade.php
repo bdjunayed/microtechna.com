@@ -16,7 +16,8 @@
             <a href="{{ url('/') }}">MicroTech NA</a>
         </div>
         <!-- Bergar menu-->
-        <div class="burger"><span onclick="openNav()"> ☰ 
+        <div class="burger">
+            <span onclick="openNav()"> ☰ 
             </span>
             <div id="mySidenav" class="sidenav">
                 <span href="javascript:void(0)" class="closebtn" onclick="closeNav()"> ✕         
@@ -65,13 +66,13 @@
         </div>
         <div class="socail">
             <a href="https://www.facebook.com/microtechna/" target="_blank">
-             <i class="svg-icon facebook"></i></a>
+             <img src="./images/facebook.svg" alt="ali" /></a>
             <a href="https://twitter.com/@MicroTechSky" target="_blank">
-             <i class="svg-icon twitter"></i></a>
-            <a href="https://plus.google.com/b/103441871439982130127/103441871439982130127?hl=en" target="_blank">
-             <i class="svg-icon googleplus"></i></a>
-            <a href="https://plus.google.com/b/103441871439982130127/103441871439982130127?hl=en" target="_blank">
-             <i class="svg-icon youtube"></i></a>
+                <img src="./images/twitter.svg" alt="ali" /></a>
+            <a href="https://plus.google.com/b/103441871439982130127/103441871439982130127?hl=en" target="_blank"> 
+                <img src="./images/youtube.svg" alt="ali" />
+            </a>
+            <a href="https://plus.google.com/b/103441871439982130127/103441871439982130127?hl=en" target="_blank"> <img src="./images/google.svg" alt="ali" /></a>
         </div>
     </div>
 
@@ -156,13 +157,13 @@
         </div>
         <div class="socail footer-so">
             <a href="https://www.facebook.com/microtechna/" target="_blank">
-             <i class="svg-icon facebook"></i></a>
+             <img src="./images/facebook.svg" alt="ali" /></a>
             <a href="https://twitter.com/@MicroTechSky" target="_blank">
-             <i class="svg-icon twitter"></i></a>
-            <a href="https://plus.google.com/b/103441871439982130127/103441871439982130127?hl=en" target="_blank">
-             <i class="svg-icon googleplus"></i></a>
-            <a href="https://plus.google.com/b/103441871439982130127/103441871439982130127?hl=en" target="_blank">
-             <i class="svg-icon youtube"></i></a>
+                <img src="./images/twitter.svg" alt="ali" /></a>
+            <a href="https://plus.google.com/b/103441871439982130127/103441871439982130127?hl=en" target="_blank"> 
+                <img src="./images/youtube.svg" alt="ali" />
+            </a>
+            <a href="https://plus.google.com/b/103441871439982130127/103441871439982130127?hl=en" target="_blank"> <img src="./images/google.svg" alt="ali" /></a>
         </div>
     </div>
 

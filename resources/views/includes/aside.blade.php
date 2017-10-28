@@ -1,9 +1,9 @@
-@guest
+<!--@guest
 
 @else
-<!--     <figure>
+     <figure>
         <img class="avatar" src="/uploads/avatars/{{Auth::user()->avatar}}" alt="{{Auth::user()->name}}">
-    < -->/figure>
+    < /figure>
 
     <ul>
         <li><a href="#">Insert</a></li>
@@ -13,4 +13,4 @@
         <li><a href="#">About</a></li>
     </ul>
 
-@endguest
+@endguest-->

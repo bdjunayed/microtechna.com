@@ -6,7 +6,7 @@
 @import 'button';
 @import 'susy_custom';
 @import './p_training.scss'; 
-@import 'svg-icons';
+/*@import 'svg-icons';*/
 @import './p_about_us.scss';
 @import './p_services.scss';
 @import './p_webdesign.scss';
@@ -378,7 +378,7 @@ Start your code here
     }
     display: none;
 
-/*    a {
+    a {
         display: inline-block;
         .i{
             
@@ -397,7 +397,7 @@ Start your code here
 
         }
 
-    }*/
+    }
 }
 
 .footer-so {
