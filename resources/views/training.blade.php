@@ -188,8 +188,8 @@
     </div>
         <div class="cfx"></div>
          <div class="ready-to-discus">
-        <h2>Click here to Contact</h2>
-        <a href="https://form.jotform.me/72975839174473" class="btn-custom btn-primary-custom ">Contact Us</a>
+        <h2>Get More details </h2>
+        <a href="https://form.jotform.me/72975839174473" class="btn-custom btn-primary-custom ">Click here to Contact</a>
     </div>
 </div>
    
