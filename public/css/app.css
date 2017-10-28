@@ -808,6 +808,43 @@ fieldset[disabled] .btn-custom {
   font-family: cursive;
 }
 
+.trainig-con-button {
+  margin-bottom: 30px;
+  margin-top: 30px;
+  text-align: center;
+  background: #fff;
+  padding-bottom: 20px;
+  border: 1px solid #eef5f2;
+  border-radius: 4px;
+  -webkit-box-shadow: 0px 4px 6px 0px #d1d9d6;
+          box-shadow: 0px 4px 6px 0px #d1d9d6;
+  border-left: 5px solid #009688;
+}
+
+.trainig-con-button a {
+  padding: 18px;
+  font-size: 15px;
+  margin-top: 25px;
+}
+
+@media screen and (min-width: 768px) {
+  .trainig-con-button a {
+    padding: 16px 30px;
+    font-size: 16px;
+    margin-top: 25px;
+    text-transform: uppercase;
+    font-weight: 600;
+    -webkit-box-shadow: 0px 4px 8px 0px #eef5f2;
+            box-shadow: 0px 4px 8px 0px #eef5f2;
+  }
+}
+
+.trainig-con-button a:hover {
+  -webkit-transition: all 0.5s ease-in-out 0s;
+  transition: all 0.5s ease-in-out 0s;
+  background: #106c63;
+}
+
 /*=============  CODE FOR TRAINING FORM  ==============*/
 /*@import 'svg-icons';*/
 .about-bg {
