@@ -20,3 +20,7 @@ mix.sass('resources/assets/sass/app.scss', 'public/css')
 
 mix.copyDirectory('resources/assets/images', 'public/images');
 //mix.copy('resources/assets/sass/slicknav.min.css', 'public/css/slicknav.min.css');
+if (mix.inProduction()) {
+    mix.version();
+}
+mix.browserSync('http://127.0.0.1:8000');

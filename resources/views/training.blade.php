@@ -61,10 +61,10 @@
     </div>
     <div class="messanger-text">
         <p>আপনি কিংবা আপনার আত্নীয় বা পরিচিত কেও কি Familly Migration(I-130) এ আমেরিকাতে আসার পরপরই আইটি জব করতে আগ্রহী ? আপনি কি আইটি জবের ১০০% নিশ্চয়তাসহ ট্রেনিং করতে চাচ্ছেন ? আমেরিকাতে আসার আগে বাংলাদেশ থেকে উপযুক্ত ট্রেনিং নিয়ে সরাসরি আইটি জব শুরু করতে আমরা সাহায্য করে থাকি । আমেরিকাতে যারা বসবাস করছেন তারাও কয়েক মাসের জন্য বাংলাদেশে ভিজিট করে আমাদের এই সেবা গ্রহন করতে পারেন ।</p>
-           
-            <p>বাংলাদেশ থেকে আমেরিকায় Familly migration or Other Visa নিয়ে আসার আগে তিন/ছয় মাসের কোর্স করে আসুন কারন এই কোর্স আমেরিকাতে করতে কয়েকগুন খরচ করেও এই ধরনের সুবিধা পাবেন না । মোটকথা আপনার সময় বের করাটা অসম্ভব হবে এবং আমেরিকার কোন ট্রেনিং সেন্টার আপনাকে এভাবে সার্ভিস দিবে না । আমাদের ২০ বছরের অভিজ্ঞতার আলোকে সাজানো এই প্রথম ও একমাত্র ব্যতিক্রমধর্মী ট্রেনিং সেন্টার আপনাদের সেবায় সদা প্রস্তুত ।
-           </p>
-           <p>যদি তাও সম্ভব না হয়, তবে আমাদের One-to-One কোর্সে অল্প খরচে ক্লাস করতে পারেন । One-to-One কোর্সে আপনাকে একজন দক্ষ আইটি প্রফেশনাল দ্বারা হাতে কলমে বুঝানো হবে, বিস্তারিত জানতে কল করুন </p>
+
+        <p>বাংলাদেশ থেকে আমেরিকায় Familly migration or Other Visa নিয়ে আসার আগে তিন/ছয় মাসের কোর্স করে আসুন কারন এই কোর্স আমেরিকাতে করতে কয়েকগুন খরচ করেও এই ধরনের সুবিধা পাবেন না । মোটকথা আপনার সময় বের করাটা অসম্ভব হবে এবং আমেরিকার কোন ট্রেনিং সেন্টার আপনাকে এভাবে সার্ভিস দিবে না । আমাদের ২০ বছরের অভিজ্ঞতার আলোকে সাজানো এই প্রথম ও একমাত্র ব্যতিক্রমধর্মী ট্রেনিং সেন্টার আপনাদের সেবায় সদা প্রস্তুত ।
+        </p>
+        <p>যদি তাও সম্ভব না হয়, তবে আমাদের One-to-One কোর্সে অল্প খরচে ক্লাস করতে পারেন । One-to-One কোর্সে আপনাকে একজন দক্ষ আইটি প্রফেশনাল দ্বারা হাতে কলমে বুঝানো হবে, বিস্তারিত জানতে কল করুন </p>
     </div>
     <div class="messangers">
         <div class="custom">
@@ -97,7 +97,7 @@
         <img src="./images/testing-01.jpg" alt="Software Testing" />
         <h2><b>Software Testing</b></h2>
         <p>This course will prepare you to get the position of an exceptional Software Test Engineer (Selenium/Java or QTP/UFT VBScript) platform to work with any cross-functional team, and join in the world-class community of talented experts.</p>
-        <div class="custom-enroll"> <a href="#jot">Enroll Now</a>
+        <div class="custom-enroll"> <a href="https://form.jotform.me/72975839174473">Enroll Now</a>
             <p><span>Duration: 3 or 6 months</span></p>
         </div>
     </div>
@@ -106,7 +106,7 @@
         <img src="./images/sqlserverDBA.jpg" alt="Software Testing" />
         <h2><b>SQL Server DBA</b></h2>
         <p>This will make you ready to take responsible for the evaluation, installation, database backup and recovery, data integrity procedures, space management strategies, backup strategy and the testing of disaster recovery processes, database security, maintenance, and support for enterprise class database management systems.</p>
-        <div class="custom-enroll"> <a href="#jot">Enroll Now</a>
+        <div class="custom-enroll"> <a href="https://form.jotform.me/72975839174473">Enroll Now</a>
             <p><span>Duration: 3 or 6 months</span></p>
         </div>
     </div>
@@ -116,7 +116,7 @@
         <h2><b>Cisco Certified Network Associate - CCNA</b></h2>
         <p>This course will furnish you as a Network Operations Engineer with the Cisco Certified Network Associate (CCNA) certificate having proper knowledge on network implementations, routing and switching (10/100/1000 Ethernet, Frame Relay, Bridging, TCP/IP, IPX, EIGRP, and trunking protocols) in operations and implementations, firewall, VPN, security skills.</p>
 
-        <div class="custom-enroll"> <a href="#jot">Enroll Now</a>
+        <div class="custom-enroll"> <a href="https://form.jotform.me/72975839174473">Enroll Now</a>
             <p><span>Duration: 3 or 6 months</span></p>
         </div>
     </div>
@@ -128,7 +128,7 @@
         <h2><b>Red Hat Certified Engineer - RHCE</b></h2>
         <p>To get a job as a System Administrator having proper understanding and experience on installing and maintaining servers as well as ensuring clients get a good service, helping to engineer high availability in solutions, through applying specific tuning, load testing, webservers, database servers, high availability, and high performance.</p>
 
-        <div class="custom-enroll"> <a href="#jot">Enroll Now</a>
+        <div class="custom-enroll"> <a href="https://form.jotform.me/72975839174473">Enroll Now</a>
             <p><span>Duration: 3 or 6 months</span></p>
         </div>
     </div>
@@ -139,7 +139,7 @@
         <h2><b>Web App Developer</b></h2>
         <p>This trainee will be able to produce clean, semantic, object-oriented code to build excellent Web Application with the ability to adopt existing coding styles as appropriate in a range of languages such as PHP/ JavaScript using Laravel framework. Also will have the ability to develop both front and back-end systems, troubleshoot, test and maintain the core product software, databases to ensure optimisation and functionality, design and document code, identify scope, key requirements, specification, creative approach and development methodology for projects.</p>
 
-        <div class="custom-enroll"> <a href="#jot">Enroll Now</a>
+        <div class="custom-enroll"> <a href="https://form.jotform.me/72975839174473">Enroll Now</a>
             <p><span>Duration: 3 or 6 months</span></p>
         </div>
     </div>
@@ -149,7 +149,7 @@
         <h2><b>Mobile App Developer</b></h2>
         <p>We will furnish you with proven ability of working experience building apps in Java and Aroid SDK using JSON and REST services in an agile team following scrum methodology, proficiency of using Gradle/ Jenkins/ Git/ Jira/ Confluence, JSON and XML, multi-site/ multi-lingual environments, building, packaging and deploying code for continuous integration, supporting and troubleshooting code issues in test and live environments.</p>
         <div class="custom-enroll">
-            <a href="#jot">Enroll Now</a>
+            <a href="https://form.jotform.me/72975839174473">Enroll Now</a>
             <p><span>Duration: 3 or 6 months</span></p>
 
         </div>
@@ -166,7 +166,7 @@
         <p><b>Call, Text, Voice message:</b></p>
         <p>929.200.0604</p>
         <p>917.257.4204</p>
-        <p>917.826.6741</p>
+        <p>929.800.4963</p>
     </div>
 
     <div class="single-content">
@@ -186,15 +186,14 @@
         <p>Call for clarifiaction</p>
         <h3>1.888.612.7778</h3>
     </div>
-        <div class="cfx"></div>
-         <div class="ready-to-discus">
-        <h2>Click here to Contact</h2>
-        <a href="https://form.jotform.me/72975839174473" class="btn-custom btn-primary-custom ">Contact Us</a>
-    </div>
+    <div class="cfx"></div>
+ <div class="trainig-con-button">
+  <a href="https://form.jotform.me/72975839174473" class="btn-custom btn-primary-custom ">Click here to Contact for Details</a>
+ </div>
 </div>
-   
 
-    <!--- Discuss With Your Project End Here --->
+
+<!--- Discuss With Your Project End Here --->
 
 
 <!--.Contact-us-area-->@endsection
