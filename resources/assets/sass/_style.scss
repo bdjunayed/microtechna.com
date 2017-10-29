@@ -5,7 +5,8 @@
 @import 'typo';
 @import 'button';
 @import 'susy_custom';
-@import './p_training.scss'; //@import 'svg-icons';
+@import './p_training.scss'; 
+/*@import 'svg-icons';*/
 @import './p_about_us.scss';
 @import './p_services.scss';
 @import './p_webdesign.scss';
@@ -379,6 +380,9 @@ Start your code here
 
     a {
         display: inline-block;
+        .i{
+            
+        }
         img {
             height: 28px;
             width: 28px;
