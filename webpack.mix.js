@@ -18,7 +18,7 @@ mix.sass('resources/assets/sass/app.scss', 'public/css')
         processCssUrls: false
     })
     .sourceMaps()
-    .extract(['vue']);//always
+    .extract(['vue', 'jquery']);//always
 
 mix.copyDirectory('resources/assets/images', 'public/images');
 //mix.copy('resources/assets/sass/slicknav.min.css', 'public/css/slicknav.min.css');
