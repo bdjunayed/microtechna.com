@@ -37,13 +37,13 @@
                 <div class="address-tails">
                     <h3>Our location:</h3>
                     <p><b>MicroTech Corporation</b></p>
-                    <p>Level 2 Tower Tulip, Nikunja 2<br>Dhaka 1229 Bangladesh</p>
+                    <p>LKha 21, Road 5 Nikunjo 2 Tanpara<br>Dhaka 1229 Bangladesh</p>
                 </div>
             </div>
             <div class="single-con">
                 <i class="fa fa-phone">&#9990;</i>
                 <div class="address-tails">
-                <h3>Give us call</h3>
+                <h3>Give us a call</h3>
                 <p>Call: 0177 592 1666</p>
                 </div>
             </div>
@@ -69,4 +69,5 @@
 
 {{--
 <section class="DiscusButtonSec">--}} {{--@include('sections.sign-up-to-get-the-latest-on-digital-trends')--}} {{--
-</section>--}} @endsection
+</section>--}}
+@endsection

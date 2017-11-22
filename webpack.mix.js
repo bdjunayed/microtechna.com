@@ -16,11 +16,13 @@ mix.js('resources/assets/js/app.js', 'public/js')
 mix.sass('resources/assets/sass/app.scss', 'public/css')
     .options({
         processCssUrls: false
-    });
+    })
+    .sourceMaps()
+    .extract(['vue']);//always
 
 mix.copyDirectory('resources/assets/images', 'public/images');
 //mix.copy('resources/assets/sass/slicknav.min.css', 'public/css/slicknav.min.css');
 if (mix.inProduction()) {
     mix.version();
 }
-mix.browserSync('http://127.0.0.1:8000');
+mix.browserSync('http://localhost:8000');

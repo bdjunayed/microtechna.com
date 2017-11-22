@@ -1,10 +1,9 @@
-//@import 'meyer_reset';
 @import url('https://fonts.maateen.me/solaiman-lipi/font.css');
-//@import 'boilerplate_main';
 @import 'my_variables';
 @import 'typo';
 @import 'button';
 @import 'susy_custom';
+
 @import './p_training.scss'; 
 /*@import 'svg-icons';*/
 @import './p_about_us.scss';
@@ -13,16 +12,13 @@
 @import './p_work.scss';
 @import './p_work-with-us.scss';
 
-
-
-//@import 'svg-icons';
 // Initial
 // -------
 body {
     margin: 0 auto;
     color: $secondary-text-color;
     background: $color-gray-50-lightest;
-    font-family: 'SolaimanLipi', sans-serif;
+    //font-family: 'SolaimanLipi', sans-serif;
 }
 
 nav,
@@ -30,13 +26,9 @@ footer {
     padding: 1em;
     text-align: center;
     font-size: 0.875em;
-} // My initials
-ul,
-li {
-    list-style: none;
-    margin: 0;
-    padding: 0;
-} //My utilities
+}
+
+//My utilities
 .cfx {
     @include clearfix;
 }
@@ -300,7 +292,7 @@ Start your code here
             color: #eef5f2;
             font-size: 13px;
             font-weight: 500;
-            text-shadow: 2px;
+            text-shadow: #9BA2AB;
             margin-right: 2px;
             padding: 4px 9px;
             text-transform: uppercase;

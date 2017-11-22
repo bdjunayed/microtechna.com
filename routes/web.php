@@ -64,7 +64,9 @@ Route::post('/newsletter', 'NewslettersController@store');
 Route::get('training', function () {
     return view('training');
 });
-
+Route::get('trainings/php_for_beginners', function () {
+    return view('trainings/php_for_beginners');
+});
 ////
 Auth::routes();
 

@@ -1,8 +1,8 @@
 @extends('layouts.page') @section('content')
 <section class="banner-training">
     <div class="image-overlay">
-        <h2>Software Testing, DBA, CCNA</h2>
-        <p> Training</p>
+        <h2>Software Testing, DBA, Applications</h2>
+        <p>Training</p>
         <a href="{{ url('/work_with_us') }}" class="btn-custom btn-primary-custom ">Contact us</a>
     </div>
 </section>
@@ -139,8 +139,19 @@
         <h2><b>Web App Developer</b></h2>
         <p>This trainee will be able to produce clean, semantic, object-oriented code to build excellent Web Application with the ability to adopt existing coding styles as appropriate in a range of languages such as PHP/ JavaScript using Laravel framework. Also will have the ability to develop both front and back-end systems, troubleshoot, test and maintain the core product software, databases to ensure optimisation and functionality, design and document code, identify scope, key requirements, specification, creative approach and development methodology for projects.</p>
 
-        <div class="custom-enroll"> <a href="https://form.jotform.me/72975839174473">Enroll Now</a>
+        <div class="custom-enroll"> <a href="{{ url('/trainings/php_for_beginners') }}">Enroll Now</a>
             <p><span>Duration: 3 or 6 months</span></p>
+        </div>
+    </div>
+    <div class="single-course">
+
+        <img src="./images/php-for-beginners.jpg" alt="PHP for beginners Training" />
+
+        <h2><b>PHP for beginners</b></h2>
+        <p>PHP runs half of the webservers from total of entire world. Now its more powerful and consumed less memories from its previous versions. We focus this course for beginners and freshers with zero experience with programming. Mainly concerned with fundamentals of programming and database basic concept with few tools like git.</p>
+
+        <div class="custom-enroll"> <a href="{{ url('/trainings/php_for_beginners') }}">Enroll Now</a>
+            <p><span>Duration: 2 months</span></p>
         </div>
     </div>
     <div class="single-course">
@@ -172,11 +183,11 @@
     <div class="single-content">
         <h3>Dhaka Branch Office </h3>
         <div class="custom-right">
-            <p>Kha 21, Road 5, Nikunjo 2</p>
-            <p>Dhaka 1215, Bangladesh</p>
+            <p>Kha 21, Road 5 Nikunjo 2 Tanpara</p>
+            <p>Dhaka 1229 Bangladesh</p>
             <p><b>Call, Text, Voice message:</b></p>
             <p>017.2513.9901</p>
-            <p>018.1751.2688</p>
+            <p>0177.592.1666</p>
             <p>017.1056.3784</p>
         </div>
     </div>
@@ -184,7 +195,7 @@
     <div class="single-content last-column">
         <a href="#">MicroTech NA</a>
         <p>Call for clarifiaction</p>
-        <h3>1.888.612.7778</h3>
+        <h3>0177 592 1666</h3>
     </div>
     <div class="cfx"></div>
  <div class="trainig-con-button">
