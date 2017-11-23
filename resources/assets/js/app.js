@@ -41,7 +41,7 @@ new Vue({
         onSubmit() {
             this.nl.post('/newsletter')
                 .then(response => alert('You are subscribed to Newsletters!'))
-                .catch((err) => console.log('err') );
+                .catch(err => console.log('catch error!') );
         }
     }
 });
@@ -67,7 +67,6 @@ new Vue({
 });
 
 // define slider component
-
 var items = [{
   title: 'Mobile Responsive Design',
   img: "https://s3-us-west-2.amazonaws.com/s.cdpn.io/5689/rock.jpg",
