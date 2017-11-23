@@ -10,7 +10,7 @@
 <body>
     <!--Header Start -->
     <div class="container-header">
-        <div class="logo">
+        <div class="logo debug">
             <a href="{{ url('/') }}">MicroTech NA</a>
         </div>
         <!-- Bergar menu-->
@@ -44,7 +44,7 @@
             </div>
         </div>
         <!-- Desktop Menu-->
-        <div class="Menu">
+        <div class="Menu debug">
             <ul>
                 <li class="scrolls"><a href="{{ url('/about_us') }}">About us </a></li>
                 <li class="scrolls"><a href="{{ url('/training') }}">Training</a></li>
@@ -60,7 +60,7 @@
                 <li class="scrolls workwith hilight-menu"><a href="{{ url('/work_with_us') }}">Work with us</a></li>
             </ul>
         </div>
-        <div class="socail">
+        <div class="social debug">
             <a href="https://www.facebook.com/microtechna/" target="_blank">
              <img src="./images/facebook.svg" alt="ali" /></a>
             <a href="https://twitter.com/@MicroTechSky" target="_blank">

@@ -71,12 +71,16 @@ Start your code here
 .container-header {
     width: 100%;
     transition: all 0.5s ease-in-out 0s;
-    @include container($width: 100%, $debug: false);
+    @include container($width: 100%, $debug: true);
     @media only screen and (min-width: $md) {
         padding: .6em 4em;
     }
     @media only screen and (min-width: $lg) {
         padding: 1.2em 4em;
+        //padding-top: 1.2em;
+        //padding-bottom: 0em;
+        //padding-left: 4em;
+        //padding-right: 4em;
     }
     padding: .6em 1em;
     height: 60px;
@@ -115,54 +119,63 @@ Start your code here
 
 .logo {
     @include span(last 8);
-    text-align: right;
-    margin-top: 7px;
+    //text-align: right;
+    //margin-top: 5px;
+    line-height: 1.2;
+    font-size: 19px;
+    font-size: 26px;
+    font-weight: lighter;
+    font-style: italic;
+    color: #fff;
+    text-shadow: 0 0 5px gray;
+    letter-spacing: 1px;
     @media only screen and (min-width: $md) {
         @include span(12);
+        margin-top: 0px;
         text-align: center;
-        font-size: 30px!important;
-        font-weight: bold;
-        a {
-            font-size: 24px !important;
-        }
+        //font-size: 30px;
+        //font-weight: bold;
+        //a {
+            //font-size: 24px !important;
+        //}
     }
     @media only screen and (min-width: $lg) {
-        @include span(3);
-        text-align: left;
-        margin: 0px;
-
-        a {
-            font-size: 24px !important;
-            display: block;
-            text-align: left;
-            margin-top: 4px!important;
-        }
-        span {
-            font-size: 13px;
-            font-weight: 300;
-        }
+        @include span(2);
+        //text-align: left;
+        //margin: 0px;
+        font-size: 20px;
+        //a {
+            //font-size: 24px !important;
+            //display: block;
+            //text-align: left;
+            //margin-top: 4px!important;
+        //}
+        //span {
+        //    font-size: 13px;
+        //    font-weight: 300;
+        //}
     }
     a {
-        font-size: 19px;
-        font-family: sans-serif;
-        font-weight: 400;
-        font-style: italic;
-        border-radius: 4px;
-        background-color: transparent;
+        //font-size: 19px;
+        //font-family: sans-serif;
+        //font-weight: 400;
+       // font-style: italic;
+        //border-radius: 4px;
+        //background-color: transparent;
         color: #fff;
-        text-shadow: 0 0 5px gray;
-        letter-spacing: 1px;
+        //text-shadow: 0 0 5px gray;
+        //letter-spacing: 1px;
     }
 
     a:hover {
-        /*color: $accent-color;*/
+        color: $accent-color;
         transition: 0.4s;
     }
-    span {
-        font-size: 35px;
-        color: $accent-color;
-        font-weight: 400;
-    }
+    //span {
+    //    font-size: 35px;
+    //    color: $accent-color;
+    //    font-weight: 400;
+    //}
 }
 
 .dribbbl {
@@ -256,20 +269,22 @@ Start your code here
         display: block;
         @include span(9);
         text-align: center;
-        margin-top: 5px;
+        //margin-top: 5px;
     }
     @media only screen and (min-width: $lg) {
         @include span(7);
-        margin: 0px;
+        //margin: 0px;
         ul {
             text-align: right!important;
         }
     }
-    margin-top: 10px;
+    //margin-top: 10px;
     display: none;
 }
 
 .Menu ul {
+    margin-top: 0px;
+    margin-bottom: 0px;
     text-align: center;
     .hilight-menu {
         border: 1px solid$accent-bright;
@@ -294,7 +309,7 @@ Start your code here
             font-weight: 500;
             text-shadow: #9BA2AB;
             margin-right: 2px;
-            padding: 4px 9px;
+            padding: 0px 9px;
             text-transform: uppercase;
 
         }
@@ -354,18 +369,18 @@ Start your code here
 
 /*========== Social Icons ==============*/
 
-.socail {
+.social {
     @media screen and (min-width: $md) {
         @include span(last 3);
         display: block;
-        text-align: left;
-        margin-top: 7px;
+        text-align: right;
+        //margin-top: 7px;
     }
     @media screen and (min-width: $lg) {
-        @include span(last 2 set-gutters 0);
+        @include span(last 3);
         display: block;
-        margin-right: 0px;
-        margin-top: 5px;
+        //margin-right: 0px;
+        //margin-top: 5px;
 
     }
     display: none;
