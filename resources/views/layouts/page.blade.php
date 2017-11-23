@@ -10,7 +10,7 @@
 <body>
     <!--Header Start -->
     <div class="container-header">
-        <div class="logo debug">
+        <div class="logo">
             <a href="{{ url('/') }}">MicroTech NA</a>
         </div>
         <!-- Bergar menu-->
@@ -44,7 +44,7 @@
             </div>
         </div>
         <!-- Desktop Menu-->
-        <div class="Menu debug">
+        <div class="Menu">
             <ul>
                 <li class="scrolls"><a href="{{ url('/about_us') }}">About us </a></li>
                 <li class="scrolls"><a href="{{ url('/training') }}">Training</a></li>
@@ -60,15 +60,16 @@
                 <li class="scrolls workwith hilight-menu"><a href="{{ url('/work_with_us') }}">Work with us</a></li>
             </ul>
         </div>
-        <div class="social debug">
+
+        <div class="social">
             <a href="https://www.facebook.com/microtechna/" target="_blank">
-             <img src="./images/facebook.svg" alt="ali" /></a>
+                <img src="{{url('images/facebook.svg')}}" alt="visit our fb page"/></a>
             <a href="https://twitter.com/@MicroTechSky" target="_blank">
-                <img src="./images/twitter.svg" alt="ali" /></a>
-            <a href="https://plus.google.com/b/103441871439982130127/103441871439982130127?hl=en" target="_blank"> 
-                <img src="./images/youtube.svg" alt="ali" />
-            </a>
-            <a href="https://plus.google.com/b/103441871439982130127/103441871439982130127?hl=en" target="_blank"> <img src="./images/google.svg" alt="ali" /></a>
+                <img src="{{url('images/twitter.svg')}}"  alt="visit our twitter account"/></a>
+            <a href="https://plus.google.com/b/103441871439982130127/103441871439982130127?hl=en" target="_blank">
+                <img src="{{url('images/youtube.svg')}}"  alt="visit our youtube channel"/></a>
+            <a href="https://plus.google.com/b/103441871439982130127/103441871439982130127?hl=en" target="_blank">
+                <img src="{{url('images/google.svg')}}"  alt="visit our Google+ page"/></a>
         </div>
     </div>
 
@@ -128,20 +129,19 @@
             <p>Made by <a href="http://Microtechna.com" target="_blank">APMS</a></p>
             <p>&copy; 2017 <a href="{{ url('/') }}">MicroTech NA Inc.</a> All Rights Reserved.</p>
         </div>
-        <div class="socail footer-so">
+        <div class="social footer-so">
             <a href="https://www.facebook.com/microtechna/" target="_blank">
-             <img src="./images/facebook.svg" alt="ali" /></a>
+                <img src="{{url('images/facebook.svg')}}" alt="visit our fb page"/></a>
             <a href="https://twitter.com/@MicroTechSky" target="_blank">
-                <img src="./images/twitter.svg" alt="ali" /></a>
-            <a href="https://plus.google.com/b/103441871439982130127/103441871439982130127?hl=en" target="_blank"> 
-                <img src="./images/youtube.svg" alt="ali" />
-            </a>
-            <a href="https://plus.google.com/b/103441871439982130127/103441871439982130127?hl=en" target="_blank"> <img src="./images/google.svg" alt="ali" /></a>
+                <img src="{{url('images/twitter.svg')}}"  alt="visit our twitter account"/></a>
+            <a href="https://plus.google.com/b/103441871439982130127/103441871439982130127?hl=en" target="_blank">
+                <img src="{{url('images/youtube.svg')}}"  alt="visit our youtube channel"/></a>
+            <a href="https://plus.google.com/b/103441871439982130127/103441871439982130127?hl=en" target="_blank">
+                <img src="{{url('images/google.svg')}}"  alt="visit our Google+ page"/></a>
         </div>
     </div>
 
     <button onclick="topFunction()" id="back-top" title="Go to top"> 
-       <!--  <img src="./images/top-arow.svg" alt="Top" /></a> -->
         <span> &#8673;</span>
     </button>
 

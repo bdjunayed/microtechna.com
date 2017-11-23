@@ -53,12 +53,16 @@
                         display: block;
                         float: left;
                         font-size: 22px;
+                        font-style: normal;
                         height: 50px;
                         width: 50px;
                         border-radius: 50%;
                         text-align: center;
                         border: 2px solid $accent-color;
                         padding-top: 7px;
+                        .fa-map-marker{
+
+                        }
                     }
                     .address-tails {
                         padding-left: 12px;

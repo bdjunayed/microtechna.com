@@ -8,7 +8,6 @@
         </div>
     </section>
 
-
     <div class="container-training">
 
         <h1>PHP for beginners</h1>

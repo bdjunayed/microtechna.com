@@ -33,24 +33,24 @@
 
         <div class="form-social-icons">
             <div class="single-con">
-                <i class="fa fa-map-marker">&#9954;</i>
+                <i class="fa fa-map-marker">📍</i>
                 <div class="address-tails">
                     <h3>Our location:</h3>
                     <p><b>MicroTech Corporation</b></p>
-                    <p>LKha 21, Road 5 Nikunjo 2 Tanpara<br>Dhaka 1229 Bangladesh</p>
+                    <p>Kha 21 Road 5, Nikunjo 2 Tanpara<br>Dhaka 1229 Bangladesh</p>
                 </div>
             </div>
             <div class="single-con">
-                <i class="fa fa-phone">&#9990;</i>
+                <i class="fa fa-phone">📱</i>
                 <div class="address-tails">
                 <h3>Give us a call</h3>
                 <p>Call: 0177 592 1666</p>
                 </div>
             </div>
             <div class="single-con">
-                <i class="fa fa-envelope-o"> &#9993;</i>
+                <i class="fa fa-envelope-o">📧</i>
                 <div class="address-tails">
-                <h3>Send us message</h3>
+                <h3>Send us an email</h3>
                 <p>Email: junayed@microtechna.com</p>
                 </div>
             </div>

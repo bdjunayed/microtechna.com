@@ -148,7 +148,8 @@
         <img src="./images/php-for-beginners.jpg" alt="PHP for beginners Training" />
 
         <h2><b>PHP for beginners</b></h2>
-        <p>PHP runs half of the webservers from total of entire world. Now its more powerful and consumed less memories from its previous versions. We focus this course for beginners and freshers with zero experience with programming. Mainly concerned with fundamentals of programming and database basic concept with few tools like git.</p>
+        <p>PHP runs half of the webservers from total of entire world. Now its more powerful and consumed less memories from its previous versions. We focus this course for beginners and freshers with zero experience with
+            <a href="{{ url('/trainings/php_for_beginners') }}"><b>details...</b></a></p>
 
         <div class="custom-enroll"> <a href="{{ url('/trainings/php_for_beginners') }}">Enroll Now</a>
             <p><span>Duration: 2 months</span></p>
@@ -207,4 +208,5 @@
 <!--- Discuss With Your Project End Here --->
 
 
-<!--.Contact-us-area-->@endsection
+<!--.Contact-us-area-->
+@endsection
