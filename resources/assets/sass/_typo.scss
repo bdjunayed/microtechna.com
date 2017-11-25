@@ -91,13 +91,13 @@ Please follow few examples before the codes.
 /******************************************************/
 
 /****   Initialize the HTML                        ****/
-
-@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,500,700');
+@import url('https://fonts.maateen.me/solaiman-lipi/font.css');
+//@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,500,700');
 
 
 html {
     /* Change default typefaces here */
-    font-family: 'Roboto', sans-serif;
+    font-family: Open Sans,Helvetica Neue,Helvetica,Arial,sans-serif;
     line-height: 1.4;
     font-size: calc(14px + 0.5vw); //font-size: 100%;
     -webkit-font-smoothing: antialiased;
@@ -108,9 +108,9 @@ html {
 
 p {
     //margin: 0;
-    font-size: 14px;
+    font-size: 1em;
     line-height: 1.6em;
-    font-weight: 400;
+    //font-weight: 400;
 }
 
 ul,
@@ -121,7 +121,9 @@ ol {
 
 ul li,
 ol li {
+    font-size: .9em;
     line-height: 1.5rem;
+    margin-bottom: 0.5em;
 }
 
 ul ul,
@@ -139,17 +141,17 @@ a {
 }
 
 h1 {
-    font-size: 1.5rem;
+    font-size: 2rem;
     line-height: 2.2rem;
     margin-top: 3rem;
     letter-spacing: 1px;
 }
 
 h2 {
-
     font-size: 1.8rem;
     line-height: 1em;
-    font-weight: 400;
+    margin-top: 2.5rem;
+    //font-weight: 400;
 }
 
 h3 {

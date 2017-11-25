@@ -82,8 +82,8 @@
     }
 }
 
-/*========= Trainer body =============*/
-
+/*=========== Trainer body =============*/
+.bn{ font-family: 'SolaimanLipi', sans-serif; }
 .tr-heading {
     h1 {
         font-size: 20px;
@@ -182,20 +182,15 @@
                 /* padding: 20px 13px;*/
             }
             i {
-                font-size: 30px;
-                font-weight: 500;
+                font-size: medium;
                 color: $accent-color;
                 padding: 0px 3px;
                 display: block;
-                text-align: left;
-
             }
             i:last-child {
                 text-align: right;
-
             }
         }
-
     }
 }
 
@@ -375,12 +370,11 @@
         font-size: 13px;
         margin: 20px 0px;
         h2 {
-            font-size: 17px!important;
-            text-align: left!important;
             font-weight: 400;
-            padding: 0px;
-            margin: 0px;
-            line-height: 20px;
+            margin-top: auto;
+
+            padding-left: 0px;
+            padding-right: 0px;
         }
         img {
             width: 100%;
@@ -500,4 +494,14 @@
     }
 }
 
-/*=============  CODE FOR TRAINING FORM  ==============*/
+/*=============  PHP for beginers  ==============*/
+.training-child-page{
+    h1 { font-weight: lighter;    }
+    h2 { font-weight: 400;}
+    p{
+
+    }
+    ul li {
+
+    }
+}
