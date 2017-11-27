@@ -91,13 +91,22 @@ Please follow few examples before the codes.
 /******************************************************/
 
 /****   Initialize the HTML                        ****/
+//Hypen https://css-tricks.com/almanac/properties/h/hyphenate/
+hy {
 
-@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,500,700');
+    -ms-hyphens: auto;
 
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+    -webkit-hyphens: auto;
+    -ms-hyphens: auto;
+    -moz-hyphens: auto;
+    hyphens: auto;
+}
 
 html {
     /* Change default typefaces here */
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto', Open Sans, Helvetica Neue, Helvetica, Arial, sans-serif;
     line-height: 1.4;
     font-size: calc(14px + 0.5vw); //font-size: 100%;
     -webkit-font-smoothing: antialiased;
@@ -108,9 +117,9 @@ html {
 
 p {
     //margin: 0;
-    font-size: 14px;
-    line-height: 1.6em;
-    font-weight: 400;
+    font-size: 1em;
+    line-height: 1.5em;
+    //font-weight: 400;
 }
 
 ul,
@@ -121,7 +130,9 @@ ol {
 
 ul li,
 ol li {
+    font-size: .9em;
     line-height: 1.5rem;
+    margin-bottom: 0.5em;
 }
 
 ul ul,
@@ -139,17 +150,17 @@ a {
 }
 
 h1 {
-    font-size: 1.5rem;
+    font-size: 2rem;
     line-height: 2.2rem;
     margin-top: 3rem;
     letter-spacing: 1px;
 }
 
 h2 {
-
     font-size: 1.8rem;
     line-height: 1em;
-    font-weight: 400;
+    margin-top: 2.5rem;
+    //font-weight: 400;
 }
 
 h3 {
@@ -184,24 +195,24 @@ table {
     }
 }
 
-/****font-size:16, line-height: 1.4rem ****************/
 
 @media screen and (min-width: $md) {
     h2 {
         font-size: 25px;
-        padding: 0px 30px;
+        //padding: 0px 30px;
 
     }
 }
 @media only screen and (min-width: $lg) {
     h2 {
-        line-height: 45px!important;
-          font-size: 26px!important;
-        padding: 0px 30px;
+        line-height: 1.2;
+        font-size: 1.6em;
+        //padding: 0px 30px;
     }
     h1{
-        font-size: 26px!important;
-        padding: 0px 140px!important;
+        font-size: 2em;
+        //padding: 0px 140px;
+
     }
 }
 

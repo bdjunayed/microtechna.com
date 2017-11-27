@@ -2,19 +2,18 @@
 <section class="banner-training">
     <div class="image-overlay">
         <h2>Software Testing, DBA, Applications</h2>
-        <p>Training</p>
+        <p>Trainings</p>
         <a href="{{ url('/work_with_us') }}" class="btn-custom btn-primary-custom ">Contact us</a>
     </div>
 </section>
 <div class="cfx"></div>
 <div class="container-training">
     <div class="tr-heading">
-        <h1>অভিজ্ঞ আমেরিকান আইটি প্রফেশনাল দ্বারা পরিচালিত বাংলাদেশে এই প্রথম ও একমাত্র ব্যতিক্রমধর্মী ট্রেনিং সেন্টার</h1>
-        <p><span>MicroTech NA</span></p>
+        <h1 class="bn">অভিজ্ঞ আমেরিকান আইটি প্রফেশনাল দ্বারা পরিচালিত বাংলাদেশে এই প্রথম ও একমাত্র ব্যতিক্রমধর্মী ট্রেনিং সেন্টার</h1>
     </div>
     <div class="tr-content">
         <div class="heading">
-            <h2>প্রতিদিনের ক্লাসের সিলেবাস প্রফেশনাল আইটি টিচারদের দ্বারা হাতে-কলমে প্রতিদিন বার ঘন্টা করে ছয় মাস বার বার রিয়েল লাইফ অনুশীলনের মাধ্যমে বুঝিয়ে মুখস্ত করানোর সাথে আইটি জবের ১০০% নিশ্চয়তা </h2>
+            <h2 class="bn">প্রতিদিনের ক্লাসের সিলেবাস প্রফেশনাল আইটি টিচারদের দ্বারা হাতে-কলমে প্রতিদিন বার ঘন্টা করে ছয় মাস বার বার রিয়েল লাইফ অনুশীলনের মাধ্যমে বুঝিয়ে মুখস্ত করানোর সাথে আইটি জবের ১০০% নিশ্চয়তা </h2>
         </div>
         <div class="main-example">
             <div class="example">
@@ -22,18 +21,18 @@
                     <img src="./images/ali.jpg" alt="ali" />
                 </div>
                 <div class="example-text">
-                    <p><i>&#10077;</i> ট্রেনিং এর প্রতিটা মুহুর্ত আমার কষ্ট লাগত কিন্তু আমি পণ করেছিলাম আর নিজের মনকে বলেছিলাম এখন কষ্ট কর যাতে বাকি সারা জীবন চ্যাম্পিয়ন হয়ে বেঁচে থাক <i class="left-qoute"> &#x275E;</i><br>
+                    <p class="bn"><i>&#10077;</i> ট্রেনিং এর প্রতিটা মুহুর্ত আমার কষ্ট লাগত কিন্তু আমি পণ করেছিলাম আর নিজের মনকে বলেছিলাম এখন কষ্ট কর যাতে বাকি সারা জীবন চ্যাম্পিয়ন হয়ে বেঁচে থাক <i class="left-qoute"> &#x275E;</i><br>
                         <span>- Muhammmed Ali</span> </p>
                 </div>
             </div>
             <div class="sussget-text">
-                <h4> অলসতাকে ধরাশায়ী করে আমাদের গাইডলাইন যথাযথভাবে follow করলে USA তে IT Job ১০০% নিশ্চিত ।</h4>
+                <h4 class="bn"> অলসতাকে ধরাশায়ী করে আমাদের গাইডলাইন যথাযথভাবে follow করলে USA তে IT Job ১০০% নিশ্চিত ।</h4>
             </div>
         </div>
     </div>
 </div>
 <!-- About course start here-->
-<div class="training-details-section">
+<div class="training-details-section bn">
     <div class="about-course-area">
         <div class="what-are-you-get">
             <h2>অভিজ্ঞ আমেরিকান আইটি প্রফেশনাল দ্বারা পরিচালিত বাংলাদেশে এই প্রথম ও একমাত্র ব্যতিক্রমধর্মী ট্রেনিং সেন্টার মাইক্রোটেক এ আপনি পাবেন:</h2>
@@ -62,9 +61,9 @@
     <div class="messanger-text">
         <p>আপনি কিংবা আপনার আত্নীয় বা পরিচিত কেও কি Familly Migration(I-130) এ আমেরিকাতে আসার পরপরই আইটি জব করতে আগ্রহী ? আপনি কি আইটি জবের ১০০% নিশ্চয়তাসহ ট্রেনিং করতে চাচ্ছেন ? আমেরিকাতে আসার আগে বাংলাদেশ থেকে উপযুক্ত ট্রেনিং নিয়ে সরাসরি আইটি জব শুরু করতে আমরা সাহায্য করে থাকি । আমেরিকাতে যারা বসবাস করছেন তারাও কয়েক মাসের জন্য বাংলাদেশে ভিজিট করে আমাদের এই সেবা গ্রহন করতে পারেন ।</p>
 
-        <p>বাংলাদেশ থেকে আমেরিকায় Familly migration or Other Visa নিয়ে আসার আগে তিন/ছয় মাসের কোর্স করে আসুন কারন এই কোর্স আমেরিকাতে করতে কয়েকগুন খরচ করেও এই ধরনের সুবিধা পাবেন না । মোটকথা আপনার সময় বের করাটা অসম্ভব হবে এবং আমেরিকার কোন ট্রেনিং সেন্টার আপনাকে এভাবে সার্ভিস দিবে না । আমাদের ২০ বছরের অভিজ্ঞতার আলোকে সাজানো এই প্রথম ও একমাত্র ব্যতিক্রমধর্মী ট্রেনিং সেন্টার আপনাদের সেবায় সদা প্রস্তুত ।
+        <p>বাংলাদেশ থেকে আমেরিকায় Familly migration or Other Visa নিয়ে আসার আগে তিন/ছয় মাসের কোর্স করে আসুন কারন এই কোর্স আমেরিকাতে করতে কয়েকগুন খরচ করেও এই ধরনের সুবিধা পাবেন না। মোটকথা আপনার সময় বের করাটা অসম্ভব হবে এবং আমেরিকার কোন ট্রেনিং সেন্টার আপনাকে এভাবে সার্ভিস দিবে না । আমাদের ২০ বছরের অভিজ্ঞতার আলোকে সাজানো এই প্রথম ও একমাত্র ব্যতিক্রমধর্মী ট্রেনিং সেন্টার আপনাদের সেবায় সদা প্রস্তুত ।
         </p>
-        <p>যদি তাও সম্ভব না হয়, তবে আমাদের One-to-One কোর্সে অল্প খরচে ক্লাস করতে পারেন । One-to-One কোর্সে আপনাকে একজন দক্ষ আইটি প্রফেশনাল দ্বারা হাতে কলমে বুঝানো হবে, বিস্তারিত জানতে কল করুন </p>
+        <p>যদি তাও সম্ভব না হয়, তবে আমাদের One-to-One কোর্সে অল্প খরচে ক্লাস করতে পারেন। One-to-One কোর্সে আপনাকে একজন দক্ষ আইটি প্রফেশনাল দ্বারা হাতে কলমে বুঝানো হবে, বিস্তারিত জানতে কল করুন </p>
     </div>
     <div class="messangers">
         <div class="custom">
@@ -92,85 +91,82 @@
 <!--Header-area end here-->
 <div class="training-section">
     <h2 class="border-bottom">Our Courses</h2>
-    <div class="single-course">
 
+    <div class="single-course">
         <img src="./images/testing-01.jpg" alt="Software Testing" />
-        <h2><b>Software Testing</b></h2>
+        <h2>Software Testing</h2>
         <p>This course will prepare you to get the position of an exceptional Software Test Engineer (Selenium/Java or QTP/UFT VBScript) platform to work with any cross-functional team, and join in the world-class community of talented experts.</p>
-        <div class="custom-enroll"> <a href="https://form.jotform.me/72975839174473">Enroll Now</a>
-            <p><span>Duration: 3 or 6 months</span></p>
+
+        <div class="custom-enroll"> <a href="https://form.jotform.me/72975839174473"><span>Enroll Now</span></a>
+        <a>Duration: 3 or 6 months</a>
         </div>
     </div>
-    <div class="single-course">
 
+    <div class="single-course">
         <img src="./images/sqlserverDBA.jpg" alt="Software Testing" />
-        <h2><b>SQL Server DBA</b></h2>
+        <h2>SQL Server DBA</h2>
         <p>This will make you ready to take responsible for the evaluation, installation, database backup and recovery, data integrity procedures, space management strategies, backup strategy and the testing of disaster recovery processes, database security, maintenance, and support for enterprise class database management systems.</p>
-        <div class="custom-enroll"> <a href="https://form.jotform.me/72975839174473">Enroll Now</a>
-            <p><span>Duration: 3 or 6 months</span></p>
+
+        <div class="custom-enroll"> <a href="https://form.jotform.me/72975839174473"><span>Enroll Now</span></a>
+            <a>Duration: 3 or 6 months</a>
         </div>
     </div>
-    <div class="single-course">
 
+    <div class="single-course">
         <img src="./images/ccna.png" alt="Software Testing" />
-        <h2><b>Cisco Certified Network Associate - CCNA</b></h2>
+        <h2>Cisco Certified Network Associate - CCNA</h2>
         <p>This course will furnish you as a Network Operations Engineer with the Cisco Certified Network Associate (CCNA) certificate having proper knowledge on network implementations, routing and switching (10/100/1000 Ethernet, Frame Relay, Bridging, TCP/IP, IPX, EIGRP, and trunking protocols) in operations and implementations, firewall, VPN, security skills.</p>
 
-        <div class="custom-enroll"> <a href="https://form.jotform.me/72975839174473">Enroll Now</a>
-            <p><span>Duration: 3 or 6 months</span></p>
+        <div class="custom-enroll"> <a href="https://form.jotform.me/72975839174473"><span>Enroll Now</span></a>
+            <a>Duration: 3 or 6 months</a>
         </div>
     </div>
 
     <div class="single-course">
-
         <img src="./images/linux.jpg" alt="Software Testing" />
-
-        <h2><b>Red Hat Certified Engineer - RHCE</b></h2>
+        <h2>Red Hat Certified Engineer - RHCE</h2>
         <p>To get a job as a System Administrator having proper understanding and experience on installing and maintaining servers as well as ensuring clients get a good service, helping to engineer high availability in solutions, through applying specific tuning, load testing, webservers, database servers, high availability, and high performance.</p>
 
-        <div class="custom-enroll"> <a href="https://form.jotform.me/72975839174473">Enroll Now</a>
-            <p><span>Duration: 3 or 6 months</span></p>
+        <div class="custom-enroll"> <a href="https://form.jotform.me/72975839174473"><span>Enroll Now</span></a>
+            <a>Duration: 3 or 6 months</a>
         </div>
     </div>
+
     <div class="single-course">
-
         <img src="./images/web-01.jpg" alt="Software Testing" />
-
-        <h2><b>Web App Developer</b></h2>
+        <h2>Web App Developer</h2>
         <p>This trainee will be able to produce clean, semantic, object-oriented code to build excellent Web Application with the ability to adopt existing coding styles as appropriate in a range of languages such as PHP/ JavaScript using Laravel framework. Also will have the ability to develop both front and back-end systems, troubleshoot, test and maintain the core product software, databases to ensure optimisation and functionality, design and document code, identify scope, key requirements, specification, creative approach and development methodology for projects.</p>
 
-        <div class="custom-enroll"> <a href="{{ url('/trainings/php_for_beginners') }}">Enroll Now</a>
-            <p><span>Duration: 3 or 6 months</span></p>
+        <div class="custom-enroll"> <a href="https://form.jotform.me/72975839174473"><span>Enroll Now</span></a>
+            <a>Duration: 3 or 6 months</a>
         </div>
     </div>
+
     <div class="single-course">
-
         <img src="./images/php-for-beginners.jpg" alt="PHP for beginners Training" />
-
-        <h2><b>PHP for beginners</b></h2>
+        <h2>PHP for beginners</h2>
         <p>PHP runs half of the webservers from total of entire world. Now its more powerful and consumed less memories from its previous versions. We focus this course for beginners and freshers with zero experience with
             <a href="{{ url('/trainings/php_for_beginners') }}"><b>details...</b></a></p>
 
-        <div class="custom-enroll"> <a href="{{ url('/trainings/php_for_beginners') }}">Enroll Now</a>
-            <p><span>Duration: 2 months</span></p>
+        <div class="custom-enroll"> <a href="https://form.jotform.me/72975839174473"><span>Enroll Now</span></a>
+            <a>Duration: 3 or 6 months</a>
         </div>
     </div>
+
     <div class="single-course">
-
         <img src="./images/mobile.jpg" alt="Software Testing" />
-        <h2><b>Mobile App Developer</b></h2>
+        <h2>Mobile App Developer</h2>
         <p>We will furnish you with proven ability of working experience building apps in Java and Aroid SDK using JSON and REST services in an agile team following scrum methodology, proficiency of using Gradle/ Jenkins/ Git/ Jira/ Confluence, JSON and XML, multi-site/ multi-lingual environments, building, packaging and deploying code for continuous integration, supporting and troubleshooting code issues in test and live environments.</p>
-        <div class="custom-enroll">
-            <a href="https://form.jotform.me/72975839174473">Enroll Now</a>
-            <p><span>Duration: 3 or 6 months</span></p>
 
+        <div class="custom-enroll"> <a href="https://form.jotform.me/72975839174473"><span>Enroll Now</span></a>
+            <a>Duration: 3 or 6 months</a>
         </div>
     </div>
 </div>
 <!--.Contact-us-area-->
 <a href="#jot"></a>
 <div class="contact-us">
-    <h2 class="text-center">বিস্তারিত জানতে কল করুন আমাদের নিউ ইউর্ক অথবা ঢাকা সেন্টার এ </h2>
+    <h2 class="text-center bn">বিস্তারিত জানতে কল করুন আমাদের নিউ ইউর্ক অথবা ঢাকা সেন্টার এ </h2>
     <div class="single-content">
         <h3>USA Corporate Office</h3>
         <p>167-17, Hillside Ave, 2FL</p>

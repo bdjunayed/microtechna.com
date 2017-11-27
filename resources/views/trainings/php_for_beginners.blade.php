@@ -9,49 +9,64 @@
     </section>
 
     <div class="container-training">
+        <div class="training-child-page">
 
-        <h1>PHP for beginners</h1>
-        <p>PHP runs half of the webservers from total of entire world. Now its more powerful and consumed less memories from its previous versions. We focus this course for beginners and freshers with zero experience with programming. Mainly concerned with fundamentals of programming and database basic concept with few tools like git.</p>
-        <p>From this course you can migrate to the popular framework such as Laravel and build your professional programming career.</p>
-        <p><strong>Goal</strong>: Understanding of the fundamentals of PHP/MySQL with git. Introduction to a framework.</p>
-        <p><strong>Duration</strong>: 18 hours / 12 classes /1.5 hours per classes </p>
+            <h1>PHP for beginners</h1>
+            <div class="title-image">
+                <img src = "{{url('images/php-for-beginners.jpg')}}" alt = "PHP traioning for beginners" />
+            </div>
 
-        <p><strong>Seats</strong>: 6</p>
-        <p><strong>Supplementary module</strong>: Software versioning with git.</p>
-        <p><strong>Location</strong>: Nikunja 2</p>
+            <p><strong>Goals:</strong> Understanding the fundamentals of PHP/MySQL.</p>
+            <p>PHP runs half of the webservers from total of entire world. Now its more powerful and consumed less memories from its previous versions. We focus this course for beginners and freshers with zero experience with programming. Mainly concerned with fundamentals of programming and database basic concept with few tools like git.</p>
+            <p>From this course you can migrate to the popular framework such as Laravel and build your professional programming career.</p>
 
-        <p><strong>Syllabus</strong>: </p>
-        <ul>
-            <li>Installation</li>
-            <li>Installation</li>
-            <li>Code editors</li>
-            <li>Hello World!</li>
-            <li>Php server</li>
-            <li>Variable</li>
-            <li>Code inside the HTML</li>
-            <li>URL parameter</li>
-            <li>URL parameter security</li>
-            <li>Separation of responsibilities from presentation layer</li>
-            <li>Arrays</li>
-            <li>Arrays output in HTML</li>
-            <li>Arrays Associative</li>
-            <li>Booleans</li>
-            <li>Functions</li>
-            <li>MySQL Database</li>
-            <li>Classes</li>
-            <li>PDO</li>
-            <li>Refactor</li>
-            <li>Passwords into its own file</li>
-            <li>Router</li>
-            <li>Views</li>
-            <li>Filtering</li>
-            <li>GET, POST</li>
-            <li>Composer</li>
-            <li>Container</li>
-            <li>Controllers</li>
-            <li>Namespaces</li>
-            <li>Laravel</li>
-        </ul>
+            <div class="info-box">
+                <p><strong>Duration:</strong> 18 hours / 12 classes /1.5 hours per classes.</p>
+                <p><strong>Prerequisite:</strong>Freshers with basic english can apply.</p>
+                <p><strong>Seats:</strong> 6 nos</p>
+                <p><strong>Supplementary module:</strong> Software versioning with git.</p>
+                <p><strong>Location:</strong> Nikunja 2 Dhaka</p>
+                <p><strong>Course fees:</strong>: Tk. 12,000/=</p>
+            </div>
+
+            <h2>Syllabus:</h2>
+            <div class="row">
+                <ul>
+                    <div class="col6">
+                        <li>Installation</li>
+                        <li>Hello World!</li>
+                        <li>Php server</li>
+                        <li>Variables</li>
+                        <li>Code inside the HTML</li>
+                        <li>URL parameter</li>
+                        <li>URL parameter security</li>
+                        <li>Separation of logic layers</li>
+                        <li>Arrays</li>
+                        <li>Arrays output in HTML</li>
+                        <li>Arrays Associative</li>
+                        <li>Booleans</li>
+                        <li>Functions</li>
+                    </div>
+                    <div class="col6">
+                        <li>MySQL Database</li>
+                        <li>Classes</li>
+                        <li>PDO</li>
+                        <li>Refactor</li>
+                        <li>Passwords file</li>
+                        <li>Router</li>
+                        <li>Views</li>
+                        <li>Filtering</li>
+                        <li>GET, POST</li>
+                        <li>Composer</li>
+                        <li>Container</li>
+                        <li>Controllers</li>
+                        <li>Namespaces</li>
+                        <li>Laravel</li>
+                    </div>
+                </ul>
+            </div>
+        </div>
+
     </div>
     <!--.Contact-us-area-->
     <a href="#jot"></a>
