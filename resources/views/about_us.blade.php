@@ -1,8 +1,8 @@
 @extends('layouts.page') @section('content')
 <section class="banner-training about-bg">
     <div class="image-overlay">
-        <h2>About Us And What We Do !</h2>
-        <p> Creative. Responsive. On Mission.</p>
+        <h2>About us</h2>
+        <p> Creative & Responsive.</p>
         <a href="{{ url('/work_with_us') }}" class="btn-custom btn-primary-custom ">Work With us</a>
     </div>
 </section>
@@ -10,7 +10,7 @@
 <section class="about-us-container">
     <div class="about-heading">
         <h1>Experience <span>Microtech</span></h1>
-        <h4> is recognized as a <span>Excellent Digital Agency</span> by </h4>
+        <h4>is recognized as a <span>Excellent Digital Agency</span></h4>
     </div>
     <!--- Main About Us Start Here --->
     <div class="main-about">
@@ -50,7 +50,7 @@
                 <img src="./images/web-app-developer-bangladesh1.jpg" alt="">
             </div>
             <div class="single-about">
-                <h2>Training</h2>
+                <h2>Trainings</h2>
                 <p>MicroTech has for more than four years of supported Learning delivery by expert information technology professionals successfully and satisfying our valuable trainee. Offering online and offline training for the key areas such as Software testing, Selenium, QTP testing, Java, C#, Oracle Database Administrator training, and much more. </p>
                 <p>Expertise in training with quality of demos and samples which is keenly focused on our business. We have a mature learning proven process where you able to rely on us; feel free to see our testimonials & references.</p>
             </div>
