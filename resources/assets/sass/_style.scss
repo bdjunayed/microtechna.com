@@ -1,3 +1,6 @@
+@import url('https://fonts.maateen.me/solaiman-lipi/font.css');
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,500,700');
+
 @import 'my_variables';
 @import 'typo';
 @import 'button';
@@ -17,7 +20,6 @@ body {
     margin: 0 auto;
     color: $primary-text-color2;
     background: $color-gray-50-lightest;
-    //font-family: 'SolaimanLipi', sans-serif;
 }
 
 nav,
@@ -40,15 +42,15 @@ footer {
     outline: 1px solid red;
 }
 
-.debug-div {
-    background: linear-gradient(to left, rgba(red, 0.125), rgba(red, 0.125)), rgba(white, 0.5);
-    background-clip: content-box, padding-box;
-    float: left;
-    padding-bottom: 1rem;
-    padding-top: 1rem;
-    outline: 1px solid red;
-    text-align: center;
-}
+//.debug-div {
+//    background: linear-gradient(to left, rgba(red, 0.125), rgba(red, 0.125)), rgba(white, 0.5);
+//    background-clip: content-box, padding-box;
+//    float: left;
+//    padding-bottom: 1rem;
+//    padding-top: 1rem;
+//    outline: 1px solid red;
+//    text-align: center;
+//}
 
 /*  ------------------------------------------
 Start your code here
@@ -98,14 +100,13 @@ Start your code here
     z-index: 999;
     height: 60px;
     background: #17252c;
-    /*  background: #455A64;*/
     padding-top: .6em;
     opacity: 0.9;
     transition: all 0.4s ease-in-out 0s;
     .logo {
         a {
-            font-size: 18px!important;
-            font-weight: 600;
+            //font-size: 18px!important;
+            //font-weight: 600;
         }
     }
     @media screen and (min-width: $md) {
@@ -118,29 +119,20 @@ Start your code here
 
 .logo {
     @include span(last 8);
-    //text-align: right;
-    //margin-top: 5px;
-    line-height: 1.2;
+    //line-height: 1.2;
     font-size: 26px;
     font-weight: lighter;
     font-style: italic;
-    color: #fff;
+    color: $primary-color-text;
     text-shadow: 0 0 5px gray;
     letter-spacing: 1px;
     @media only screen and (min-width: $md) {
         @include span(12);
         margin-top: 0px;
         text-align: center;
-        //font-size: 30px;
-        //font-weight: bold;
-        //a {
-            //font-size: 24px !important;
-        //}
     }
     @media only screen and (min-width: $lg) {
         @include span(2);
-        //text-align: left;
-        //margin: 0px;
         font-size: 20px;
         //a {
             //font-size: 24px !important;
@@ -305,7 +297,7 @@ Start your code here
             display: block;
             color: $primary-color-text;
             font-size: 13px;
-            font-weight: 500;
+            //font-weight: 500;
             text-shadow: #9BA2AB;
             margin-right: 2px;
             padding: 0px 9px;
@@ -344,7 +336,7 @@ Start your code here
                 a {
                     color: $primary-color-text;
                     font-size: 14px;
-                    font-weight: 500;
+                    //font-weight: 500;
                     padding: 4px 10px;
                     //padding-left: 10px;
                     text-transform: capitalize;

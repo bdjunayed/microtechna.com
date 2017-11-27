@@ -1,5 +1,5 @@
 <!DOCTYPE Html>
-<html>
+<html lang="en">
 
 <head>
     <title>Welcome to MicroTech NA Inc., an offshore software development company </title>
@@ -142,7 +142,7 @@
     </div>
 
     <button onclick="topFunction()" id="back-top" title="Go to top"> 
-        <span> &#8673;</span>
+        <span>➚</span>
     </button>
 
     <script src="{{mix('js/manifest.js')}}"></script>

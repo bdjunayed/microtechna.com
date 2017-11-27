@@ -90,7 +90,7 @@
         .single-blog {
             @media only screen and (min-width: $md) {
                 @include span(6);
-                &:nth-child(2n) {
+                &:nth-child(even) {
                     @include span(last 6);
                     margin-right: 0px;
                 }

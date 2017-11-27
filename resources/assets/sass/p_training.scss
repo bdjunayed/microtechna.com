@@ -24,41 +24,15 @@
     height: 400px;
     text-align: center;
     background-attachment: fixed;
-    color: #fff;
+    color: $color-gray-50-lightest;
     position: relative;
     background-image: url('../images/training.jpg');
-    @media only screen and (min-width: $md) {
-        .image-overlay {
-            padding: 158px 0px!important;
-        }
-        @media only screen and (min-width: $lg) {
-            .image-overlay {
-                padding: 130px 0px!important;
-            }
-            h2 {
-                font-size: 40px!important;
-                line-height: 0.6em!important;
-            }
-            p {
-                line-height: 1em!important;
-                font-size: 18px!important;
-                padding-bottom: 22px;
-            }
-
-        }
-
-        h2 {
-            font-size: 30px!important;
-            line-height: 0.6em!important;
-        }
-    }
     h2 {
-
-        letter-spacing: 1px;
-        font-size: 21px;
+        //letter-spacing: 1px;
+        font-size: 36px;
         font-weight: 300;
-        color: #FFFFFF;
-        line-height: 6px;
+        //color: #FFFFFF;
+        //line-height: 1.2em;
     }
     p {
         font-size: 14px;
@@ -71,26 +45,48 @@
     .image-overlay {
         width: 100%;
         height: 100%;
-        background: rgba(0,
-        0,
-        0,
-        0.7);
+        background: rgba(0, 0, 0, 0.7);
         position: absolute;
         left: 0;
         padding: 138px 0px;
-
+    }
+    @media only screen and (min-width: $md) {
+        .image-overlay {
+            padding: 158px 0px;
+        }
+        h2 {
+            font-size: 42px;
+            line-height: 0.6em;
+        }
+    }
+    @media only screen and (min-width: $lg) {
+        .image-overlay {
+            padding: 130px 0px;
+        }
+        h2 {
+            font-size: 52px;
+            line-height: 0.6em;
+        }
+        p {
+            line-height: 1em;
+            font-size: 18px;
+            padding-bottom: 22px;
+        }
     }
 }
 
 /*=========== Trainer body =============*/
 .bn{ font-family: 'SolaimanLipi', sans-serif; }
 .tr-heading {
-    h1 {
-        font-size: 20px;
-        margin-top: 2em;
-        line-height: 1.5em;
-    }
+    color: $accent-color;
     text-align: center;
+    h1 {
+        //font-size: 20px;
+        margin-top: 1rem;
+        line-height: 1.5em;
+        font-weight: lighter;
+        font-size: 1.6em;
+    }
     span {
         font-size: 30px;
         font-weight: 600;
@@ -102,7 +98,7 @@
 
 .tr-content {
     @media only screen and (min-width: $lg) {
-        margin-top: 30px;
+        //margin-top: 30px;
     }
     @include span(12);
 
@@ -244,11 +240,11 @@
 /*==========  CODE FOR ABOUT AREA ==========*/
 
 .what-are-you-get {
-    padding-top: 30px;
+    //padding-top: 30px;
     h2 {
         text-align: center;
         line-height: 1.6em;
-        font-size: 18px;
+        //font-size: 18px;
         font-weight: 500;
         color: $accent-color;
         border-bottom: 1px solid #ddd;
@@ -260,27 +256,28 @@
             line-height: 30px;
             margin: 0px 14px;
             p {
-                padding-left: 15px;
-                padding-bottom: 12px;
+                padding-left: 52px;
+                margin-bottom: 1.5rem;
+                margin-top: 0px;
             }
         }
     }
 }
 
 .messanger-text {
-    padding-bottom: 30px;
+    //padding-bottom: 30px;
     p {
-        padding-top: 21px;
+        //padding-top: 21px;
         text-align: justify;
-        font-size: 14px;
+        font-size: .9rem;
     }
 }
 
 /*============  Massengers area section ============*/
 
 .messangers {
-    padding-bottom: 30px;
-    padding-top: 30px;
+    //padding-bottom: 30px;
+    margin-top: 30px;
 }
 
 .custom {
@@ -302,19 +299,14 @@
     padding: 22px 0px;
     margin-bottom: 20px;
     p {
-        padding: 8px 13px;
-        font-weight: 400;
+        padding: 0px 13px;
         text-align: center;
-        font-size: 13px;
-
+        font-size: .8rem;
     }
     h4 {
-
-        font-size: 14px!important;
-        color: #999;
+        color: $color-gray-700-dark;
         line-height: 1px;
     }
-
 }
 
 .custom img {
@@ -326,7 +318,7 @@
 /*T========= Trining area start here =========*/
 
 .training-section {
-    @include container($width: 100%, $debug: true);
+    @include container($width: 100%, $debug: false);
     @media only screen and (min-width: $lg) {
         padding-bottom: 60px !important;
         padding: 0.5em 4em;
@@ -367,12 +359,14 @@
         208,
         0.64);
         padding: 20px 13px;
-        font-size: 13px;
+        //font-size: 13px;
         margin: 20px 0px;
         h2 {
-            font-weight: 400;
+            font-weight: initial;
+            font-size: 1.6rem;
+            line-height: 1.8rem;
             margin-top: auto;
-
+            margin-bottom: auto;
             padding-left: 0px;
             padding-right: 0px;
         }
@@ -382,25 +376,76 @@
             padding: 0px;
         }
         p {
-            padding-bottom: 15px;
+            //padding-bottom: 15px;
+            -webkit-hyphens: auto;
+            -moz-hyphens: auto;
+            -ms-hyphens: auto;
+            hyphens: auto;
+            text-align: justify;
+            font-size: .8em;
         }
         .custom-enroll {
-            border-top: 1px solid#ddd;
+            border-top: 1px solid$accent-color;
             padding-top: 10px;
+            font-size: 1rem;
 
             a {
-                display: inline;
-                text-align: left;
-                color: $accent-color;
+
+                span{
+                    color: $accent-bright;
+                }
+                &:nth-child(even) {
+                    float: right;
+                    font-size: small;
+                    line-height: 1.4rem;
+                    font-style: italic;
+                }
             }
-            p {
-                display: inline;
-                float: right;
-                color: $accent-color;
+            a:hover span{
+                border-radius: 7px 7px 0px 7px;
+                -moz-border-radius: 7px 7px 0px 7px;
+                -webkit-border-radius: 7px 7px 0px 7px;
+                border: 2px solid $accent-bright-2;
+                color: $accent-bright-2;
+                padding: 4px;
             }
+
         }
     }
 }
+
+.title-image{
+    text-align: center;
+    img{
+        border: 1px solid #dedfe0;
+        box-shadow: 0 0 1px 1px rgba(20,23,28,.1), 0 3px 1px 0 rgba(20,23,28,.1);
+        max-width: 100%;
+    }
+}
+.row{
+    .col6{
+        text-align: center;
+        list-style-type: none;
+        @include span(6);
+        &:nth-child(even){
+            @include span(last 6);
+            margin-right: 0px;
+        }
+    }
+}
+.info-box {
+    background-color: $color-gray-100-lighter;
+    border: 1px solid $color-gray-500;
+    padding: 10px 15px;
+    box-shadow: 0 0 1px 1px rgba(20,23,28,.1), 0 3px 1px 0 rgba(20,23,28,.1);
+    border-radius: 4px;
+    font-size: .8rem;
+    width: 80%;
+    margin-left: 10%;
+}
+/*
+*/
+
 
 /*=========== contact-us ===========*/
 
@@ -426,7 +471,7 @@
     }
     p {
         font-size: 14px;
-
+        line-height: .6rem;
     }
     .single-content {
         @media only screen and (min-width: $md) {
@@ -456,9 +501,7 @@
 
     a {
         color: $accent-color;
-        font-size: 22px;
-        font-weight: bold;
-        font-family: cursive;
+        font-size: 2rem;
     }
 }
 
@@ -499,6 +542,11 @@
     h1 { font-weight: lighter;    }
     h2 { font-weight: 400;}
     p{
+      -webkit-hyphens: auto;
+      -moz-hyphens: auto;
+      -ms-hyphens: auto;
+      hyphens: auto;
+        text-align: justify;
 
     }
     ul li {
