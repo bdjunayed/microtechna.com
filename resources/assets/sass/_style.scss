@@ -120,7 +120,7 @@ Start your code here
 .logo {
     @include span(last 8);
     //line-height: 1.2;
-    font-size: 26px;
+    font-size: 1.8rem;
     font-weight: lighter;
     font-style: italic;
     color: $primary-color-text;
@@ -133,7 +133,7 @@ Start your code here
     }
     @media only screen and (min-width: $lg) {
         @include span(2);
-        font-size: 20px;
+        font-size: 1rem;
         //a {
             //font-size: 24px !important;
             //display: block;
@@ -390,7 +390,7 @@ Start your code here
         }
         img:hover {
             box-shadow: 0px 3px 5px 0px #eef5f2;
-            transition: all 0.4s ease-in-out 0s;
+            transition: all 0.1s ease-in-out 0s;
             color: $accent-color;
 
         }

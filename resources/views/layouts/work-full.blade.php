@@ -3,7 +3,7 @@
 <head>
     <title>Welcome to MicroTech NA</title>
     <!--all meta and links tag-->
-    @include('includes.meta')
+    @include('layouts.meta')
 
     <link rel="stylesheet" type="text/css" href="{{asset('css/owl.carousel.css')}}"/>
     <link rel="stylesheet" type="text/css" href="{{asset('css/owl.theme.css')}}"/>

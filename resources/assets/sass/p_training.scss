@@ -27,19 +27,26 @@
     color: $color-gray-50-lightest;
     position: relative;
     background-image: url('../images/training.jpg');
-    h2 {
+    .page-title {
         //letter-spacing: 1px;
-        font-size: 36px;
-        font-weight: 300;
+        font-size: 1.4rem;
+        font-weight: bold;
         //color: #FFFFFF;
         //line-height: 1.2em;
     }
-    p {
-        font-size: 14px;
+    .page-slogan {
+        font-size: 1.7rem;
         color: $primary-color-text;
-        line-height: 40px;
-        font-weight: 300;
+        //line-height: 40px;
+        font-weight: lighter;
         padding-bottom: 18px;
+    }
+    a{
+        font-size: 1.2rem;
+    }
+    a:hover {
+        box-shadow: 1px 1px 4px 0px #eef5f2;
+        transition: all 0.1s ease-in-out 0s;
     }
 
     .image-overlay {
@@ -54,23 +61,23 @@
         .image-overlay {
             padding: 158px 0px;
         }
-        h2 {
-            font-size: 42px;
-            line-height: 0.6em;
+        .page-title {
+            //font-size: 42px;
+            //line-height: 0.6em;
         }
     }
     @media only screen and (min-width: $lg) {
         .image-overlay {
             padding: 130px 0px;
         }
-        h2 {
-            font-size: 52px;
-            line-height: 0.6em;
+        .page-title {
+            font-size: 2em;
+            //line-height: 0.6em;
         }
-        p {
-            line-height: 1em;
-            font-size: 18px;
-            padding-bottom: 22px;
+        .page-slogan {
+            //line-height: 1em;
+            //font-size: 1.7rem;
+            //padding-bottom: 22px;
         }
     }
 }
@@ -172,16 +179,16 @@
 
             }
             p {
-                font-size: 14px;
+                font-size: .9rem;
                 font-style: italic;
-                line-height: 30px;
+                line-height: 1.8;
                 /* padding: 20px 13px;*/
             }
             i {
                 font-size: medium;
                 color: $accent-color;
                 padding: 0px 3px;
-                display: block;
+                //display: block;
             }
             i:last-child {
                 text-align: right;

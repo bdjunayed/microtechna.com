@@ -2,7 +2,7 @@
 @section('content')
     <section class="banner-training">
         <div class="image-overlay">
-            <h2>PHP for beginners</h2>
+            <page-title>PHP for beginners</page-title>
             <p>Hands on training</p>
             <a href="{{ url('/work_with_us') }}" class="btn-custom btn-primary-custom ">Enroll now</a>
         </div>

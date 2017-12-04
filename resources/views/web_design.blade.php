@@ -2,8 +2,8 @@
 <!-- Web design Banner area section Start Here-->
 <section class="banner-training web-design-bg">
     <div class="image-overlay">
-        <h2>Responsive Web Design</h2>
-        <p> Passionate about good design, passionate about good design, Web Standards, usability and accessibility..</p>
+        <div class="page-title">Responsive Web Design</div>
+        <div class="page-slogan"> Passionate about good design, passionate about good design, Web Standards, usability and accessibility..</div>
         <a href="{{ url('/work_with_us') }}" class="btn-custom btn-primary-custom ">Work With us</a>
     </div>
 </section>

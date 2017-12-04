@@ -1,23 +1,23 @@
 @extends('layouts.page') @section('content')
 <section class="banner-training about-bg">
     <div class="image-overlay">
-        <h2>About us</h2>
-        <p> Creative & Responsive.</p>
+        <div class="page-title">About us</div>
+        <div class="page-slogan"> Creative & Responsive.</div>
         <a href="{{ url('/work_with_us') }}" class="btn-custom btn-primary-custom ">Work With us</a>
     </div>
 </section>
 <!--  About Us Container Start Here  -->
 <section class="about-us-container">
     <div class="about-heading">
-        <h1>Experience <span>Microtech</span></h1>
-        <h4>is recognized as a <span>Excellent Digital Agency</span></h4>
+        <h1><span>Experience </span>Microtech</h1>
+        <p >is recognized as a <span>Excellent Digital Agency</span></p>
     </div>
     <!--- Main About Us Start Here --->
     <div class="main-about">
         <div class="single-section">
             <div class="single-about">
                 <h2>Highest level of client satisfaction</h2>
-                <p>One goal above all others: In-house team of web designers, developers and SEO experts uphold the highest standards for project planning and execution. Dedicated to building the perfect website for client’s company <span>on-time</span> and <span>on budget</span>. </p>
+                <p class="hy">One goal above all others: In-house team of web designers, developers and SEO experts uphold the highest standards for project planning and execution. Dedicated to building the perfect website for client’s company <span>on-time</span> and <span>on budget</span>. </p>
             </div>
             <div class="single-about">
                 <img src="./images/comp.jpg" alt="">
@@ -29,15 +29,15 @@
             </div>
             <div class="single-about">
                 <h2>Collaboration</h2>
-                <p>Assembling a talented team of digital strategists, designers, developers, marketers, communications specialists, project managers and business developers to work in a collaborative manner on our client projects. Builded on each other’s expertise, working together in teams to generate great outcomes for projects.</p>
+                <p class="hy">Assembling a talented team of digital strategists, designers, developers, marketers, communications specialists, project managers and business developers to work in a collaborative manner on our client projects. Builded on each other’s expertise, working together in teams to generate great outcomes for projects.</p>
             </div>
         </div>
         <div class="single-section">
             <div class="single-about">
                 <h2>Aims</h2>
-                <p>to provide high-quality training with quick turn-around time. MicroTech helping to build the knowledge & skill bridge between industries & manpower by training new immigrants and existing personnel to make a better future in abroad
+                <p class="hy">to provide high-quality training with quick turn-around time. MicroTech helping to build the knowledge & skill bridge between industries & manpower by training new immigrants and existing personnel to make a better future in abroad
                 </p>
-                <p>At <span>MicroTech </span>gave our training to many students successfully past few years and some of them are doing a job in the respected field in USA respected industry successfully with attractive salary.
+                <p class="hy">At <span>MicroTech </span>gave our training to many students successfully past few years and some of them are doing a job in the respected field in USA respected industry successfully with attractive salary.
                 </p>
             </div>
             <div class="single-about">
@@ -51,8 +51,8 @@
             </div>
             <div class="single-about">
                 <h2>Trainings</h2>
-                <p>MicroTech has for more than four years of supported Learning delivery by expert information technology professionals successfully and satisfying our valuable trainee. Offering online and offline training for the key areas such as Software testing, Selenium, QTP testing, Java, C#, Oracle Database Administrator training, and much more. </p>
-                <p>Expertise in training with quality of demos and samples which is keenly focused on our business. We have a mature learning proven process where you able to rely on us; feel free to see our testimonials & references.</p>
+                <p class="hy">MicroTech has for more than four years of supported Learning delivery by expert information technology professionals successfully and satisfying our valuable trainee. Offering online and offline training for the key areas such as Software testing, Selenium, QTP testing, Java, C#, Oracle Database Administrator training, and much more. </p>
+                <p class="hy">Expertise in training with quality of demos and samples which is keenly focused on our business. We have a mature learning proven process where you able to rely on us; feel free to see our testimonials & references.</p>
             </div>
         </div>
     </div>
@@ -126,30 +126,23 @@
         <div class="hobbies-heading">
             <h2>Some of <span>Our Hobbies</span></h2>
         </div>
-        <div class="total-hobbies">
-                    <div class="single-hobbies">
-            <i class="fa fa-bicycle" aria-hidden="true"></i>
-            <li>World Travel</li>
+        <div class="single-hobbies">
+            <li>🏅 World Travel</li>
         </div>
         <div class="single-hobbies">
-            <i class="fa fa-globe" aria-hidden="true"></i>
-            <li>Competitive Cycling</li>
+            <li>🏅 Competitive Cycling</li>
         </div>
         <div class="single-hobbies">
-            <i class="fa fa-globe" aria-hidden="true"></i>
-            <li>Martial Arts</li>
+            <li>🏅 Martial Arts</li>
         </div>
         <div class="single-hobbies">
-            <i class="fa fa-futbol-o" aria-hidden="true"></i>
-            <li>Bowling</li>
+            <li>🏅 Bowling</li>
         </div>
         <div class="single-hobbies">
-            <i class="fa fa-commenting" aria-hidden="true"></i>
-            <li>Hiking and climbing</li>
+            <li>🏅 Hiking and climbing</li>
         </div>
         <div class="single-hobbies">
-            <i class="fa fa-globe" aria-hidden="true"></i>
-            <li>Cooking, fine dining </li>
+            <li>🏅 Cooking, fine dining </li>
         </div>
         </div>
     </div>

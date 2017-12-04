@@ -19,26 +19,21 @@
     }
     .about-heading {
         text-align: center;
+        color: $accent-color;
         h1 {
-            font-size: 27px!important;
-            color: $accent-color;
-            font-weight: 300;
+            //font-size: 27px;
             span {
-                font-weight: bold;
+                font-weight: lighter;
             }
         }
-        h4 {
-            font-size: 14px;
-            line-height: 0px;
-            font-weight: 400;
+        p {
+            font-style: italic;
         }
         @media only screen and (min-width: $md) {
             h1 {
-                font-size: 50px!important;
-                color: $accent-color;
-                font-weight: 300;
+                font-size: 50px;
                 span {
-                    font-weight: bold;
+                    //font-weight: bold;
                 }
             }
         }
@@ -63,16 +58,18 @@
                 padding: 10px;
                 h2 {
                     text-transform: uppercase;
-                    font-size: 20px;
-                    font-weight: 400;
-                    line-height: 37px;
-                    color: cadetblue;
+                    //font-size: 20px;
+                    font-weight: 300;
+                    //line-height: 37px;
+                    color: $accent-bright;
                     padding: 0px;
                     margin: 0;
                 }
                 margin-bottom: 0px;
                 p {
-                    padding-top: 5px;
+                    //padding-top: 5px;
+                    text-align: justify;
+                    color: $secondary-text-color;
                 }
                 img {
                     width: 100%;
@@ -170,22 +167,21 @@
             }
 
         }
-        .total-hobbies {
-            text-align: center;
+
             .single-hobbies {
                 text-align: center;
                 li {
                     float: left;
-                    padding: 11px 6px;
-                    line-height: 0px;
+                    padding: 4px 6px;
+                    //line-height: 0px;
                     font-weight: 300;
-                    list-style: inside;
+                    list-style: none;
                     font-size: 14px;
 
                 }
             }
 
-        }
+
     }
     .Newsleeter-section {
         text-align: center;
