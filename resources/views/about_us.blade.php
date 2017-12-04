@@ -84,41 +84,33 @@
         <!--- Our Blog Section End Here --->
 
     </section>
-    <div class="cfx"></div>
+    <div class=""></div>
     <section class="we-speak x y">
         <div class="speak-heading">
             <h2>The Languages <span>We Speak</span></h2>
         </div>
 
-        <div class="single-speak">
-            <img src="./images/english.png" alt="">
-            <h4>English</h4>
-        </div>
-
-
-        <div class="single-speak">
-            <img src="./images/spanish.png" alt="">
-            <h4>Spanish</h4>
-        </div>
-
-
-        <div class="single-speak">
-            <img src="./images/japanese.png" alt="">
-            <h4>Japanese</h4>
-        </div>
-
-
-        <div class="single-speak">
-            <img src="./images/french.png" alt="">
-            <h4>French</h4>
-        </div>
-        <div class="single-speak">
-            <img src="./images/french.png" alt="">
-            <h4>French</h4>
-        </div>
-        <div class="single-speak">
-            <img src="./images/french.png" alt="">
-            <h4>French</h4>
+        <div class="center">
+            <div class="single-speak">
+                <img src="./images/english.png" alt="">
+                <h4>English</h4>
+            </div>
+            <div class="single-speak">
+                <img src="./images/spanish.png" alt="">
+                <h4>Spanish</h4>
+            </div>
+            <div class="single-speak">
+                <img src="./images/japanese.png" alt="">
+                <h4>Japanese</h4>
+            </div>
+            <div class="single-speak">
+                <img src="./images/french.png" alt="">
+                <h4>French</h4>
+            </div>
+            <div class="single-speak">
+                <img src="./images/arabic.png" alt="">
+                <h4>Arabic</h4>
+            </div>
         </div>
     </section>
     <div class="cfx"></div>
@@ -137,9 +129,6 @@
         </div>
         <div class="single-hobbies">
             <li>🏅 Bowling</li>
-        </div>
-        <div class="single-hobbies">
-            <li>🏅 Hiking and climbing</li>
         </div>
         <div class="single-hobbies">
             <li>🏅 Cooking, fine dining </li>

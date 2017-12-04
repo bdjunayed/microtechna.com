@@ -55,7 +55,9 @@ footer {
 /*  ------------------------------------------
 Start your code here
 ------------------------------------------  */
-
+.center{
+    text-align: center;
+}
 .y {
     @media screen and (min-width: $lg) {
         width: span(8);
