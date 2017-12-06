@@ -1,8 +1,8 @@
 @extends('layouts.page') @section('content')
 <section class="banner-training service-img">
     <div class="image-overlay">
-        <h2>Our Services</h2>
-        <p> Speed and Simplicity Optimizely, the Experimentation Platform.</p>
+        <div class="page-title">Our Services</div>
+        <div class="page-slogan"> Speed and Simplicity Optimizely, the Experimentation Platform.</div>
         <a href="{{ url('/work_with_us') }}" class="btn-custom btn-primary-custom ">Work With us</a>
     </div>
 </section>

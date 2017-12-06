@@ -3,7 +3,7 @@
 
 <head>
     <title>Welcome to MicroTech NA Inc., an offshore software development company </title>
-    @include('includes.meta')
+    @include('layouts.meta')
     <link rel="stylesheet" type="text/css" href="{{ mix('css/app.css')}}" />
 </head>
 
@@ -11,7 +11,10 @@
     <!--Header Start -->
     <div class="container-header">
         <div class="logo">
-            <a href="{{ url('/') }}">MicroTech NA</a>
+            <a href="{{ url('/') }}">
+                {{--<img src="{{url('/images/logo-microtech.svg')}}" alt="MicroTech" height="42px" width="auto">--}}
+                MicroTech NA
+            </a>
         </div>
         <!-- Bergar menu-->
         <div class="burger">

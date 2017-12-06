@@ -1,7 +1,7 @@
 @extends('layouts.page') @section('content')
 <section class="banner-training contact-bg">
     <div class="image-overlay">
-        <h2>Contact With Us</h2>
+        <div class="page-title">Contact With Us</div>
     </div>
 </section>
 <!--start contact form-->
