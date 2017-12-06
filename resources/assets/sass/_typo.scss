@@ -92,10 +92,8 @@ Please follow few examples before the codes.
 
 /****   Initialize the HTML                        ****/
 //Hypen https://css-tricks.com/almanac/properties/h/hyphenate/
-hy {
-
+.hy {
     -ms-hyphens: auto;
-
     overflow-wrap: break-word;
     word-wrap: break-word;
     -webkit-hyphens: auto;
@@ -118,7 +116,7 @@ html {
 p {
     //margin: 0;
     font-size: 1em;
-    line-height: 1.5em;
+    line-height: 1.4em;
     //font-weight: 400;
 }
 

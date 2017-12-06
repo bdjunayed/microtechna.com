@@ -2,7 +2,7 @@
 <!-- Web design Banner area section Start Here-->
 <section class="banner-training work-bg">
     <div class="image-overlay">
-        <h2>Our Latest Work</h2>
+        <div class="page-title">Our Latest Work</div>
         <a href="{{ url('/work_with_us') }}" class="btn-custom btn-primary-custom ">Work With us</a>
     </div>
 </section>
