@@ -129,8 +129,7 @@
     <!--Footer End-->
     <div class="container-bootom-footer">
         <div class="copyright">
-            <p>Made by <a href="http://Microtechna.com" target="_blank">APMS</a></p>
-            <p>&copy; 2017 <a href="{{ url('/') }}">MicroTech NA Inc.</a> All Rights Reserved.</p>
+            <p>&copy; 2018 <a href="{{ url('/') }}">MicroTech NA Inc.</a> All Rights Reserved.</p>
         </div>
         <div class="social footer-so">
             <a href="https://www.facebook.com/microtechna/" target="_blank">
