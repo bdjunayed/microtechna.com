@@ -16,7 +16,7 @@ mix.js('resources/assets/js/app.js', 'public/js')
         .options({
             processCssUrls: false
         })
-        .sourceMaps()
+        //.sourceMaps()
         .extract(['vue', 'jquery']);//always ON, except sourcemap
 
 mix.copyDirectory('resources/assets/images', 'public/images');
