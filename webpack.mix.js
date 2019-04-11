@@ -11,16 +11,16 @@ let mix = require('laravel-mix');
  |
  */
 
-mix.js('resources/assets/js/app.js', 'public/js')
-    .sass('resources/assets/sass/app.scss', 'public/css')
+mix.js('resources/js/app.js', 'public/js')
+    .sass('resources/sass/app.scss', 'public/css')
         .options({
             processCssUrls: false
         })
         //.sourceMaps()
         .extract(['vue', 'jquery']);//always ON, except sourcemap
 
-mix.copyDirectory('resources/assets/images', 'public/images');
-//mix.copy('resources/assets/sass/slicknav.min.css', 'public/css/slicknav.min.css');
+mix.copyDirectory('resources/images', 'public/images');
+//mix.copy('resources/sass/slicknav.min.css', 'public/css/slicknav.min.css');
 if (mix.inProduction()) {
     mix.version();
 }
