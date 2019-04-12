@@ -11,13 +11,13 @@
   },
   "devDependencies": {
     "axios": "^0.16.2",
-    "browser-sync": "^2.24.4",
+    "browser-sync": "^2.26.3",
     "browser-sync-webpack-plugin": "^2.2.2",
-    "cross-env": "^5.1.6",
-    "jquery": "^3.3.1",
-    "laravel-mix": "^2.1",
-    "lodash": "^4.17.10",
+    "cross-env": "^5.2.0",
+    "jquery": "^3.4.0",
+    "laravel-mix": "^2.1.14",
+    "lodash": "^4.17.11",
     "susy": "^3.0.5",
-    "vue": "^2.5.16"
+    "vue": "^2.6.10"
   }
 }
