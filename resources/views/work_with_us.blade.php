@@ -37,7 +37,7 @@
                 <div class="address-tails">
                     <h3>Our location:</h3>
                     <p><b>MicroTech Corporation</b></p>
-                    <p>Kha 21 Road 5, Nikunjo 2 Tanpara<br>Dhaka 1229 Bangladesh</p>
+                    <p>Kha 50 Road 5, Nikunjo 2<br>Dhaka 1229 Bangladesh</p>
                 </div>
             </div>
             <div class="single-con">
