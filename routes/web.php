@@ -62,9 +62,9 @@ Route::get('/work_with_us', function (){
     return view('work_with_us');
 });
 
-Route::post('/work_with_us', 'ContactsFormController@store');
+Route::post('/work_with_us', 'ContactFormController@store');
 
-Route::post('/newsletter', 'NewslettersController@store');
+Route::post('/newsletter', 'ContactFormController@storeNewsletter');
 
 Route::get('training', function () {
     return view('training');
