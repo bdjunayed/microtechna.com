@@ -1,5 +1,7 @@
 <?php
 
+use Illuminate\Support\Facades\Route;
+
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -10,6 +12,9 @@
 | contains the "web" middleware group. Now create something great!
 |
 */
+
+Auth::routes();
+
 
 Route::get('/', function () {
     return view('training');
@@ -67,7 +72,3 @@ Route::get('training', function () {
 Route::get('trainings/php_for_beginners', function () {
     return view('trainings/php_for_beginners');
 });
-////
-Auth::routes();
-
-Route::get('/home', 'HomeController@index')->name('home');

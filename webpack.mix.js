@@ -1,4 +1,4 @@
-let mix = require('laravel-mix');
+const mix = require('laravel-mix');
 
 /*
  |--------------------------------------------------------------------------
@@ -13,15 +13,15 @@ let mix = require('laravel-mix');
 
 mix.js('resources/js/app.js', 'public/js')
     .sass('resources/sass/app.scss', 'public/css')
-        .options({
-            processCssUrls: false
-        })
-        //.sourceMaps()
-        .extract(['vue', 'jquery']);//always ON, except sourcemap
+    .options({
+        processCssUrls: false
+    })
+    //.sourceMaps()
+    .extract(['vue', 'jquery']);//always ON, except sourcemap
 
 mix.copyDirectory('resources/images', 'public/images');
 //mix.copy('resources/sass/slicknav.min.css', 'public/css/slicknav.min.css');
 if (mix.inProduction()) {
-    mix.version();
+mix.version();
 }
 mix.browserSync('http://localhost:8000');
