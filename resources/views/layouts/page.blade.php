@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-    <title>Welcome to MicroTech NA Inc., an offshore software development company </title>
+    <title>Welcome to MicroTech NA Inc., an offshore software development company</title>
     @include('layouts.meta')
     <link rel="stylesheet" type="text/css" href="{{ mix('css/app.css')}}" />
 </head>
@@ -13,7 +13,7 @@
         <div class="logo">
             <a href="{{ url('/') }}">
                 {{--<img src="{{url('/images/logo-microtech.svg')}}" alt="MicroTech" height="42px" width="auto">--}}
-                MicroTech NA
+                MicroTech NA Inc.
             </a>
         </div>
         <!-- Burger menu-->
@@ -65,13 +65,11 @@
 
         <div class="social">
             <a href="https://www.facebook.com/microtechna/" target="_blank">
-                <img src="{{url('images/facebook.svg')}}" alt="visit our fb page"/></a>
+                <img src="{{url('images/facebook.svg')}}" alt="Visit our Facebook page"/></a>
             <a href="https://twitter.com/@MicroTechSky" target="_blank">
-                <img src="{{url('images/twitter.svg')}}"  alt="visit our twitter account"/></a>
-            <a href="https://plus.google.com/b/103441871439982130127/103441871439982130127?hl=en" target="_blank">
-                <img src="{{url('images/youtube.svg')}}"  alt="visit our youtube channel"/></a>
-            <a href="https://plus.google.com/b/103441871439982130127/103441871439982130127?hl=en" target="_blank">
-                <img src="{{url('images/google.svg')}}"  alt="visit our Google+ page"/></a>
+                <img src="{{url('images/twitter.svg')}}"  alt="Visit our Twitter page"/></a>
+            <a href="https://www.youtube.com/channel/UCTMDrzwGgpJxvAL48qepGoA" target="_blank">
+                <img src="{{url('images/youtube.svg')}}"  alt="Visit our Youtube channel"/></a>
         </div>
     </div>
 
@@ -134,7 +132,7 @@
             <a href="https://www.facebook.com/microtechna/" target="_blank">
                 <img src="{{url('images/facebook.svg')}}" alt="Visit our Facebook page"/></a>
             <a href="https://twitter.com/@MicroTechSky" target="_blank">
-                <img src="{{url('images/twitter.svg')}}"  alt="Visit our twitter page"/></a>
+                <img src="{{url('images/twitter.svg')}}"  alt="Visit our Twitter page"/></a>
             <a href="https://www.youtube.com/channel/UCTMDrzwGgpJxvAL48qepGoA" target="_blank">
                 <img src="{{url('images/youtube.svg')}}"  alt="Visit our Youtube channel"/></a>
         </div>
