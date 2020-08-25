@@ -21,11 +21,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c18fc5f0-65a5-4d02-ae4d-b5945e5efa6b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/database/migrations/2020_08_22_094639_create_contact_forms_table.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Events/ContactFormSubmittedByTheVisitorEvent.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Events/NewSubscriptionNewsletterByVisitorEvent.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Listeners/ContactFormSubmittedByTheVisitorListener.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Listeners/NewSubscriptionNewsletterByVisitorListener.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Mail/ContactFormSubmitThankMail.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Mail/NewSubscriptionNewsletterByVisitor.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/emails/contact-form-submit-thanks.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/emails/new-subscription-newsletter-by-visitor.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.env.example" beforeDir="false" afterPath="$PROJECT_DIR$/.env.example" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/NewslettersController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/ContactFormController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Newsletter.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/ContactForm.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/ContactFormController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/ContactFormController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Providers/EventServiceProvider.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Providers/EventServiceProvider.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -178,7 +185,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1598012388209</updated>
-      <workItem from="1598012389408" duration="11012000" />
+      <workItem from="1598012389408" duration="23538000" />
     </task>
     <task id="LOCAL-00001" summary="Rearrange codes.">
       <created>1598089368734</created>
@@ -187,7 +194,14 @@
       <option name="project" value="LOCAL" />
       <updated>1598089368734</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Migration to Lavavel 7">
+      <created>1598103024901</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1598103024902</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TerminalProjectNonSharedOptionsProvider">
@@ -222,13 +236,18 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Rearrange codes." />
-    <option name="LAST_COMMIT_MESSAGE" value="Rearrange codes." />
+    <MESSAGE value="Migration to Lavavel 7" />
+    <option name="LAST_COMMIT_MESSAGE" value="Migration to Lavavel 7" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="477" y="275" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1598095744103">
+    <state x="336" y="54" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1598339394931">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="477" y="275" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1598095744103" />
+    <state x="336" y="54" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1598339394931" />
+    <state x="477" y="275" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1598280595546">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="477" y="275" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1598280595546" />
     <state x="740" y="261" key="FileChooserDialogImpl" timestamp="1598012813236">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -249,6 +268,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1434" height="279" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1598023494688" />
+    <state x="529" y="243" key="NewPhpClassDialog" timestamp="1598253283750">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="529" y="243" key="NewPhpClassDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1598253283750" />
     <state x="461" y="165" key="SettingsEditor" timestamp="1598012815186">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

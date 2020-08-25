@@ -3,7 +3,10 @@
 namespace App\Http\Controllers;
 
 use App\ContactForm;
+use App\Events\ContactFormSubmittedByTheVisitorEvent;
+use App\Events\NewSubscriptionNewsletterByVisitorEvent;
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Event;
 
 class ContactFormController extends Controller
 {
@@ -39,9 +42,8 @@ class ContactFormController extends Controller
             'name' => 'required',
             'email' => 'required|email',
             'company' => 'nullable',
-            'message' => 'required | max:300'
+            'message' => 'required|max:300'
         ]);
-
 
         $contactForm = ContactForm::firstOrCreate([
             'name' => request('name'),
@@ -50,6 +52,8 @@ class ContactFormController extends Controller
             'message' => request('message')
         ]);
 
+        // Event fires
+        event(new ContactFormSubmittedByTheVisitorEvent($contactForm));
         return response()->json(['message' => 'Thank you for contact!'], 200);
         // test codes
         //        return redirect('home');
@@ -89,8 +93,11 @@ class ContactFormController extends Controller
             'newsletter' => true
         ]);
 
+        event(new NewSubscriptionNewsletterByVisitorEvent($contactForm));
+
         return response()->json(['message' => 'Thank you for the newsletter subscription!'], 200);
     }
+
 
     /**
      * Display the specified resource.

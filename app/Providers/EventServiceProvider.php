@@ -2,6 +2,8 @@
 
 namespace App\Providers;
 
+use App\Events\ContactFormSubmittedByTheVisitorEvent;
+use App\Events\NewSubscriptionNewsletterByVisitorEvent;
 use Illuminate\Auth\Events\Registered;
 use Illuminate\Auth\Listeners\SendEmailVerificationNotification;
 use Illuminate\Foundation\Support\Providers\EventServiceProvider as ServiceProvider;
@@ -17,6 +19,13 @@ class EventServiceProvider extends ServiceProvider
     protected $listen = [
         Registered::class => [
             SendEmailVerificationNotification::class,
+        ],
+        ContactFormSubmittedByTheVisitorEvent::class => [
+            \App\Listeners\ContactFormSubmittedByTheVisitorListener::class
+
+        ],
+        NewSubscriptionNewsletterByVisitorEvent::class => [
+            \App\Listeners\NewSubscriptionNewsletterByVisitorListener::class
         ],
     ];
 
