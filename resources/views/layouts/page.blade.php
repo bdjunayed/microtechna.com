@@ -88,7 +88,7 @@
         </div>
 
         <div class="single-footer">
-            <h3>Our services</h3>
+            <h3>Our Services</h3>
             <div class="blank">
                 <a href="{{ url('/web_design') }}">Website Design</a>
                             {{--<h4><a href="{{ url('/mobile_app') }}">Mobile App Development</a></h4>--}}
@@ -99,13 +99,13 @@
 
 
         <div class="single-footer">
-            <h3>Usefull links</h3>
+            <h3>Useful Links</h3>
             <div class="blank">
-                <a href="http://life110volts.com" target="_blank">Life 110Volts</a>
+{{--                <a href="http://life110volts.com" target="_blank">Life 110Volts</a>--}}
                 <a href="http://matesglobal.com/" target="_blank">Mates Global</a>
                 <a href="https://developers.google.com/speed/pagespeed/insights/" target="_blank"> Google Page Insights</a>
                 <a href="http://banglatyping.com" target="_blank">Bangla Software</a>
-                <a href="https://gsuite.google.com/" target="_blank">Webmail</a>
+                <a href="https://admin.google.com" target="_blank">Webmail</a>
             </div>
         </div>
 
@@ -132,13 +132,11 @@
         </div>
         <div class="social footer-so">
             <a href="https://www.facebook.com/microtechna/" target="_blank">
-                <img src="{{url('images/facebook.svg')}}" alt="visit our fb page"/></a>
+                <img src="{{url('images/facebook.svg')}}" alt="Visit our Facebook page"/></a>
             <a href="https://twitter.com/@MicroTechSky" target="_blank">
-                <img src="{{url('images/twitter.svg')}}"  alt="visit our twitter account"/></a>
-            <a href="https://plus.google.com/b/103441871439982130127/103441871439982130127?hl=en" target="_blank">
-                <img src="{{url('images/youtube.svg')}}"  alt="visit our youtube channel"/></a>
-            <a href="https://plus.google.com/b/103441871439982130127/103441871439982130127?hl=en" target="_blank">
-                <img src="{{url('images/google.svg')}}"  alt="visit our Google+ page"/></a>
+                <img src="{{url('images/twitter.svg')}}"  alt="Visit our twitter page"/></a>
+            <a href="https://www.youtube.com/channel/UCTMDrzwGgpJxvAL48qepGoA" target="_blank">
+                <img src="{{url('images/youtube.svg')}}"  alt="Visit our Youtube channel"/></a>
         </div>
     </div>
 

@@ -22,11 +22,6 @@
   <component name="ChangeListManager">
     <list default="true" id="c18fc5f0-65a5-4d02-ae4d-b5945e5efa6b" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/about_us.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/about_us.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/aplicants-form.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/applicants-form.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/layouts/page.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/page.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/training.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/trainings.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -178,7 +173,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1598012388209</updated>
-      <workItem from="1598012389408" duration="27451000" />
+      <workItem from="1598012389408" duration="27976000" />
     </task>
     <task id="LOCAL-00001" summary="Rearrange codes.">
       <created>1598089368734</created>
@@ -201,7 +196,14 @@
       <option name="project" value="LOCAL" />
       <updated>1598340422397</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Training Link modified.">
+      <created>1598345888530</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1598345888530</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TerminalProjectNonSharedOptionsProvider">
@@ -238,7 +240,8 @@
     <MESSAGE value="Rearrange codes." />
     <MESSAGE value="Migration to Lavavel 7" />
     <MESSAGE value="Email confirmation." />
-    <option name="LAST_COMMIT_MESSAGE" value="Email confirmation." />
+    <MESSAGE value="Training Link modified." />
+    <option name="LAST_COMMIT_MESSAGE" value="Training Link modified." />
   </component>
   <component name="WindowStateProjectService">
     <state x="336" y="54" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1598339394931">
@@ -277,5 +280,9 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="461" y="165" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1598012815186" />
+    <state x="350" y="253" key="Vcs.Push.Dialog.v2" timestamp="1598345897820">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="350" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1598345897820" />
   </component>
 </project>
