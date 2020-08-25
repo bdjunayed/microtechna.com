@@ -6,6 +6,6 @@
         <a href="{{ url('/work_with_us') }}" class="btn-custom btn-primary-custom ">Work With us</a>
     </div>
 </section>
-<h2 style="text-align:center;">Here is Apllication from</h2>
+<h2 style="text-align:center;">Under construction!</h2>
 <a href="https://form.jotform.me/72975839174473">fvgffg</a>
 @endsection

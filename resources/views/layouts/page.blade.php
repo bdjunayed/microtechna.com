@@ -16,19 +16,19 @@
                 MicroTech NA
             </a>
         </div>
-        <!-- Bergar menu-->
+        <!-- Burger menu-->
         <div class="burger">
-            <span onclick="openNav()"> ☰ 
+            <span onclick="openNav()"> ☰
             </span>
             <div id="mySidenav" class="sidenav">
-                <span href="javascript:void(0)" class="closebtn" onclick="closeNav()"> ✕         
+                <span href="javascript:void(0)" class="closebtn" onclick="closeNav()"> ✕
                 </span>
                 <ul>
                     <li class="scrolls"><a href="{{ url('/about_us') }}">About us </a></li>
-                    <li class="scrolls"><a href="{{ url('/training') }}">Training</a></li>
                     <li id="Drop"><a href="#" class="SubSer">Services <span>&#10095;</span></a>
                         <ul id="drop-dwoun">
-                            <li class="scrolls"><a href="{{ url('/web_design') }}">Website design</a></li>
+                            <li class="scrolls"><a href="{{ url('/web_design') }}">Website Design</a></li>
+                            <li class="scrolls"><a href="{{ url('/trainings') }}">Trainings</a></li>
                         </ul>
                     </li>
                     <li class="scrolls"><a href="{{ url('/work') }}">Work</a></li>
@@ -50,11 +50,10 @@
         <div class="Menu">
             <ul>
                 <li class="scrolls"><a href="{{ url('/about_us') }}">About us </a></li>
-                <li class="scrolls"><a href="{{ url('/training') }}">Training</a></li>
                 <li class="scrolls"><a href="{{ url('/services') }}" class="SubSer">Services</a>
-
                     <ul>
-                        <li class="scrolls"><a href="{{ url('/web_design') }}">Website design</a></li>
+                        <li class="scrolls"><a href="{{ url('/web_design') }}">Website Design</a></li>
+                        <li class="scrolls"><a href="{{ url('/trainings') }}">Trainings</a></li>
                         {{--<li class="scrolls"><a href="{{ url('/mobile_app') }}">Mobile App Development</a></li>--}}
                         {{--<li class="scrolls"><a href="{{ url('/performance_testing') }}">Performance testing</a></li>--}}
                     </ul>
@@ -129,7 +128,7 @@
     <!--Footer End-->
     <div class="container-bootom-footer">
         <div class="copyright">
-            <p>&copy; 2018 <a href="{{ url('/') }}">MicroTech NA Inc.</a> All Rights Reserved.</p>
+            <p>&copy; <a href="{{ url('/') }}">MicroTech NA Inc.</a> 2020</p>
         </div>
         <div class="social footer-so">
             <a href="https://www.facebook.com/microtechna/" target="_blank">
@@ -143,7 +142,7 @@
         </div>
     </div>
 
-    <button onclick="topFunction()" id="back-top" title="Go to top"> 
+    <button onclick="topFunction()" id="back-top" title="Go to top">
         <span>➚</span>
     </button>
 
@@ -193,7 +192,7 @@
 
             $('#tabs li a').click(function() {
                 var t = $(this).attr('id');
-                if ($(this).hasClass('inactive')) { //this is the start of our condition 
+                if ($(this).hasClass('inactive')) { //this is the start of our condition
                     $('#tabs li a').addClass('inactive');
                     $(this).removeClass('inactive');
 

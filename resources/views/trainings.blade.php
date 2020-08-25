@@ -65,26 +65,27 @@
         </p>
         <p>যদি তাও সম্ভব না হয়, তবে আমাদের One-to-One কোর্সে অল্প খরচে ক্লাস করতে পারেন। One-to-One কোর্সে আপনাকে একজন দক্ষ আইটি প্রফেশনাল দ্বারা হাতে কলমে বুঝানো হবে, বিস্তারিত জানতে কল করুন </p>
     </div>
-    <div class="messangers">
-        <div class="custom">
-            <img src="./images/Barakt.jpg" alt="Software Testing" />
-            <p>Our goal is not to guide you one or two days for a few hours in a week then tell you to go home and study hard by yourself alone even though we know more than 80% student don't follow. Obviously, our goal is to provide you IT Career Knowledge confidently in to your brain through the best way to get and maintain an IT job for the rest of your life! </p>
-            <h4><b>-Barakat Chowdhury</b></h4>
-            <h4>Software Engineer, Washington DC </h4>
-            <p> BSc in Computer Science and Engg, MS, USA
-                <br> Oracle Certified Professional</p>
-        </div>
 
-        <div class="custom">
-            <img src="./images/belal-face.jpg" alt="Software Testing" />
-            <p>We have over 20 years of teaching experience in IT industry. We clearly know student's behavior, culture, motive, weak points, and techniques to make every student success in life. Therefore, we have no other choices except providing the best career solution to the community.</p>
-            <h4><b>-Belal Chowdhury</b></h4>
-            <h4>Software Architect, NY</h4>
-            <p>BSc in Computer Science, MS, USA
-                <br> Microsoft Certified Solutions Expert
-                <br> Oracle Certified Professional</p>
-        </div>
-    </div>
+{{--    <div class="messangers">--}}
+{{--        <div class="custom">--}}
+{{--            <img src="./images/Barakt.jpg" alt="Software Testing" />--}}
+{{--            <p>Our goal is not to guide you one or two days for a few hours in a week then tell you to go home and study hard by yourself alone even though we know more than 80% student don't follow. Obviously, our goal is to provide you IT Career Knowledge confidently in to your brain through the best way to get and maintain an IT job for the rest of your life! </p>--}}
+{{--            <h4><b>-Barakat Chowdhury</b></h4>--}}
+{{--            <h4>Software Engineer, Washington DC </h4>--}}
+{{--            <p> BSc in Computer Science and Engg, MS, USA--}}
+{{--                <br> Oracle Certified Professional</p>--}}
+{{--        </div>--}}
+
+{{--        <div class="custom">--}}
+{{--            <img src="./images/belal-face.jpg" alt="Software Testing" />--}}
+{{--            <p>We have over 20 years of teaching experience in IT industry. We clearly know student's behavior, culture, motive, weak points, and techniques to make every student success in life. Therefore, we have no other choices except providing the best career solution to the community.</p>--}}
+{{--            <h4><b>-Belal Chowdhury</b></h4>--}}
+{{--            <h4>Software Architect, NY</h4>--}}
+{{--            <p>BSc in Computer Science, MS, USA--}}
+{{--                <br> Microsoft Certified Solutions Expert--}}
+{{--                <br> Oracle Certified Professional</p>--}}
+{{--        </div>--}}
+{{--    </div>--}}
 
 </div>
 <div class="cfx"></div>
@@ -168,7 +169,7 @@
 <div class="contact-us">
     <h2 class="text-center bn">বিস্তারিত জানতে কল করুন আমাদের নিউ ইউর্ক অথবা ঢাকা সেন্টার এ </h2>
     <div class="single-content">
-        <h3>USA Corporate Office</h3>
+        <h3>USA Corporate Office:</h3>
         <p>167-17, Hillside Ave, 2FL</p>
         <p>Jamaica, NY 11432</p>
         <p><b>Call, Text, Voice message:</b></p>
@@ -178,9 +179,9 @@
     </div>
 
     <div class="single-content">
-        <h3>Dhaka Branch Office </h3>
+        <h3>Dhaka Branch Office:</h3>
         <div class="custom-right">
-            <p>Kha 21, Road 5 Nikunjo 2 Tanpara</p>
+            <p>Kha 50, Road 5 Tanpara Nikunja 2</p>
             <p>Dhaka 1229 Bangladesh</p>
             <p><b>Call, Text, Voice message:</b></p>
             <p>017.2513.9901</p>
@@ -190,8 +191,8 @@
     </div>
 
     <div class="single-content last-column">
-        <a href="#">MicroTech NA</a>
-        <p>Call for clarifiaction</p>
+        <a href="#">MicroTech NA Inc.</a>
+        <p>Call for clarifications</p>
         <h3>0177 592 1666</h3>
     </div>
     <div class="cfx"></div>

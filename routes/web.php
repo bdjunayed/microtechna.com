@@ -12,23 +12,22 @@ use Illuminate\Support\Facades\Route;
 | contains the "web" middleware group. Now create something great!
 |
 */
-// Test email sending
-Route::get('/email', function () {
 
-    \Illuminate\Support\Facades\Mail::to('emial@emal.com')->send(new \App\Mail\ContactFormSubmitThankMail());
-    return new \App\Mail\ContactFormSubmitThankMail();
-});
+// Test email sending
+//Route::get('/email', function () {
+//    \Illuminate\Support\Facades\Mail::to('emial@emal.com')->send(new \App\Mail\ContactFormSubmitThankMail());
+//    return new \App\Mail\ContactFormSubmitThankMail();
+//});
 
 
 Auth::routes();
 
-
 Route::get('/', function () {
-    return view('training');
+    return view('about_us');
 });
 
-Route::get('/aplicants-form', function () {
-    return view('aplicants-form');
+Route::get('/applicants-form', function () {
+    return view('applicants-form');
 });
 
 Route::get('/about_us', function () {
@@ -69,13 +68,15 @@ Route::get('/work_with_us', function (){
     return view('work_with_us');
 });
 
-Route::post('/work_with_us', 'ContactFormController@store');
-
-Route::post('/newsletter', 'ContactFormController@storeNewsletter');
-
-Route::get('training', function () {
-    return view('training');
+Route::get('/trainings', function () {
+    return view('trainings');
 });
 Route::get('trainings/php_for_beginners', function () {
     return view('trainings/php_for_beginners');
 });
+
+
+
+// forms routes
+Route::post('/work_with_us', 'ContactFormController@store');
+Route::post('/newsletter', 'ContactFormController@storeNewsletter');

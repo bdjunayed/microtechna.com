@@ -1,7 +1,7 @@
 @extends('layouts.page') @section('content')
 <section class="banner-training about-bg">
     <div class="image-overlay">
-        <div class="page-title">About us</div>
+        <div class="page-title">Welcome to MicroTech NA Inc.</div>
         <div class="page-slogan"> Creative & Responsive.</div>
         <a href="{{ url('/work_with_us') }}" class="btn-custom btn-primary-custom ">Work With us</a>
     </div>
@@ -9,7 +9,7 @@
 <!--  About Us Container Start Here  -->
 <section class="about-us-container">
     <div class="about-heading">
-        <h1><span>Experience </span>Microtech</h1>
+        <h1><span>Experience </span>MicroTech</h1>
         <p >is recognized as a <span>Excellent Digital Agency</span></p>
     </div>
     <!--- Main About Us Start Here --->
