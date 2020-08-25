@@ -1,4 +1,4 @@
-# Laravel-boilerplate 5.6
+# Laravel-boilerplate 7
 ##Features
 + Meta, Analytics, 404 & 503
 + favicon 
