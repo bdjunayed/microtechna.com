@@ -35,22 +35,22 @@
             <div class="single-con">
                 <i class="fa fa-map-marker">📍</i>
                 <div class="address-tails">
-                    <h3>Our location:</h3>
-                    <p><b>MicroTech Corporation</b></p>
-                    <p>Kha 50 Road 5, Nikunjo 2<br>Dhaka 1229 Bangladesh</p>
+                    <h3>Our Location:</h3>
+                    <p><b>MicroTech BD</b></p>
+                    <p>Kha 50 Road 5, Nikunja 2<br>Dhaka 1229</p>
                 </div>
             </div>
             <div class="single-con">
                 <i class="fa fa-phone">📱</i>
                 <div class="address-tails">
-                <h3>Give us a call</h3>
-                <p>Call: 0177 592 1666</p>
+                <h3>Give Us A Call</h3>
+                <p>Cell: 019 6000 8390</p>
                 </div>
             </div>
             <div class="single-con">
                 <i class="fa fa-envelope-o">📧</i>
                 <div class="address-tails">
-                <h3>Send us an email</h3>
+                <h3>Send Us An Email</h3>
                 <p>Email: junayed@microtechna.com</p>
                 </div>
             </div>
@@ -59,7 +59,7 @@
      <div class="cfx"></div>
     <div class="ready-to-discus">
         <h2>We’re Hiring!</h2>
-        <a href="" class="btn-custom btn-primary-custom ">view openings </a>
+        <a href="" class="btn-custom btn-primary-custom ">View openings</a>
     </div>
     <!--- Discuss With Your Project End Here --->
     </div>

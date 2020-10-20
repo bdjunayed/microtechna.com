@@ -9,7 +9,7 @@
 <!--  About Us Container Start Here  -->
 <section class="about-us-container">
     <div class="about-heading">
-        <h1><span>Experience </span>MicroTech</h1>
+        <h1><span>Experience </span>MicroTech NA</h1>
         <p >is recognized as a <span>Excellent Digital Agency</span></p>
     </div>
     <!--- Main About Us Start Here --->
@@ -25,7 +25,7 @@
         </div>
         <div class="single-section">
             <div class="single-about">
-                <img src="./images/comp.jpg" alt="">
+                <img src="./images/software-testing-training.jpg" alt="">
             </div>
             <div class="single-about">
                 <h2>Collaboration</h2>
@@ -35,23 +35,23 @@
         <div class="single-section">
             <div class="single-about">
                 <h2>Aims</h2>
-                <p class="hy">to provide high-quality training with quick turn-around time. MicroTech helping to build the knowledge & skill bridge between industries & manpower by training new immigrants and existing personnel to make a better future in abroad
+                <p class="hy">to provide high-quality training with quick turn-around time. MicroTech NA helping to build the knowledge & skill bridge between industries & manpower by training new immigrants and existing personnel to make a better future in abroad
                 </p>
-                <p class="hy">At <span>MicroTech </span>gave our training to many students successfully past few years and some of them are doing a job in the respected field in USA respected industry successfully with attractive salary.
+                <p class="hy">At <span>MicroTech NA </span>gave our training to many students successfully past few years and some of them are doing a job in the respected field in USA respected industry successfully with attractive salary.
                 </p>
             </div>
             <div class="single-about">
-                <img src="./images/comp.jpg" alt="">
+                <img src="./images/software-analysis.jpg" alt="">
             </div>
         </div>
 
         <div class="single-section">
             <div class="single-about">
-                <img src="./images/comp.jpg" alt="">
+                <img src="./images/group-study.jpg" alt="">
             </div>
             <div class="single-about">
                 <h2>Trainings</h2>
-                <p class="hy">MicroTech has for more than four years of supported Learning delivery by expert information technology professionals successfully and satisfying our valuable trainee. Offering online and offline training for the key areas such as Software testing, Selenium, QTP testing, Java, C#, Oracle Database Administrator training, and much more. </p>
+                <p class="hy">MicroTech NA has for more than four years of supported Learning delivery by expert information technology professionals successfully and satisfying our valuable trainee. Offering online and offline training for the key areas such as Software testing, Selenium, QTP testing, Java, C#, Oracle Database Administrator training, and much more. </p>
                 <p class="hy">Expertise in training with quality of demos and samples which is keenly focused on our business. We have a mature learning proven process where you able to rely on us; feel free to see our testimonials & references.</p>
             </div>
         </div>
@@ -69,7 +69,7 @@
     <section class="blog-area">
         <div class="single-blog">
             <img src="./images/about-blog.png" alt="">
-            <h2>our <span>BLOG</span></h2>
+            <h2>Our <span>BLOG</span></h2>
             <p>Our blog provides regular insight into the latest industry trends in web design and digital marketing.
             </p>
             <a href="" class="btn-custom btn-primary-custom">view more</a>
