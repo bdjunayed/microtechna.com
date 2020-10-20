@@ -25,7 +25,7 @@
         </div>
         <div class="single-section">
             <div class="single-about">
-                <img src="./images/web-app-developer-bangladesh'.jpg" alt="">
+                <img src="./images/comp.jpg" alt="">
             </div>
             <div class="single-about">
                 <h2>Collaboration</h2>
@@ -41,13 +41,13 @@
                 </p>
             </div>
             <div class="single-about">
-                <img src="./images/web-app-developer.jpg" alt="">
+                <img src="./images/comp.jpg" alt="">
             </div>
         </div>
 
         <div class="single-section">
             <div class="single-about">
-                <img src="./images/web-app-developer-bangladesh1.jpg" alt="">
+                <img src="./images/comp.jpg" alt="">
             </div>
             <div class="single-about">
                 <h2>Trainings</h2>
