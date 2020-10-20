@@ -26,16 +26,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c18fc5f0-65a5-4d02-ae4d-b5945e5efa6b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/config/aws.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.env.example" beforeDir="false" afterPath="$PROJECT_DIR$/.env.example" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/microtechna.com.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/microtechna.com.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/error_log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/app.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/app.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/mail.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/mail.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/services.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/services.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -323,22 +315,22 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="740" y="261" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1598012813236" />
-    <state width="1434" height="279" key="GridCell.Tab.0.bottom" timestamp="1598023494688">
+    <state width="1157" height="278" key="GridCell.Tab.0.bottom" timestamp="1603189233514">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1434" height="279" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1598023494688" />
-    <state width="1434" height="279" key="GridCell.Tab.0.center" timestamp="1598023494688">
+    <state width="1157" height="278" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1603189233514" />
+    <state width="1157" height="278" key="GridCell.Tab.0.center" timestamp="1603189233514">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1434" height="279" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1598023494688" />
-    <state width="1434" height="279" key="GridCell.Tab.0.left" timestamp="1598023494688">
+    <state width="1157" height="278" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1603189233514" />
+    <state width="1157" height="278" key="GridCell.Tab.0.left" timestamp="1603189233514">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1434" height="279" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1598023494688" />
-    <state width="1434" height="279" key="GridCell.Tab.0.right" timestamp="1598023494688">
+    <state width="1157" height="278" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1603189233514" />
+    <state width="1157" height="278" key="GridCell.Tab.0.right" timestamp="1603189233514">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1434" height="279" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1598023494688" />
+    <state width="1157" height="278" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1603189233514" />
     <state x="529" y="243" key="NewPhpClassDialog" timestamp="1598253283750">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
