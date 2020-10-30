@@ -36,22 +36,22 @@
                 <i class="fa fa-map-marker">📍</i>
                 <div class="address-tails">
                     <h3>Our Location:</h3>
-                    <p><b>MicroTech BD</b></p>
-                    <p>Kha 50 Road 5, Nikunja 2<br>Dhaka 1229</p>
+                    <p><b>MicroTech NA Inc.</b></p>
+                    <p>167-17 Hillside Ave<br>Jamaica NY 11432<br>U.S.A.</p>
                 </div>
             </div>
             <div class="single-con">
                 <i class="fa fa-phone">📱</i>
                 <div class="address-tails">
-                <h3>Give Us A Call</h3>
-                <p>Cell: 019 6000 8390</p>
+                <h3>Give Us A Call:</h3>
+                <p>Cell: <a href="tel:+18886127778">1 (888) 612-7778</a></p>
                 </div>
             </div>
             <div class="single-con">
                 <i class="fa fa-envelope-o">📧</i>
                 <div class="address-tails">
-                <h3>Send Us An Email</h3>
-                <p>Email: junayed@microtechna.com</p>
+                <h3>Send Us An Email:</h3>
+                <p>Email: info@microtechna.com</p>
                 </div>
             </div>
         </div>

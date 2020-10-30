@@ -26,8 +26,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c18fc5f0-65a5-4d02-ae4d-b5945e5efa6b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/error_log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/work_with_us.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/work_with_us.blade.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -164,9 +164,8 @@
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
-    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../matesgroup.com.au" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -175,6 +174,7 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="terminal" />
+    <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RunManager">
     <configuration name="phpunit.xml" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
@@ -193,6 +193,12 @@
       <workItem from="1598012389408" duration="28772000" />
       <workItem from="1598350142304" duration="314000" />
       <workItem from="1598351420855" duration="3740000" />
+      <workItem from="1603288151058" duration="619000" />
+      <workItem from="1603295064279" duration="619000" />
+      <workItem from="1603802296883" duration="1475000" />
+      <workItem from="1603814099104" duration="165000" />
+      <workItem from="1603905126409" duration="450000" />
+      <workItem from="1604038876260" duration="678000" />
     </task>
     <task id="LOCAL-00001" summary="Rearrange codes.">
       <created>1598089368734</created>
@@ -311,9 +317,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="477" y="275" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1598280595546" />
-    <state x="740" y="261" key="FileChooserDialogImpl" timestamp="1598012813236">
+    <state x="740" y="261" key="FileChooserDialogImpl" timestamp="1603814265290">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
+    <state x="740" y="261" key="FileChooserDialogImpl/0.0.1920.1040/-1920.8.1920.1040@0.0.1920.1040" timestamp="1603814265290" />
     <state x="740" y="261" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1598012813236" />
     <state width="1157" height="278" key="GridCell.Tab.0.bottom" timestamp="1603189233514">
       <screen x="0" y="0" width="1920" height="1040" />
@@ -339,9 +346,18 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="461" y="165" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1598012815186" />
-    <state x="350" y="253" key="Vcs.Push.Dialog.v2" timestamp="1598352039893">
+    <state x="586" y="273" width="540" height="524" key="StructurePopup" timestamp="1604038894227">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
+    <state x="586" y="273" width="540" height="524" key="StructurePopup/0.0.1920.1040@0.0.1920.1040" timestamp="1604038894227" />
+    <state x="350" y="253" key="Vcs.Push.Dialog.v2" timestamp="1603802831286">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="350" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-1920.8.1920.1040@0.0.1920.1040" timestamp="1603802831286" />
     <state x="350" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1598352039893" />
+    <state x="661" y="240" width="672" height="678" key="search.everywhere.popup" timestamp="1603295088113">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="661" y="240" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1603295088113" />
   </component>
 </project>
