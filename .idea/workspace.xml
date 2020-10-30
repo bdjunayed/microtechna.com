@@ -25,22 +25,7 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c18fc5f0-65a5-4d02-ae4d-b5945e5efa6b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/public/images/campaigns/oct202-big.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/campaigns/oct2020.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/images/campaigns/oct202-big.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/images/campaigns/oct2020.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/campaigns/oct2020.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/campaigns/oct2020.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/css/app.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/app.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/js/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/sass/_bootstrap_custom.scss" beforeDir="false" afterPath="$PROJECT_DIR$/resources/sass/_bootstrap_custom.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/sass/_style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/resources/sass/_style.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/layouts/page.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/page.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
-    </list>
+    <list default="true" id="c18fc5f0-65a5-4d02-ae4d-b5945e5efa6b" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -217,7 +202,7 @@
       <workItem from="1604062019905" duration="1784000" />
       <workItem from="1604063830834" duration="1779000" />
       <workItem from="1604065641872" duration="313000" />
-      <workItem from="1604069766405" duration="1083000" />
+      <workItem from="1604069766405" duration="1340000" />
     </task>
     <task id="LOCAL-00001" summary="Rearrange codes.">
       <created>1598089368734</created>
@@ -296,7 +281,14 @@
       <option name="project" value="LOCAL" />
       <updated>1604063987670</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="New image campaign link">
+      <created>1604071097887</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1604071097887</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TerminalProjectNonSharedOptionsProvider">
@@ -341,7 +333,8 @@
     <MESSAGE value="Httpaccess file update SSL configured." />
     <MESSAGE value="Phone number changed to tel:+18886127778" />
     <MESSAGE value="Fixed bootstraps" />
-    <option name="LAST_COMMIT_MESSAGE" value="Fixed bootstraps" />
+    <MESSAGE value="New image campaign link" />
+    <option name="LAST_COMMIT_MESSAGE" value="New image campaign link" />
   </component>
   <component name="WindowStateProjectService">
     <state x="457" y="169" key="#Plugins" timestamp="1604041594726">
@@ -356,11 +349,11 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="477" y="275" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1598280595546" />
-    <state x="490" y="96" key="CommitChangelistDialog2" timestamp="1604063986548">
+    <state x="490" y="96" key="CommitChangelistDialog2" timestamp="1604071096967">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="490" y="96" key="CommitChangelistDialog2/0.0.1920.1040/-1920.8.1920.1040@0.0.1920.1040" timestamp="1604063986548" />
-    <state x="490" y="96" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1604039672531" />
+    <state x="490" y="96" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1604071096967" />
     <state x="740" y="261" key="FileChooserDialogImpl" timestamp="1603814265290">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

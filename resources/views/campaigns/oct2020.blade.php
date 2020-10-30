@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <title>Laravel</title>
+    <title>Cloud IT Professional - MicroTech NA Inc.</title>
 
     <!-- Fonts -->
     <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700&display=swap" rel="stylesheet">
@@ -30,7 +30,7 @@
     </div>
     <div class="row">
         <div class="col py-3 px-lg-5">
-            <a href="tel:+18886127778" class="btn btn-primary stretched-link">Call now: 1 (888) 612-7778</a>
+            <a href="tel:+18886127778" class="btn btn-primary stretched-link">Click / Tap here to call now 1 (888) 612-7778</a>
         </div>
     </div>
 </div>
