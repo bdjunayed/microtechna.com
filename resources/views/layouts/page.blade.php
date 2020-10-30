@@ -10,12 +10,14 @@
 <body>
     <!--Header Start -->
     <div class="container-header">
+        {{-- Logo --}}
         <div class="logo">
             <a href="{{ url('/') }}">
                 {{--<img src="{{url('/images/logo-microtech.svg')}}" alt="MicroTech" height="42px" width="auto">--}}
                 MicroTech NA Inc.
             </a>
         </div>
+
         <!-- Burger menu-->
         <div class="burger">
             <span onclick="openNav()"> ☰
@@ -25,14 +27,16 @@
                 </span>
                 <ul>
                     <li class="scrolls"><a href="{{ url('/about_us') }}">About us </a></li>
-                    <li id="Drop"><a href="#" class="SubSer">Services <span>&#10095;</span></a>
+                    <li id="Drop"><a href="#" class="SubSer">Services<span>&#10095;</span></a>
                         <ul id="drop-dwoun">
-                            <li class="scrolls"><a href="{{ url('/web_design') }}">Website Design</a></li>
-                            <li class="scrolls"><a href="{{ url('/trainings') }}">Trainings</a></li>
+{{--                            <li class="scrolls"><a href="{{ url('/web_design') }}">Website Design</a></li>--}}
+{{--                            <li class="scrolls"><a href="{{ url('/trainings') }}">Trainings</a></li>--}}
+                            <li class="scrolls"><a href="{{ url('/system-development-and-integration') }}">System Development and Integration</a></li>
+                            <li class="scrolls"><a href="{{ url('/recruitment-service') }}">Recruitment</a></li>
                         </ul>
                     </li>
-                    <li class="scrolls"><a href="{{ url('/work') }}">Work</a></li>
-                    <li class="scrolls workwith hilight-menu"><a href="{{ url('/work_with_us') }}">Work with us</a>
+                    <li class="scrolls"><a href="{{ url('/works') }}">Works</a></li>
+                    <li class="scrolls workwith hilight-menu"><a href="{{ url('/work_with_us') }}">Work With Us</a>
                         <!--@guest
                         <li><a href="{{ route('login') }}">Login</a></li>
                         <li><a href="{{ route('register') }}">Register</a></li>
@@ -46,19 +50,22 @@
                 </ul>
             </div>
         </div>
+
         <!-- Desktop Menu-->
         <div class="Menu">
             <ul>
                 <li class="scrolls"><a href="{{ url('/about_us') }}">About us </a></li>
                 <li class="scrolls"><a href="{{ url('/services') }}" class="SubSer">Services</a>
                     <ul>
-                        <li class="scrolls"><a href="{{ url('/web_design') }}">Website Design</a></li>
-                        <li class="scrolls"><a href="{{ url('/trainings') }}">Trainings</a></li>
+{{--                        <li class="scrolls"><a href="{{ url('/web_design') }}">Website Design</a></li>--}}
+{{--                        <li class="scrolls"><a href="{{ url('/trainings') }}">Trainings</a></li>--}}
+                        <li class="scrolls"><a href="{{ url('/system-development-and-integration') }}">System Development and Integration</a></li>
+                        <li class="scrolls"><a href="{{ url('/recruitment-service') }}">Recruitment</a></li>
                         {{--<li class="scrolls"><a href="{{ url('/mobile_app') }}">Mobile App Development</a></li>--}}
                         {{--<li class="scrolls"><a href="{{ url('/performance_testing') }}">Performance testing</a></li>--}}
                     </ul>
                 </li>
-                <li class="scrolls"><a href="{{ url('/work') }}">Work</a></li>
+                <li class="scrolls"><a href="{{ url('/works') }}">Works</a></li>
                 <li class="scrolls workwith hilight-menu"><a href="{{ url('/work_with_us') }}">Work with us</a></li>
             </ul>
         </div>

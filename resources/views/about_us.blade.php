@@ -20,12 +20,12 @@
                 <p class="hy">One goal above all others: In-house team of web designers, developers and SEO experts uphold the highest standards for project planning and execution. Dedicated to building the perfect website for client’s company <span>on-time</span> and <span>on budget</span>. </p>
             </div>
             <div class="single-about">
-                <img src="./images/comp.jpg" alt="">
+                <img src="./images/satisfaction.jpg" alt="">
             </div>
         </div>
         <div class="single-section">
             <div class="single-about">
-                <img src="./images/software-testing-training.jpg" alt="">
+                <img src="./images/collaboration.jpg" alt="">
             </div>
             <div class="single-about">
                 <h2>Collaboration</h2>
@@ -41,13 +41,13 @@
                 </p>
             </div>
             <div class="single-about">
-                <img src="./images/software-analysis.jpg" alt="">
+                <img src="./images/aims.jpg" alt="">
             </div>
         </div>
 
         <div class="single-section">
             <div class="single-about">
-                <img src="./images/group-study.jpg" alt="">
+                <img src="./images/trainings.jpg" alt="">
             </div>
             <div class="single-about">
                 <h2>Trainings</h2>

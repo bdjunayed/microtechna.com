@@ -22,60 +22,31 @@ use Illuminate\Support\Facades\Route;
 
 Auth::routes();
 
-Route::get('/', function () {
-    return view('about_us');
-});
+Route::get('/', function () { return view('about_us'); });
+Route::get('/page-under-construction', function () { return view('page_under_construction'); });
 
-Route::get('/applicants-form', function () {
-    return view('applicants-form');
-});
+Route::get('/applicants-form', function () { return view('applicants-form'); });
 
-Route::get('/about_us', function () {
-    return view('about_us');
-});
+Route::get('/about_us', function () { return view('about_us'); });
 
-Route::get('/services', function () {
-    return view('services');
-});
-
-Route::get('/web_design', function () {
-    return view('web_design');
-});
-//Route::get('/mobile_app', function () {
-//    return view('mobile_app');
-//});
-//Route::get('/performance_testing', function () {
-//    return view('performance_testing');
-//});
-
-Route::get('/work', function () {
-    return view('work');
-});
-
-Route::get('/bhasha-shoinik', function () {
-    return view('bhasha-shoinik');
-});
-
-Route::get('/bhasha_shoinik_bangla_software', function () {
-    return view('work_bhasha_shoinik');
-});
-
-Route::get('/system_netware_work', function () {
-    return view('work_system_netware');
-});
-
-Route::get('/work_with_us', function (){
-    return view('work_with_us');
-});
-
-Route::get('/trainings', function () {
-    return view('trainings');
-});
-Route::get('trainings/php_for_beginners', function () {
-    return view('trainings/php_for_beginners');
-});
+Route::get('/services', function () { return view('system_development_and_integration'); });
+Route::get('/system-development-and-integration', function () { return view('system_development_and_integration'); });
+Route::get('/recruitment-service', function () { return view('recruitment_service'); });
 
 
+Route::get('/works', function () { return view('works'); });
+
+Route::get('/work_with_us', function () { return view('work_with_us'); });
+
+//Route::get('/mobile_app', function () { return view('mobile_app'); });
+//Route::get('/performance_testing', function () { return view('performance_testing'); });
+
+Route::get('/web_design', function () { return view('web_design'); });
+Route::get('/bhasha-shoinik', function () { return view('bhasha-shoinik'); });
+Route::get('/bhasha_shoinik_bangla_software', function () { return view('work_bhasha_shoinik'); });
+Route::get('/system_netware_work', function () { return view('work_system_netware'); });
+Route::get('/trainings', function () { return view('trainings'); });
+Route::get('trainings/php_for_beginners', function () { return view('trainings/php_for_beginners'); });
 
 // forms routes
 Route::post('/work_with_us', 'ContactFormController@store');

@@ -6,12 +6,8 @@
 //@import "variables";
 
 // Bootstrap settings
-/*@import "bootstrap_custom";*/
-
-// Bulma settings
-//@import "bulma_custom";
-
+@import "bootstrap_custom";
+//@import "~bootstrap/scss/bootstrap";
 
 // Calling my files
-
 @import "style";

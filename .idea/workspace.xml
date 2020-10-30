@@ -26,8 +26,34 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c18fc5f0-65a5-4d02-ae4d-b5945e5efa6b" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/public/images/aims.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/collaboration.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/satisfaction.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/trainings.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/images/aims.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/images/collaboration.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/images/satisfaction.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/images/trainings.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/page_under_construction.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/recruitment_service.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/system_development_and_integration.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/work_with_us.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/work_with_us.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/app.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/app.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/images/Barakt.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/images/belal-face.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/images/borkot-face.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/images/group-study.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/images/software-analysis.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/images/software-testing-training.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/sass/_bootstrap_custom.scss" beforeDir="false" afterPath="$PROJECT_DIR$/resources/sass/_bootstrap_custom.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/sass/_bulma_custom.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/sass/_style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/resources/sass/_style.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/sass/app.scss" beforeDir="false" afterPath="$PROJECT_DIR$/resources/sass/app.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/sass/p_work-with-us.scss" beforeDir="false" afterPath="$PROJECT_DIR$/resources/sass/p_work-with-us.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/about_us.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/about_us.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/layouts/page.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/page.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/work.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/works.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -198,7 +224,11 @@
       <workItem from="1603802296883" duration="1475000" />
       <workItem from="1603814099104" duration="165000" />
       <workItem from="1603905126409" duration="450000" />
-      <workItem from="1604038876260" duration="678000" />
+      <workItem from="1604038876260" duration="1213000" />
+      <workItem from="1604041220392" duration="669000" />
+      <workItem from="1604052319518" duration="1807000" />
+      <workItem from="1604054164184" duration="7737000" />
+      <workItem from="1604062019905" duration="1784000" />
     </task>
     <task id="LOCAL-00001" summary="Rearrange codes.">
       <created>1598089368734</created>
@@ -263,7 +293,14 @@
       <option name="project" value="LOCAL" />
       <updated>1598352034505</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Phone number changed to tel:+18886127778">
+      <created>1604039673171</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1604039673171</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TerminalProjectNonSharedOptionsProvider">
@@ -306,9 +343,14 @@
     <MESSAGE value="Readme update." />
     <MESSAGE value="Schema::defaultStringLength(191)" />
     <MESSAGE value="Httpaccess file update SSL configured." />
-    <option name="LAST_COMMIT_MESSAGE" value="Httpaccess file update SSL configured." />
+    <MESSAGE value="Phone number changed to tel:+18886127778" />
+    <option name="LAST_COMMIT_MESSAGE" value="Phone number changed to tel:+18886127778" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="457" y="169" key="#Plugins" timestamp="1604041594726">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="457" y="169" key="#Plugins/0.0.1920.1040@0.0.1920.1040" timestamp="1604041594726" />
     <state x="336" y="54" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1598339394931">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -317,6 +359,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="477" y="275" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1598280595546" />
+    <state x="490" y="96" key="CommitChangelistDialog2" timestamp="1604039672531">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="490" y="96" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1604039672531" />
     <state x="740" y="261" key="FileChooserDialogImpl" timestamp="1603814265290">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
