@@ -39,7 +39,7 @@ import Form from './core/Form';
 window.axios = axios;
 window.Form = Form;
 /*window.Tab = Tab;*/
-
+// te
 
 new Vue({
     el: '#newsletters',

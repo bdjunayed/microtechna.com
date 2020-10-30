@@ -37,6 +37,7 @@ Route::get('/recruitment-service', function () { return view('recruitment_servic
 Route::get('/works', function () { return view('works'); });
 
 Route::get('/work_with_us', function () { return view('work_with_us'); });
+Route::get('/campaigns/oct2020', function () { return view('campaigns.oct2020'); });
 
 //Route::get('/mobile_app', function () { return view('mobile_app'); });
 //Route::get('/performance_testing', function () { return view('performance_testing'); });

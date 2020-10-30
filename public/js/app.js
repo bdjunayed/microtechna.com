@@ -26610,6 +26610,7 @@ var app = new vue__WEBPACK_IMPORTED_MODULE_0___default.a({
 window.axios = axios__WEBPACK_IMPORTED_MODULE_1___default.a;
 window.Form = _core_Form__WEBPACK_IMPORTED_MODULE_2__["default"];
 /*window.Tab = Tab;*/
+// te
 
 new vue__WEBPACK_IMPORTED_MODULE_0___default.a({
   el: '#newsletters',

@@ -87,8 +87,8 @@
     <!--Footer Start-->
     <div class="container-footer">
         <div class="single-footer">
-            <a href="{{ url('/home') }}">MicroTech NA</a>
-            <p>One goal above all others: Highest level of client satisfaction. Our in-house team of web designers and developers are dedicated to building the perfect website for your company on-time and on budget.
+            <h3><a href="{{ url('/') }}">MicroTech NA Inc.</a></h3>
+            <p class="text-justify">One goal above all others: Highest level of client satisfaction. Our in-house team of web designers and developers are dedicated to building the perfect website for your company on-time and on budget.
             </p>
         </div>
 
@@ -99,6 +99,7 @@
                             {{--<h4><a href="{{ url('/mobile_app') }}">Mobile App Development</a></h4>--}}
                             {{--<h4><a href="{{ url('/performance_testing') }}">Performance Testing</a></h4>--}}
                 <a href="{{ url('/web_design') }}">Web App Developments</a>
+                <a href="{{ url('/campaigns/oct2020') }}">Current Campaigns</a>
             </div>
         </div>
 
@@ -109,7 +110,7 @@
 {{--                <a href="http://life110volts.com" target="_blank">Life 110Volts</a>--}}
                 <a href="http://matesglobal.com/" target="_blank">Mates Global</a>
                 <a href="https://developers.google.com/speed/pagespeed/insights/" target="_blank"> Google Page Insights</a>
-                <a href="http://banglatyping.com" target="_blank">Bangla Software</a>
+{{--                <a href="http://banglatyping.com" target="_blank">Bangla Software</a>--}}
                 <a href="https://admin.google.com" target="_blank">Webmail</a>
             </div>
         </div>
