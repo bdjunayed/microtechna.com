@@ -25,7 +25,7 @@
 <div class="container">
     <div class="row">
         <div class="col">
-            <img src="../images/campaigns/oct2020-1.jpg" class="rounded mx-auto d-block" style="width: 100%;" alt="Campaigns - Oct 2020">
+            <img src="../images/campaigns/oct2020-2.jpg" class="rounded mx-auto d-block" style="width: 100%;" alt="Campaigns - Oct 2020">
         </div>
     </div>
     <div class="row">
